@@ -23,12 +23,13 @@ def wcsv(df, name):
 hum = pl.read_parquet(WORK / "human_genes.parquet")
 ga = pl.read_parquet(WORK / "gene_attention.parquet")
 corp = pl.read_parquet(WORK / "corpus.parquet")
-pairs = pl.read_parquet(WORK / "pairs_human.parquet")
+pairs = pl.read_parquet(WORK / "pairs_human.parquet").filter(pl.col("abs_verified"))   # primary attention = abstract-verified pairs (amendment A2)
 Ay = pl.read_parquet(WORK / "A_gene_year.parquet")
 Ay_s4 = pl.read_parquet(WORK / "A_gene_year_s4.parquet")
 Ay_g2p = pl.read_parquet(WORK / "A_gene_year_gene2pubmed.parquet")
 Ay_tiab = pl.read_parquet(WORK / "A_gene_year_tiab.parquet")
-Ay_abs = pairs.filter(pl.col("abs_verified")).group_by(["gene_id", "year"]).agg(pl.len().alias("n"))
+Ay_literal = pl.read_parquet(WORK / "A_gene_year_literal.parquet")
+Ay_strict = pl.read_parquet(WORK / "A_gene_year_strict.parquet")
 n_corpus = corp.height
 gids = ga["gene_id"].to_list()
 gpos = {g: i for i, g in enumerate(gids)}
@@ -47,7 +48,8 @@ def year_matrix(df):
     M[gi, d["year"].to_numpy() - 1975] = d["n"].to_numpy()
     return M
 M_lit = year_matrix(Ay)
-M_abs = year_matrix(Ay_abs)
+M_literal = year_matrix(Ay_literal)
+M_strict = year_matrix(Ay_strict)
 M_s4 = year_matrix(Ay_s4)
 M_g2p = year_matrix(Ay_g2p)
 M_tiab = year_matrix(Ay_tiab)
@@ -145,7 +147,7 @@ log("universe", int(in_U.sum()), "assigned", int(assigned.sum()), "domains", len
 # ---------------------------------------------------------------------------------- gene master table
 gm = pl.DataFrame(dict(
     gene_id=gids, symbol=sym, ensembl_id=ga["ensembl_id"].to_list(), type_of_gene=ga["type_of_gene"].to_list(),
-    A_g=A_tot.astype(int), A_2010_2025=ga["A_2010_2025"].to_list(), A_g_abs_verified=ga["A_g_abs"].to_list(), A_g_ortholog=ga["A_g_s4"].to_list(),
+    A_g=A_tot.astype(int), A_2010_2025=ga["A_2010_2025"].to_list(), A_g_literal_D1=ga["A_g_literal"].to_list(), A_g_strict_A1=ga["A_g_strict"].to_list(), A_g_ortholog=ga["A_g_s4"].to_list(),
     A_g_gene2pubmed=ga["A_g_gene2pubmed"].to_list(), A_g_tiab=ga["A_g_tiab"].to_list(),
     G_genetic=G, G_genetic_direct=Gd, treatad_genetics_score=treatad,
     y0_gwas=y0_gwas, y0_used=y0.astype(int), y0_source=y0_src.tolist(), Y_g=Yg.astype(int), Asince_g=Asince.astype(int), E_g=E,
@@ -357,16 +359,16 @@ L5_hold = (tr["post_over_pre_ratio"] is not None and tr["post_over_pre_ratio"] >
 log("TREM2 event:", tr)
 
 # ---------------------------------------------------------------------------------- S1, S5, S6 sensitivity
-defs = {"pubtator_literal": M_lit, "pubtator_abs_verified": M_abs, "pubtator_plus_ortholog": M_s4, "gene2pubmed": M_g2p, "tiab_symbol": M_tiab}
+defs = {"pubtator_abstract_verified_PRIMARY": M_lit, "pubtator_literal_D1": M_literal, "pubtator_strict_verified_A1": M_strict, "pubtator_plus_ortholog": M_s4, "gene2pubmed": M_g2p, "tiab_symbol": M_tiab}
 lists, srows = {}, []
 for k, Mv in defs.items():
     idx_, ev = under_list(G, Mv)
     lists[k] = [sym[i] for i in idx_]
-base = set(lists["pubtator_literal"])
+base = set(lists["pubtator_abstract_verified_PRIMARY"])
 anyc = {k: Mv.sum(axis=1) for k, Mv in defs.items()}
-anyc["pubtator_literal"] = A_tot
+anyc["pubtator_abstract_verified_PRIMARY"] = A_tot
 for k in defs:
-    a, b = anyc["pubtator_literal"], anyc[k]
+    a, b = anyc["pubtator_abstract_verified_PRIMARY"], anyc[k]
     msk = (a > 0) | (b > 0)
     srows.append(dict(analysis="S1 attention definition", variant=k, spearman_A_vs_primary=float(spearmanr(a[msk], b[msk]).statistic), spearman_A_vs_primary_G_gt0=float(spearmanr(a[G > 0], b[G > 0]).statistic),
                       top25_jaccard_vs_primary=len(base & set(lists[k])) / len(base | set(lists[k])), top25_list=";".join(lists[k])))

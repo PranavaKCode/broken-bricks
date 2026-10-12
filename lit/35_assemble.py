@@ -61,7 +61,7 @@ for y in range(1975, 2027):
 pl.DataFrame(rows).write_csv(RES / "macro_topic_share_by_year.csv")
 
 # ---- papers meta ------------------------------------------------------------------------------------------------
-pairs = pl.read_parquet(WORK / "pairs_human.parquet").select(["pmid", "gene_id"])
+pairs = pl.read_parquet(WORK / "pairs_human.parquet").filter(pl.col("abs_verified")).select(["pmid", "gene_id"])
 sym_of = dict(zip(gm_all["gene_id"].to_list(), gm_all["symbol"].to_list()))
 G_of = dict(zip(gm_all["gene_id"].to_list(), gm_all["G_genetic"].to_list()))
 dom_of = {g: (d.split("|") if d else []) for g, d in zip(gm_all["gene_id"].to_list(), gm_all["biodomains"].fill_null("").to_list())}
@@ -90,7 +90,7 @@ papers.write_parquet(WORK / "papers_meta.parquet", compression="zstd")
 
 # ---- genes meta -----------------------------------------------------------------------------------------------------
 gi = {g: i for i, g in enumerate(ids["id"].to_numpy()[npap:])}
-gt = gtex.join(gm_all.select(["gene_id", "symbol", "ensembl_id", "A_g", "A_2010_2025", "A_g_abs_verified", "G_genetic", "treatad_genetics_score", "y0_gwas", "E_g", "n_biodomains",
+gt = gtex.join(gm_all.select(["gene_id", "symbol", "ensembl_id", "A_g", "A_2010_2025", "A_g_literal_D1", "G_genetic", "treatad_genetics_score", "y0_gwas", "E_g", "n_biodomains",
                               "biodomains", "strong_G07", "sparse_G07_A100"]), on="gene_id", how="left")
 und = pl.read_csv(RES / "under_explored_G07_ranked.csv").select(["gene_id", pl.col("rank").alias("under_explored_rank")])
 gt = gt.join(und, on="gene_id", how="left")

@@ -12,13 +12,16 @@ WORK, RES = LIT / "work", LIT / "out" / "results"
 pairs = pl.read_parquet(WORK / "pairs_human.parquet")
 ga = pl.read_parquet(WORK / "gene_attention.parquet").select(["gene_id", "symbol", "A_g"])
 corp = pl.read_parquet(WORK / "corpus.parquet").select(["pmid", "title", "abstract"])
-d = pairs.join(ga, on="gene_id").join(corp, on="pmid")
+d_all = pairs.join(ga, on="gene_id").join(corp, on="pmid")
+d = d_all.filter(pl.col("abs_verified"))
 rng = np.random.default_rng(SEED)
 out = []
 for name, sel in (("A_lt_100", d.filter(pl.col("A_g") < 100)), ("A_ge_100", d.filter(pl.col("A_g") >= 100))):
     idx = rng.choice(sel.height, 25, replace=False)
     s = sel[idx.tolist()].with_columns(pl.lit(name).alias("stratum"))
     out.append(s)
+rej = d_all.filter(~pl.col("abs_verified") & (pl.col("mentions").str.strip_chars("|").str.len_chars() > 0))
+out.append(rej[rng.choice(rej.height, 10, replace=False).tolist()].with_columns(pl.lit("extra_verifier_rejected").alias("stratum")))
 s = pl.concat(out)
 def ctx(title, abstract, mentions):
     t = f"{title} || {abstract}"

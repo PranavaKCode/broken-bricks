@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """Gene universe U for the Agora query (preregistration D3): genes with G_g > 0 or A_g >= 20.
-Writes work/agora_universe.csv (ensembl_id) and results/universe_summary.csv."""
+Writes work/agora_universe_primary.csv (ensembl_id) and results/universe_summary.csv."""
 import os
 from pathlib import Path
 import polars as pl
@@ -22,7 +22,7 @@ ids = set(ot_g["ensembl_id"].to_list())
 big = ga.filter(pl.col("A_g") >= 20)
 ids |= {e for e in big["ensembl_id"].to_list() if e}
 n_noens = big.filter(pl.col("ensembl_id").is_null()).height
-pl.DataFrame(dict(ensembl_id=sorted(ids))).write_csv(WORK / "agora_universe.csv")
+pl.DataFrame(dict(ensembl_id=sorted(ids))).write_csv(WORK / "agora_universe_primary.csv")
 pl.DataFrame([dict(item="OT targets", value=ot.height), dict(item="OT targets with genetic_association > 0", value=ot_g.height),
               dict(item="OT targets unmapped to NCBI Gene", value=unm.height),
               dict(item="OT unmapped with G >= 0.7", value=unm.filter(pl.col("G") >= 0.7).height),
