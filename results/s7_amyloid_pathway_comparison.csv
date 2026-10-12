@@ -1,0 +1,5 @@
+group,n,mean_A,median_A
+genes with G>=0.7 (all),51,1404.3529411764705,60.0
+genes with G>=0.7 excluding amyloid-pathway set,46,442.4782608695652,44.0
+"amyloid-pathway set (APP,PSEN1,PSEN2,BACE1,BACE2,ADAM10,APH1A,APH1B,NCSTN,PSENEN)",10,5474.4,344.0
+Agora 'APP Metabolism' biodomain genes in universe,135,963.2814814814815,105.0

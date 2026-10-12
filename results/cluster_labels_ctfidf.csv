@@ -1,0 +1,356 @@
+cluster,n_papers,n_genes,label,keywords
+0,2979,0,"ache, compounds, derivatives, ic50",ache; compounds; derivatives; ic50; acetylcholinesterase; buche
+1,2507,2,"fibrils, fibril, aggregation, peptide",fibrils; fibril; aggregation; peptide; amyloid fibrils; oligomers
+2,2344,0,"extract, scopolamine, rats, scopolamine-induced",extract; scopolamine; rats; scopolamine-induced; learning memory; memory
+3,2327,0,"extracts, extract, ache, antioxidant",extracts; extract; ache; antioxidant; alkaloids; inhibitory
+4,2246,0,"classification, accuracy, learning, deep",classification; accuracy; learning; deep; features; deep learning
+5,2137,0,"test, screening, validity, mmse",test; screening; validity; mmse; moca; scores
+6,2023,0,"genes, gene, hub, degs",genes; gene; hub; degs; hub genes; gene expression
+7,1986,0,"caregivers, caregiver, caregiving, burden",caregivers; caregiver; caregiving; burden; care; family caregivers
+8,1901,1,"apoe, apoe4, apolipoprotein, apoe3",apoe; apoe4; apolipoprotein; apoe3; apoe3 apoe4; apoe2
+9,139,1733,"protein gene, gene, domain-containing, domain-containing protein",protein gene; gene; domain-containing; domain-containing protein; protein; member
+10,1871,0,"semantic, priming, memory, recall",semantic; priming; memory; recall; naming; words
+11,1752,0,"synaptic, ltp, hippocampal, ca1",synaptic; ltp; hippocampal; ca1; neurons; hippocampus
+12,1730,11,"app, precursor, precursor protein, amyloid precursor",app; precursor; precursor protein; amyloid precursor; protein app; beta
+13,1692,10,"presenilin, gamma-secretase, ps1, secretase",presenilin; gamma-secretase; ps1; secretase; ps2; notch
+14,1692,0,"care, people, knowledge, dementia",care; people; knowledge; dementia; carers; dementia care
+15,1678,0,"caregivers, care, intervention, program",caregivers; care; intervention; program; caregiver; implementation
+16,1603,0,"induced, pc12, cells, pc12 cells",induced; pc12; cells; pc12 cells; apoptosis; sh-sy5y
+17,1561,0,"stimulation, rtms, transcranial, tdcs",stimulation; rtms; transcranial; tdcs; magnetic stimulation; dbs
+18,1534,0,"atrophy, volume, hippocampal, volumes",atrophy; volume; hippocampal; volumes; temporal; mri
+19,1529,0,"estrogen, women, estradiol, testosterone",estrogen; women; estradiol; testosterone; hrt; hormone
+20,1509,0,"exercise, training, intervention, cognitive training",exercise; training; intervention; cognitive training; program; randomized
+21,1468,0,"genes, gene, gene expression, genetic",genes; gene; gene expression; genetic; variants; single-cell
+22,1465,0,"aggregation, peptides, peptide, oligomers",aggregation; peptides; peptide; oligomers; fibrils; amyloid
+23,1454,0,"syndrome, adults syndrome, adults, people syndrome",syndrome; adults syndrome; adults; people syndrome; trisomy; individuals syndrome
+24,1441,0,"connectivity, network, functional connectivity, functional",connectivity; network; functional connectivity; functional; networks; resting-state
+25,1432,0,"transgenic, app, mouse, months",transgenic; app; mouse; months; ps1; months age
+26,1426,0,"detection, electrochemical, sensor, biosensor",detection; electrochemical; sensor; biosensor; gold; sensing
+27,144,1268,"splicing, rna, mrnas, pre-mrna",splicing; rna; mrnas; pre-mrna; trna; mrna
+28,1410,0,"apoe, allele, apolipoprotein, epsilon4",apoe; allele; apolipoprotein; epsilon4; epsilon; genotype
+29,380,1010,"retromer, golgi, membrane, trafficking",retromer; golgi; membrane; trafficking; endoplasmic; reticulum
+30,1379,0,"drugs, trials, therapies, drug",drugs; trials; therapies; drug; treatments; agents
+31,1372,0,"biomarkers, diagnosis, diagnostic, biomarker",biomarkers; diagnosis; diagnostic; biomarker; blood-based; fluid
+32,1352,0,"variants, load, genetic, families",variants; load; genetic; families; genes; loci
+33,1351,0,"eeg, alpha, theta, power",eeg; alpha; theta; power; spectral; classification
+34,1348,0,"care, nursing, people, home",care; nursing; people; home; family; dementia
+35,1346,0,"mortality, prevalence, deaths, incidence",mortality; prevalence; deaths; incidence; rates; dalys
+36,1342,2,"microglia, microglial, macrophages, immune",microglia; microglial; macrophages; immune; cells; phagocytosis
+37,1331,0,"vascular, vascular dementia, vad, cerebrovascular",vascular; vascular dementia; vad; cerebrovascular; vci; cerebral
+38,1317,0,"nanoparticles, delivery, plga, drug",nanoparticles; delivery; plga; drug; nps; liposomes
+39,1313,1,"sleep, osa, rem, sleep duration",sleep; osa; rem; sleep duration; insomnia; sleep disturbances
+40,1309,3,"microglia, microglial, tlr4, tlrs",microglia; microglial; tlr4; tlrs; il-6; inflammatory
+41,1309,1,"astrocytes, astrocyte, gfap, astrocytic",astrocytes; astrocyte; gfap; astrocytic; glial; reactive
+42,1304,4,"insulin, diabetes, insulin resistance, resistance",insulin; diabetes; insulin resistance; resistance; igf-1; type diabetes
+43,76,1230,"transcriptional, transcription, binds, transcription factor",transcriptional; transcription; binds; transcription factor; repressor; differentiation
+44,1297,0,"care, home, residents, nursing",care; home; residents; nursing; nursing home; hospice
+45,1283,7,"ngf, bdnf, neurotrophic, growth factor",ngf; bdnf; neurotrophic; growth factor; nerve growth; p75
+46,1290,0,"qol, scale, quality life, validity",qol; scale; quality life; validity; quality; reliability
+47,1281,0,"gut, microbiota, gut microbiota, microbiome",gut; microbiota; gut microbiota; microbiome; dysbiosis; microbial
+48,1273,1,"bbb, endothelial, endothelial cells, barrier",bbb; endothelial; endothelial cells; barrier; blood-brain; blood-brain barrier
+49,1266,0,"apoe, carriers, allele, genotype",apoe; carriers; allele; genotype; apoe4; apolipoprotein
+50,1184,68,"copper, zinc, metal, metals",copper; zinc; metal; metals; mercury; iron
+51,1246,0,"mci, conversion, neuropsychological, mild",mci; conversion; neuropsychological; mild; cognitive; mild cognitive
+52,1242,0,"segmentation, images, image, mri",segmentation; images; image; mri; automated; volume
+53,1234,0,"criteria, diagnosis, dementia, diagnostic",criteria; diagnosis; dementia; diagnostic; dementias; clinical
+54,1229,0,"proposed, method, datasets, algorithm",proposed; method; datasets; algorithm; estimation; prediction
+55,1223,3,"prion, prp, prion protein, prpc",prion; prp; prion protein; prpc; misfolding; aggregation
+56,1224,2,"mitochondrial, mitochondria, mitophagy, mitochondrial dysfunction",mitochondrial; mitochondria; mitophagy; mitochondrial dysfunction; dysfunction; mitochondrial function
+57,1204,0,"risk, risk dementia, dementia, incident",risk; risk dementia; dementia; incident; all-cause; smoking
+58,1203,0,"csf, t-tau, cerebrospinal, cerebrospinal fluid",csf; t-tau; cerebrospinal; cerebrospinal fluid; fluid; p-tau
+59,1202,0,"cholinergic, basal forebrain, forebrain, basal",cholinergic; basal forebrain; forebrain; basal; nbm; cholinergic neurons
+60,1197,0,"visual, auditory, p300, latency",visual; auditory; p300; latency; potentials; amplitude
+61,1187,0,"black, ethnic, african, hispanic",black; ethnic; african; hispanic; americans; american
+62,1187,0,"tau, tauopathy, tauopathies, tau pathology",tau; tauopathy; tauopathies; tau pathology; transgenic; p301l
+63,1182,0,"medications, medication, chei, antipsychotic",medications; medication; chei; antipsychotic; prescription; anticholinergic
+64,1178,1,"phosphorylation, tau, tau phosphorylation, pp2a",phosphorylation; tau; tau phosphorylation; pp2a; hyperphosphorylation; phosphatase
+65,1167,0,"spect, cbf, blood flow, perfusion",spect; cbf; blood flow; perfusion; flow; cerebral blood
+66,1164,0,"antibody, antibodies, immunization, anti-",antibody; antibodies; immunization; anti-; vaccine; abeta
+67,1158,0,"csf, plasma, cerebrospinal fluid, cerebrospinal",csf; plasma; cerebrospinal fluid; cerebrospinal; fluid; apoe
+68,1146,0,"network pharmacology, pharmacology, decoction, targets",network pharmacology; pharmacology; decoction; targets; network; medicine
+69,409,725,"phosphorylates, phosphatase, kinase, tyrosine",phosphorylates; phosphatase; kinase; tyrosine; phosphorylation; signaling
+70,1133,0,"lecanemab, aria, aducanumab, monoclonal",lecanemab; aria; aducanumab; monoclonal; donanemab; aria-e
+71,1130,0,"agitation, risperidone, psychosis, symptoms",agitation; risperidone; psychosis; symptoms; antipsychotics; bpsd
+72,912,215,"mitochondrial, mitochondria, mitochondrial dysfunction, mtdna",mitochondrial; mitochondria; mitochondrial dysfunction; mtdna; dysfunction; mitochondrial dynamics
+73,1121,0,"pet, tau, tau pet, flortaucipir",pet; tau; tau pet; flortaucipir; tau-pet; av-1451
+74,1112,0,"phf, tau, helical, paired helical",phf; tau; helical; paired helical; filaments; paired
+75,1093,0,"white matter, diffusion, matter, white",white matter; diffusion; matter; white; dti; tensor
+76,1090,0,"costs, cost, medicare, adrd",costs; cost; medicare; adrd; care; economic
+77,1089,1,"bace1, bace-1, bace, bace1 inhibitors",bace1; bace-1; bace; bace1 inhibitors; inhibitors; enzyme
+78,1073,0,"parkinson, parkinsonism, pdd, pd-mci",parkinson; parkinsonism; pdd; pd-mci; lewy; parkinson dementia
+79,191,879,"receptor, t-cell, t-cells, chemokines",receptor; t-cell; t-cells; chemokines; chemokine; cells
+80,1064,2,"stem, stem cells, mscs, mesenchymal",stem; stem cells; mscs; mesenchymal; mesenchymal stem; stem cell
+81,1061,0,"depression, depressive, depressive symptoms, depressed",depression; depressive; depressive symptoms; depressed; symptoms; late-life depression
+82,1056,0,"imaging, pet, tomography, emission",imaging; pet; tomography; emission; amyloid pet; emission tomography
+83,1054,0,"tau, aggregation, filaments, tau aggregation",tau; aggregation; filaments; tau aggregation; tau protein; filament
+84,1049,0,"methylation, epigenetic, dna methylation, dna",methylation; epigenetic; dna methylation; dna; genes; histone
+85,373,676,"dehydrogenase, catalyzes, fatty, kgdhc",dehydrogenase; catalyzes; fatty; kgdhc; acids; hsd10
+86,157,879,"ubiquitination, ligase, degradation, ubiquitin",ubiquitination; ligase; degradation; ubiquitin; ubiquitin-protein; ubiquitin-protein ligase
+87,1033,0,"placebo, donepezil, safety, double-blind",placebo; donepezil; safety; double-blind; randomized; trial
+88,515,518,"phospholipase, phosphatidylinositol, pla2, lipid",phospholipase; phosphatidylinositol; pla2; lipid; ptdins; membrane
+89,1032,0,"delivery, drug delivery, nanoparticles, drug",delivery; drug delivery; nanoparticles; drug; bbb; nanotechnology
+90,1026,0,"trials, trial, clinical trials, clinical",trials; trial; clinical trials; clinical; adas-cog; clinical trial
+91,1018,0,"lps, microglia, microglial, lps-induced",lps; microglia; microglial; lps-induced; nf-; neuroinflammation
+92,170,846,"actin, cofilin, cytoskeleton, actin cytoskeleton",actin; cofilin; cytoskeleton; actin cytoskeleton; actin filaments; f-actin
+93,1013,0,"bvftd, ftd, frontotemporal, frontotemporal dementia",bvftd; ftd; frontotemporal; frontotemporal dementia; ftld; variant frontotemporal
+94,1011,0,"neurofibrillary, tangles, senile, nft",neurofibrillary; tangles; senile; nft; cases; plaques
+95,1011,0,"dlb, lewy, lewy bodies, bodies",dlb; lewy; lewy bodies; bodies; dementia lewy; lewy body
+96,994,0,"prediction, machine, machine learning, mci",prediction; machine; machine learning; mci; predicting; conversion
+97,873,119,"oxidative, oxidative stress, stress, redox",oxidative; oxidative stress; stress; redox; ros; glutathione
+98,991,0,"natural, natural products, plants, compounds",natural; natural products; plants; compounds; products; phytochemicals
+99,990,0,"biomarkers, csf, plasma, proteins",biomarkers; csf; plasma; proteins; proteomic; proteomics
+100,983,0,"mirnas, mirna, micrornas, expression",mirnas; mirna; micrornas; expression; microrna; apoptosis
+101,982,0,"aging, senescence, age-related, longevity",aging; senescence; age-related; longevity; cellular senescence; senescent
+102,953,27,"nicotinic, nachr, nicotine, nachrs",nicotinic; nachr; nicotine; nachrs; nicotinic acetylcholine; acetylcholine
+103,975,0,"probes, fluorescence, fluorescent, probe",probes; fluorescence; fluorescent; probe; aggregates; imaging
+104,970,0,"mohammed, al-qahtani, drug, mohammed al-qahtani",mohammed; al-qahtani; drug; mohammed al-qahtani; drugs; cancer
+105,965,0,"pet, images, centiloid, suvr",pet; images; centiloid; suvr; pib; fdg
+106,960,0,"tbi, traumatic, injury, traumatic brain",tbi; traumatic; injury; traumatic brain; brain injury; cte
+107,959,0,"wmh, white matter, white, matter",wmh; white matter; white; matter; hyperintensities; matter hyperintensities
+108,958,0,"trem2, strem2, microglial, microglia",trem2; strem2; microglial; microglia; myeloid; receptor expressed
+109,951,0,"polymorphism, allele, polymorphisms, genotype",polymorphism; allele; polymorphisms; genotype; association; gene
+110,946,0,"pluripotent, stem, pluripotent stem, induced pluripotent",pluripotent; stem; pluripotent stem; induced pluripotent; ipscs; organoids
+111,942,3,"il-6, inflammatory, ykl-40, crp",il-6; inflammatory; ykl-40; crp; mcp-1; serum
+112,940,0,"membranes, membrane, lipid, bilayer",membranes; membrane; lipid; bilayer; gm1; peptide
+113,932,0,"ide, nep, cathepsin, neprilysin",ide; nep; cathepsin; neprilysin; protease; tpa
+114,931,1,"oxidative, oxidative stress, stress, peroxidation",oxidative; oxidative stress; stress; peroxidation; lipid peroxidation; antioxidant
+115,928,0,"retinal, retina, thickness, optical coherence",retinal; retina; thickness; optical coherence; coherence tomography; layer
+116,917,0,"stz, streptozotocin, rats, icv-stz",stz; streptozotocin; rats; icv-stz; streptozotocin stz; intracerebroventricular
+117,914,0,"tau, tauopathies, tau protein, microtubules",tau; tauopathies; tau protein; microtubules; tau gene; microtubule-associated
+118,905,0,"copper, metal, ions, complexes",copper; metal; ions; complexes; metal ions; coordination
+119,180,715,"microtubules, microtubule, cilia, spindle",microtubules; microtubule; cilia; spindle; dynein; axonal
+120,891,0,"mutation, psen1, mutations, presenilin",mutation; psen1; mutations; presenilin; early-onset; psen2
+121,884,0,"plaques, deposits, beta, senile",plaques; deposits; beta; senile; senile plaques; neurites
+122,882,1,"glymphatic, lymphatic, perivascular, aqp4",glymphatic; lymphatic; perivascular; aqp4; clearance; pvs
+123,882,0,"mirnas, rnas, lncrnas, circrnas",mirnas; rnas; lncrnas; circrnas; non-coding; micrornas
+124,878,0,"hearing, hearing loss, loneliness, adults",hearing; hearing loss; loneliness; adults; cognitive function; older
+125,828,48,"autophagy, lysosomal, autophagic, tfeb",autophagy; lysosomal; autophagic; tfeb; lysosomes; beclin
+126,856,13,"homocysteine, folate, b12, hcy",homocysteine; folate; b12; hcy; vitamin b12; vitamin
+127,787,80,"iron, ferritin, brain iron, iron accumulation",iron; ferritin; brain iron; iron accumulation; iron homeostasis; transferrin
+128,861,0,"caa, angiopathy, amyloid angiopathy, cerebral amyloid",caa; angiopathy; amyloid angiopathy; cerebral amyloid; cerebral; microbleeds
+129,850,0,"senile, alois, tangles, cause",senile; alois; tangles; cause; neurofibrillary tangles; neurofibrillary
+130,374,473,"myelin, crmp2, oligodendrocytes, oligodendrocyte",myelin; crmp2; oligodendrocytes; oligodendrocyte; ols; opcs
+131,844,0,"hypothesis, amyloid, beta, cascade hypothesis",hypothesis; amyloid; beta; cascade hypothesis; amyloid cascade; abeta
+132,836,0,"immune, cns, neuroinflammation, inflammation",immune; cns; neuroinflammation; inflammation; inflammatory; nervous
+133,830,0,"lithium, gsk-3, gsk-, glycogen",lithium; gsk-3; gsk-; glycogen; glycogen synthase; synthase
+134,826,0,"genetic, testing, disclosure, genetic testing",genetic; testing; disclosure; genetic testing; genetics; loy
+135,820,0,"olfactory, odor, odor identification, identification",olfactory; odor; odor identification; identification; olfactory dysfunction; smell
+136,819,0,"causal, mendelian, mendelian randomization, randomization",causal; mendelian; mendelian randomization; randomization; ivw; gwas
+137,811,0,"hypometabolism, glucose, fdg, fdg-pet",hypometabolism; glucose; fdg; fdg-pet; glucose metabolism; pet
+138,806,0,"dha, fatty, fatty acids, omega-3",dha; fatty; fatty acids; omega-3; acids; n-3
+139,804,0,"prs, polygenic, genetic, polygenic risk",prs; polygenic; genetic; polygenic risk; risk; genetic risk
+140,19,785,"sperm, spermatogenesis, fertility, motility",sperm; spermatogenesis; fertility; motility; play; male fertility
+141,799,0,"pet, imaging, binding, radiochemical",pet; imaging; binding; radiochemical; min; radioligand
+142,798,0,"cholesterol, rafts, lipid rafts, cholesterol metabolism",cholesterol; rafts; lipid rafts; cholesterol metabolism; lipid; seladin-1
+143,796,0,"p-tau217, plasma, plasma p-tau217, p-tau181",p-tau217; plasma; plasma p-tau217; p-tau181; p-tau; plasma p-tau181
+144,795,0,"nps, personality, neuropsychiatric, symptoms",nps; personality; neuropsychiatric; symptoms; neuropsychiatric symptoms; agitation
+145,726,69,"glutamate, nmda, receptors, ampa",glutamate; nmda; receptors; ampa; receptor; nmdar
+146,781,0,"aluminum, aluminium, alcl3, rats",aluminum; aluminium; alcl3; rats; exposure; chloride
+147,780,0,"immune, neuroinflammation, innate, inflammatory",immune; neuroinflammation; innate; inflammatory; inflammation; immunity
+148,776,3,"cholinergic, cholinesterase, ache, cholinesterase inhibitors",cholinergic; cholinesterase; ache; cholinesterase inhibitors; inhibitors; donepezil
+149,776,0,"flavonoids, polyphenols, quercetin, antioxidant",flavonoids; polyphenols; quercetin; antioxidant; neuroprotective; flavonoid
+150,770,0,"air, exposure, pollution, pm2",air; exposure; pollution; pm2; air pollution; particulate
+151,260,504,"protein-coupled, receptor, protein-coupled receptor, adenylate",protein-coupled; receptor; protein-coupled receptor; adenylate; gpr3; cyclase
+152,744,0,"evs, exosomes, vesicles, extracellular vesicles",evs; exosomes; vesicles; extracellular vesicles; extracellular; vesicles evs
+153,737,0,"cerebral, cch, hypoperfusion, cerebral hypoperfusion",cerebral; cch; hypoperfusion; cerebral hypoperfusion; chronic cerebral; vascular
+154,730,0,"diet, mediterranean, dietary, mediterranean diet",diet; mediterranean; dietary; mediterranean diet; mind; adherence
+155,729,1,"bmi, obesity, leptin, adiponectin",bmi; obesity; leptin; adiponectin; mets; body mass
+156,728,0,"hallucinations, delusions, case, visual hallucinations",hallucinations; delusions; case; visual hallucinations; visual; year-old
+157,727,0,"diabetes, t2dm, type diabetes, insulin",diabetes; t2dm; type diabetes; insulin; mellitus; diabetes mellitus
+158,719,0,"mrs, naa, magnetic, spectroscopy",mrs; naa; magnetic; spectroscopy; resonance spectroscopy; magnetic resonance
+159,714,3,"vitamin, vitamin deficiency, deficiency, supplementation",vitamin; vitamin deficiency; deficiency; supplementation; vitamins; vitamin supplementation
+160,717,0,"connectivity, network, graph, networks",connectivity; network; graph; networks; functional; fmri
+161,706,3,"abeta, beta, methionine, beta-amyloid",abeta; beta; methionine; beta-amyloid; death; peptide
+162,696,0,"cortisol, somatostatin, thyroid, cortisol levels",cortisol; somatostatin; thyroid; cortisol levels; hormone; neuropeptide
+163,603,92,"heat, heat shock, shock, hsp90",heat; heat shock; shock; hsp90; hsp70; chaperones
+164,340,347,"protease, proteases, serine, serine protease",protease; proteases; serine; serine protease; meprin; cleaves
+165,152,533,"sulfate, catalyzes, glcnac, gapdh",sulfate; catalyzes; glcnac; gapdh; glycans; phosphate
+166,679,6,"upr, stress, endoplasmic, proteostasis",upr; stress; endoplasmic; proteostasis; endoplasmic reticulum; reticulum
+167,684,0,"gut, microbiota, gut microbiota, axis",gut; microbiota; gut microbiota; axis; microbiome; gut-brain
+168,681,0,"lipid, lipids, lipidomics, lipid metabolism",lipid; lipids; lipidomics; lipid metabolism; fatty; spectrometry
+169,670,0,"acupuncture, electroacupuncture, chinese, medicine",acupuncture; electroacupuncture; chinese; medicine; tcm; chinese medicine
+170,246,416,"transport, transporter, glutamate, transporters",transport; transporter; glutamate; transporters; mediates; taurine
+171,659,0,"genetic, genes, genetics, factors",genetic; genes; genetics; factors; mutations; risk
+172,655,0,"ginkgo, biloba, egb, ginkgo biloba",ginkgo; biloba; egb; ginkgo biloba; extract; biloba extract
+173,634,0,"nsaids, cox-2, anti-inflammatory drugs, anti-inflammatory",nsaids; cox-2; anti-inflammatory drugs; anti-inflammatory; ibuprofen; nsaid
+174,624,0,"frailty, gait, falls, walking",frailty; gait; falls; walking; speed; dual-task
+175,52,568,"histone, chromatin, dna, complex",histone; chromatin; dna; complex; histones; transcriptional
+176,619,0,"ache, chat, choline, cholinergic",ache; chat; choline; cholinergic; choline acetyltransferase; glutamate
+177,611,0,"pib, pet, amyloid, cognitively",pib; pet; amyloid; cognitively; individuals; baseline
+178,611,0,"fluency, speech, language, semantic",fluency; speech; language; semantic; bilingualism; verbal fluency
+179,611,0,"blood pressure, pressure, hypertension, antihypertensive",blood pressure; pressure; hypertension; antihypertensive; blood; systolic
+180,604,6,"sorl1, lrp1, lrp, sorla",sorl1; lrp1; lrp; sorla; lipoprotein; receptor-related
+181,609,0,"scd, subjective, subjective cognitive, complaints",scd; subjective; subjective cognitive; complaints; memory complaints; smc
+182,607,0,"doi, article doi, article, corrects article",doi; article doi; article; corrects article; corrects; correction
+183,605,0,"models, animal, mouse models, animal models",models; animal; mouse models; animal models; transgenic; mouse
+184,602,1,"covid-19, pandemic, sars-cov-2, covid-19 pandemic",covid-19; pandemic; sars-cov-2; covid-19 pandemic; infection; coronavirus
+185,421,176,"apoptosis, p53, death, cell death",apoptosis; p53; death; cell death; caspases; caspase-6
+186,267,329,"channel, channels, potassium, calcium",channel; channels; potassium; calcium; voltage-gated; ion
+187,594,2,"app, bin1, fe65, trafficking",app; bin1; fe65; trafficking; endosomes; endosomal
+188,588,3,"serotonin, histamine, ht6, receptor",serotonin; histamine; ht6; receptor; antagonists; serotonergic
+189,590,0,"dlb, lewy, dementia lewy, lewy bodies",dlb; lewy; dementia lewy; lewy bodies; bodies; mibg
+190,63,526,"adhesion, collagen, angiogenesis, endothelial",adhesion; collagen; angiogenesis; endothelial; cell-cell; cell
+191,585,0,"metabolites, metabolomics, metabolic, metabolomic",metabolites; metabolomics; metabolic; metabolomic; metabolism; bile
+192,547,17,"nlrp3, inflammasome, nlrp3 inflammasome, pyroptosis",nlrp3; inflammasome; nlrp3 inflammasome; pyroptosis; inflammasome activation; necroptosis
+193,562,1,"glp-1, glucagon-like, liraglutide, peptide-1",glp-1; glucagon-like; liraglutide; peptide-1; glucagon-like peptide-1; gip
+194,562,0,"hfd, diet, insulin, high-fat",hfd; diet; insulin; high-fat; high-fat diet; glucose
+195,562,0,"apps, mobile, digital, technology",apps; mobile; digital; technology; technologies; devices
+196,556,0,"vascular, vascular risk, risk factors, risk",vascular; vascular risk; risk factors; risk; carotid; csvd
+197,484,56,"proteasome, ubiquitin, ups, ubb",proteasome; ubiquitin; ups; ubb; degradation; ubiquitination
+198,535,0,"ppa, aphasia, progressive aphasia, primary progressive",ppa; aphasia; progressive aphasia; primary progressive; progressive; logopenic
+199,530,4,"muscarinic, muscarinic receptor, acetylcholine, receptor",muscarinic; muscarinic receptor; acetylcholine; receptor; machr; muscarinic acetylcholine
+200,525,2,"glycation, rage, advanced glycation, ages",glycation; rage; advanced glycation; ages; glycation end; end products
+201,525,0,"drug, repurposing, drug repurposing, drugs",drug; repurposing; drug repurposing; drugs; repositioning; targets
+202,519,0,"pkc, kinase, protein kinase, mapk",pkc; kinase; protein kinase; mapk; p38; kinase pkc
+203,517,0,"drosophila, elegans, flies, caenorhabditis elegans",drosophila; elegans; flies; caenorhabditis elegans; caenorhabditis; melanogaster
+204,516,1,"alpha-synuclein, synuclein, syn, lewy",alpha-synuclein; synuclein; syn; lewy; lewy bodies; bodies
+205,515,0,"tau, mark4, tau aggregation, tauopathies",tau; mark4; tau aggregation; tauopathies; aggregation; microtubule
+206,504,0,"brain age, age, aging, monkeys",brain age; age; aging; monkeys; bag; brain aging
+207,502,0,"amci, memory, mci, task",amci; memory; mci; task; mild cognitive; amnestic
+208,494,1,"hsv-1, herpes, infection, virus",hsv-1; herpes; infection; virus; herpes simplex; simplex
+209,494,0,"periodontal, periodontitis, gingivalis, porphyromonas",periodontal; periodontitis; gingivalis; porphyromonas; porphyromonas gingivalis; oral
+210,494,0,"physical activity, physical, klotho, fitness",physical activity; physical; klotho; fitness; activity; crf
+211,487,1,"tdp-43, tdp-43 pathology, late-nc, phase separation",tdp-43; tdp-43 pathology; late-nc; phase separation; llps; separation
+212,487,0,"coeruleus, locus coeruleus, locus, noradrenergic",coeruleus; locus coeruleus; locus; noradrenergic; norepinephrine; adrenergic
+213,483,0,"tea, coffee, egcg, caffeine",tea; coffee; egcg; caffeine; green tea; green
+214,479,0,"tau, tauopathies, mitochondrial, propagation",tau; tauopathies; mitochondrial; propagation; cleavage; autophagy
+215,472,1,"cbd, cannabinoid, cannabis, cannabinoids",cbd; cannabinoid; cannabis; cannabinoids; endocannabinoid; cannabidiol
+216,469,0,"exercise, treadmill, treadmill exercise, running",exercise; treadmill; treadmill exercise; running; training; aerobic
+217,443,23,"nitric, nitric oxide, oxide, nos",nitric; nitric oxide; oxide; nos; s-nitrosylation; nadph
+218,463,0,"artificial intelligence, artificial, intelligence, machine",artificial intelligence; artificial; intelligence; machine; machine learning; learning
+219,449,12,"circadian, sleep, rhythms, rhythm",circadian; sleep; rhythms; rhythm; clock; circadian rhythm
+220,458,0,"ache, derivatives, coumarin, compound",ache; derivatives; coumarin; compound; ferulic; hybrids
+221,452,0,"metabolic, lactate, metabolism, energy",metabolic; lactate; metabolism; energy; lactylation; glucose
+222,447,0,"inph, hydrocephalus, normal pressure, pressure hydrocephalus",inph; hydrocephalus; normal pressure; pressure hydrocephalus; nph; pressure
+223,447,0,"memantine, nmda, memantine treatment, nmda receptor",memantine; nmda; memantine treatment; nmda receptor; moderate severe; moderate
+224,446,0,"progression, model, modeling, models",progression; model; modeling; models; prediction; mathematical
+225,441,0,"sirt1, histone, sirtuins, deacetylase",sirt1; histone; sirtuins; deacetylase; hdac; sirtuin
+226,438,0,"neurogenesis, adult, adult neurogenesis, hippocampal neurogenesis",neurogenesis; adult; adult neurogenesis; hippocampal neurogenesis; adult hippocampal; hippocampal
+227,428,0,"synuclein, dlb, csf, syn",synuclein; dlb; csf; syn; lewy; saa
+228,420,4,"mao-b, monoamine, mao, monoamine oxidase",mao-b; monoamine; mao; monoamine oxidase; mao-a; oxidase
+229,423,0,"dyrk1a, kinase, dapk1, kinases",dyrk1a; kinase; dapk1; kinases; inhibitors; rock
+230,423,0,"reserve, cognitive reserve, resilience, education",reserve; cognitive reserve; resilience; education; cognitive; cognitive resilience
+231,417,1,"statins, statin, simvastatin, cholesterol",statins; statin; simvastatin; cholesterol; atorvastatin; reductase
+232,417,0,"navigation, virtual, spatial, reality",navigation; virtual; spatial; reality; virtual reality; vestibular
+233,413,0,"psp, corticobasal, cbs, supranuclear",psp; corticobasal; cbs; supranuclear; progressive supranuclear; palsy
+234,37,375,"dna, replication, repair, recombination",dna; replication; repair; recombination; complex; dna replication
+235,408,3,"ace, angiotensin, ras, ang",ace; angiotensin; ras; ang; angiotensin-converting; angiotensin-converting enzyme
+236,410,0,"stress, glucocorticoid, chronic stress, chronic",stress; glucocorticoid; chronic stress; chronic; glucocorticoids; hpa
+237,409,0,"grn, pgrn, c9orf72, tmem106b",grn; pgrn; c9orf72; tmem106b; progranulin; repeat
+238,408,0,"curcumin, turmeric, curcuminoids, cur",curcumin; turmeric; curcuminoids; cur; bioavailability; curcuma
+239,405,1,"o-glcnac, clusterin, o-glcnacylation, glycosylation",o-glcnac; clusterin; o-glcnacylation; glycosylation; clu; oga
+240,401,3,"cdk5, cell cycle, cycle, p25",cdk5; cell cycle; cycle; p25; p35; cyclin-dependent
+241,401,0,"apathy, anosognosia, awareness, unawareness",apathy; anosognosia; awareness; unawareness; self-awareness; discrepancy
+242,398,0,"epilepsy, seizures, seizure, epileptiform",epilepsy; seizures; seizure; epileptiform; epileptic; myoclonus
+243,391,0,"eoad, load, early-onset, subtypes",eoad; load; early-onset; subtypes; late-onset; atrophy
+244,390,0,"nutritional, sarcopenia, malnutrition, nutritional status",nutritional; sarcopenia; malnutrition; nutritional status; weight; weight loss
+245,390,0,"tspo, pet, pk11195, translocator",tspo; pet; pk11195; translocator; translocator protein; pbr
+246,389,0,"exercise, physical, physical activity, irisin",exercise; physical; physical activity; irisin; physical exercise; aerobic
+247,387,2,"melatonin, pineal, mt2, sleep",melatonin; pineal; mt2; sleep; pineal gland; gland
+248,385,0,"secretase, gamma-secretase, gsms, notch",secretase; gamma-secretase; gsms; notch; modulators; gamma-secretase inhibitors
+249,329,56,"ceramide, s1p, sphingosine, sphingolipid",ceramide; s1p; sphingosine; sphingolipid; sphingolipids; ceramides
+250,222,161,"nad, thiamine, nicotinamide, parp-1",nad; thiamine; nicotinamide; parp-1; adp-ribose; nmn
+251,383,0,"surgery, anesthesia, delirium, postoperative",surgery; anesthesia; delirium; postoperative; isoflurane; pocd
+252,376,4,"abca7, p-gp, abca1, transporters",abca7; p-gp; abca1; transporters; abc; p-glycoprotein
+253,374,4,"amyloids, fibrils, amyloidosis, amyloid",amyloids; fibrils; amyloidosis; amyloid; amyloid fibrils; proteins
+254,378,0,"lrrk2, cyp2d6, parkinson, lewy",lrrk2; cyp2d6; parkinson; lewy; genetic; allele
+255,369,0,"cjd, creutzfeldt-jakob, prion, scjd",cjd; creutzfeldt-jakob; prion; scjd; prp; prnp
+256,363,0,"ketogenic, ketogenic diet, diet, ketone",ketogenic; ketogenic diet; diet; ketone; fasting; restriction
+257,360,2,"galantamine, galanin, gal, galantamine treatment",galantamine; galanin; gal; galantamine treatment; placebo; months
+258,361,0,"financial, consent, capacity, decision-making",financial; consent; capacity; decision-making; ethical; financial capacity
+259,361,0,"adni, national, initiative, funding",adni; national; initiative; funding; neuroimaging initiative; centers
+260,357,0,"rivastigmine, patch, transdermal, rivastigmine patch",rivastigmine; patch; transdermal; rivastigmine patch; placebo; week
+261,350,0,"music, music therapy, musical, therapy",music; music therapy; musical; therapy; intervention; listening
+262,348,0,"ginsenoside, ginseng, rg1, ginsenosides",ginsenoside; ginseng; rg1; ginsenosides; ginsenoside rg1; panax
+263,341,1,"als, bmaa, lateral sclerosis, amyotrophic",als; bmaa; lateral sclerosis; amyotrophic; amyotrophic lateral; lateral
+264,239,92,"lxr, rxr, retinoic, retinoic acid",lxr; rxr; retinoic; retinoic acid; retinoid; bexarotene
+265,315,1,"sulfate, heparan, heparan sulfate, heparin",sulfate; heparan; heparan sulfate; heparin; proteoglycans; proteoglycan
+266,312,3,"matrix, mmps, mmp-9, metalloproteinases",matrix; mmps; mmp-9; metalloproteinases; nets; matrix metalloproteinases
+267,308,3,"nfl, neurofilament, neurofilament light, plasma nfl",nfl; neurofilament; neurofilament light; plasma nfl; nfl levels; light
+268,310,0,"mtdna, tomm40, mitochondrial, mitochondrial dna",mtdna; tomm40; mitochondrial; mitochondrial dna; cytochrome oxidase; cytochrome
+269,132,174,"cytochrome, coq10, respiratory chain, respiratory",cytochrome; coq10; respiratory chain; respiratory; chain; nadh
+270,268,35,"complement, c1q, complement activation, c5a",complement; c1q; complement activation; c5a; activation; complement cascade
+271,300,1,"tacrine, tha, tetrahydroaminoacridine, lecithin",tacrine; tha; tetrahydroaminoacridine; lecithin; bis tacrine; bis
+272,301,0,"platelets, platelet, fibrinogen, fibrin",platelets; platelet; fibrinogen; fibrin; platelet activation; thrombin
+273,292,4,"adenosine, a2a, purinergic, receptors",adenosine; a2a; purinergic; receptors; a2ar; p2x7
+274,181,115,"wnt, wnt signaling, signaling, catenin",wnt; wnt signaling; signaling; catenin; canonical; beta-catenin
+275,293,0,"ache, compounds, derivatives, ic50",ache; compounds; derivatives; ic50; synthesized; compound
+276,289,2,"spine, spines, synaptic, dendritic",spine; spines; synaptic; dendritic; drebrin; dendritic spines
+277,291,0,"pca, posterior cortical, cortical atrophy, posterior",pca; posterior cortical; cortical atrophy; posterior; visual; atrophy
+278,286,0,"gene therapy, vectors, crispr, gene",gene therapy; vectors; crispr; gene; editing; vaccines
+279,282,0,"ultrasound, fus, focused ultrasound, opening",ultrasound; fus; focused ultrasound; opening; bibliometric; bbb
+280,279,0,"proteome, proteins, proteomic, proteomics",proteome; proteins; proteomic; proteomics; mass; ptms
+281,271,0,"emotion, emotional, facial, recognition",emotion; emotional; facial; recognition; emotions; emotion recognition
+282,269,0,"pde5, phosphodiesterase, camp, pde4",pde5; phosphodiesterase; camp; pde4; cgmp; pde
+283,269,0,"polymorphism, polymorphisms, il-6, allele",polymorphism; polymorphisms; il-6; allele; genotype; promoter
+284,267,0,"bdnf, gap-43, val66met, neurotrophic factor",bdnf; gap-43; val66met; neurotrophic factor; bdnf levels; neurotrophic
+285,264,0,"calcium, ca2, fibroblasts, calmodulin",calcium; ca2; fibroblasts; calmodulin; calcium homeostasis; intracellular
+286,260,0,"huperzine, hupa, serrata, huperzia",huperzine; hupa; serrata; huperzia; huperzia serrata; endophytic
+287,246,11,"hypoxia, hif-, hypoxic, cih",hypoxia; hif-; hypoxic; cih; hypoxia-inducible; chronic hypoxia
+288,2,254,"odorant, odorant receptor, receptor odorant, receptor",odorant; odorant receptor; receptor odorant; receptor; olfactory; odorants
+289,253,0,"memory, amnesia, clinics, memory clinics",memory; amnesia; clinics; memory clinics; clinic; memory clinic
+290,252,0,"peroxisome, proliferator-activated, peroxisome proliferator-activated, ppargamma",peroxisome; proliferator-activated; peroxisome proliferator-activated; ppargamma; pioglitazone; pgc-
+291,247,0,"glaucoma, uric, uric acid, poag",glaucoma; uric; uric acid; poag; fxtas; gout
+292,245,2,"ferroptosis, iron, gpx4, peroxidation",ferroptosis; iron; gpx4; peroxidation; lipid peroxidation; cell death
+293,53,188,"transmembrane protein, protein gene, transmembrane, gene",transmembrane protein; protein gene; transmembrane; gene; membrane protein; integral membrane
+294,228,8,"kynurenine, tryptophan, kyna, kynurenine pathway",kynurenine; tryptophan; kyna; kynurenine pathway; quinolinic; quin
+295,231,0,"driving, drivers, driving performance, road",driving; drivers; driving performance; road; drive; on-road
+296,231,0,"resveratrol, rsv, res, sirt1",resveratrol; rsv; res; sirt1; polyphenol; wine
+297,9,221,"odorant receptor, odorant, receptor odorant, receptor",odorant receptor; odorant; receptor odorant; receptor; taste; orphan receptor
+298,225,0,"dna, repair, dna damage, dna repair",dna; repair; dna damage; dna repair; damage; aneuploidy
+299,137,87,"tgf-beta, tgf-, transforming growth, transforming",tgf-beta; tgf-; transforming growth; transforming; growth; tgf-beta1
+300,221,0,"autoantibodies, antibodies, igg, sera",autoantibodies; antibodies; igg; sera; serum; encephalitis
+301,8,208,"rna polymerase, polymerase, rna, transcription",rna polymerase; polymerase; rna; transcription; pol; complex
+302,189,26,"pin1, isomerase, citrullination, isomerization",pin1; isomerase; citrullination; isomerization; citrullinated; cis-trans
+303,211,0,"a2m, alpha2m, laminin, hla",a2m; alpha2m; laminin; hla; gelsolin; macroglobulin
+304,207,1,"nrf2, keap1, factor nrf2, foxo",nrf2; keap1; factor nrf2; foxo; oxidative; oxidative stress
+305,205,0,"zebrafish, exposure, lead, lead exposure",zebrafish; exposure; lead; lead exposure; bpa; developmental
+306,201,0,"mci, mild cognitive, mild, cognitive impairment",mci; mild cognitive; mild; cognitive impairment; impairment; impairment mci
+307,185,13,"adam10, alpha-secretase, disintegrin, adams",adam10; alpha-secretase; disintegrin; adams; adam; shedding
+308,193,0,"cdt, drawing, clock, clock drawing",cdt; drawing; clock; clock drawing; drawing test; scoring
+309,190,0,"muscle, pick, myositis, ibm",muscle; pick; myositis; ibm; inclusion body; s-ibm
+310,186,3,"heme, ho-1, oxygenase-1, heme oxygenase-1",heme; ho-1; oxygenase-1; heme oxygenase-1; biliverdin; bvr-a
+311,188,0,"olive, oil, olive oil, evoo",olive; oil; olive oil; evoo; pea; oleuropein
+312,187,0,"alcohol, alcohol consumption, tgf344-ad, consumption",alcohol; alcohol consumption; tgf344-ad; consumption; ethanol; drinking
+313,182,0,"pain, chronic pain, migraine, pain assessment",pain; chronic pain; migraine; pain assessment; discomfort; chronic
+314,177,0,"fnirs, spectroscopy, near-infrared spectroscopy, near-infrared",fnirs; spectroscopy; near-infrared spectroscopy; near-infrared; raman; functional near-infrared
+315,166,5,"dopamine, receptors, sigma-1, s1r",dopamine; receptors; sigma-1; s1r; sigma-1 receptor; sigma
+316,118,52,"mtor, rapamycin, mtorc1, target rapamycin",mtor; rapamycin; mtorc1; target rapamycin; mtor signaling; rapamycin mtor
+317,161,3,"selenium, selenoproteins, selenoprotein, se-met",selenium; selenoproteins; selenoprotein; se-met; selenate; senps
+318,164,0,"chi3l1, glutaminyl, glutaminyl cyclase, cgas-sting",chi3l1; glutaminyl; glutaminyl cyclase; cgas-sting; cyclase; sting
+319,159,0,"ttr, transthyretin, hsa, albumin",ttr; transthyretin; hsa; albumin; transthyretin ttr; serum albumin
+320,154,0,"schizophrenia, schizophrenic, elderly schizophrenia, psychosis",schizophrenia; schizophrenic; elderly schizophrenia; psychosis; schizophrenics; vloslp
+321,153,0,"amylin, iapp, hiapp, islet",amylin; iapp; hiapp; islet; islet amyloid; amyloid polypeptide
+322,3,148,"hair, keratins, keratin, keratin intermediate",hair; keratins; keratin; keratin intermediate; intermediate filaments; hair keratin
+323,150,0,"berberine, bbr, barbarum, lycium",berberine; bbr; barbarum; lycium; lycium barbarum; alkaloid
+324,145,0,"tnf-, tnf, necrosis, tumor necrosis",tnf-; tnf; necrosis; tumor necrosis; tnf-alpha; tumor
+325,141,0,"psychosis, comt, polymorphism, httlpr",psychosis; comt; polymorphism; httlpr; psychotic; psychotic symptoms
+326,140,0,"samp8, samr1, senescence-accelerated, senescence-accelerated mouse",samp8; samr1; senescence-accelerated; senescence-accelerated mouse; senescence; prone
+327,5,134,"gene, protein, protein gene, sp1",gene; protein; protein gene; sp1; protein structure; mitophagy
+328,132,0,"carnosine, acetyl-l-carnitine, alc, alcar",carnosine; acetyl-l-carnitine; alc; alcar; l-carnitine; carnitine
+329,129,2,"s100b, s100, s100a9, hmgb1",s100b; s100; s100a9; hmgb1; s100 beta; s100a6
+330,124,0,"humanin, vilip-1, clsp, hng",humanin; vilip-1; clsp; hng; peptide; csf vilip-1
+331,118,0,"cerebrolysin, citicoline, colostrinin, cln",cerebrolysin; citicoline; colostrinin; cln; prp; proline-rich
+332,61,55,"nf-kappab, nf-kappa-b, nf-, nf-kappa",nf-kappab; nf-kappa-b; nf-; nf-kappa; p50; p65
+333,114,0,"telomere, telomere length, length, telomeres",telomere; telomere length; length; telomeres; ltl; shortening
+334,113,0,"atrial, atrial fibrillation, fibrillation, warfarin",atrial; atrial fibrillation; fibrillation; warfarin; anticoagulation; stroke
+335,4,103,"coiled-coil, coiled-coil domain-containing, domain-containing protein, domain-containing",coiled-coil; coiled-coil domain-containing; domain-containing protein; domain-containing; protein gene; chchd2
+336,107,0,"crocin, saffron, sativus, crocus",crocin; saffron; sativus; crocus; crocus sativus; crocetin
+337,104,0,"hiv, hand, hiv-1, hiv-associated",hiv; hand; hiv-1; hiv-associated; neurocognitive; pwh
+338,101,0,"dogs, canine, ccd, canine cognitive",dogs; canine; ccd; canine cognitive; cognitive dysfunction; dog
+339,101,0,"transglutaminase, ttg, tg2, tissue transglutaminase",transglutaminase; ttg; tg2; tissue transglutaminase; tgase; cross-linking
+340,100,0,"silibinin, silymarin, rosmarinic, rosmarinic acid",silibinin; silymarin; rosmarinic; rosmarinic acid; rosemary; officinalis
+341,94,0,"cerebellar, cerebellum, purkinje, purkinje cells",cerebellar; cerebellum; purkinje; purkinje cells; cerebellar atrophy; crus
+342,22,70,"nuclear, import, ran, nuclear import",nuclear; import; ran; nuclear import; npc; nuclear pore
+343,89,0,"apoe, genotyping, apolipoprotein, pcr",apoe; genotyping; apolipoprotein; pcr; method; apoe4
+344,0,85,"regulation involved, involved transcriptional, transcriptional regulation, transcriptional",regulation involved; involved transcriptional; transcriptional regulation; transcriptional; regulation; involved
+345,84,1,"cystatin, cysc, cysteine, hcc",cystatin; cysc; cysteine; hcc; cst3; cystatins
+346,5,80,"ribosomal, ribosomal protein, subunit protein, ribosomal subunit",ribosomal; ribosomal protein; subunit protein; ribosomal subunit; large ribosomal; subunit
+347,83,1,"bri2, brichos, fbd, abri",bri2; brichos; fbd; abri; fdd; danish
+348,78,1,"reelin, reelin signaling, apoer2, reelin expression",reelin; reelin signaling; apoer2; reelin expression; reln; glycoprotein
+349,0,73,"regulation involved, involved transcriptional, transcriptional regulation, transcriptional",regulation involved; involved transcriptional; transcriptional regulation; transcriptional; regulation; involved
+350,0,69,"regulation involved, involved transcriptional, transcriptional regulation, transcriptional",regulation involved; involved transcriptional; transcriptional regulation; transcriptional; regulation; involved
+351,56,1,"epo, erythropoietin, erythropoietin epo, epor",epo; erythropoietin; erythropoietin epo; epor; hematopoietic; neuroprotective
+352,53,0,"asiatica, centella, centella asiatica, caw",asiatica; centella; centella asiatica; caw; extract; asiatic
+353,0,46,"regulation involved, involved transcriptional, transcriptional regulation, transcriptional",regulation involved; involved transcriptional; transcriptional regulation; transcriptional; regulation; involved
+354,0,44,"regulation involved, involved transcriptional, transcriptional regulation, transcriptional",regulation involved; involved transcriptional; transcriptional regulation; transcriptional; regulation; involved

@@ -1,0 +1,8 @@
+item,gene,A
+most-mentioned gene (any),APP,45614.0
+least-mentioned gene with G>=0.7 and A>=1,SLC26A1,1.0
+ratio most-mentioned / least-mentioned strongly supported,APP/SLC26A1,45614.0
+genes with G>=0.7 and A=0,RHOH;H2BC4;ANO5,3.0
+genes with G>=0.7 and A<100 (sparsely studied),"",30.0
+genes with G>=0.7,"",51.0
+genes with G>=0.5 and A<100,"",149.0

@@ -35,8 +35,26 @@ gids = ga["gene_id"].to_list()
 gpos = {g: i for i, g in enumerate(gids)}
 NG = len(gids)
 sym = ga["symbol"].to_list()
-s2g = {s: g for s, g in zip(sym, gids)}
-e2g = {e: g for e, g in zip(ga["ensembl_id"].to_list(), gids) if e}
+# Mapping rules (fixed after a bug was found in the first run: 261 Ensembl IDs are shared by several NCBI Gene records, e.g. PLCG2 and the ncRNA
+# LOC105369213; a plain dict kept the last one and sent PLCG2's genetic score to the ncRNA). Rule: prefer the record whose symbol equals the source
+# symbol, then protein-coding, then the lowest Gene ID.
+_ptype = ga["type_of_gene"].to_list()
+_rank = {"protein-coding": 0}
+from collections import defaultdict
+_ens_c = defaultdict(list); _sym_c = defaultdict(list)
+for g_, s_, t_, e_ in zip(gids, sym, _ptype, ga["ensembl_id"].to_list()):
+    if e_: _ens_c[e_].append((_rank.get(t_, 1), g_, s_))
+    _sym_c[s_].append((_rank.get(t_, 1), g_))
+s2g = {s: sorted(c)[0][1] for s, c in _sym_c.items()}
+def map_ens(e, s=None):
+    c = _ens_c.get(e)
+    if c:
+        if s is not None:
+            for r_, g_, s_ in sorted(c):
+                if s_ == s: return g_
+        return sorted(c)[0][1]
+    return s2g.get(s) if s is not None else None
+e2g = {e: sorted(c)[0][2 - 1] for e, c in _ens_c.items()}   # unused default; use map_ens
 is_pc = (ga["type_of_gene"] == "protein-coding").to_numpy()
 log("genes", NG, "protein-coding", int(is_pc.sum()), "corpus", n_corpus)
 
@@ -63,7 +81,7 @@ def ot_to_G(df, col="dt_genetic_association"):
     G = np.zeros(NG)
     unm = 0
     for e, s, v in zip(df["ensembl_id"].to_list(), df["symbol"].to_list(), df[col].fill_null(0.0).to_list()):
-        g = e2g.get(e, s2g.get(s))
+        g = map_ens(e, s)
         if g is None:
             unm += 1 if v > 0 else 0
             continue
@@ -120,8 +138,7 @@ with np.errstate(divide="ignore", invalid="ignore"):
 
 # ---------------------------------------------------------------------------------- Agora (D3)
 ag = {}
-agp = RAW / "agora" / "agora_genes.jsonl"
-if agp.exists():
+for agp in sorted((RAW / "agora").glob("agora_genes*.jsonl")):
     for line in open(agp):
         d = json.loads(line)
         if d.get("status") == 200:
@@ -130,14 +147,10 @@ log("Agora genes with data", len(ag))
 dom_list = [[] for _ in range(NG)]
 treatad = np.full(NG, np.nan)
 for e, d in ag.items():
-    g = e2g.get(e)
+    g = map_ens(e, d.get('symbol'))
     if g is None: continue
     dom_list[gpos[g]] = sorted(set(d.get("biodomains") or []))
     if d.get("genetics_score") is not None: treatad[gpos[g]] = d["genetics_score"]
-for e, s in zip(ot["ensembl_id"].to_list(), ot["symbol"].to_list()):
-    g = e2g.get(e, s2g.get(s))   # OT genes without NCBI xref but present in Agora
-    if g is None and e in ag:
-        pass
 n_dom = np.array([len(x) for x in dom_list])
 in_U = (G > 0) | (A_tot >= 20)
 assigned = in_U & (n_dom > 0)
@@ -187,7 +200,7 @@ for w, (a, b) in WIN.items():
         boots.append(gini(np.asarray(P.T @ wts.astype(float)).ravel()))
     lo, hi = np.nanpercentile(boots, [2.5, 97.5])
     conc.append(dict(window=w, n_papers=int(mask.sum()), n_pc_genes=len(pc_idx), n_genes_A_ge1=int((cnt >= 1).sum()), gini_attention_pc_with_zeros=gA,
-                     ci95_lo=lo, ci95_hi=hi, gini_attention_genes_ge1=gA1, gini_genetic_same_population=gini(G_pc) if w == "all_years" else None,
+                     ci95_lo=lo, ci95_hi=hi, boot_mean=float(np.nanmean(boots)), boot_bias=float(np.nanmean(boots) - gA), ci95_basic_lo=float(2 * gA - hi), ci95_basic_hi=float(2 * gA - lo), gini_attention_genes_ge1=gA1, gini_genetic_same_population=gini(G_pc) if w == "all_years" else None,
                      top1_gene=sym[pc_idx[int(np.argmax(cnt))]], top1_share=float(cnt.max() / cnt.sum()),
                      top10_share=float(np.sort(cnt)[-10:].sum() / cnt.sum()), top100_share=float(np.sort(cnt)[-100:].sum() / cnt.sum())))
     x, c = lorenz_pts(cnt)
@@ -263,11 +276,19 @@ for w, (a, b) in WIN.items():
         dec_rows.append(dict(window=w, domain=d, attention_share=sw[k], genetic_share=sG[k], gap_pp=100 * (sG[k] - sw[k])))
 wcsv(pl.DataFrame(dec_rows), "biodomain_shares_by_decade.csv")
 ua = dict(item=["universe genes (G>0 or A>=20)", "assigned to >=1 biodomain", "unassigned (no Agora biodomain)", "attention mass in unassigned (share of universe A)", "genetic mass in unassigned (share of universe G)"],
-          value=[int(in_U.sum()), int(assigned.sum()), int(unassigned.sum()), float(A_tot[unassigned].sum() / A_tot[in_U].sum()), float(G[unassigned].sum() / G[in_U].sum())])
+          value=[float(in_U.sum()), float(assigned.sum()), float(unassigned.sum()), float(A_tot[unassigned].sum() / A_tot[in_U].sum()), float(G[unassigned].sum() / G[in_U].sum())])
 wcsv(pl.DataFrame(ua), "biodomain_unassigned.csv")
 L3_under = dtab.filter(pl.col("gap_call").str.starts_with("under")).height
 L3_over = dtab.filter(pl.col("gap_call").str.starts_with("over")).height
 log("L3: under-attended domains", L3_under, "over-attended", L3_over)
+# EXPLORATORY (post hoc, not pre-registered): where do the strongly supported genes (G >= 0.5) sit, versus where the attention sits?
+strong_idx = np.where((G >= 0.5) & (n_dom > 0))[0]
+cnt_strong = np.asarray(W.T @ np.isin(np.arange(NG), strong_idx).astype(float)).ravel()
+exp_tab = pl.DataFrame(dict(domain=domains, n_strong_genes_fractional=cnt_strong, share_of_strong_genes=cnt_strong / cnt_strong.sum(),
+                            share_of_attention_universe=sA, share_of_genetic_score=sG,
+                            share_of_attention_on_strong_genes=(W.T @ np.where(np.isin(np.arange(NG), strong_idx), A_tot, 0.0)) / A_tot[strong_idx].sum()))
+exp_tab = exp_tab.with_columns((100 * (pl.col("share_of_strong_genes") - pl.col("share_of_attention_universe"))).alias("strong_minus_attention_pp")).sort("strong_minus_attention_pp", descending=True)
+wcsv(exp_tab, "exploratory_biodomain_strong_genes_G05.csv")
 # S3: universe sensitivity (G>0 only)
 in_U3 = G > 0; assigned3 = in_U3 & (n_dom > 0); a3 = np.where(assigned3)[0]
 sA3 = shares(A_tot, mask_idx=a3); sG3 = shares(G, mask_idx=a3)

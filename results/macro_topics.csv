@@ -1,0 +1,9 @@
+macro,n_papers,n_clusters,label,keywords
+0,65760,131,"brain, cells, neurodegenerative",brain; cells; neurodegenerative; cell; cognitive; levels
+1,40718,55,"cognitive, dementia, impairment",cognitive; dementia; impairment; mci; cognitive impairment; mild
+2,28931,32,"dementia, care, cognitive",dementia; care; cognitive; caregivers; clinical; treatment
+3,15973,15,"brain, model, biomarkers",brain; model; biomarkers; genes; diagnosis; clinical
+4,8944,11,"tau, protein, pathology",tau; protein; pathology; phosphorylation; brain; plasma
+5,25550,32,"amyloid, protein, app",amyloid; protein; app; abeta; peptide; beta
+6,32647,48,"treatment, potential, activity",treatment; potential; activity; compounds; ache; therapeutic
+7,18450,26,"risk, apoe, genetic",risk; apoe; genetic; dementia; association; allele

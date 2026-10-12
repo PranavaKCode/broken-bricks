@@ -1,0 +1,6 @@
+id,statement,observed,held
+L1,"Gini of attention > Gini of genetic evidence (protein-coding genes, all years)",0.955 vs 0.947,true
+L2,"Spearman(G, A) among genes with G>0 positive and < 0.5","0.207 (95% CI 0.163 to 0.250), n=2171",true
+L3,>=1 domain with gap >= +2pp (CI>0) and >=1 with gap <= -2pp (CI<0),"4 under-attended, 4 over-attended",true
+L4,>=10 genes with G>=0.7 and A<100,30,true
+L5,TREM2 post/pre >= 5 and DiD CI excludes 0,"ratio 150.0; DiD 3.67 [3.55,3.79]",true

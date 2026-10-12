@@ -142,8 +142,62 @@ def mapstage():
     log("MAP_DONE")
 
 
+def leiden_only():
+    """Re-cluster from the saved kNN graph at several resolutions; keep the one whose cluster count is closest to TARGET (exploratory)."""
+    corp, paper_text, genes, gtext = load_texts()
+    idx = np.load(OUT / "knn_idx.npy"); dist = np.load(OUT / "knn_dist.npy")
+    n = idx.shape[0]; k = 30
+    import igraph as ig, leidenalg
+    rows = np.repeat(np.arange(n), k); cols = idx[:, 1:k + 1].reshape(-1)
+    wts = np.clip(1.0 - dist[:, 1:k + 1].reshape(-1), 1e-3, 1.0)
+    a = np.minimum(rows, cols); b = np.maximum(rows, cols)
+    key = a.astype(np.int64) * n + b
+    order = np.argsort(key, kind="stable")
+    key, a, b, wts = key[order], a[order], b[order], wts[order]
+    first = np.r_[True, key[1:] != key[:-1]]
+    grp = np.cumsum(first) - 1
+    wmax = np.zeros(grp[-1] + 1); np.maximum.at(wmax, grp, wts)
+    g = ig.Graph(n=n, edges=list(zip(a[first].tolist(), b[first].tolist())), directed=False)
+    g.es["weight"] = wmax.tolist()
+    TARGET = int(os.environ.get("LEIDEN_TARGET", "300"))
+    tried = []
+    best = None
+    for res in [float(x) for x in os.environ.get("LEIDEN_GRID", "5,15,40").split(",")]:
+        part = leidenalg.find_partition(g, leidenalg.RBConfigurationVertexPartition, weights="weight", resolution_parameter=res, n_iterations=3, seed=SEED)
+        nc = len(set(part.membership)); tried.append(dict(resolution=res, n_clusters=nc, modularity=float(part.modularity)))
+        log(f"Leiden resolution {res}: {nc} clusters, modularity {part.modularity:.3f}")
+        if best is None or abs(nc - TARGET) < abs(best[1] - TARGET):
+            best = (res, nc, np.array(part.membership, dtype=np.int32), float(part.modularity))
+    pl.DataFrame(tried).write_csv(OUT / "leiden_grid.csv")
+    res, nc, lab, mod = best
+    if (OUT / "leiden_labels.npy").exists() and not (OUT / "leiden_labels_res1.npy").exists():
+        np.save(OUT / "leiden_labels_res1.npy", np.load(OUT / "leiden_labels.npy"))
+    np.save(OUT / "leiden_labels.npy", lab)
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    all_text = paper_text + gtext
+    rng = np.random.default_rng(SEED)
+    docs = []
+    for c in range(lab.max() + 1):
+        members = np.where(lab == c)[0]
+        take = members if len(members) <= 300 else rng.choice(members, 300, replace=False)
+        docs.append(" ".join(all_text[i] for i in take))
+    vec = TfidfVectorizer(stop_words="english", ngram_range=(1, 2), min_df=2, max_df=0.3, sublinear_tf=True, max_features=300000,
+                          token_pattern=r"(?u)\b[A-Za-z][A-Za-z0-9\-]{2,}\b")
+    M = vec.fit_transform(docs); terms = np.array(vec.get_feature_names_out())
+    npap = np.bincount(lab[:corp.height], minlength=lab.max() + 1); ngen = np.bincount(lab[corp.height:], minlength=lab.max() + 1)
+    rows_ = []
+    for c in range(lab.max() + 1):
+        r = M.getrow(c).toarray().ravel(); top = terms[np.argsort(-r)[:8]]
+        rows_.append(dict(cluster=c, n_papers=int(npap[c]), n_genes=int(ngen[c]), label=", ".join(top[:4]), keywords="; ".join(top)))
+    pl.DataFrame(rows_).write_csv(OUT / "cluster_labels.csv")
+    json.dump(dict(finished=datetime.datetime.now(datetime.timezone.utc).isoformat(), leiden_resolution=res, n_clusters=int(nc), modularity=mod, target=TARGET, seed=SEED), open(OUT / "run_meta_leiden.json", "w"), indent=2)
+    log("LEIDEN_DONE", res, nc)
+
+
 if __name__ == "__main__":
     if STAGE in ("embed", "all"):
         embed()
     if STAGE in ("map", "all"):
         mapstage()
+    if STAGE == "leiden":
+        leiden_only()

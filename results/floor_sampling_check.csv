@@ -1,0 +1,10 @@
+item,value
+full_n,236973.0
+sample_n,150000.0
+seed,20261011.0
+amyloid_share_full,0.30964709059681905
+amyloid_share_sample,0.30964
+year_min_sample,1954.0
+year_max_sample,2027.0
+n_with_G_gt0_gene_full,77655.0
+n_with_G_gt0_gene_sample,49250.0

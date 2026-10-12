@@ -58,10 +58,10 @@ def fig_dumbbell(mode):
         ax.text(xmax * 1.04, y[i], txt, va="center", ha="left", fontsize=9, color=t["ink"] if sig else t["muted"], fontweight="bold" if sig else "normal")
     ax.set_xlim(0, xmax * 1.2); ax.set_xlabel("% of total (fractional biodomain membership)")
     grid(ax, t, "x")
-    ax.set_title("Where the field looks vs. where the genes point", pad=24)
-    ax.text(0, 1.02, "Alzheimer's biodomains: attention share vs. genetic-evidence share. Gap = genetic minus attention; * bootstrap 95% CI excludes 0 and |gap| >= 2 pp",
+    ax.set_title("Where the field looks vs. where the genes point", pad=34)
+    ax.text(0, 1.015, "Alzheimer's biodomains: share of AD abstracts vs. share of genetic evidence.\nGap = genetic minus attention; * = bootstrap 95% CI excludes 0 and |gap| >= 2 pp",
             transform=ax.transAxes, fontsize=9, color=t["ink2"], va="bottom")
-    ax.legend(loc="lower right", fontsize=9)
+    ax.legend(loc="upper center", bbox_to_anchor=(0.45, -0.1), ncol=2, fontsize=9)
     fig.tight_layout(); save(fig, "fig1_dumbbell_attention_vs_genetics", mode)
 
 
@@ -89,7 +89,7 @@ def fig_stream(mode):
     ax.text(2026, ax.get_ylim()[1], "2026\npartial", ha="center", va="top", fontsize=7.5, color=t["muted"], zorder=4)
     ax.set_xlim(1975, 2026.5); ax.set_yticks([])
     ax.spines["left"].set_visible(False)
-    ax.set_title("Alzheimer's literature, 1975-2026: topic share (macro-topics of the abstract map)", pad=8)
+    ax.set_title("Alzheimer's literature 1975-2026: share by macro-topic", pad=8, fontsize=14)
     ax.legend(loc="upper left", bbox_to_anchor=(1.01, 1.0), fontsize=8, title="Macro-topic (TF-IDF keywords; n papers)", title_fontsize=8)
     fig.tight_layout(); save(fig, "fig2_topic_stream", mode)
 
@@ -132,6 +132,11 @@ def fig_lorenz(mode):
     ax.set_xlim(0, 1); ax.set_ylim(0, 1); grid(ax, t, "both")
     ax.set_title("Attention is concentrated in few genes", pad=8)
     ax.legend(loc="upper left", fontsize=8.5)
+    ins = ax.inset_axes([0.12, 0.30, 0.42, 0.34])
+    for df_, col_, lw_ in ((a, C[0], 2.0), (b, C[2], 1.5), (g, C[1], 2.0)):
+        ins.plot(df_["gene_frac"], df_["cum_share"], color=col_, lw=lw_)
+    ins.set_xlim(0.95, 1.0); ins.set_ylim(0, 1); ins.set_title("zoom: top 5% of genes", fontsize=8, loc="left", color=t["ink2"], fontweight="normal")
+    ins.tick_params(labelsize=7); ins.grid(color=t["grid"], linewidth=0.5)
     fig.tight_layout(); save(fig, "fig3_lorenz", mode)
 
 
@@ -151,9 +156,9 @@ def fig_under(mode):
     ax.axvline(100, color=C[1], lw=1.2, ls="--"); ax.text(105, n - 0.3, "100 AD abstracts", fontsize=8, color=t["ink2"], va="top")
     for i, r in enumerate(d.iter_rows(named=True)):
         ax.text(A[i] * 1.12, y[i], f"{r['A_total']:,}  |  G={r['G_genetic']:.2f}  |  first GWAS {r['y0'] if r['y0_source'] == 'gwas_catalog' else 'n/a'}", fontsize=8, va="center", color=t["ink2"])
-    ax.set_xlim(1, A.max() * 60)
-    ax.set_xlabel("AD abstracts mentioning the gene (PubTator3, log scale)")
-    ax.set_title("Genetically supported genes with the fewest AD abstracts per year since first report", pad=8, fontsize=13)
+    ax.set_xlim(1, 3000)
+    ax.set_xlabel("AD abstracts mentioning the gene (PubTator3, abstract-verified; log scale, 0 drawn at 1)")
+    ax.set_title("Strongly supported genes (G >= 0.7) with the fewest AD abstracts", pad=8, fontsize=14)
     cb = fig.colorbar(sc, ax=ax, pad=0.01, fraction=0.025); cb.set_label("Open Targets genetic score", color=t["ink2"]); cb.outline.set_visible(False)
     grid(ax, t, "x")
     fig.tight_layout(); save(fig, "fig4_under_explored_top25", mode)
@@ -173,10 +178,12 @@ def fig_event(mode):
         ax.axvline(0, color=t["ink2"], lw=1, ls="--")
         r = did.filter(pl.col("gene") == gn)
         ey = int(r["event_year"][0])
-        ax.text(0.2, 0.97, f"first genetic report {ey}", transform=ax.get_xaxis_transform(), fontsize=8.5, color=t["ink2"], va="top")
+        ax.text(-0.4, 0.97, f"first genetic report {ey}", transform=ax.get_xaxis_transform(), fontsize=8.5, color=t["ink2"], va="top", ha="right")
         ax.set_title(gn, fontsize=13); ax.set_xlabel("years since first genetic report"); grid(ax, t, "y")
         if gn == genes[0]: ax.set_ylabel("AD abstracts mentioning the gene per year"); ax.legend(loc="center left", fontsize=7.5)
-        ax.text(0.03, 0.55 if gn != "TREM2" else 0.45, f"post/pre x{r['post_over_pre_ratio'][0]:.1f}\nDiD {r['did_log1p'][0]:+.2f} log pts\n[{r['did_ci95_lo'][0]:+.2f}, {r['did_ci95_hi'][0]:+.2f}]", transform=ax.transAxes, fontsize=8.5, color=t["ink"], va="top")
+        ratio = r["post_over_pre_ratio"][0]
+        rtxt = f"post/pre x{ratio:.1f}" if ratio is not None else f"pre {r['pre_mean_count'][0]:.1f}/yr, post {r['post_mean_count'][0]:.1f}/yr"
+        ax.text(0.03, 0.55 if gn != "TREM2" else 0.45, f"{rtxt}\nDiD {r['did_log1p'][0]:+.2f} log pts\n[{r['did_ci95_lo'][0]:+.2f}, {r['did_ci95_hi'][0]:+.2f}]", transform=ax.transAxes, fontsize=8.5, color=t["ink"], va="top")
     fig.suptitle("Attention after the genes were found: TREM2, PLCG2, ABI3", x=0.01, ha="left", fontsize=14, fontweight="bold")
     fig.tight_layout(rect=(0, 0, 1, 0.94)); save(fig, "fig5_event_study", mode)
 
@@ -198,18 +205,28 @@ def fig_map(mode):
     p = pl.read_parquet(WORK / "papers_meta.parquet", columns=["year", "amyloid", "coordinate1", "coordinate2", "ot_genetic_max"])
     g = pl.read_parquet(WORK / "genes_meta.parquet", columns=["symbol", "coordinate1", "coordinate2", "G_genetic", "A_g", "strong_G07", "sparse_G07_A100"])
     fig, ax = plt.subplots(figsize=(9.6, 7.2))
-    ax.scatter(p["coordinate1"], p["coordinate2"], s=0.25, color=t["axis"] if mode == "light" else "#5a5a55", alpha=0.35, linewidths=0, rasterized=True, label="AD abstracts (all)")
+    ax.scatter(p["coordinate1"], p["coordinate2"], s=0.25, color=t["axis"] if mode == "light" else "#5a5a55", alpha=0.35, linewidths=0, rasterized=True)
     am = p.filter(pl.col("amyloid"))
-    ax.scatter(am["coordinate1"], am["coordinate2"], s=0.3, color=C[0], alpha=0.35, linewidths=0, rasterized=True, label="Abstracts mentioning amyloid")
+    ax.scatter(am["coordinate1"], am["coordinate2"], s=0.3, color=C[0], alpha=0.35, linewidths=0, rasterized=True)
+    ax.scatter(g["coordinate1"], g["coordinate2"], s=1.2, color=C[2], alpha=0.5, linewidths=0, rasterized=True)
+    from matplotlib.lines import Line2D
+    proxies = [Line2D([], [], marker="o", ls="", color=t["axis"], ms=6, label="AD abstracts (all)"), Line2D([], [], marker="o", ls="", color=C[0], ms=6, label="Abstracts mentioning amyloid"),
+               Line2D([], [], marker="o", ls="", color=C[2], ms=6, label="Reviewed human genes (UniProt function text)")]
     gs = g.filter(pl.col("G_genetic") >= 0.7)
     sp = gs.filter(pl.col("sparse_G07_A100")); st = gs.filter(~pl.col("sparse_G07_A100"))
     ax.scatter(st["coordinate1"], st["coordinate2"], s=26, color=C[1], edgecolor=t["surface"], linewidth=0.8, label="Genes, genetic score >= 0.7 (>= 100 abstracts)", zorder=4)
     ax.scatter(sp["coordinate1"], sp["coordinate2"], s=40, color=C[7], edgecolor=t["surface"], linewidth=0.8, marker="D", label="Genes, genetic score >= 0.7 and < 100 abstracts", zorder=5)
-    for r in gs.sort("G_genetic", descending=True).head(14).iter_rows(named=True):
+    for r in gs.sort("G_genetic", descending=True).head(9).iter_rows(named=True):
         ax.text(r["coordinate1"], r["coordinate2"], " " + r["symbol"], fontsize=7.5, color=t["ink"], zorder=6)
+    import numpy as _np
+    allx = _np.r_[p["coordinate1"].to_numpy(), g["coordinate1"].to_numpy()]; ally = _np.r_[p["coordinate2"].to_numpy(), g["coordinate2"].to_numpy()]
+    lo_x, hi_x = _np.percentile(allx, [0.1, 99.9]); lo_y, hi_y = _np.percentile(ally, [0.1, 99.9])
+    ax.set_xlim(lo_x - 0.5, hi_x + 0.5); ax.set_ylim(lo_y - 0.5, hi_y + 0.5)
     ax.set_xticks([]); ax.set_yticks([]); [s.set_visible(False) for s in ax.spines.values()]
     ax.set_title("Map of 237k Alzheimer's abstracts with genes in the same embedding space (exploratory)", fontsize=12, pad=6)
-    ax.legend(loc="lower left", fontsize=8, markerscale=1.3)
+    h, l = ax.get_legend_handles_labels()
+    ax.legend(handles=proxies + h, loc="lower left", fontsize=8, markerscale=1.0)
+    ax.set_aspect("equal", adjustable="datalim")
     fig.tight_layout(); save(fig, "fig6_map_literature_and_genes", mode)
 
 

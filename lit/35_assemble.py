@@ -35,20 +35,48 @@ K = 8
 km = KMeans(n_clusters=K, n_init=20, random_state=SEED).fit(cent[ok], sample_weight=cnt[ok])
 macro_of_cluster = np.full(nc, -1); macro_of_cluster[np.where(ok)[0]] = km.labels_
 macro = macro_of_cluster[lab]            # for every point (paper or gene)
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 paper_text = (corp["title"].fill_null("") + " " + corp["abstract"].fill_null("")).to_list()
+gene_text = gtex["text"].to_list()
+all_text = paper_text + gene_text
 rng = np.random.default_rng(SEED)
+TOKP = r"(?u)\b[A-Za-z][A-Za-z0-9\-]{2,}\b"
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+STOP = sorted(set(ENGLISH_STOP_WORDS) | {"alzheimer", "alzheimers", "disease", "diseases", "patients", "patient", "study", "studies", "results", "result", "using", "associated", "effect", "effects",
+    "data", "analysis", "based", "group", "groups", "significant", "significantly", "found", "showed", "background", "objective", "objectives", "methods", "conclusions", "conclusion",
+    "aim", "aims", "research", "ad", "used", "use", "high", "higher", "increased", "compared", "role", "mice", "human", "new", "may", "suggest", "suggests", "important", "review"})
+def ctfidf_labels(docs, min_total, topn=6):
+    """class-based TF-IDF (BERTopic form), terms must occur at least min_total times overall; no LLM"""
+    cv = CountVectorizer(stop_words=STOP, ngram_range=(1, 2), min_df=1, token_pattern=TOKP)
+    X = cv.fit_transform(docs).tocsc()
+    tot = np.asarray(X.sum(axis=0)).ravel()
+    keep = np.where(tot >= min_total)[0]
+    X = X[:, keep].tocsr(); terms = np.array(cv.get_feature_names_out())[keep]; tot = tot[keep]
+    rows_ = np.asarray(X.sum(axis=1)).ravel()
+    avg = X.sum() / X.shape[0]
+    idf = np.log(1 + avg / tot)
+    out = []
+    for i in range(X.shape[0]):
+        r = X.getrow(i).toarray().ravel() / max(1, rows_[i]) * idf
+        out.append(terms[np.argsort(-r)[:topn]].tolist())
+    return out
 docs = []
 for m in range(K):
     mem = np.where(macro[:npap] == m)[0]
-    take = rng.choice(mem, min(800, len(mem)), replace=False)
+    take = rng.choice(mem, min(1500, len(mem)), replace=False)
     docs.append(" ".join(paper_text[i] for i in take))
-vec = TfidfVectorizer(stop_words="english", ngram_range=(1, 2), min_df=1, max_df=0.5, sublinear_tf=True, token_pattern=r"(?u)\b[A-Za-z][A-Za-z0-9\-]{2,}\b")
-Mt = vec.fit_transform(docs); terms = np.array(vec.get_feature_names_out())
-mac_rows = []
-for m in range(K):
-    top = terms[np.argsort(-Mt.getrow(m).toarray().ravel())[:6]]
-    mac_rows.append(dict(macro=m, n_papers=int((macro[:npap] == m).sum()), n_clusters=int((macro_of_cluster == m).sum()), label=", ".join(top[:3]), keywords="; ".join(top)))
+mac_top = ctfidf_labels(docs, min_total=150)
+mac_rows = [dict(macro=m, n_papers=int((macro[:npap] == m).sum()), n_clusters=int((macro_of_cluster == m).sum()), label=", ".join(mac_top[m][:3]), keywords="; ".join(mac_top[m])) for m in range(K)]
+# fine clusters (Leiden): recompute keyword labels with the same class-based TF-IDF
+fdocs = []
+for c in range(nc):
+    mem = np.where(lab == c)[0]
+    take = mem if len(mem) <= 300 else rng.choice(mem, 300, replace=False)
+    fdocs.append(" ".join(all_text[i] for i in take))
+fine_top = ctfidf_labels(fdocs, min_total=25)
+cl = pl.DataFrame(dict(cluster=list(range(nc)), n_papers=np.bincount(lab[:npap], minlength=nc).tolist(), n_genes=np.bincount(lab[npap:], minlength=nc).tolist(),
+                       label=[", ".join(x[:4]) for x in fine_top], keywords=["; ".join(x) for x in fine_top]))
+cl.write_csv(RES / "cluster_labels_ctfidf.csv")
 mac = pl.DataFrame(mac_rows)
 mac.write_csv(RES / "macro_topics.csv"); log(mac)
 yr = corp["year"].to_numpy()

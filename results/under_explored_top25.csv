@@ -1,0 +1,26 @@
+rank,gene_id,symbol,G_genetic,A_total,A_since_y0,y0,y0_source,Y_g,E_g,biodomains,sparse_A_lt_100
+1,399,RHOH,0.7074744881129024,0,0,2022,gwas_catalog,4,0.0,Apoptosis|Immune Response|Structural Stabilization,true
+2,8347,H2BC4,0.8270002910534164,0,0,2022,gwas_catalog,4,0.0,"",true
+3,9256,TSPOAP1,0.7265735899564381,10,0,2025,gwas_catalog,1,0.0,Mitochondrial Metabolism|Synapse,true
+4,203859,ANO5,0.7069440365766241,0,0,2025,gwas_catalog,1,0.0,Proteostasis|Synapse,true
+5,27180,SIGLEC9,0.7203736101282027,5,5,1975,no_gwas,51,0.13609495726644785,Structural Stabilization,true
+6,9732,DOCK4,0.749596745097089,3,1,2021,gwas_catalog,5,0.2668101233205004,Proteostasis|Vasculature,true
+7,10861,SLC26A1,0.7478755339847413,1,1,2022,gwas_catalog,4,0.3342802226300676,Lipid Metabolism,true
+8,255426,RASGEF1C,0.8164315990124651,4,2,2022,gwas_catalog,4,0.6124211760113,"",true
+9,10616,RBCK1,0.7924272180575688,2,2,2022,gwas_catalog,4,0.6309727740367389,Apoptosis|Immune Response|Metal Binding and Homeostasis|Proteostasis,true
+10,126364,LRRC25,0.7908441996888323,5,3,2022,gwas_catalog,4,0.94835367104557,Proteostasis|Structural Stabilization,true
+11,8440,NCK2,0.8638834319875245,5,5,2021,gwas_catalog,5,1.157563582044066,Apoptosis|Epigenetic|Immune Response|Proteostasis|Structural Stabilization|Synapse,true
+12,3077,HFE,0.8270002910534164,51,51,1975,no_gwas,51,1.2091894172446058,Endolysosome|Immune Response|Lipid Metabolism|Metal Binding and Homeostasis|Proteostasis|Synapse,true
+13,221895,JAZF1,0.7496188537843333,6,4,2022,gwas_catalog,4,1.3340112711301972,Epigenetic|Lipid Metabolism|Metal Binding and Homeostasis,true
+14,79895,ATP8B4,0.8583577735081568,7,5,2022,gwas_catalog,4,1.4562692138164943,Lipid Metabolism|Metal Binding and Homeostasis|Proteostasis,true
+15,3990,LIPC,0.8610346048847006,21,16,2014,gwas_catalog,12,1.5485246769052647,Lipid Metabolism|Metal Binding and Homeostasis|Proteostasis,true
+16,83464,APH1B,0.8917943376402444,42,12,2019,gwas_catalog,7,1.922288180054882,APP Metabolism|Endolysosome|Proteostasis,true
+17,4353,MPO,0.7997544896735449,84,80,1975,no_gwas,51,1.9613862394454287,Apoptosis|Autophagy|Endolysosome|Immune Response|Lipid Metabolism|Metal Binding and Homeostasis|Oxidative Stress,true
+18,51225,ABI3,0.8673388906030315,22,8,2022,gwas_catalog,4,2.3059037495822046,Structural Stabilization|Synapse,true
+19,81858,SHARPIN,0.8612695648849767,19,10,2022,gwas_catalog,4,2.9026916797342968,Apoptosis|Immune Response|Metal Binding and Homeostasis|Mitochondrial Metabolism|Proteostasis|Synapse,true
+20,81619,TSPAN14,0.7413906602909849,19,11,2021,gwas_catalog,5,2.967396431911528,Lipid Metabolism|Proteostasis,true
+21,57091,CASS4,0.7681209620842431,37,32,2013,gwas_catalog,13,3.2046234682350647,Structural Stabilization,true
+22,79890,RIN3,0.762770944503473,30,11,2022,gwas_catalog,4,3.6052762887948187,Endolysosome|Synapse,true
+23,29992,PILRA,0.804358884264507,28,24,2018,gwas_catalog,8,3.7296784540934764,Immune Response,true
+24,5819,NECTIN2,0.7138781852436642,60,50,2008,gwas_catalog,18,3.8911089247385444,Immune Response|Mitochondrial Metabolism|Structural Stabilization,true
+25,9712,USP6NL,0.75397015371747,10,3,2025,gwas_catalog,1,3.9789373428224177,Proteostasis,true
