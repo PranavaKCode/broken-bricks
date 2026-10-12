@@ -92,11 +92,27 @@ def parse(xml_bytes):
         year = pd_year or (min(ad_years) if ad_years else None) or dc_year or dr_year
         mesh = ";".join(txt(d) for d in mc.findall("MeshHeadingList/MeshHeading/DescriptorName"))
         rows.append(dict(
-            pmid=pmid, year=year, year_pubdate=pd_year, year_epub=min(ad_years) if ad_years else None,
+            pmid=pmid, record_type="article", year=year, year_pubdate=pd_year, year_epub=min(ad_years) if ad_years else None,
             journal=art.findtext("Journal/Title") or "", journal_iso=art.findtext("Journal/ISOAbbreviation") or "",
             title=title, abstract=abstract, mesh=mesh,
             pubtypes=";".join(txt(p) for p in art.findall("PublicationTypeList/PublicationType")),
             lang=";".join(txt(l) for l in art.findall("Language")),
+        ))
+    # NCBI Bookshelf documents indexed in PubMed (e.g. MICAD chapters) are part of the query result and kept (record_type = book)
+    for pb in root.findall("PubmedBookArticle"):
+        bd = pb.find("BookDocument")
+        pmid = int(bd.findtext("PMID"))
+        title = txt(bd.find("ArticleTitle")) or txt(bd.find("Book/BookTitle"))
+        parts = []
+        for at in bd.findall("Abstract/AbstractText"):
+            lab = at.get("Label")
+            t = txt(at)
+            parts.append(f"{lab}: {t}" if lab and t else t)
+        year = year_of(bd.find("Book/PubDate")) or year_of(bd.find("Book/BeginningDate"))
+        rows.append(dict(
+            pmid=pmid, record_type="book", year=year, year_pubdate=year, year_epub=None,
+            journal=txt(bd.find("Book/BookTitle")), journal_iso="", title=title, abstract=" ".join(p for p in parts if p), mesh="",
+            pubtypes=";".join(txt(p) for p in bd.findall("PublicationType")), lang=";".join(txt(l) for l in bd.findall("Language")),
         ))
     return rows
 
