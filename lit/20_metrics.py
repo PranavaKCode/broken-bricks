@@ -285,7 +285,6 @@ def under_list(Gv, Mv, thr=0.7, n=25, Asin_cached=None):
     return cand[np.argsort(e[cand], kind="stable")][:n], e
 top25_idx = np.where(G >= 0.7)[0]
 order = top25_idx[np.argsort(E[top25_idx], kind="stable")]
-under = gm.filter(pl.col("G_genetic") >= 0.5).with_columns(pl.col("E_g").rank("ordinal").alias("rank_all_G05")).sort("E_g")
 ue = pl.DataFrame(dict(rank=np.arange(1, len(order) + 1), gene_id=[gids[i] for i in order], symbol=[sym[i] for i in order], G_genetic=G[order], A_total=A_tot[order].astype(int),
                        A_since_y0=Asince[order].astype(int), y0=y0[order].astype(int), y0_source=y0_src[order].tolist(), Y_g=Yg[order].astype(int), E_g=E[order],
                        biodomains=["|".join(dom_list[i]) for i in order], sparse_A_lt_100=(A_tot[order] < 100)))
@@ -296,13 +295,13 @@ sparse_n = int(((G >= 0.7) & (A_tot < 100)).sum())
 amax_i = int(np.argmax(A_tot)); studied = np.where((G >= 0.7) & (A_tot >= 1))[0]
 least_i = studied[np.argmin(A_tot[studied])]
 zero_i = np.where((G >= 0.7) & (A_tot == 0))[0]
-contrast = pl.DataFrame([dict(item="most-mentioned gene (any)", gene=sym[amax_i], A=int(A_tot[amax_i])),
-                         dict(item="least-mentioned gene with G>=0.7 and A>=1", gene=sym[least_i], A=int(A_tot[least_i])),
+contrast = pl.DataFrame([dict(item="most-mentioned gene (any)", gene=sym[amax_i], A=float(A_tot[amax_i])),
+                         dict(item="least-mentioned gene with G>=0.7 and A>=1", gene=sym[least_i], A=float(A_tot[least_i])),
                          dict(item="ratio most-mentioned / least-mentioned strongly supported", gene=f"{sym[amax_i]}/{sym[least_i]}", A=float(A_tot[amax_i] / A_tot[least_i])),
-                         dict(item="genes with G>=0.7 and A=0", gene=";".join(sym[i] for i in zero_i), A=len(zero_i)),
-                         dict(item="genes with G>=0.7 and A<100 (sparsely studied)", gene="", A=sparse_n),
-                         dict(item="genes with G>=0.7", gene="", A=int((G >= 0.7).sum())),
-                         dict(item="genes with G>=0.5 and A<100", gene="", A=int(((G >= 0.5) & (A_tot < 100)).sum()))])
+                         dict(item="genes with G>=0.7 and A=0", gene=";".join(sym[i] for i in zero_i), A=float(len(zero_i))),
+                         dict(item="genes with G>=0.7 and A<100 (sparsely studied)", gene="", A=float(sparse_n)),
+                         dict(item="genes with G>=0.7", gene="", A=float((G >= 0.7).sum())),
+                         dict(item="genes with G>=0.5 and A<100", gene="", A=float(((G >= 0.5) & (A_tot < 100)).sum()))])
 wcsv(contrast, "contrast_and_headline_counts.csv")
 L4_hold = sparse_n >= 10
 # amyloid-pathway comparison (S7)

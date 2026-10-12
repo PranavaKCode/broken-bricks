@@ -1,0 +1,8 @@
+item,value
+OT targets,13006
+OT targets with genetic_association > 0,2177
+OT targets unmapped to NCBI Gene,63
+OT unmapped with G >= 0.7,0
+genes with A_g >= 20,1119
+  of which without Ensembl ID,13
+universe size (Ensembl IDs queried at Agora),3101

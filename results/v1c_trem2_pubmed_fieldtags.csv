@@ -1,0 +1,29 @@
+query,datetype,year,count,retrieved_utc
+corpus_query_AND_TREM2_allfields (hasabstract),pdat,2010,2,2026-10-12T04:22:44.898384+00:00
+corpus_query_AND_TREM2_allfields (hasabstract),pdat,2011,0,2026-10-12T04:22:44.898384+00:00
+corpus_query_AND_TREM2_allfields (hasabstract),pdat,2012,2,2026-10-12T04:22:44.898384+00:00
+corpus_query_AND_TREM2_allfields (hasabstract),edat,2012,2,2026-10-12T04:22:44.898384+00:00
+corpus_query_AND_TREM2_allfields (hasabstract),pdat,2013,28,2026-10-12T04:22:44.898384+00:00
+corpus_query_AND_TREM2_allfields (hasabstract),edat,2013,25,2026-10-12T04:22:44.898384+00:00
+corpus_query_AND_TREM2_allfields (hasabstract),pdat,2014,45,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_allfields (no hasabstract; pilot-style),pdat,2010,2,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_allfields (no hasabstract; pilot-style),pdat,2011,0,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_allfields (no hasabstract; pilot-style),pdat,2012,4,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_allfields (no hasabstract; pilot-style),edat,2012,4,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_allfields (no hasabstract; pilot-style),pdat,2013,42,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_allfields (no hasabstract; pilot-style),edat,2013,38,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_allfields (no hasabstract; pilot-style),pdat,2014,49,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_tiab,pdat,2010,2,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_tiab,pdat,2011,0,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_tiab,pdat,2012,4,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_tiab,edat,2012,4,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_tiab,pdat,2013,39,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_tiab,edat,2013,34,2026-10-12T04:22:44.898384+00:00
+AD_query_AND_TREM2_tiab,pdat,2014,46,2026-10-12T04:22:44.898384+00:00
+corpus_query_AND_TREM2_tiab (hasabstract),pdat,2010,2,2026-10-12T04:22:44.898384+00:00
+corpus_query_AND_TREM2_tiab (hasabstract),pdat,2011,0,2026-10-12T04:22:44.898384+00:00
+corpus_query_AND_TREM2_tiab (hasabstract),pdat,2012,2,2026-10-12T04:22:44.898384+00:00
+corpus_query_AND_TREM2_tiab (hasabstract),edat,2012,2,2026-10-12T04:22:44.898384+00:00
+corpus_query_AND_TREM2_tiab (hasabstract),pdat,2013,26,2026-10-12T04:22:44.898384+00:00
+corpus_query_AND_TREM2_tiab (hasabstract),edat,2013,23,2026-10-12T04:22:44.898384+00:00
+corpus_query_AND_TREM2_tiab (hasabstract),pdat,2014,43,2026-10-12T04:22:44.898384+00:00
