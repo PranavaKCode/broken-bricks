@@ -1,0 +1,16 @@
+{
+ "label": "lamp5",
+ "variant": "all",
+ "n_nuclei_sampled": 39517,
+ "n_donors": 82,
+ "n_genes_tested": 18238,
+ "n_nuclei_available": 39517,
+ "nuclei_per_donor_sampled_min_med_max": [
+  68,
+  470.5,
+  1276
+ ],
+ "top_red_rho": 0.4993524232431081,
+ "top_blue_rho": -0.7474994830269589,
+ "seconds": 294.7
+}

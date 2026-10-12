@@ -1,0 +1,11 @@
+{
+ "genes_up": 10,
+ "genes_up_p_one_sided_lt_005": 0,
+ "mean_log2fc_genes": -0.00856617972357525,
+ "module_sum_log2fc": 0.055502145215812586,
+ "module_sum_ci": [
+  -0.1824162141454736,
+  0.2934205045770988
+ ],
+ "module_sum_p_one_sided": 0.3237516707223646
+}

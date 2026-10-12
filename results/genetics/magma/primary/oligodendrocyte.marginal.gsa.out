@@ -1,0 +1,12 @@
+# TOTAL_GENES = 18380
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+VARIABLE                        TYPE  NGENES         BETA     BETA_STD           SE            P
+Oligodendrocyte_blue             SET      98    -0.019895   -0.0014489     0.087005      0.59043
+Oligodendrocyte_blue_nosad       SET     132    -0.016135   -0.0013625     0.081561      0.57841
+Oligodendrocyte_blue_pc          SET     187     0.089642    0.0089961     0.067965     0.093604
+Oligodendrocyte_blue_wd          SET     135       0.1062    0.0090684     0.086661      0.11021
+Oligodendrocyte_red              SET     151    -0.058307   -0.0052633     0.074107      0.78429
+Oligodendrocyte_red_nosad        SET     157      0.02891    0.0026606     0.072805      0.34565
+Oligodendrocyte_red_pc           SET     180    -0.022988   -0.0022638     0.068521      0.63137
+Oligodendrocyte_red_wd           SET     177    -0.038257   -0.0037362     0.072722      0.70058

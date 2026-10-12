@@ -1,0 +1,1 @@
+{"pair_A": "H20.33.011", "pair_B": "H21.33.013", "rule": "fallback: no donor is discordant in both directions; largest opposite |zG - zN| among pairs with |CPS difference| < 0.05", "tier": "allcols"}

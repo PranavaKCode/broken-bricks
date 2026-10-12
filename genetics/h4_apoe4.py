@@ -125,7 +125,10 @@ try:
         dds = DeseqDataSet(counts=counts_df.round().astype(int), metadata=md, design="~ apoe4 + CPS + age + sex_male + pmi", refit_cooks=False, fit_type="mean", quiet=True)
         dds.obs["size_factors"] = sf
         dds.layers["normed_counts"] = dds.X / sf[:, None]
-        dds.fit_genewise_dispersions(); dds.fit_dispersion_trend(); dds.fit_dispersion_prior(); dds.fit_MAP_dispersions(); dds.fit_LFC()
+        dds.var["_normed_means"] = dds.layers["normed_counts"].mean(axis=0)
+        with np.errstate(divide="ignore"):
+            dds.logmeans = np.log(np.asarray(dds.X, float)).mean(axis=0)
+        dds.fit_genewise_dispersions(); dds.fit_dispersion_trend(); dds.fit_dispersion_prior(); dds.fit_MAP_dispersions(); dds.fit_LFC(); dds.calculate_cooks()
         ds = DeseqStats(dds, contrast=["apoe4", "carrier", "noncarrier"], quiet=True, alt_hypothesis="greaterAbs")
         ds.summary()
         r = ds.results_df.copy(); r.insert(0, "feature", r.index); r["analysis"] = tag

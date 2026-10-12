@@ -1,0 +1,16 @@
+{
+ "label": "l23it",
+ "variant": "all",
+ "n_nuclei_sampled": 50000,
+ "n_donors": 84,
+ "n_genes_tested": 21770,
+ "n_nuclei_available": 301373,
+ "nuclei_per_donor_sampled_min_med_max": [
+  71,
+  575.5,
+  1596
+ ],
+ "top_red_rho": 0.5392528095575578,
+ "top_blue_rho": -0.7578393165181436,
+ "seconds": 809.8
+}

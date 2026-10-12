@@ -1,0 +1,45 @@
+# TOTAL_GENES = 16339
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_VARIABLES = Astrocyte (covar)
+VARIABLE                  TYPE  MODEL  NGENES         BETA     BETA_STD           SE            P
+Astrocyte                COVAR      1   16339   -0.0035271   -0.0035247    0.0081637      0.66571
+Astrocyte_blue             SET      1      72    0.0073598    0.0004875      0.10589      0.47229
+Astrocyte                COVAR      2   16339   -0.0037489   -0.0037464    0.0081639      0.64609
+Astrocyte_blue_nosad       SET      2     129      0.11784     0.010429     0.081838     0.074961
+Astrocyte                COVAR      3   16339   -0.0037003   -0.0036978    0.0081645      0.65039
+Astrocyte_blue_pc          SET      3     185     0.073066    0.0077309     0.070231      0.14909
+Astrocyte                COVAR      4   16339   -0.0025545   -0.0025528    0.0081856      0.75499
+Astrocyte_blue_wd          SET      4     141     -0.13331    -0.012331      0.08534      0.94085
+Astrocyte                COVAR      5   16339   -0.0046649   -0.0046617    0.0081732      0.56818
+Astrocyte_red              SET      5     158      0.19973     0.019546     0.077667    0.0050668
+Astrocyte                COVAR      6   16339   -0.0038531   -0.0038505    0.0081729      0.63732
+Astrocyte_red_nosad        SET      6     166     0.061412    0.0061587     0.074764      0.20571
+Astrocyte                COVAR      7   16339   -0.0042557   -0.0042528    0.0081744      0.60264
+Astrocyte_red_pc           SET      7     183      0.11925      0.01255     0.072443     0.049874
+Astrocyte                COVAR      8   16339   -0.0029326   -0.0029306     0.008237      0.72183
+Astrocyte_red_wd           SET      8     174    -0.042011   -0.0043123     0.078929      0.70272
+Astrocyte                COVAR      9   16339   -0.0041979    -0.004195    0.0081524      0.60661
+Microglia                COVAR      9   16339     0.051609     0.051545    0.0081356   2.3097e-10
+Astrocyte                COVAR     10   16339    -0.010036     -0.01003    0.0084339      0.23406
+Oligodendrocyte          COVAR     10   16339     0.025948     0.026019    0.0084826    0.0022252
+Astrocyte                COVAR     11   16339  -0.00069011  -0.00068964    0.0087417      0.93708
+OPC                      COVAR     11   16339   -0.0079357   -0.0079353    0.0087748      0.36581
+Astrocyte                COVAR     12   16339   -0.0039565   -0.0039538    0.0081687      0.62814
+Sst                      COVAR     12   16339    -0.011144    -0.011107    0.0081341      0.17068
+Astrocyte                COVAR     13   16339   -0.0029626   -0.0029606    0.0081664      0.71677
+Pvalb                    COVAR     13   16339    -0.016541    -0.016518    0.0081423     0.042227
+Astrocyte                COVAR     14   16339   -0.0033855   -0.0033832    0.0081636      0.67836
+Vip                      COVAR     14   16339   -0.0087086   -0.0086844    0.0081055      0.28266
+Astrocyte                COVAR     15   16339   -0.0034272   -0.0034249    0.0081745      0.67503
+Lamp5                    COVAR     15   16339   -0.0017428   -0.0017391      0.00821      0.83189
+Astrocyte                COVAR     16   16339   -0.0037815   -0.0037789    0.0081642      0.64324
+L23IT                    COVAR     16   16339    -0.012158    -0.012175    0.0080803      0.13245
+Astrocyte                COVAR     17   16339   -0.0042348   -0.0042319    0.0081705      0.60426
+L4IT                     COVAR     17   16339    -0.015384    -0.015383    0.0080631     0.056411
+Astrocyte                COVAR     18   16339   -0.0041978   -0.0041949    0.0081659      0.60721
+L5IT                     COVAR     18   16339    -0.019807    -0.019824    0.0080496     0.013879
+Astrocyte                COVAR     19   16339   -0.0034553    -0.003453    0.0081634       0.6721
+Endothelial              COVAR     19   16339    0.0053361     0.005296    0.0080417      0.50699
+Astrocyte                COVAR     20   16339   -0.0018881   -0.0018868     0.008266      0.81933
+VLMC                     COVAR     20   16339    -0.010216    -0.010172    0.0081663      0.21097

@@ -1,0 +1,16 @@
+{
+ "label": "microglia",
+ "variant": "all",
+ "n_nuclei_sampled": 38905,
+ "n_donors": 84,
+ "n_genes_tested": 16173,
+ "n_nuclei_available": 38905,
+ "nuclei_per_donor_sampled_min_med_max": [
+  79,
+  394.5,
+  1077
+ ],
+ "top_red_rho": 0.5415004556039282,
+ "top_blue_rho": -0.47376733826060524,
+ "seconds": 27.7
+}

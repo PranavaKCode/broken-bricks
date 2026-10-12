@@ -1,0 +1,14 @@
+{
+ "n_rows": 84,
+ "pc_var_explained": [
+  0.5951405668549136,
+  0.08375801405671382
+ ],
+ "n_missing_scores_total": 12,
+ "profile_counts": {
+  "near CPS expectation": 30,
+  "healthier than CPS predicts in most cell types": 27,
+  "sicker than CPS predicts in most cell types": 26,
+  "healthier than CPS predicts in most cell types; glia relatively sicker than neurons": 1
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "genes_in_covariate_file": 17019,
+ "rows_mtg_aged": {
+  "Microglia": 1134,
+  "Astrocyte": 1128,
+  "Oligodendrocyte": 1070,
+  "OPC": 666,
+  "Sst": 2904,
+  "Pvalb": 2443,
+  "Vip": 3360,
+  "Lamp5": 1143,
+  "L23IT": 1954,
+  "L4IT": 813,
+  "L5IT": 1391,
+  "Endothelial": 415,
+  "VLMC": 588
+ },
+ "nuclei_mtg_aged": {
+  "Microglia": 36686,
+  "Astrocyte": 65450,
+  "Oligodendrocyte": 90578,
+  "OPC": 28907,
+  "Sst": 44695,
+  "Pvalb": 78746,
+  "Vip": 89661,
+  "Lamp5": 36966,
+  "L23IT": 289940,
+  "L4IT": 147987,
+  "L5IT": 105259,
+  "Endothelial": 1872,
+  "VLMC": 3932
+ },
+ "top_specific_genes_check": {
+  "Microglia": [
+   "MS4A14",
+   "CD86",
+   "MS4A6A",
+   "VSIG4",
+   "RGS1",
+   "ADORA3",
+   "RGS18",
+   "ANKRD22"
+  ],
+  "Oligodendrocyte": [
+   "OPALIN",
+   "ST18",
+   "FOLH1",
+   "LRP2",
+   "CD22",
+   "TMEM235",
+   "CPB1",
+   "NKX6-2"
+  ],
+  "Sst": [
+   "SST",
+   "QRFPR",
+   "NMU",
+   "OTOF",
+   "FBN2",
+   "C8orf87",
+   "SLC17A8",
+   "PDCL2"
+  ]
+ },
+ "seconds": 148.1
+}

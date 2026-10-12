@@ -1,0 +1,46 @@
+# MEAN_SAMPLE_SIZE = 5279
+# TOTAL_GENES = 16339
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_VARIABLES = Oligodendrocyte (covar)
+VARIABLE                        TYPE  MODEL  NGENES         BETA     BETA_STD           SE            P
+Oligodendrocyte                COVAR      1   16339     0.023346      0.02341    0.0082401    0.0046154
+Oligodendrocyte_blue             SET      1      98    -0.031307   -0.0024174      0.08912      0.63731
+Oligodendrocyte                COVAR      2   16339     0.023452     0.023516    0.0082626     0.004542
+Oligodendrocyte_blue_nosad       SET      2     132    -0.030916   -0.0027676     0.083582      0.64426
+Oligodendrocyte                COVAR      3   16339     0.022323     0.022384    0.0082563    0.0068645
+Oligodendrocyte_blue_pc          SET      3     187     0.071393    0.0075941     0.069282       0.1514
+Oligodendrocyte                COVAR      4   16339     0.021999     0.022059    0.0082994    0.0080423
+Oligodendrocyte_blue_wd          SET      4     135     0.087443    0.0079157     0.088813      0.16242
+Oligodendrocyte                COVAR      5   16339     0.023283     0.023348    0.0082212    0.0046305
+Oligodendrocyte_red              SET      5     151    -0.053049   -0.0050763     0.074675      0.76127
+Oligodendrocyte                COVAR      6   16339     0.022956      0.02302    0.0082216    0.0052418
+Oligodendrocyte_red_nosad        SET      6     157     0.059149    0.0057703      0.07326      0.20973
+Oligodendrocyte                COVAR      7   16339     0.023172     0.023236    0.0082215    0.0048314
+Oligodendrocyte_red_pc           SET      7     180    -0.011405   -0.0011905     0.068898      0.56574
+Oligodendrocyte                COVAR      8   16339      0.02339     0.023455    0.0082237    0.0044579
+Oligodendrocyte_red_wd           SET      8     177    -0.063434   -0.0065666     0.073152      0.80706
+Oligodendrocyte                COVAR      9   16339     0.018543     0.018594    0.0082425     0.024484
+Microglia                      COVAR      9   16339     0.049998     0.049936    0.0081782   9.9911e-10
+Oligodendrocyte                COVAR     10   16339     0.025725     0.025796    0.0084938    0.0024608
+Astrocyte                      COVAR     10   16339    -0.010185    -0.010178     0.008445      0.22781
+Oligodendrocyte                COVAR     11   16339     0.030193     0.030276    0.0088298   0.00062926
+OPC                            COVAR     11   16339    -0.019244    -0.019243    0.0088124     0.028998
+Oligodendrocyte                COVAR     12   16339     0.023783     0.023849    0.0082295    0.0038584
+Sst                            COVAR     12   16339     -0.01215    -0.012109    0.0081476      0.13591
+Oligodendrocyte                COVAR     13   16339     0.024468     0.024536    0.0082388    0.0029841
+Pvalb                          COVAR     13   16339    -0.018294    -0.018269    0.0081673      0.02511
+Oligodendrocyte                COVAR     14   16339     0.023749     0.023814    0.0082331    0.0039256
+Vip                            COVAR     14   16339    -0.010075    -0.010047    0.0081276      0.21512
+Oligodendrocyte                COVAR     15   16339     0.023622     0.023688    0.0082687    0.0042847
+Lamp5                          COVAR     15   16339   -0.0044135   -0.0044039    0.0082569      0.59299
+Oligodendrocyte                COVAR     16   16339     0.023857     0.023922    0.0082299     0.003752
+L23IT                          COVAR     16   16339    -0.013155    -0.013174    0.0080986      0.10433
+Oligodendrocyte                COVAR     17   16339      0.02385     0.023916    0.0082254    0.0037429
+L4IT                           COVAR     17   16339    -0.016034    -0.016032    0.0080706     0.046975
+Oligodendrocyte                COVAR     18   16339     0.023967     0.024033    0.0082235    0.0035686
+L5IT                           COVAR     18   16339    -0.020327    -0.020343    0.0080598     0.011681
+Oligodendrocyte                COVAR     19   16339     0.023041     0.023105      0.00822    0.0050684
+Endothelial                    COVAR     19   16339    0.0050078    0.0049701     0.008051      0.53394
+Oligodendrocyte                COVAR     20   16339       0.0239     0.023966    0.0082343    0.0037071
+VLMC                           COVAR     20   16339     -0.01195    -0.011899    0.0080883      0.13959

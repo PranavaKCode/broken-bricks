@@ -1,0 +1,16 @@
+{
+ "label": "vip",
+ "variant": "nosad",
+ "n_nuclei_sampled": 50000,
+ "n_donors": 73,
+ "n_genes_tested": 19467,
+ "n_nuclei_available": 89632,
+ "nuclei_per_donor_sampled_min_med_max": [
+  183,
+  662.0,
+  1347
+ ],
+ "top_red_rho": 0.5422374429223744,
+ "top_blue_rho": -0.7948907811921511,
+ "seconds": 101.9
+}

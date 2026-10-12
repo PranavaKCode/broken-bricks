@@ -1,0 +1,16 @@
+{
+ "label": "sst",
+ "variant": "nosad",
+ "n_nuclei_sampled": 43784,
+ "n_donors": 73,
+ "n_genes_tested": 18647,
+ "n_nuclei_available": 43784,
+ "nuclei_per_donor_sampled_min_med_max": [
+  88,
+  528.0,
+  1495
+ ],
+ "top_red_rho": 0.6255707762557078,
+ "top_blue_rho": -0.7313957793409848,
+ "seconds": 16.6
+}

@@ -1,0 +1,16 @@
+{
+ "label": "lamp5",
+ "variant": "nosad",
+ "n_nuclei_sampled": 36335,
+ "n_donors": 73,
+ "n_genes_tested": 18348,
+ "n_nuclei_available": 36335,
+ "nuclei_per_donor_sampled_min_med_max": [
+  90,
+  483.0,
+  1276
+ ],
+ "top_red_rho": 0.4700419597679871,
+ "top_blue_rho": -0.6857953844255213,
+ "seconds": 107.3
+}

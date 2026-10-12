@@ -432,6 +432,166 @@
    "H2_structure_criterion_B_pass": false,
    "H2_pass": false,
    "technical_axes_flagged": []
+  },
+  "techResid": {
+   "columns": [
+    "microglia",
+    "astrocyte",
+    "oligodendrocyte",
+    "opc",
+    "sst",
+    "pvalb",
+    "vip",
+    "lamp5",
+    "l23it",
+    "l4it",
+    "l5it"
+   ],
+   "n_columns": 11,
+   "glia_cols": [
+    "microglia",
+    "astrocyte",
+    "oligodendrocyte",
+    "opc"
+   ],
+   "neuron_cols": [
+    "sst",
+    "pvalb",
+    "vip",
+    "lamp5",
+    "l23it",
+    "l4it",
+    "l5it"
+   ],
+   "pa_n_donors": 79,
+   "pa_factors": 1,
+   "pa_eigenvalues": [
+    5.393553965434402,
+    1.1762840432166801,
+    1.0383326329772966,
+    0.8993577919985092,
+    0.6405692502435273,
+    0.5030796017261995,
+    0.39018817562867264,
+    0.31172153286427795,
+    0.2612356113949685,
+    0.22055688333844037,
+    0.16512051117702403
+   ],
+   "pa_null_p95": [
+    1.8344856789911372,
+    1.5778630647907932,
+    1.4156800431177334,
+    1.2643976587583514,
+    1.1469737788236367,
+    1.0423898781577805,
+    0.9427445530199302,
+    0.8474472139215528,
+    0.756369522764933,
+    0.6660567453233949,
+    0.5720466238999863
+   ],
+   "pa_pass": false,
+   "pa_var_explained_first3": [
+    0.4903230877667641,
+    0.10693491301969833,
+    0.09439387572520863
+   ],
+   "discordance": {
+    "variant": "all",
+    "tier": "techResid",
+    "n_donors_with_both": 84,
+    "n_discordant": 0,
+    "observed_rate": 0.0,
+    "perm_null_mean": 0.008845238095238095,
+    "perm_null_p95": 0.023809523809523808,
+    "perm_p": 1.0,
+    "relmatched_null_mean": 0.0,
+    "relmatched_null_p95": 0.0,
+    "relmatched_p": 1.0,
+    "corr_zG_zN": 0.630260660036226,
+    "n_glia_sicker_neuron_healthier": 0,
+    "n_neuron_sicker_glia_healthier": 0,
+    "criterion_B_pass": false,
+    "mean_resid_reliability_used": 0.9426073792144806
+   },
+   "n_pass_reliability_source": 11,
+   "H2_reliability_criterion_pass": true,
+   "H2_structure_criterion_A_pass": false,
+   "H2_structure_criterion_B_pass": false,
+   "H2_pass": false,
+   "technical_axes_flagged": [],
+   "sad_recovery": {
+    "variant": "all",
+    "tier": "techResid",
+    "matrix": "B",
+    "n_columns": 11,
+    "n_sad": 11,
+    "auc_robust_distance": 0.5429638854296388,
+    "precision_at_11": 0.2727272727272727,
+    "n_sad_in_top11": 3,
+    "perm_p": 0.32536746325367466,
+    "auc_mean_z": 0.9452054794520548
+   },
+   "H2b": {
+    "omnibus_F": 1.082785171173436,
+    "omnibus_p": 0.3805143742153636,
+    "delta_adj_r2": 0.00616951844853264,
+    "n": 83,
+    "abeta_minus_ptau_coef": 0.019728600047397907,
+    "abeta_minus_ptau_p": 0.8512057686600306,
+    "pass": false,
+    "predictors": {
+     "LATE": {
+      "coef": 0.19132017987522393,
+      "p": 0.08316528600786793,
+      "p_holm": 0.41582643003933967
+     },
+     "Lewy": {
+      "coef": -0.021027015526343368,
+      "p": 0.8366901298992078,
+      "p_holm": 1.0
+     },
+     "arteriolosclerosis": {
+      "coef": -0.04881902974327798,
+      "p": 0.6280886925482203,
+      "p_holm": 1.0
+     },
+     "microinfarcts_log1p": {
+      "coef": -0.01531695460824558,
+      "p": 0.8787452858849966,
+      "p_holm": 1.0
+     },
+     "CAA": {
+      "coef": 0.2326764797095217,
+      "p": 0.045795238849059075,
+      "p_holm": 0.2747714330943545
+     },
+     "ABeta_minus_pTau": {
+      "coef": 0.019728600047397907,
+      "p": 0.8512057686600306,
+      "p_holm": 1.0
+     }
+    }
+   },
+   "H2c": {
+    "variant": "all",
+    "tier": "techResid",
+    "outcome": "neuronal_composite_tier_columns(C5)",
+    "n_resilient": 11,
+    "n_demented": 31,
+    "mean_resilient": -0.5546895055432224,
+    "mean_demented": -0.0863797822339728,
+    "hedges_g_resilient_minus_demented": -0.5584230837223096,
+    "ci95_low_HO": -1.2565779802775348,
+    "ci95_high_HO": 0.13973181283291536,
+    "ci95_low_boot": -1.3767109863207312,
+    "ci95_high_boot": 0.010009388349044596,
+    "welch_t": -1.8105292170962386,
+    "welch_p_one_sided_less": 0.041929093868242596,
+    "perm_p_one_sided_less": 0.058894110588941104
+   },
+   "H2c_neuron_axis_tracks_technical": false
   }
  },
  "n_pass_reliability": 11,
@@ -452,5 +612,5 @@
   "multiome_frac": -0.1639666180672568,
   "seq_saturation": 0.41421484256353147
  },
- "seconds": 243.8
+ "seconds": 259.5
 }

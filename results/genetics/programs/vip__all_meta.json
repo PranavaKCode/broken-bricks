@@ -1,0 +1,16 @@
+{
+ "label": "vip",
+ "variant": "all",
+ "n_nuclei_sampled": 50000,
+ "n_donors": 83,
+ "n_genes_tested": 19386,
+ "n_nuclei_available": 95252,
+ "nuclei_per_donor_sampled_min_med_max": [
+  93,
+  593.0,
+  1253
+ ],
+ "top_red_rho": 0.5451912178330044,
+ "top_blue_rho": -0.8278041213916433,
+ "seconds": 732.6
+}

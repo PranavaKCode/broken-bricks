@@ -1,0 +1,16 @@
+{
+ "label": "sst",
+ "variant": "all",
+ "n_nuclei_sampled": 45822,
+ "n_donors": 82,
+ "n_genes_tested": 18578,
+ "n_nuclei_available": 45822,
+ "nuclei_per_donor_sampled_min_med_max": [
+  63,
+  485.0,
+  1495
+ ],
+ "top_red_rho": 0.6171787420685452,
+ "top_blue_rho": -0.7921372635804271,
+ "seconds": 298.0
+}

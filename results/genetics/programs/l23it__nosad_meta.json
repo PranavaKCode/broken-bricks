@@ -1,0 +1,16 @@
+{
+ "label": "l23it",
+ "variant": "nosad",
+ "n_nuclei_sampled": 50000,
+ "n_donors": 73,
+ "n_genes_tested": 21890,
+ "n_nuclei_available": 289200,
+ "nuclei_per_donor_sampled_min_med_max": [
+  178,
+  622.0,
+  1695
+ ],
+ "top_red_rho": 0.5205479452054793,
+ "top_blue_rho": -0.698537578674565,
+ "seconds": 92.1
+}

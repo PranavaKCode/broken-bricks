@@ -1,0 +1,17 @@
+# TOTAL_GENES = 16275
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+VARIABLE             TYPE  NGENES         BETA     BETA_STD           SE            P
+Microglia           COVAR   16275     0.049917     0.049877    0.0080351   5.3622e-10
+Astrocyte           COVAR   16275   -0.0049037   -0.0049039    0.0080646      0.54316
+Oligodendrocyte     COVAR   16275     0.024299     0.024379    0.0081077    0.0027309
+OPC                 COVAR   16275   -0.0075358   -0.0075389     0.008091      0.35167
+Sst                 COVAR   16275    -0.010341     -0.01031    0.0080301      0.19785
+Pvalb               COVAR   16275    -0.015287     -0.01528    0.0080354     0.057134
+Vip                 COVAR   16275   -0.0083877   -0.0083682    0.0080057      0.29479
+Lamp5               COVAR   16275   -0.0032259    -0.003219     0.008108      0.69074
+L23IT               COVAR   16275    -0.010506    -0.010529    0.0079756      0.18779
+L4IT                COVAR   16275    -0.014666    -0.014674    0.0079552     0.065267
+L5IT                COVAR   16275    -0.018403    -0.018431    0.0079455     0.020562
+Endothelial         COVAR   16275     0.003681    0.0036551    0.0079466      0.64321
+VLMC                COVAR   16275     -0.01118    -0.011141    0.0079685      0.16062

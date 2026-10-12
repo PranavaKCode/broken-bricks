@@ -1,3 +1,4 @@
 variant,tier,n_donors_with_both,n_discordant,observed_rate,perm_null_mean,perm_null_p95,perm_p,relmatched_null_mean,relmatched_null_p95,relmatched_p,corr_zG_zN,n_glia_sicker_neuron_healthier,n_neuron_sicker_glia_healthier,criterion_B_pass,mean_resid_reliability_used
 all,allcols,84,0,0.0,0.0085,0.023809523809523808,1.0,0.0,0.0,1.0,0.7589897679373561,0,0,False,0.9426073792144806
 all,techNAM,84,0,0.0,0.008017857142857143,0.023809523809523808,1.0,0.0,0.0,1.0,0.5637945795296785,0,0,False,0.9017519356993448
+all,techResid,84,0,0.0,0.008845238095238095,0.023809523809523808,1.0,0.0,0.0,1.0,0.630260660036226,0,0,False,0.9426073792144806

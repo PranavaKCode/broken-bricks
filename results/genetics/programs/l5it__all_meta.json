@@ -1,0 +1,16 @@
+{
+ "label": "l5it",
+ "variant": "all",
+ "n_nuclei_sampled": 50000,
+ "n_donors": 83,
+ "n_genes_tested": 22648,
+ "n_nuclei_available": 108497,
+ "nuclei_per_donor_sampled_min_med_max": [
+  55,
+  596.0,
+  1440
+ ],
+ "top_red_rho": 0.5608496704588387,
+ "top_blue_rho": -0.7353773447603932,
+ "seconds": 90.6
+}

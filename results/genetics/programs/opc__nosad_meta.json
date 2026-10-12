@@ -1,0 +1,16 @@
+{
+ "label": "opc",
+ "variant": "nosad",
+ "n_nuclei_sampled": 28384,
+ "n_donors": 72,
+ "n_genes_tested": 18160,
+ "n_nuclei_available": 28384,
+ "nuclei_per_donor_sampled_min_med_max": [
+  74,
+  357.5,
+  1892
+ ],
+ "top_red_rho": 0.4399961412309473,
+ "top_blue_rho": -0.38309101813760366,
+ "seconds": 8.8
+}

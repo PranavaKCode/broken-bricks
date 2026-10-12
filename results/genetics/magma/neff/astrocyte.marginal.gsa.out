@@ -1,0 +1,13 @@
+# MEAN_SAMPLE_SIZE = 34305
+# TOTAL_GENES = 18380
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+VARIABLE                  TYPE  NGENES         BETA     BETA_STD           SE            P
+Astrocyte_blue             SET      72     0.037664    0.0023528      0.10477      0.35961
+Astrocyte_blue_nosad       SET     130      0.13279     0.011128     0.079938     0.048354
+Astrocyte_blue_pc          SET     185     0.086805    0.0086651     0.069005      0.10421
+Astrocyte_blue_wd          SET     141     -0.14678    -0.012807     0.084045      0.95963
+Astrocyte_red              SET     158      0.19935     0.018404     0.076663    0.0046615
+Astrocyte_red_nosad        SET     166     0.071115     0.006728     0.073565      0.16686
+Astrocyte_red_pc           SET     183      0.11897     0.011812     0.071509     0.048092
+Astrocyte_red_wd           SET     174    -0.040773   -0.0039484     0.077934      0.69957

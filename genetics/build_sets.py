@@ -3,7 +3,7 @@
 
 Reads <ROOT>/results/day3/programs/<label>__<variant>_genes.csv, maps genes to NCBI Gene IDs (genemap.py), and writes
   programs_mapped/<label>__<variant>_genes_mapped.csv       tables with entrez IDs
-  sets/<label>.sets.txt                                    MAGMA long format (entrez <tab> set), all kinds of set for that subclass
+  sets/<label>.sets.txt                                    MAGMA long format (set <tab> entrez; MAGMA's default column order), all kinds of set for that subclass
   programs.gmt                                             symbols, all sets (deliverable)
   program_membership.csv, program_summary.csv              long format with rho; per set: sizes, mapped counts, overlap with the primary program
 Set names: <Covar>_red / _blue (primary, donor-blocked), _red_wd/_blue_wd (within-donor), _red_pc/_blue_pc (protein-coding), _red_nosad/_blue_nosad.

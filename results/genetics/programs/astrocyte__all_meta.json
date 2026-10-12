@@ -1,0 +1,16 @@
+{
+ "label": "astrocyte",
+ "variant": "all",
+ "n_nuclei_sampled": 50000,
+ "n_donors": 84,
+ "n_genes_tested": 18202,
+ "n_nuclei_available": 67419,
+ "nuclei_per_donor_sampled_min_med_max": [
+  83,
+  509.5,
+  1699
+ ],
+ "top_red_rho": 0.5201174445681888,
+ "top_blue_rho": -0.7124162823634989,
+ "seconds": 447.5
+}

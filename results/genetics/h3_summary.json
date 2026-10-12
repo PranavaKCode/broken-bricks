@@ -1,0 +1,71 @@
+{
+ "tags": [
+  "primary",
+  "neff",
+  "noapoe"
+ ],
+ "primary_microglia_property": {
+  "beta": 0.051554,
+  "se": 0.0081347,
+  "p": 1.201e-10,
+  "ngenes": 16339
+ },
+ "neff_microglia_property": {
+  "beta": 0.051675,
+  "se": 0.0081453,
+  "p": 1.151e-10,
+  "ngenes": 16339
+ },
+ "noapoe_microglia_property": {
+  "beta": 0.049917,
+  "se": 0.0080351,
+  "p": 2.6811e-10,
+  "ngenes": 16275
+ },
+ "positive_control_pass": true,
+ "primary_microglia_red_conditional": {
+  "beta": 0.052026,
+  "se": 0.073878,
+  "p": 0.24065,
+  "ngenes_in_set": 167
+ },
+ "primary_microglia_red_marginal": {
+  "beta": 0.064532,
+  "se": 0.072742,
+  "p": 0.18751
+ },
+ "primary_neuronal_min_conditional_p": 0.11241,
+ "primary_neuronal_min_holm_p": 1.0,
+ "primary_neuronal_nominal_hits": [],
+ "primary_prediction_holds": true,
+ "neff_microglia_red_conditional": {
+  "beta": 0.051653,
+  "se": 0.073975,
+  "p": 0.24251,
+  "ngenes_in_set": 167
+ },
+ "neff_microglia_red_marginal": {
+  "beta": 0.063639,
+  "se": 0.072828,
+  "p": 0.19111
+ },
+ "neff_neuronal_min_conditional_p": 0.11419,
+ "neff_neuronal_min_holm_p": 1.0,
+ "neff_neuronal_nominal_hits": [],
+ "neff_prediction_holds": true,
+ "noapoe_microglia_red_conditional": {
+  "beta": 0.058464,
+  "se": 0.072882,
+  "p": 0.21123,
+  "ngenes_in_set": 167
+ },
+ "noapoe_microglia_red_marginal": {
+  "beta": 0.069497,
+  "se": 0.071823,
+  "p": 0.16662
+ },
+ "noapoe_neuronal_min_conditional_p": 0.11098,
+ "noapoe_neuronal_min_holm_p": 1.0,
+ "noapoe_neuronal_nominal_hits": [],
+ "noapoe_prediction_holds": true
+}

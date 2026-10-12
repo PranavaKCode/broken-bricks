@@ -1,0 +1,16 @@
+{
+ "label": "opc",
+ "variant": "all",
+ "n_nuclei_sampled": 30393,
+ "n_donors": 83,
+ "n_genes_tested": 18128,
+ "n_nuclei_available": 30393,
+ "nuclei_per_donor_sampled_min_med_max": [
+  58,
+  334.0,
+  1892
+ ],
+ "top_red_rho": 0.43919230930691394,
+ "top_blue_rho": -0.5962207517648088,
+ "seconds": 278.5
+}

@@ -1,0 +1,16 @@
+{
+ "label": "oligodendrocyte",
+ "variant": "all",
+ "n_nuclei_sampled": 50000,
+ "n_donors": 81,
+ "n_genes_tested": 15879,
+ "n_nuclei_available": 105599,
+ "nuclei_per_donor_sampled_min_med_max": [
+  79,
+  491.0,
+  1958
+ ],
+ "top_red_rho": 0.5673667570009033,
+ "top_blue_rho": -0.564137308039747,
+ "seconds": 46.1
+}

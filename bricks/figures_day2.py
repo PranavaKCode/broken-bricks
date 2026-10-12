@@ -29,8 +29,8 @@ LAB = {"microglia": "Microglia", "astrocyte": "Astrocyte", "oligodendrocyte": "O
 GLIA = ["microglia", "astrocyte", "oligodendrocyte", "opc"]; NEUR = ["sst", "pvalb", "vip", "lamp5", "l23it", "l4it", "l5it"]
 ORDER = GLIA + NEUR
 THEMES = {
-    "light": dict(bg="#fcfcfb", fg="#0b0b0b", fg2="#52514e", grid="#e6e5e1", mid="#f0efec", blue="#1d5db5", red="#c5302c", seq=["#f3efe6", "#7a5195"], grey="#d9d8d3", amber="#b8860b"),
-    "dark": dict(bg="#1a1a19", fg="#ffffff", fg2="#c3c2b7", grid="#2e2e2c", mid="#383835", blue="#4b98f2", red="#f06c6a", seq=["#2b2733", "#b79ad6"], grey="#3f3f3c", amber="#e0b84a"),
+    "light": dict(bg="#fcfcfb", fg="#0b0b0b", fg2="#52514e", grid="#e6e5e1", mid="#f0efec", blue="#1d5db5", red="#c5302c", seq=["#f3efe6", "#7a5195"], grey="#d9d8d3", amber="#b8860b", cat=["#eb6834", "#1baf7a"]),
+    "dark": dict(bg="#1a1a19", fg="#ffffff", fg2="#c3c2b7", grid="#2e2e2c", mid="#383835", blue="#4b98f2", red="#f06c6a", seq=["#2b2733", "#b79ad6"], grey="#3f3f3c", amber="#e0b84a", cat=["#d95926", "#199e70"]),
 }
 def style(theme):
     t = THEMES[theme]
@@ -50,13 +50,13 @@ def fig_matrix(theme):
     t = style(theme)
     n = len(d)
     fig = plt.figure(figsize=(14.5, 11.5))
-    gs = fig.add_gridspec(1, 5, width_ratios=[0.5, 0.34, 5.6, 5.6, 0.12], wspace=0.06, left=0.045, right=0.95, top=0.88, bottom=0.12)
+    gs = fig.add_gridspec(1, 5, width_ratios=[0.5, 0.34, 5.6, 5.6, 0.12], wspace=0.06, left=0.045, right=0.95, top=0.83, bottom=0.12)
     aC = fig.add_subplot(gs[0]); aF = fig.add_subplot(gs[1]); aB = fig.add_subplot(gs[2]); aZ = fig.add_subplot(gs[3]); aK = fig.add_subplot(gs[4])
     y = np.arange(n)
     # CPS bar
     aC.barh(y, d["CPS_Local"].values, color=t["fg2"], height=0.8)
     aC.set_ylim(n - 0.5, -0.5); aC.invert_xaxis(); aC.set_xlim(0.85, 0)
-    aC.set_yticks([]); aC.set_xticks([0, 0.4, 0.8]); aC.set_xlabel("CPS_Local", fontsize=9)
+    aC.set_yticks([]); aC.set_xticks([0, 0.8]); aC.tick_params(labelsize=8); aC.set_xlabel("CPS_Local", fontsize=9)
     for s in ["top", "right", "left"]: aC.spines[s].set_visible(False)
     # flag strip: severe, resilient, demented
     aF.set_xlim(-0.5, 2.5); aF.set_ylim(n - 0.5, -0.5)
@@ -78,18 +78,19 @@ def fig_matrix(theme):
         a_.set_xticklabels([LAB[l] + (" *" if l in retained else "") for l in ORDER], rotation=50, ha="left", fontsize=9)
         a_.xaxis.tick_top(); a_.set_yticks([]); a_.tick_params(length=0)
         a_.axvline(len(GLIA) - 0.5, color=t["bg"], lw=3)
-        a_.set_title(ttl, fontsize=9.5, loc="left", color=t["fg2"], pad=62)
+        a_.set_title(ttl, fontsize=9, loc="left", color=t["fg2"], pad=70)
         for s in a_.spines.values(): s.set_visible(False)
     # colorbars
     cax = fig.add_axes([0.07, 0.065, 0.2, 0.012]); cb = fig.colorbar(im1, cax=cax, orientation="horizontal"); cb.set_label("B (predicted CPS)", fontsize=8); cb.outline.set_visible(False)
     cax2 = fig.add_axes([0.52, 0.065, 0.2, 0.012]); cb2 = fig.colorbar(im2, cax=cax2, orientation="horizontal"); cb2.set_label("residual z (blue healthier, red sicker than CPS predicts)", fontsize=8); cb2.outline.set_visible(False)
     for c_ in (cb, cb2): c_.ax.tick_params(labelsize=8, length=0)
     aK.axis("off")
-    fig.text(0.045, 0.955, "Broken Bricks: 84 donors by 11 cell types, ordered by overall pathology (CPS_Local, highest at top)", fontsize=13, ha="left", color=t["fg"])
-    fig.text(0.045, 0.932, f"Each cell is one donor's score in one cell type. Grey = donor has < 50 nuclei of that type. * = column passes the preregistered filter "
-             f"(split-half r >= 0.6, out-of-fold rho > 0.4, P < 0.01). Residual panel: tier '{args.tier}', matrix {'techNAM' if args.zsrc == 'Ztech' else 'primary NAM'}.", fontsize=8.5, ha="left", color=t["fg2"])
-    fig.text(0.045, 0.015, "Squares: SAD = SEA-AD Severely Affected Donor; Res. = High-ADNC donor without dementia; Disc. = discordant (glia and neuron residual of opposite sign, both |z| > 1.5). "
-             "Residual columns track sequencing saturation (see h2_technical_regression.csv): exploratory, not a claim.", fontsize=7.5, ha="left", color=t["fg2"])
+    fig.text(0.045, 0.985, "Broken Bricks: 84 donors by 11 cell types, ordered by overall pathology (CPS_Local, highest at top)", fontsize=13, ha="left", va="top", color=t["fg"])
+    fig.text(0.045, 0.958, f"Each cell is one donor's score in one cell type. Blank = donor has < 50 nuclei of that type. * = column passes the preregistered filter "
+             f"(split-half r >= 0.6, out-of-fold rho > 0.4, P < 0.01).\n"
+             f"Residual panel: tier '{args.tier}', {'techNAM' if args.zsrc == 'Ztech' else 'primary NAM'}. The preregistered test of H2 did not pass: the residuals are mostly one shared axis, not separate bricks.", fontsize=8.5, ha="left", va="top", color=t["fg2"])
+    fig.text(0.045, 0.015, "Squares: SAD = SEA-AD Severely Affected Donor; Res. = High-ADNC donor without dementia; Disc. = discordant (glia and neuron residual of opposite sign, both |z| > 1.5).\n"
+             "Residual columns track sequencing saturation (see h2_technical_regression.csv): exploratory, not a claim.", fontsize=7.5, ha="left", va="bottom", color=t["fg2"])
     fig.savefig(os.path.join(args.out, f"fig2_brick_matrix_{theme}.png"), dpi=170)
     plt.close(fig)
 
@@ -120,7 +121,7 @@ def fig_pairs(theme):
     zg = d[f"zG__{tier}"]; zn = d[f"zN__{tier}"]; fl = d[f"discordant__{tier}"] == 1
     i, j, rule = pick_pair(tier)
     fig = plt.figure(figsize=(13.5, 6.2))
-    gs = fig.add_gridspec(1, 2, width_ratios=[1, 1.35], wspace=0.22, left=0.06, right=0.97, top=0.82, bottom=0.17)
+    gs = fig.add_gridspec(1, 2, width_ratios=[1, 1.35], wspace=0.22, left=0.06, right=0.97, top=0.82, bottom=0.2)
     a1 = fig.add_subplot(gs[0]); a2 = fig.add_subplot(gs[1])
     ok = zg.notna() & zn.notna()
     a1.axhline(0, color=t["grid"], lw=1); a1.axvline(0, color=t["grid"], lw=1)
@@ -133,26 +134,27 @@ def fig_pairs(theme):
     for k, nm in [(i, "A"), (j, "B")]:
         if k is not None:
             a1.scatter([zg[k]], [zn[k]], s=190, facecolors="none", edgecolors=t["fg"], linewidths=1.6, zorder=5)
-            a1.annotate(nm, (zg[k], zn[k]), xytext=(8, 8), textcoords="offset points", fontsize=11, color=t["fg"])
+            a1.annotate(nm, (zg[k], zn[k]), xytext=(11, 6), textcoords="offset points", fontsize=11, color=t["fg"])
     a1.set_xlabel("glia residual (z)  - sicker than CPS predicts →"); a1.set_ylabel("neuron residual (z)  - sicker than CPS predicts →")
-    a1.legend(frameon=False, fontsize=8, loc="lower left"); a1.set_title(f"{int(fl.sum())} of {int(ok.sum())} donors discordant (tier '{tier}')", loc="left", fontsize=10.5)
+    a1.legend(frameon=False, fontsize=8, loc="upper left"); a1.set_title(f"{int(fl.sum())} of {int(ok.sum())} donors discordant (tier '{tier}')", loc="left", fontsize=10.5)
     for s in ["top", "right"]: a1.spines[s].set_visible(False)
     if i is not None:
         x = np.arange(len(ORDER)); w = 0.38
         za = d.loc[i, [f"{args.zsrc}_{l}" for l in ORDER]].values.astype(float); zb = d.loc[j, [f"{args.zsrc}_{l}" for l in ORDER]].values.astype(float)
         a2.axhline(0, color=t["fg2"], lw=0.8)
-        a2.bar(x - w / 2, za, w, color=t["red"], label=f"A  {i}  (CPS {d.loc[i, 'CPS_Local']:.2f}, {d.loc[i, 'cognitive_status']})")
-        a2.bar(x + w / 2, zb, w, color=t["blue"], label=f"B  {j}  (CPS {d.loc[j, 'CPS_Local']:.2f}, {d.loc[j, 'cognitive_status']})")
+        a2.bar(x - w / 2, za, w, color=t["cat"][0], label=f"A  {i}  (CPS {d.loc[i, 'CPS_Local']:.2f}, {d.loc[i, 'cognitive_status']})")
+        a2.bar(x + w / 2, zb, w, color=t["cat"][1], label=f"B  {j}  (CPS {d.loc[j, 'CPS_Local']:.2f}, {d.loc[j, 'cognitive_status']})")
         a2.set_xticks(x); a2.set_xticklabels([LAB[l] for l in ORDER], rotation=40, ha="right", fontsize=9)
         a2.axvline(len(GLIA) - 0.5, color=t["grid"], lw=1)
         a2.text(1.5, a2.get_ylim()[1] * 0.92, "glia", ha="center", color=t["fg2"], fontsize=9); a2.text(7, a2.get_ylim()[1] * 0.92, "neurons", ha="center", color=t["fg2"], fontsize=9)
         a2.set_ylabel("residual z (sicker → / ← healthier than CPS predicts)")
         a2.legend(frameon=False, fontsize=8.5, loc="lower left")
-        a2.set_title("Two donors with nearly the same overall pathology, different bricks", loc="left", fontsize=10.5)
+        a2.set_title("Same CPS, largest glia-vs-neuron contrast (not discordance)", loc="left", fontsize=10)
         for s in ["top", "right"]: a2.spines[s].set_visible(False)
     fig.text(0.06, 0.95, "Same pathology score, different broken bricks?", fontsize=13, ha="left")
-    fig.text(0.06, 0.915, "Descriptive; residuals are not corrected for technical covariates unless the tier says techNAM. Donor IDs only; no individual is identified.", fontsize=8.5, color=t["fg2"], ha="left")
-    fig.text(0.06, 0.03, f"Pair rule: {rule}. Residual z-scores: ' {'techNAM' if args.zsrc == 'Ztech' else 'primary NAM'}'.", fontsize=8, color=t["fg2"], ha="left")
+    fig.text(0.06, 0.915, "Descriptive only. Preregistered H2 was not supported: no donor meets the discordance rule (opposite signs, both |z| > 1.5). Donor IDs only; no individual is identified.", fontsize=8.5, color=t["fg2"], ha="left")
+    fig.text(0.06, 0.012, f"Pair rule: {rule}.\n"
+             f"Residual z-scores: {'techNAM' if args.zsrc == 'Ztech' else 'primary NAM'}. Residual columns track sequencing saturation (h2_technical_regression.csv).", fontsize=8, color=t["fg2"], ha="left", va="bottom")
     fig.savefig(os.path.join(args.out, f"fig3_discordant_pairs_{theme}.png"), dpi=170)
     plt.close(fig)
     return i, j, rule

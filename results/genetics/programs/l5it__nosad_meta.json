@@ -1,0 +1,16 @@
+{
+ "label": "l5it",
+ "variant": "nosad",
+ "n_nuclei_sampled": 50000,
+ "n_donors": 73,
+ "n_genes_tested": 22787,
+ "n_nuclei_available": 102094,
+ "nuclei_per_donor_sampled_min_med_max": [
+  224,
+  654.0,
+  1550
+ ],
+ "top_red_rho": 0.520763914599531,
+ "top_blue_rho": -0.6047760088855978,
+ "seconds": 333.9
+}

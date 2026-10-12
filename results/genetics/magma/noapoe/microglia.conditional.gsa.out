@@ -1,0 +1,45 @@
+# TOTAL_GENES = 16275
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_VARIABLES = Microglia (covar)
+VARIABLE                  TYPE  MODEL  NGENES         BETA     BETA_STD           SE            P
+Microglia                COVAR      1   16275     0.049884     0.049845    0.0080361   5.5281e-10
+Microglia_blue             SET      1      96     0.030181    0.0023112     0.095735      0.37628
+Microglia                COVAR      2   16275      0.04993      0.04989    0.0080381   5.3885e-10
+Microglia_blue_nosad       SET      2     135   -0.0050827  -0.00046101     0.085294      0.52376
+Microglia                COVAR      3   16275      0.04993      0.04989    0.0080351    5.308e-10
+Microglia_blue_pc          SET      3     187    -0.070831   -0.0075489     0.069458      0.84607
+Microglia                COVAR      4   16275     0.048069     0.048031    0.0081207   3.3062e-09
+Microglia_blue_wd          SET      4     165      0.12428      0.01245     0.079265     0.058463
+Microglia                COVAR      5   16275      0.04948     0.049441    0.0080536   8.2643e-10
+Microglia_red              SET      5     167     0.058464     0.005892     0.072882      0.21123
+Microglia                COVAR      6   16275     0.049482     0.049442    0.0080548   8.3029e-10
+Microglia_red_nosad        SET      6     161     0.060079    0.0059461     0.077368      0.21872
+Microglia                COVAR      7   16275     0.049372     0.049332    0.0080568   9.1341e-10
+Microglia_red_pc           SET      7     182     0.064608    0.0067941     0.069911      0.17771
+Microglia                COVAR      8   16275     0.049166     0.049127    0.0080759   1.1719e-09
+Microglia_red_wd           SET      8     172     0.068086    0.0069626     0.073419      0.17688
+Microglia                COVAR      9   16275     0.049992     0.049953     0.008036   5.0743e-10
+Astrocyte                COVAR      9   16275    -0.005581   -0.0055811    0.0080549       0.4884
+Microglia                COVAR     10   16275     0.048102     0.048063    0.0080682   2.5516e-09
+Oligodendrocyte          COVAR     10   16275     0.019823     0.019888    0.0081328     0.014806
+Microglia                COVAR     11   16275     0.049768     0.049728    0.0080375   6.1015e-10
+OPC                      COVAR     11   16275    -0.006354   -0.0063567    0.0080829      0.43182
+Microglia                COVAR     12   16275     0.049926     0.049886    0.0082158   1.2562e-09
+Sst                      COVAR     12   16275   4.3162e-05   4.3031e-05    0.0082002       0.9958
+Microglia                COVAR     13   16275     0.048716     0.048677    0.0081427   2.2448e-09
+Pvalb                    COVAR     13   16275   -0.0074057   -0.0074022    0.0081332      0.36255
+Microglia                COVAR     14   16275     0.050586     0.050546    0.0082475    8.818e-10
+Vip                      COVAR     14   16275    0.0029551    0.0029483    0.0082068      0.71879
+Microglia                COVAR     15   16275     0.050681      0.05064     0.008138   4.8639e-10
+Lamp5                    COVAR     15   16275    0.0048608    0.0048504     0.008201      0.55338
+Microglia                COVAR     16   16275     0.049483     0.049443    0.0081388   1.2332e-09
+L23IT                    COVAR     16   16275   -0.0027091   -0.0027152    0.0080683      0.73705
+Microglia                COVAR     17   16275      0.04883     0.048792    0.0081692   2.3204e-09
+L4IT                     COVAR     17   16275   -0.0059584   -0.0059616    0.0080782      0.46077
+Microglia                COVAR     18   16275     0.048129     0.048091    0.0081617   3.7848e-09
+L5IT                     COVAR     18   16275    -0.010058    -0.010073    0.0080615      0.21219
+Microglia                COVAR     19   16275     0.051039     0.050998     0.008183   4.5801e-10
+Endothelial              COVAR     19   16275   -0.0058557   -0.0058144    0.0080822      0.46876
+Microglia                COVAR     20   16275      0.05143     0.051389    0.0080699   1.9097e-10
+VLMC                     COVAR     20   16275    -0.015961    -0.015905     0.007993     0.045851

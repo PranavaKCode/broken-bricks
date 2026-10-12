@@ -36,7 +36,11 @@ tags = [t for t in ["primary", "neff", "noapoe"] if os.path.isdir(f"{M}/{t}")]
 for tag in tags:
     f = f"{M}/{tag}/celltype.gsa.out"
     if os.path.exists(f):
-        df, meta = read_gsa(f); df.insert(0, "tag", tag); df["neglog10_p"] = -np.log10(df["P"]); prop.append(df)
+        df, meta = read_gsa(f); df.insert(0, "tag", tag)
+        # MAGMA reports covariate tests two-sided; the preregistered test is one-sided positive (A7 item 4, A10)
+        df["P_two_sided"] = df["P"]
+        df["P"] = np.where(df["BETA"] > 0, df["P_two_sided"] / 2, 1 - df["P_two_sided"] / 2)
+        df["neglog10_p"] = -np.log10(df["P"]); prop.append(df)
         direction = [m for m in meta if "DIRECTION" in m.upper() or "ONE-SIDED" in m.upper()]
     for lab, cv in COVAR.items():
         for kind in ["marginal", "conditional"]:
@@ -46,7 +50,7 @@ for tag in tags:
             df = df[df["TYPE"].astype(str).str.upper() == "SET"].copy() if "TYPE" in df else df
             df.insert(0, "tag", tag); df.insert(1, "subclass", cv); df.insert(2, "analysis", kind)
             df["neglog10_p"] = -np.log10(df["P"]); sets.append(df)
-prop = pd.concat(prop) if prop else pd.DataFrame(); sets = pd.concat(sets) if sets else pd.DataFrame()
+prop = pd.concat(prop, ignore_index=True) if prop else pd.DataFrame(); sets = pd.concat(sets, ignore_index=True) if sets else pd.DataFrame()
 if len(sets):
     sets["color"] = sets["VARIABLE"].str.extract(r"_(red|blue)")[0]
     sets["kind"] = sets["VARIABLE"].str.replace(r"^[A-Za-z0-9]+_(red|blue)_?", "", regex=True).replace("", "primary")
