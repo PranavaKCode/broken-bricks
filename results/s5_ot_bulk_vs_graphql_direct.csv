@@ -1,0 +1,12 @@
+item,value
+bulk_rows,2153.0
+graphql_direct_rows,2154.0
+matched,2153.0
+only_bulk,0.0
+only_graphql,1.0
+max_abs_diff,0.1822990287690589
+spearman,0.9999990606243686
+bulk_ge_0_5,170.0
+bulk_ge_0_7,47.0
+graphql_direct_ge_0_5,170.0
+graphql_direct_ge_0_7,47.0
