@@ -153,16 +153,16 @@ pilot = {1990: 0.138, 2000: 0.245, 2010: 0.334, 2020: 0.329, 2025: 0.310}
 rows = []
 for y, p in pilot.items():
     r = by.filter(pl.col("year") == y).to_dicts()[0]
-    rows.append(dict(check=f"amyloid_share_{y}", pilot=p, observed=r["amyloid_share"], observed_broad=r["amyloid_broad_share"], n_papers=r["n_papers"],
+    rows.append(dict(check=f"amyloid_share_{y}", pilot=str(p), observed=float(r["amyloid_share"]), observed_broad=r["amyloid_broad_share"], n_papers=r["n_papers"],
                      abs_diff_pp=100 * (r["amyloid_share"] - p), within_3pp=abs(r["amyloid_share"] - p) <= 0.03))
 pool = by.filter((pl.col("year") >= 2010) & (pl.col("year") <= 2025))
 pooled = pool["n_amyloid"].sum() / pool["n_papers"].sum()
-rows.append(dict(check="amyloid_share_pooled_2010_2025", pilot="0.30-0.35", observed=pooled, observed_broad=pool["n_amyloid_broad"].sum() / pool["n_papers"].sum(),
+rows.append(dict(check="amyloid_share_pooled_2010_2025", pilot="0.30-0.35", observed=float(pooled), observed_broad=pool["n_amyloid_broad"].sum() / pool["n_papers"].sum(),
                  n_papers=pool["n_papers"].sum(), abs_diff_pp=None, within_3pp=0.30 <= pooled <= 0.35))
 t12 = by.filter(pl.col("year") == 2012)["n_trem2_flag"].item(); t13 = by.filter(pl.col("year") == 2013)["n_trem2_flag"].item()
-rows.append(dict(check="trem2_flag_2012", pilot=4, observed=t12, observed_broad=None, n_papers=None, abs_diff_pp=None, within_3pp=2 <= t12 <= 8))
-rows.append(dict(check="trem2_flag_2013", pilot=39, observed=t13, observed_broad=None, n_papers=None, abs_diff_pp=None, within_3pp=30 <= t13 <= 50))
-rows.append(dict(check="trem2_ratio_2013_over_2012", pilot=39 / 4, observed=t13 / max(t12, 1), observed_broad=None, n_papers=None, abs_diff_pp=None, within_3pp=(t13 / max(t12, 1)) >= 5))
+rows.append(dict(check="trem2_flag_2012", pilot="4", observed=float(t12), observed_broad=None, n_papers=None, abs_diff_pp=None, within_3pp=2 <= t12 <= 8))
+rows.append(dict(check="trem2_flag_2013", pilot="39", observed=float(t13), observed_broad=None, n_papers=None, abs_diff_pp=None, within_3pp=30 <= t13 <= 50))
+rows.append(dict(check="trem2_ratio_2013_over_2012", pilot="9.75", observed=float(t13 / max(t12, 1)), observed_broad=None, n_papers=None, abs_diff_pp=None, within_3pp=(t13 / max(t12, 1)) >= 5))
 v1 = pl.DataFrame(rows, infer_schema_length=None)
 v1.write_csv(RES / "v1_pilot_reproduction.csv")
 print(v1, flush=True)
