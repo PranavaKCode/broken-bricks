@@ -1,0 +1,12 @@
+data/
+floors/
+*.npy
+*.npz
+*.h5ad
+*.parquet
+*.gz
+*.pkl
+__pycache__/
+.ipynb_checkpoints/
+*.log
+.env
