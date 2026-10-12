@@ -1,0 +1,377 @@
+{
+ "label": "microglia",
+ "display": "Microglia-PVM",
+ "variant": "nosad",
+ "h5ad": "/home/pranavak/orcd/pool/mantis-films/research/seaad/data/cellxgene/Microglia-PVM_MTG.h5ad",
+ "n_cells_file": 40000,
+ "n_cells_used": 34803,
+ "n_donors": 73,
+ "dropped_donors": [
+  "H20.33.028",
+  "H20.33.033",
+  "H20.33.037",
+  "H20.33.038",
+  "H20.33.046",
+  "H21.33.009",
+  "H21.33.020",
+  "H21.33.033",
+  "H21.33.034",
+  "H21.33.039",
+  "H21.33.045"
+ ],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac"
+ ],
+ "cells_per_donor": {
+  "min": 127,
+  "median": 412.0,
+  "max": 1068
+ },
+ "method_frac_mean": 0.09837758393961996,
+ "timings_s": {
+  "read_obs_scvi_umap": 0.8,
+  "filter_join": 0.11,
+  "neighbors_k30": 35.51,
+  "cna_CPS_Local": 8.5,
+  "cna_CPS_Local_ABeta": 8.4,
+  "cna_CPS_Local_pTau": 8.3,
+  "total_s": 61.6
+ },
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4",
+  "anndata": "0.13.4",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6"
+ },
+ "results": {
+  "CPS_Local": {
+   "global_p": 0.00039996000399960006,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.30137626604762746,
+   "null_r2_mean": 0.04580594801422227,
+   "null_r2_std": 0.040467611084203124,
+   "n_donors": 73,
+   "n_neighborhoods_kept": 34803,
+   "n_cells": 34803,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": 0.347269376071337,
+   "fdr10_threshold": 0.30457232163633646,
+   "n_cells_fdr5": 1659,
+   "n_cells_fdr10": 2882,
+   "pos_fdr5": 1265,
+   "neg_fdr5": 394,
+   "pos_fdr10": 1942,
+   "neg_fdr10": 940,
+   "ncorr_min": -0.4856675227317078,
+   "ncorr_max": 0.5692940591333375,
+   "ncorr_mean": 0.005342148976659179,
+   "assoc_seconds": 8.5,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "Micro-PVM_1",
+     "n_cells": 1290,
+     "mean_ncorr": 0.09323716617874146,
+     "n_pos_fdr5": 120,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 196,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Micro-PVM_1_1-SEAAD",
+     "n_cells": 228,
+     "mean_ncorr": 0.15278531304861903,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Micro-PVM_2",
+     "n_cells": 19248,
+     "mean_ncorr": -0.010369194228537432,
+     "n_pos_fdr5": 289,
+     "n_neg_fdr5": 314,
+     "n_pos_fdr10": 532,
+     "n_neg_fdr10": 680
+    },
+    {
+     "supertype": "Micro-PVM_2_1-SEAAD",
+     "n_cells": 262,
+     "mean_ncorr": -0.0719228943350966,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Micro-PVM_2_2-SEAAD",
+     "n_cells": 725,
+     "mean_ncorr": 0.06536575140876624,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Micro-PVM_2_3-SEAAD",
+     "n_cells": 8335,
+     "mean_ncorr": -0.060090312843223255,
+     "n_pos_fdr5": 17,
+     "n_neg_fdr5": 68,
+     "n_pos_fdr10": 49,
+     "n_neg_fdr10": 238
+    },
+    {
+     "supertype": "Micro-PVM_3-SEAAD",
+     "n_cells": 4331,
+     "mean_ncorr": 0.17047992588641167,
+     "n_pos_fdr5": 837,
+     "n_neg_fdr5": 9,
+     "n_pos_fdr10": 1160,
+     "n_neg_fdr10": 18
+    },
+    {
+     "supertype": "Micro-PVM_4-SEAAD",
+     "n_cells": 384,
+     "mean_ncorr": -0.09282319614960177,
+     "n_pos_fdr5": 2,
+     "n_neg_fdr5": 3,
+     "n_pos_fdr10": 5,
+     "n_neg_fdr10": 4
+    }
+   ]
+  },
+  "CPS_Local_ABeta": {
+   "global_p": 0.0025997400259974,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.24858823837294308,
+   "null_r2_mean": 0.04586236039974196,
+   "null_r2_std": 0.04060782989586122,
+   "n_donors": 73,
+   "n_neighborhoods_kept": 34803,
+   "n_cells": 34803,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": 0.3887490354955132,
+   "fdr10_threshold": 0.3252533596979126,
+   "n_cells_fdr5": 536,
+   "n_cells_fdr10": 1746,
+   "pos_fdr5": 420,
+   "neg_fdr5": 116,
+   "pos_fdr10": 1203,
+   "neg_fdr10": 543,
+   "ncorr_min": -0.4789700773625494,
+   "ncorr_max": 0.5183320473273483,
+   "ncorr_mean": 0.005700069235435767,
+   "assoc_seconds": 8.4,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "Micro-PVM_1",
+     "n_cells": 1290,
+     "mean_ncorr": 0.09349547478516802,
+     "n_pos_fdr5": 21,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 142,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Micro-PVM_1_1-SEAAD",
+     "n_cells": 228,
+     "mean_ncorr": 0.165821826956063,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Micro-PVM_2",
+     "n_cells": 19248,
+     "mean_ncorr": -0.004138660025817941,
+     "n_pos_fdr5": 56,
+     "n_neg_fdr5": 97,
+     "n_pos_fdr10": 254,
+     "n_neg_fdr10": 405
+    },
+    {
+     "supertype": "Micro-PVM_2_1-SEAAD",
+     "n_cells": 262,
+     "mean_ncorr": -0.14004369792134683,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Micro-PVM_2_2-SEAAD",
+     "n_cells": 725,
+     "mean_ncorr": 0.03998847001643658,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Micro-PVM_2_3-SEAAD",
+     "n_cells": 8335,
+     "mean_ncorr": -0.06071433513093794,
+     "n_pos_fdr5": 1,
+     "n_neg_fdr5": 15,
+     "n_pos_fdr10": 16,
+     "n_neg_fdr10": 121
+    },
+    {
+     "supertype": "Micro-PVM_3-SEAAD",
+     "n_cells": 4331,
+     "mean_ncorr": 0.1543654803055235,
+     "n_pos_fdr5": 342,
+     "n_neg_fdr5": 3,
+     "n_pos_fdr10": 789,
+     "n_neg_fdr10": 15
+    },
+    {
+     "supertype": "Micro-PVM_4-SEAAD",
+     "n_cells": 384,
+     "mean_ncorr": -0.09161251311044911,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 1,
+     "n_pos_fdr10": 2,
+     "n_neg_fdr10": 2
+    }
+   ]
+  },
+  "CPS_Local_pTau": {
+   "global_p": 0.000999900009999,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.2840040766796368,
+   "null_r2_mean": 0.04581762128499601,
+   "null_r2_std": 0.04063847799191062,
+   "n_donors": 73,
+   "n_neighborhoods_kept": 34803,
+   "n_cells": 34803,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": 0.3545596185143948,
+   "fdr10_threshold": 0.316571087959281,
+   "n_cells_fdr5": 1125,
+   "n_cells_fdr10": 1921,
+   "pos_fdr5": 992,
+   "neg_fdr5": 133,
+   "pos_fdr10": 1546,
+   "neg_fdr10": 375,
+   "ncorr_min": -0.45668221624223354,
+   "ncorr_max": 0.5627930452609424,
+   "ncorr_mean": 0.0039047613170491214,
+   "assoc_seconds": 8.3,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "Micro-PVM_1",
+     "n_cells": 1290,
+     "mean_ncorr": 0.07627430806682596,
+     "n_pos_fdr5": 52,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 83,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Micro-PVM_1_1-SEAAD",
+     "n_cells": 228,
+     "mean_ncorr": 0.10787757068941978,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Micro-PVM_2",
+     "n_cells": 19248,
+     "mean_ncorr": -0.01697403661303845,
+     "n_pos_fdr5": 248,
+     "n_neg_fdr5": 117,
+     "n_pos_fdr10": 468,
+     "n_neg_fdr10": 327
+    },
+    {
+     "supertype": "Micro-PVM_2_1-SEAAD",
+     "n_cells": 262,
+     "mean_ncorr": 0.033304795679035916,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Micro-PVM_2_2-SEAAD",
+     "n_cells": 725,
+     "mean_ncorr": 0.08814617819248889,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Micro-PVM_2_3-SEAAD",
+     "n_cells": 8335,
+     "mean_ncorr": -0.048537232738257004,
+     "n_pos_fdr5": 18,
+     "n_neg_fdr5": 13,
+     "n_pos_fdr10": 35,
+     "n_neg_fdr10": 43
+    },
+    {
+     "supertype": "Micro-PVM_3-SEAAD",
+     "n_cells": 4331,
+     "mean_ncorr": 0.16196575012350886,
+     "n_pos_fdr5": 671,
+     "n_neg_fdr5": 1,
+     "n_pos_fdr10": 954,
+     "n_neg_fdr10": 3
+    },
+    {
+     "supertype": "Micro-PVM_4-SEAAD",
+     "n_cells": 384,
+     "mean_ncorr": -0.07792693554003922,
+     "n_pos_fdr5": 3,
+     "n_neg_fdr5": 2,
+     "n_pos_fdr10": 6,
+     "n_neg_fdr10": 2
+    }
+   ]
+  }
+ }
+}

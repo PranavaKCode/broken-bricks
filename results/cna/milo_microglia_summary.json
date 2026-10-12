@@ -1,0 +1,79 @@
+{
+ "design": "~ age + sex + pmi + method_frac + CPS_Local (z-scored continuous), solver pydeseq2, prop=0.10",
+ "n_cells": 38905,
+ "n_donors": 84,
+ "n_neighborhoods": 3413,
+ "n_tested": 3413,
+ "median_cells_per_neighborhood": 53.0,
+ "n_nhoods_spatialFDR_lt_0.10": 124,
+ "n_pos": 92,
+ "n_neg": 32,
+ "n_nhoods_spatialFDR_lt_0.05": 73,
+ "spearman_nhood_logFC_vs_mean_ncorr": [
+  0.8249838940854445,
+  0.0
+ ],
+ "pearson_nhood": [
+  0.8367994507360519,
+  0.0
+ ],
+ "spearman_cell_milo_vs_ncorr": [
+  0.8330410581834495,
+  0.0
+ ],
+ "sign_agreement_among_milo_significant_nhoods": 1.0,
+ "n_nhoods_with_half_or_more_cells_cna_fdr10": 485,
+ "sign_agreement_among_cna_hit_nhoods": 0.9958762886597938,
+ "supertype_level_spearman": 0.9047619047619048,
+ "supertype_table": [
+  {
+   "Supertype": "Micro-PVM_1",
+   "milo": 0.17679999768733978,
+   "cna": 0.0868000015616417,
+   "n": 1551
+  },
+  {
+   "Supertype": "Micro-PVM_1_1-SEAAD",
+   "milo": 0.06440000236034393,
+   "cna": 0.15029999613761902,
+   "n": 258
+  },
+  {
+   "Supertype": "Micro-PVM_2",
+   "milo": 0.010099999606609344,
+   "cna": -0.03189999982714653,
+   "n": 21439
+  },
+  {
+   "Supertype": "Micro-PVM_2_1-SEAAD",
+   "milo": -0.3750999867916107,
+   "cna": -0.05869999900460243,
+   "n": 288
+  },
+  {
+   "Supertype": "Micro-PVM_2_2-SEAAD",
+   "milo": 0.22370000183582306,
+   "cna": 0.09560000151395798,
+   "n": 855
+  },
+  {
+   "Supertype": "Micro-PVM_2_3-SEAAD",
+   "milo": -0.15379999577999115,
+   "cna": -0.06509999930858612,
+   "n": 8998
+  },
+  {
+   "Supertype": "Micro-PVM_3-SEAAD",
+   "milo": 0.3221000134944916,
+   "cna": 0.16120000183582306,
+   "n": 5094
+  },
+  {
+   "Supertype": "Micro-PVM_4-SEAAD",
+   "milo": -0.42089998722076416,
+   "cna": -0.08340000361204147,
+   "n": 422
+  }
+ ],
+ "seconds": 100.7
+}

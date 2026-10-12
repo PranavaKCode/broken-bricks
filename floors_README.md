@@ -1,4 +1,4 @@
-# Mantis floors 3 and 4 (genes and literature, in register)
+# Mantis floors (1 cells, 3 genes, 4 literature)
 
 Files (not committed to git because of size; regenerable with `lit/35_assemble.py`). Local copies are in `floors/`; the originals are on ORCD at `~/orcd/pool/mantis-films/research/lit/out/floors/`.
 
@@ -35,3 +35,19 @@ Proportional allocation by publication year x amyloid flag, fixed seed 20261011,
 - Cluster labels are class-based TF-IDF keywords, not names given by a person or a model; some are odd. The agent should label them as keywords.
 - A gene's `ad_paper_count` counts abstracts that mention it; 84% of 50 audited (PMID, gene) pairs were correct, lower for rarely mentioned genes (76% for genes with fewer than 100 abstracts). See `results/ner_audit_summary.csv`.
 - No donor or patient data are involved. Do not describe genes as cures or as "the answer"; see the "Never claim" list in the report.
+
+
+---
+
+# Floor 1 (cells): SEA-AD MTG nuclei with CNA red/blue maps
+
+`floors/floor1_cells.h5ad` (21.5 MB, md5 `80179202e216069edb4e8cc92e4c8214`; not committed, regenerable with `cna/export_floor.py` from `results/cna/*__all_cells.parquet`). ORCD copy: `~/orcd/pool/mantis-films/research/seaad/results/day1/floor1_cells.h5ad`. Sampling table: `results/cna/floor1_sampling.csv` (nuclei available and selected per donor and subclass), summary `results/cna/floor1_cells_summary.json`.
+
+- **149,995 nuclei, 84 aged donors, 7 subclasses, 62 supertypes.** All 38,905 aged Microglia-PVM nuclei plus 18,515 each of Astrocyte, Oligodendrocyte, OPC, Sst, Pvalb and L2/3 IT, allocated across donors in proportion to each donor's nuclei (largest remainder; seed 20261011). The protocol's "20k each" would give 158,905, so the 150k cap was treated as binding (amendment A4.7). The 5 young reference donors are not in it.
+- `X` is a one-column all-zero placeholder (`placeholder`) until the Day-3 program genes exist; re-run the export with program genes then.
+- `obsm['X_umap']`: the SEA-AD native per-subclass UMAPs, each scaled into a 20 x 20 box and placed on a 4 x 2 grid (Microglia, Astrocyte, Oligodendrocyte, OPC on the top row; Sst, Pvalb, L2/3 IT below); `obsm['X_umap_subclass']` keeps the native coordinates.
+- `obsm['X_pca']` = `X_scVI`, 10 dimensions. **Caution:** the scVI latent in the CELLxGENE subclass files is fitted per subclass (each axis about N(0,1) in every file; a nearest-centroid classifier on it assigns cells to their subclass at 0.01-0.20 accuracy against 0.09 expected by chance, `results/cna/check_embeddings.json`). Distances in `X_pca` are therefore meaningful only within a subclass; do not run a joint kNN or UMAP over the whole floor and read it as biology.
+- `obs`: `subclass, donor_id, supertype, leiden` (integer code per subclass+supertype pair, 0 to 61; mapping in `uns['leiden_codes']`), `CPS, CPS_ABeta, CPS_pTau` (donor-level CPS_Local and its two components, from the 2026 CSV), `ncorr_CPS, ncorr_ABeta, ncorr_pTau` (CNA neighborhood correlation; positive = neighborhood expands with pathology, negative = shrinks), `fdr_*` (per-cell empirical FDR), `redblue_fdr10_*` and `redblue_fdr5_*` (+1 red, -1 blue, 0 not significant), `apoe, apoe4_carrier, cognitive_status, dementia, adnc, braak, age_at_death, sex, severe_donor` (one of the 11 Severely Affected Donors).
+- No NaN in any column. `ncorr_*` come from the primary all-donor run (all 84 donors, kNN 30 on X_scVI, covariates age, sex, PMI, method fraction).
+- Mantis's h5ad adapter requirements have not been tested with this file (the Mantis codebase document does not specify them); run a 10k-cell head first.
+- ncorr is computed over each subclass's own neighborhood graph, so values are comparable in sign and rough size across subclasses but not a common scale.

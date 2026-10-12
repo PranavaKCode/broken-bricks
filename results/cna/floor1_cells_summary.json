@@ -1,0 +1,53 @@
+{
+ "n_cells": 149995,
+ "per_subclass": {
+  "Microglia-PVM": 38905,
+  "Astrocyte": 18515,
+  "Oligodendrocyte": 18515,
+  "OPC": 18515,
+  "Sst": 18515,
+  "L2/3 IT": 18515,
+  "Pvalb": 18515
+ },
+ "n_donors": 84,
+ "n_supertypes": 62,
+ "cap": 150000,
+ "n_each_large": 18515,
+ "seed": 20261011,
+ "file_bytes": 21520288,
+ "obs_columns": [
+  "subclass",
+  "donor_id",
+  "supertype",
+  "leiden",
+  "CPS",
+  "CPS_ABeta",
+  "CPS_pTau",
+  "ncorr_CPS",
+  "fdr_CPS",
+  "redblue_fdr10_CPS",
+  "redblue_fdr5_CPS",
+  "ncorr_ABeta",
+  "fdr_ABeta",
+  "redblue_fdr10_ABeta",
+  "redblue_fdr5_ABeta",
+  "ncorr_pTau",
+  "fdr_pTau",
+  "redblue_fdr10_pTau",
+  "redblue_fdr5_pTau",
+  "apoe",
+  "apoe4_carrier",
+  "cognitive_status",
+  "dementia",
+  "adnc",
+  "braak",
+  "age_at_death",
+  "sex",
+  "severe_donor"
+ ],
+ "obsm": [
+  "X_umap",
+  "X_umap_subclass",
+  "X_pca"
+ ]
+}

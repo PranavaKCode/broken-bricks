@@ -1,0 +1,12 @@
+subclass,n_cells_shared,rho_all_vs_nosad
+Microglia-PVM,34803,0.9592
+Astrocyte,57591,0.9432
+Oligodendrocyte,100554,0.9352
+OPC,28429,0.9094
+Sst,43784,0.953
+Pvalb,76958,0.9579
+Vip,89632,0.9545
+Lamp5,36335,0.9319
+L2/3 IT,289200,0.9677
+L4 IT,140258,0.9603
+L5 IT,102094,0.9564

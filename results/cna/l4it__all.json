@@ -1,0 +1,255 @@
+{
+ "label": "l4it",
+ "display": "L4 IT",
+ "variant": "all",
+ "h5ad": "/home/pranavak/orcd/pool/mantis-films/research/seaad/data/cellxgene/L4IT_MTG.h5ad",
+ "n_cells_file": 168860,
+ "n_cells_used": 152052,
+ "n_donors": 84,
+ "dropped_donors": [],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac"
+ ],
+ "cells_per_donor": {
+  "min": 144,
+  "median": 1643.5,
+  "max": 4728
+ },
+ "method_frac_mean": 0.10860195088899383,
+ "timings_s": {
+  "read_obs_scvi_umap": 2.43,
+  "filter_join": 0.13,
+  "neighbors_k30": 47.51,
+  "cna_CPS_Local": 34.2,
+  "cna_CPS_Local_ABeta": 34.0,
+  "cna_CPS_Local_pTau": 34.1,
+  "total_s": 152.5
+ },
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4",
+  "anndata": "0.13.4",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6"
+ },
+ "results": {
+  "CPS_Local": {
+   "global_p": 0.0008999100089991,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.24168086698833424,
+   "null_r2_mean": 0.03927349516700949,
+   "null_r2_std": 0.03506937283283037,
+   "n_donors": 84,
+   "n_neighborhoods_kept": 152052,
+   "n_cells": 152052,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": 0.3159960148786809,
+   "fdr10_threshold": 0.2592457101657748,
+   "n_cells_fdr5": 8211,
+   "n_cells_fdr10": 24109,
+   "pos_fdr5": 3836,
+   "neg_fdr5": 4375,
+   "pos_fdr10": 12175,
+   "neg_fdr10": 11934,
+   "ncorr_min": -0.5159118610264158,
+   "ncorr_max": 0.4672423362547111,
+   "ncorr_mean": -0.008289912346089988,
+   "assoc_seconds": 34.2,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "L4 IT_1",
+     "n_cells": 15164,
+     "mean_ncorr": -0.029896630597831514,
+     "n_pos_fdr5": 383,
+     "n_neg_fdr5": 778,
+     "n_pos_fdr10": 1320,
+     "n_neg_fdr10": 1823
+    },
+    {
+     "supertype": "L4 IT_2",
+     "n_cells": 111746,
+     "mean_ncorr": -0.015533393644458132,
+     "n_pos_fdr5": 1668,
+     "n_neg_fdr5": 2828,
+     "n_pos_fdr10": 6889,
+     "n_neg_fdr10": 8223
+    },
+    {
+     "supertype": "L4 IT_3",
+     "n_cells": 5796,
+     "mean_ncorr": -0.051038892058923695,
+     "n_pos_fdr5": 155,
+     "n_neg_fdr5": 442,
+     "n_pos_fdr10": 464,
+     "n_neg_fdr10": 902
+    },
+    {
+     "supertype": "L4 IT_4",
+     "n_cells": 19346,
+     "mean_ncorr": 0.06329322748397509,
+     "n_pos_fdr5": 1630,
+     "n_neg_fdr5": 327,
+     "n_pos_fdr10": 3502,
+     "n_neg_fdr10": 986
+    }
+   ]
+  },
+  "CPS_Local_ABeta": {
+   "global_p": 0.009299070092990702,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.18484671652029638,
+   "null_r2_mean": 0.03962232698726899,
+   "null_r2_std": 0.035357022753759015,
+   "n_donors": 84,
+   "n_neighborhoods_kept": 152052,
+   "n_cells": 152052,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": null,
+   "fdr10_threshold": null,
+   "n_cells_fdr5": 0,
+   "n_cells_fdr10": 0,
+   "pos_fdr5": 0,
+   "neg_fdr5": 0,
+   "pos_fdr10": 0,
+   "neg_fdr10": 0,
+   "ncorr_min": -0.4885606035776171,
+   "ncorr_max": 0.43411646675308463,
+   "ncorr_mean": -0.0010972907689027062,
+   "assoc_seconds": 34.0,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "L4 IT_1",
+     "n_cells": 15164,
+     "mean_ncorr": -0.008652893134925253,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "L4 IT_2",
+     "n_cells": 111746,
+     "mean_ncorr": -0.006460812440708359,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "L4 IT_3",
+     "n_cells": 5796,
+     "mean_ncorr": -0.032172308324431555,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "L4 IT_4",
+     "n_cells": 19346,
+     "mean_ncorr": 0.045115675672108654,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    }
+   ]
+  },
+  "CPS_Local_pTau": {
+   "global_p": 0.0005999400059994001,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 3,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.24998104514142638,
+   "null_r2_mean": 0.03898357434813696,
+   "null_r2_std": 0.035008642518280834,
+   "n_donors": 84,
+   "n_neighborhoods_kept": 152052,
+   "n_cells": 152052,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": 0.2956165432514304,
+   "fdr10_threshold": 0.24974501067793253,
+   "n_cells_fdr5": 14330,
+   "n_cells_fdr10": 29428,
+   "pos_fdr5": 7810,
+   "neg_fdr5": 6520,
+   "pos_fdr10": 15090,
+   "neg_fdr10": 14338,
+   "ncorr_min": -0.5096836952610864,
+   "ncorr_max": 0.5062806874963938,
+   "ncorr_mean": -0.01596390076778044,
+   "assoc_seconds": 34.1,
+   "warnings": [],
+   "supertypes": [
+    {
+     "supertype": "L4 IT_1",
+     "n_cells": 15164,
+     "mean_ncorr": -0.05162244799663324,
+     "n_pos_fdr5": 652,
+     "n_neg_fdr5": 1143,
+     "n_pos_fdr10": 1289,
+     "n_neg_fdr10": 2229
+    },
+    {
+     "supertype": "L4 IT_2",
+     "n_cells": 111746,
+     "mean_ncorr": -0.024331711356247933,
+     "n_pos_fdr5": 3880,
+     "n_neg_fdr5": 4261,
+     "n_pos_fdr10": 8298,
+     "n_neg_fdr10": 9989
+    },
+    {
+     "supertype": "L4 IT_3",
+     "n_cells": 5796,
+     "mean_ncorr": -0.0660819335237339,
+     "n_pos_fdr5": 405,
+     "n_neg_fdr5": 686,
+     "n_pos_fdr10": 640,
+     "n_neg_fdr10": 1112
+    },
+    {
+     "supertype": "L4 IT_4",
+     "n_cells": 19346,
+     "mean_ncorr": 0.07533557664619245,
+     "n_pos_fdr5": 2873,
+     "n_neg_fdr5": 430,
+     "n_pos_fdr10": 4863,
+     "n_neg_fdr10": 1008
+    }
+   ]
+  }
+ }
+}

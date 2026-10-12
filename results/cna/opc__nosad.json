@@ -1,0 +1,269 @@
+{
+ "label": "opc",
+ "display": "OPC",
+ "variant": "nosad",
+ "h5ad": "/home/pranavak/orcd/pool/mantis-films/research/seaad/data/cellxgene/OPC_MTG.h5ad",
+ "n_cells_file": 32493,
+ "n_cells_used": 28429,
+ "n_donors": 73,
+ "dropped_donors": [
+  "H20.33.028",
+  "H20.33.033",
+  "H20.33.037",
+  "H20.33.038",
+  "H20.33.046",
+  "H21.33.009",
+  "H21.33.020",
+  "H21.33.033",
+  "H21.33.034",
+  "H21.33.039",
+  "H21.33.045"
+ ],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac"
+ ],
+ "cells_per_donor": {
+  "min": 45,
+  "median": 356.0,
+  "max": 1892
+ },
+ "method_frac_mean": 0.09636064260746209,
+ "timings_s": {
+  "read_obs_scvi_umap": 1.02,
+  "filter_join": 0.03,
+  "neighbors_k30": 35.84,
+  "cna_CPS_Local": 7.4,
+  "cna_CPS_Local_ABeta": 7.4,
+  "cna_CPS_Local_pTau": 8.3,
+  "total_s": 60.0
+ },
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4",
+  "anndata": "0.13.4",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6"
+ },
+ "results": {
+  "CPS_Local": {
+   "global_p": 0.0527947205279472,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.1587931194140526,
+   "null_r2_mean": 0.045749576353296816,
+   "null_r2_std": 0.040631166234637306,
+   "n_donors": 73,
+   "n_neighborhoods_kept": 28429,
+   "n_cells": 28429,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": null,
+   "fdr10_threshold": null,
+   "n_cells_fdr5": 0,
+   "n_cells_fdr10": 0,
+   "pos_fdr5": 0,
+   "neg_fdr5": 0,
+   "pos_fdr10": 0,
+   "neg_fdr10": 0,
+   "ncorr_min": -0.4696178110988351,
+   "ncorr_max": 0.4191077218674882,
+   "ncorr_mean": 0.0007762637133628885,
+   "assoc_seconds": 7.4,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "OPC_1",
+     "n_cells": 263,
+     "mean_ncorr": 0.2823420728268674,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "OPC_2",
+     "n_cells": 23308,
+     "mean_ncorr": -0.00613214012560777,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "OPC_2_1-SEAAD",
+     "n_cells": 3015,
+     "mean_ncorr": 0.049189623935989225,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "OPC_2_2-SEAAD",
+     "n_cells": 1843,
+     "mean_ncorr": -0.031235137366041357,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    }
+   ]
+  },
+  "CPS_Local_ABeta": {
+   "global_p": 0.0385961403859614,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.16721423290416038,
+   "null_r2_mean": 0.046104314957857995,
+   "null_r2_std": 0.04039391276813577,
+   "n_donors": 73,
+   "n_neighborhoods_kept": 28429,
+   "n_cells": 28429,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": null,
+   "fdr10_threshold": null,
+   "n_cells_fdr5": 0,
+   "n_cells_fdr10": 0,
+   "pos_fdr5": 0,
+   "neg_fdr5": 0,
+   "pos_fdr10": 0,
+   "neg_fdr10": 0,
+   "ncorr_min": -0.4640458026164865,
+   "ncorr_max": 0.3919673391283612,
+   "ncorr_mean": 0.00011001112183685102,
+   "assoc_seconds": 7.4,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "OPC_1",
+     "n_cells": 263,
+     "mean_ncorr": 0.2297801673115448,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "OPC_2",
+     "n_cells": 23308,
+     "mean_ncorr": -0.009837445799542505,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "OPC_2_1-SEAAD",
+     "n_cells": 3015,
+     "mean_ncorr": 0.07313177528287199,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "OPC_2_2-SEAAD",
+     "n_cells": 1843,
+     "mean_ncorr": -0.026318933045229902,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    }
+   ]
+  },
+  "CPS_Local_pTau": {
+   "global_p": 0.21057894210578942,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.11081207595599041,
+   "null_r2_mean": 0.045785790101644554,
+   "null_r2_std": 0.040596264925086625,
+   "n_donors": 73,
+   "n_neighborhoods_kept": 28429,
+   "n_cells": 28429,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": null,
+   "fdr10_threshold": 0.4074826960151869,
+   "n_cells_fdr5": 0,
+   "n_cells_fdr10": 72,
+   "pos_fdr5": 0,
+   "neg_fdr5": 0,
+   "pos_fdr10": 71,
+   "neg_fdr10": 1,
+   "ncorr_min": -0.4115883933362756,
+   "ncorr_max": 0.46043242487591773,
+   "ncorr_mean": 0.00154084559886728,
+   "assoc_seconds": 8.3,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "OPC_1",
+     "n_cells": 263,
+     "mean_ncorr": 0.30289239163812864,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 68,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "OPC_2",
+     "n_cells": 23308,
+     "mean_ncorr": -4.994721772820285e-07,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 3,
+     "n_neg_fdr10": 1
+    },
+    {
+     "supertype": "OPC_2_1-SEAAD",
+     "n_cells": 3015,
+     "mean_ncorr": 0.007848836625492406,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "OPC_2_2-SEAAD",
+     "n_cells": 1843,
+     "mean_ncorr": -0.03228898545793893,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    }
+   ]
+  }
+ }
+}

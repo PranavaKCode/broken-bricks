@@ -1,0 +1,195 @@
+{
+ "label": "pvalb",
+ "display": "Pvalb",
+ "variant": "ge50",
+ "h5ad": "/home/pranavak/orcd/pool/mantis-films/research/seaad/data/cellxgene/Pvalb_MTG.h5ad",
+ "n_cells_file": 90804,
+ "n_cells_used": 79949,
+ "n_donors": 82,
+ "dropped_donors": [
+  "H20.33.038",
+  "H21.33.020"
+ ],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac"
+ ],
+ "cells_per_donor": {
+  "min": 78,
+  "median": 1007.5,
+  "max": 2288
+ },
+ "method_frac_mean": 0.08996230344144603,
+ "timings_s": {
+  "read_obs_scvi_umap": 0.38,
+  "filter_join": 0.07,
+  "neighbors_k30": 38.24,
+  "cna_CPS_Local": 21.8,
+  "total_s": 60.5
+ },
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4",
+  "anndata": "0.13.4",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6"
+ },
+ "results": {
+  "CPS_Local": {
+   "global_p": 0.0037996200379962005,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 1,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.13075640001683997,
+   "null_r2_mean": 0.040158659621022476,
+   "null_r2_std": 0.03533642468716522,
+   "n_donors": 82,
+   "n_neighborhoods_kept": 79949,
+   "n_cells": 79949,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": 0.36374933807954873,
+   "fdr10_threshold": 0.2552626933891567,
+   "n_cells_fdr5": 1346,
+   "n_cells_fdr10": 17400,
+   "pos_fdr5": 242,
+   "neg_fdr5": 1104,
+   "pos_fdr10": 6584,
+   "neg_fdr10": 10816,
+   "ncorr_min": -0.5105253867783113,
+   "ncorr_max": 0.45000818123521047,
+   "ncorr_mean": -0.03345311518810399,
+   "assoc_seconds": 21.8,
+   "warnings": [],
+   "supertypes": [
+    {
+     "supertype": "Pvalb_1",
+     "n_cells": 4661,
+     "mean_ncorr": -0.008690317635946866,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 5,
+     "n_pos_fdr10": 287,
+     "n_neg_fdr10": 259
+    },
+    {
+     "supertype": "Pvalb_10",
+     "n_cells": 1613,
+     "mean_ncorr": -0.06492176385219976,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 4,
+     "n_pos_fdr10": 27,
+     "n_neg_fdr10": 103
+    },
+    {
+     "supertype": "Pvalb_12",
+     "n_cells": 2135,
+     "mean_ncorr": -0.019546539201035454,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 6,
+     "n_pos_fdr10": 58,
+     "n_neg_fdr10": 134
+    },
+    {
+     "supertype": "Pvalb_13",
+     "n_cells": 1277,
+     "mean_ncorr": -0.009456209892396069,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 36,
+     "n_neg_fdr10": 27
+    },
+    {
+     "supertype": "Pvalb_14",
+     "n_cells": 3175,
+     "mean_ncorr": -0.15918286201651094,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 35,
+     "n_pos_fdr10": 1,
+     "n_neg_fdr10": 822
+    },
+    {
+     "supertype": "Pvalb_15",
+     "n_cells": 30153,
+     "mean_ncorr": -0.014451070895228641,
+     "n_pos_fdr5": 112,
+     "n_neg_fdr5": 370,
+     "n_pos_fdr10": 3700,
+     "n_neg_fdr10": 4234
+    },
+    {
+     "supertype": "Pvalb_2",
+     "n_cells": 15237,
+     "mean_ncorr": -0.029775912021145323,
+     "n_pos_fdr5": 46,
+     "n_neg_fdr5": 30,
+     "n_pos_fdr10": 929,
+     "n_neg_fdr10": 1520
+    },
+    {
+     "supertype": "Pvalb_3",
+     "n_cells": 5079,
+     "mean_ncorr": -0.1098335363702819,
+     "n_pos_fdr5": 2,
+     "n_neg_fdr5": 77,
+     "n_pos_fdr10": 61,
+     "n_neg_fdr10": 890
+    },
+    {
+     "supertype": "Pvalb_5",
+     "n_cells": 3587,
+     "mean_ncorr": -0.06621020786051526,
+     "n_pos_fdr5": 4,
+     "n_neg_fdr5": 171,
+     "n_pos_fdr10": 105,
+     "n_neg_fdr10": 649
+    },
+    {
+     "supertype": "Pvalb_6",
+     "n_cells": 3557,
+     "mean_ncorr": -0.1018615883681345,
+     "n_pos_fdr5": 8,
+     "n_neg_fdr5": 232,
+     "n_pos_fdr10": 140,
+     "n_neg_fdr10": 963
+    },
+    {
+     "supertype": "Pvalb_7",
+     "n_cells": 2423,
+     "mean_ncorr": 0.11805494021483058,
+     "n_pos_fdr5": 59,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 619,
+     "n_neg_fdr10": 18
+    },
+    {
+     "supertype": "Pvalb_8",
+     "n_cells": 1439,
+     "mean_ncorr": -0.2112666887803332,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 148,
+     "n_pos_fdr10": 9,
+     "n_neg_fdr10": 675
+    },
+    {
+     "supertype": "Pvalb_9",
+     "n_cells": 5613,
+     "mean_ncorr": 0.016918024475398773,
+     "n_pos_fdr5": 11,
+     "n_neg_fdr5": 26,
+     "n_pos_fdr10": 612,
+     "n_neg_fdr10": 522
+    }
+   ]
+  }
+ }
+}

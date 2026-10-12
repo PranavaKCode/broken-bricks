@@ -1,0 +1,23 @@
+subclass,which,supertype,n_cells,mean_ncorr
+Microglia-PVM,most_depleted,Micro-PVM_4-SEAAD,422,-0.0834
+Microglia-PVM,most_expanded,Micro-PVM_3-SEAAD,5094,0.1612
+Astrocyte,most_depleted,Astro_3,9439,-0.142
+Astrocyte,most_expanded,Astro_2,44919,0.0542
+Oligodendrocyte,most_depleted,Oligo_2,50255,-0.0767
+Oligodendrocyte,most_expanded,Oligo_2_1-SEAAD,8658,0.0293
+OPC,most_depleted,OPC_2_2-SEAAD,1892,-0.0549
+OPC,most_expanded,OPC_1,280,0.2249
+Sst,most_depleted,Sst_20,1751,-0.2965
+Sst,most_expanded,Sst_7,1731,0.1464
+Pvalb,most_depleted,Pvalb_8,1439,-0.2196
+Pvalb,most_expanded,Pvalb_7,2424,0.0969
+Vip,most_depleted,Vip_2,5398,-0.1673
+Vip,most_expanded,Vip_6,4272,0.1429
+Lamp5,most_depleted,Lamp5_5,5860,-0.1806
+Lamp5,most_expanded,Lamp5_1,3267,0.1331
+L2/3 IT,most_depleted,L2/3 IT_8,7453,-0.1333
+L2/3 IT,most_expanded,L2/3 IT_2,1810,0.057
+L4 IT,most_depleted,L4 IT_3,5796,-0.051
+L4 IT,most_expanded,L4 IT_4,19346,0.0633
+L5 IT,most_depleted,L5 IT_2,46289,-0.0447
+L5 IT,most_expanded,L5 IT_1,11922,0.0202

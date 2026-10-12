@@ -1,0 +1,199 @@
+{
+ "n_subclasses_analysed": 11,
+ "H1": {
+  "criterion": ">= 4 of the analysed subclasses with global CNA P < 0.05 for CPS_Local (primary, all 84 donors)",
+  "n_analysed": 11,
+  "n_significant": 11,
+  "significant": [
+   "Microglia-PVM",
+   "Astrocyte",
+   "Oligodendrocyte",
+   "OPC",
+   "Sst",
+   "Pvalb",
+   "Vip",
+   "Lamp5",
+   "L2/3 IT",
+   "L4 IT",
+   "L5 IT"
+  ],
+  "not_significant": [],
+  "pass": true,
+  "sensitivity_without_11_severely_affected": {
+   "n_significant": 9,
+   "n_analysed": 11,
+   "significant": [
+    "Microglia-PVM",
+    "Astrocyte",
+    "Sst",
+    "Pvalb",
+    "Vip",
+    "Lamp5",
+    "L2/3 IT",
+    "L4 IT",
+    "L5 IT"
+   ]
+  },
+  "sensitivity_donors_ge50": {
+   "n_significant": 11
+  },
+  "ABeta_n_significant": 11,
+  "pTau_n_significant": 11,
+  "p_floor": 9.999000099990002e-05,
+  "n_significant_BH_q_lt_0.05_descriptive": 11
+ },
+ "PC1": {
+  "crit1_global_P": {
+   "microglia_P": 9.999000099990002e-05,
+   "sst_P": 0.0006999300069993001,
+   "pass": true
+  },
+  "crit2_sst_depleted": {
+   "mean_ncorr_all_sst_cells": -0.05822212994098663,
+   "fdr10_neg_cells": 8898,
+   "fdr10_pos_cells": 3196,
+   "fdr5_neg_cells": 6268,
+   "fdr5_pos_cells": 1258,
+   "share_negative_among_fdr10": 0.7357367289565073,
+   "pass": true
+  },
+  "microglia_expansion_descriptive": {
+   "supertype": "Micro-PVM_3-SEAAD",
+   "n_cells": 5094,
+   "mean_ncorr": 0.16121403872966766,
+   "fdr10_pos": 1973,
+   "fdr10_neg": 103,
+   "holds": true,
+   "all_microglia_fdr10_pos": 4242,
+   "all_microglia_fdr10_neg": 3521
+  },
+  "crit3_sign_agreement_primary_summary_table": {
+   "n_credible_matched": 59,
+   "n_agree": 56,
+   "agreement": 0.9491525423728814,
+   "pass": true,
+   "binom_p_vs_50pct": 1.189326415129699e-13,
+   "per_subclass": {
+    "Astrocyte": [
+     2,
+     2
+    ],
+    "L2/3 IT": [
+     9,
+     9
+    ],
+    "L4 IT": [
+     3,
+     3
+    ],
+    "L5 IT": [
+     4,
+     4
+    ],
+    "Lamp5": [
+     4,
+     4
+    ],
+    "Microglia-PVM": [
+     3,
+     3
+    ],
+    "OPC": [
+     1,
+     1
+    ],
+    "Oligodendrocyte": [
+     2,
+     2
+    ],
+    "Pvalb": [
+     10,
+     10
+    ],
+    "Sst": [
+     9,
+     10
+    ],
+    "Vip": [
+     9,
+     11
+    ]
+   },
+   "spearman_credible": 0.6595558153126827,
+   "spearman_all_modelled": 0.7487847757330659,
+   "n_all_modelled": 92,
+   "disagree": [
+    "Sst_13",
+    "Vip_4",
+    "Vip_9"
+   ]
+  },
+  "crit3_sign_agreement_sensitivity_own_aggregation": {
+   "n_credible_matched": 38,
+   "n_agree": 37,
+   "agreement": 0.9736842105263158,
+   "pass": true,
+   "binom_p_vs_50pct": 2.837623469531536e-10,
+   "per_subclass": {
+    "L2/3 IT": [
+     9,
+     9
+    ],
+    "L4 IT": [
+     3,
+     3
+    ],
+    "L5 IT": [
+     4,
+     4
+    ],
+    "Lamp5": [
+     2,
+     2
+    ],
+    "Pvalb": [
+     7,
+     7
+    ],
+    "Sst": [
+     6,
+     6
+    ],
+    "Vip": [
+     6,
+     7
+    ]
+   },
+   "spearman_credible": 0.6739249370828319,
+   "spearman_all_modelled": 0.6870983154293111,
+   "n_all_modelled": 92,
+   "disagree": [
+    "Vip_4"
+   ]
+  },
+  "credible_summary_supertypes_not_in_the_11_subclasses": 19,
+  "credible_summary_supertypes_unmatched_names": [
+   "Chandelier_1",
+   "Chandelier_2",
+   "L5 ET_2",
+   "L5/6 NP_1",
+   "L5/6 NP_2",
+   "L6 CT_2",
+   "L6 IT Car3_1",
+   "L6 IT Car3_3",
+   "L6 IT_2",
+   "L6b_6",
+   "Lamp5_Lhx6_1",
+   "Pax6_1",
+   "Sncg_1",
+   "Sncg_2",
+   "Sncg_4",
+   "Sncg_5",
+   "Sncg_6",
+   "Sncg_8",
+   "VLMC_1"
+  ],
+  "PC1_pass_primary": true,
+  "PC1_pass_sensitivity": true
+ }
+}

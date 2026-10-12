@@ -1,0 +1,124 @@
+{
+ "label": "oligodendrocyte",
+ "display": "Oligodendrocyte",
+ "variant": "ge50",
+ "h5ad": "/home/pranavak/orcd/pool/mantis-films/research/seaad/data/cellxgene/Oligodendrocyte_MTG.h5ad",
+ "n_cells_file": 111194,
+ "n_cells_used": 105599,
+ "n_donors": 81,
+ "dropped_donors": [
+  "H21.33.020",
+  "H21.33.034",
+  "H21.33.046"
+ ],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac"
+ ],
+ "cells_per_donor": {
+  "min": 79,
+  "median": 1009.0,
+  "max": 4423
+ },
+ "method_frac_mean": 0.1123319513124004,
+ "timings_s": {
+  "read_obs_scvi_umap": 2.59,
+  "filter_join": 0.3,
+  "neighbors_k30": 46.59,
+  "cna_CPS_Local": 23.4,
+  "total_s": 73.0
+ },
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4",
+  "anndata": "0.13.4",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6"
+ },
+ "results": {
+  "CPS_Local": {
+   "global_p": 0.005099490050994901,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 1,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.1200371959868839,
+   "null_r2_mean": 0.04099325509096077,
+   "null_r2_std": 0.03641848933795987,
+   "n_donors": 81,
+   "n_neighborhoods_kept": 105599,
+   "n_cells": 105599,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": null,
+   "fdr10_threshold": null,
+   "n_cells_fdr5": 0,
+   "n_cells_fdr10": 0,
+   "pos_fdr5": 0,
+   "neg_fdr5": 0,
+   "pos_fdr10": 0,
+   "neg_fdr10": 0,
+   "ncorr_min": -0.4978859473799148,
+   "ncorr_max": 0.43201723353639027,
+   "ncorr_mean": -0.027953411957288316,
+   "assoc_seconds": 23.4,
+   "warnings": [],
+   "supertypes": [
+    {
+     "supertype": "Oligo_1",
+     "n_cells": 10632,
+     "mean_ncorr": -0.02279177404617488,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Oligo_2",
+     "n_cells": 50237,
+     "mean_ncorr": -0.059999215113569024,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Oligo_2_1-SEAAD",
+     "n_cells": 8646,
+     "mean_ncorr": 0.029549878170250128,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Oligo_3",
+     "n_cells": 413,
+     "mean_ncorr": 0.015036070573585626,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Oligo_4",
+     "n_cells": 35671,
+     "mean_ncorr": 0.0012041215058376858,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    }
+   ]
+  }
+ }
+}

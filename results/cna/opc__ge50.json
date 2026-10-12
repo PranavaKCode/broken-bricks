@@ -1,0 +1,115 @@
+{
+ "label": "opc",
+ "display": "OPC",
+ "variant": "ge50",
+ "h5ad": "/home/pranavak/orcd/pool/mantis-films/research/seaad/data/cellxgene/OPC_MTG.h5ad",
+ "n_cells_file": 32493,
+ "n_cells_used": 30393,
+ "n_donors": 83,
+ "dropped_donors": [
+  "H21.33.008"
+ ],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac"
+ ],
+ "cells_per_donor": {
+  "min": 58,
+  "median": 334.0,
+  "max": 1892
+ },
+ "method_frac_mean": 0.09603658888197071,
+ "timings_s": {
+  "read_obs_scvi_umap": 1.0,
+  "filter_join": 0.03,
+  "neighbors_k30": 34.32,
+  "cna_CPS_Local": 7.9,
+  "total_s": 43.2
+ },
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4",
+  "anndata": "0.13.4",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6"
+ },
+ "results": {
+  "CPS_Local": {
+   "global_p": 0.0021997800219978004,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.2268484412706704,
+   "null_r2_mean": 0.04009380987779981,
+   "null_r2_std": 0.03627614210459809,
+   "n_donors": 83,
+   "n_neighborhoods_kept": 30393,
+   "n_cells": 30393,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": 0.42191908913534015,
+   "fdr10_threshold": 0.2891657308715726,
+   "n_cells_fdr5": 33,
+   "n_cells_fdr10": 2235,
+   "pos_fdr5": 0,
+   "neg_fdr5": 33,
+   "pos_fdr10": 1057,
+   "neg_fdr10": 1178,
+   "ncorr_min": -0.5257558743119496,
+   "ncorr_max": 0.41200241706932794,
+   "ncorr_mean": -0.02028090991957937,
+   "assoc_seconds": 7.9,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "OPC_1",
+     "n_cells": 280,
+     "mean_ncorr": 0.22817746314790927,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 84,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "OPC_2",
+     "n_cells": 24137,
+     "mean_ncorr": -0.04882602649429984,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 33,
+     "n_pos_fdr10": 342,
+     "n_neg_fdr10": 1149
+    },
+    {
+     "supertype": "OPC_2_1-SEAAD",
+     "n_cells": 4087,
+     "mean_ncorr": 0.1471789858913891,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 625,
+     "n_neg_fdr10": 24
+    },
+    {
+     "supertype": "OPC_2_2-SEAAD",
+     "n_cells": 1889,
+     "mean_ncorr": -0.05468189450099651,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 6,
+     "n_neg_fdr10": 5
+    }
+   ]
+  }
+ }
+}

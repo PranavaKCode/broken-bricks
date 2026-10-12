@@ -1,0 +1,311 @@
+{
+ "label": "lamp5",
+ "display": "Lamp5",
+ "variant": "all",
+ "h5ad": "/home/pranavak/orcd/pool/mantis-films/research/seaad/data/cellxgene/Lamp5_MTG.h5ad",
+ "n_cells_file": 42921,
+ "n_cells_used": 39565,
+ "n_donors": 84,
+ "dropped_donors": [],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac"
+ ],
+ "cells_per_donor": {
+  "min": 1,
+  "median": 462.5,
+  "max": 1276
+ },
+ "method_frac_mean": 0.09852209806568483,
+ "timings_s": {
+  "read_obs_scvi_umap": 1.42,
+  "filter_join": 0.04,
+  "neighbors_k30": 34.63,
+  "cna_CPS_Local": 9.6,
+  "cna_CPS_Local_ABeta": 9.4,
+  "cna_CPS_Local_pTau": 9.4,
+  "total_s": 64.7
+ },
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4",
+  "anndata": "0.13.4",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6"
+ },
+ "results": {
+  "CPS_Local": {
+   "global_p": 0.0004999500049995,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.2592491170933494,
+   "null_r2_mean": 0.03904466021664232,
+   "null_r2_std": 0.03486972939771597,
+   "n_donors": 84,
+   "n_neighborhoods_kept": 39565,
+   "n_cells": 39565,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": 0.29992705053928237,
+   "fdr10_threshold": 0.24904656875136852,
+   "n_cells_fdr5": 4326,
+   "n_cells_fdr10": 8854,
+   "pos_fdr5": 1424,
+   "neg_fdr5": 2902,
+   "pos_fdr10": 3561,
+   "neg_fdr10": 5293,
+   "ncorr_min": -0.5355840188201489,
+   "ncorr_max": 0.48901831121326034,
+   "ncorr_mean": -0.023822644143566697,
+   "assoc_seconds": 9.6,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "Lamp5_1",
+     "n_cells": 3267,
+     "mean_ncorr": 0.1331476339769128,
+     "n_pos_fdr5": 406,
+     "n_neg_fdr5": 2,
+     "n_pos_fdr10": 891,
+     "n_neg_fdr10": 13
+    },
+    {
+     "supertype": "Lamp5_2",
+     "n_cells": 21407,
+     "mean_ncorr": 0.029642439474723593,
+     "n_pos_fdr5": 981,
+     "n_neg_fdr5": 185,
+     "n_pos_fdr10": 2515,
+     "n_neg_fdr10": 878
+    },
+    {
+     "supertype": "Lamp5_3",
+     "n_cells": 6159,
+     "mean_ncorr": -0.09002347932867107,
+     "n_pos_fdr5": 37,
+     "n_neg_fdr5": 619,
+     "n_pos_fdr10": 154,
+     "n_neg_fdr10": 1195
+    },
+    {
+     "supertype": "Lamp5_4",
+     "n_cells": 1146,
+     "mean_ncorr": -0.17179181009067768,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 243,
+     "n_pos_fdr10": 1,
+     "n_neg_fdr10": 375
+    },
+    {
+     "supertype": "Lamp5_5",
+     "n_cells": 5860,
+     "mean_ncorr": -0.18058009814305265,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 1503,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 2295
+    },
+    {
+     "supertype": "Lamp5_6",
+     "n_cells": 1726,
+     "mean_ncorr": -0.11736068303053776,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 350,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 537
+    }
+   ]
+  },
+  "CPS_Local_ABeta": {
+   "global_p": 0.0045995400459954,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.20354801773882947,
+   "null_r2_mean": 0.039209781962237254,
+   "null_r2_std": 0.03526429948666112,
+   "n_donors": 84,
+   "n_neighborhoods_kept": 39565,
+   "n_cells": 39565,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": 0.3872159747201209,
+   "fdr10_threshold": 0.2913964284334467,
+   "n_cells_fdr5": 290,
+   "n_cells_fdr10": 2923,
+   "pos_fdr5": 23,
+   "neg_fdr5": 267,
+   "pos_fdr10": 1022,
+   "neg_fdr10": 1901,
+   "ncorr_min": -0.5250386097899914,
+   "ncorr_max": 0.45548816851305096,
+   "ncorr_mean": -0.01254628963506132,
+   "assoc_seconds": 9.4,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "Lamp5_1",
+     "n_cells": 3267,
+     "mean_ncorr": 0.11097680753910197,
+     "n_pos_fdr5": 3,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 243,
+     "n_neg_fdr10": 3
+    },
+    {
+     "supertype": "Lamp5_2",
+     "n_cells": 21407,
+     "mean_ncorr": 0.035250449880352044,
+     "n_pos_fdr5": 19,
+     "n_neg_fdr5": 1,
+     "n_pos_fdr10": 713,
+     "n_neg_fdr10": 137
+    },
+    {
+     "supertype": "Lamp5_3",
+     "n_cells": 6159,
+     "mean_ncorr": -0.06386603518760464,
+     "n_pos_fdr5": 1,
+     "n_neg_fdr5": 47,
+     "n_pos_fdr10": 65,
+     "n_neg_fdr10": 406
+    },
+    {
+     "supertype": "Lamp5_4",
+     "n_cells": 1146,
+     "mean_ncorr": -0.1451769931882679,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 35,
+     "n_pos_fdr10": 1,
+     "n_neg_fdr10": 176
+    },
+    {
+     "supertype": "Lamp5_5",
+     "n_cells": 5860,
+     "mean_ncorr": -0.15254091163579228,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 163,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 989
+    },
+    {
+     "supertype": "Lamp5_6",
+     "n_cells": 1726,
+     "mean_ncorr": -0.09266979903255414,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 21,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 190
+    }
+   ]
+  },
+  "CPS_Local_pTau": {
+   "global_p": 0.00019998000199980003,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.27508686100285573,
+   "null_r2_mean": 0.03882203462615271,
+   "null_r2_std": 0.03480516514937887,
+   "n_donors": 84,
+   "n_neighborhoods_kept": 39565,
+   "n_cells": 39565,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": 0.2870403316596458,
+   "fdr10_threshold": 0.24358927227997473,
+   "n_cells_fdr5": 5891,
+   "n_cells_fdr10": 9750,
+   "pos_fdr5": 2175,
+   "neg_fdr5": 3716,
+   "pos_fdr10": 3894,
+   "neg_fdr10": 5856,
+   "ncorr_min": -0.5266795076323784,
+   "ncorr_max": 0.49172555589443917,
+   "ncorr_mean": -0.033972533623770076,
+   "assoc_seconds": 9.4,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "Lamp5_1",
+     "n_cells": 3267,
+     "mean_ncorr": 0.13795965680940248,
+     "n_pos_fdr5": 587,
+     "n_neg_fdr5": 1,
+     "n_pos_fdr10": 951,
+     "n_neg_fdr10": 4
+    },
+    {
+     "supertype": "Lamp5_2",
+     "n_cells": 21407,
+     "mean_ncorr": 0.017314699461779444,
+     "n_pos_fdr5": 1533,
+     "n_neg_fdr5": 337,
+     "n_pos_fdr10": 2800,
+     "n_neg_fdr10": 1004
+    },
+    {
+     "supertype": "Lamp5_3",
+     "n_cells": 6159,
+     "mean_ncorr": -0.10746833018610744,
+     "n_pos_fdr5": 52,
+     "n_neg_fdr5": 753,
+     "n_pos_fdr10": 128,
+     "n_neg_fdr10": 1248
+    },
+    {
+     "supertype": "Lamp5_4",
+     "n_cells": 1146,
+     "mean_ncorr": -0.1754706016293928,
+     "n_pos_fdr5": 3,
+     "n_neg_fdr5": 272,
+     "n_pos_fdr10": 9,
+     "n_neg_fdr10": 419
+    },
+    {
+     "supertype": "Lamp5_5",
+     "n_cells": 5860,
+     "mean_ncorr": -0.18452694771222725,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 1900,
+     "n_pos_fdr10": 3,
+     "n_neg_fdr10": 2565
+    },
+    {
+     "supertype": "Lamp5_6",
+     "n_cells": 1726,
+     "mean_ncorr": -0.12814518790377874,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 453,
+     "n_pos_fdr10": 3,
+     "n_neg_fdr10": 616
+    }
+   ]
+  }
+ }
+}

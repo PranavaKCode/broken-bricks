@@ -1,0 +1,323 @@
+{
+ "label": "astrocyte",
+ "display": "Astrocyte",
+ "variant": "nosad",
+ "h5ad": "/home/pranavak/orcd/pool/mantis-films/research/seaad/data/cellxgene/Astrocyte_MTG.h5ad",
+ "n_cells_file": 70009,
+ "n_cells_used": 57591,
+ "n_donors": 73,
+ "dropped_donors": [
+  "H20.33.028",
+  "H20.33.033",
+  "H20.33.037",
+  "H20.33.038",
+  "H20.33.046",
+  "H21.33.009",
+  "H21.33.020",
+  "H21.33.033",
+  "H21.33.034",
+  "H21.33.039",
+  "H21.33.045"
+ ],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac"
+ ],
+ "cells_per_donor": {
+  "min": 83,
+  "median": 631.0,
+  "max": 2368
+ },
+ "method_frac_mean": 0.10085243922339966,
+ "timings_s": {
+  "read_obs_scvi_umap": 1.72,
+  "filter_join": 0.06,
+  "neighbors_k30": 40.31,
+  "cna_CPS_Local": 14.6,
+  "cna_CPS_Local_ABeta": 14.6,
+  "cna_CPS_Local_pTau": 14.7,
+  "total_s": 86.0
+ },
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4",
+  "anndata": "0.13.4",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6"
+ },
+ "results": {
+  "CPS_Local": {
+   "global_p": 0.008399160083991601,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.21195656643366434,
+   "null_r2_mean": 0.0458161351202154,
+   "null_r2_std": 0.04026991566788678,
+   "n_donors": 73,
+   "n_neighborhoods_kept": 57591,
+   "n_cells": 57591,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": 0.3767684958451011,
+   "fdr10_threshold": 0.3446409496877668,
+   "n_cells_fdr5": 896,
+   "n_cells_fdr10": 1361,
+   "pos_fdr5": 881,
+   "neg_fdr5": 15,
+   "pos_fdr10": 1271,
+   "neg_fdr10": 90,
+   "ncorr_min": -0.42031976280256,
+   "ncorr_max": 0.5841372028606185,
+   "ncorr_mean": 0.011938587584251696,
+   "assoc_seconds": 14.6,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "Astro_1",
+     "n_cells": 4865,
+     "mean_ncorr": 0.013363043909281806,
+     "n_pos_fdr5": 98,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 141,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Astro_2",
+     "n_cells": 36721,
+     "mean_ncorr": 0.05139671471283844,
+     "n_pos_fdr5": 750,
+     "n_neg_fdr5": 2,
+     "n_pos_fdr10": 1074,
+     "n_neg_fdr10": 16
+    },
+    {
+     "supertype": "Astro_3",
+     "n_cells": 9086,
+     "mean_ncorr": -0.10719906874978413,
+     "n_pos_fdr5": 25,
+     "n_neg_fdr5": 9,
+     "n_pos_fdr10": 39,
+     "n_neg_fdr10": 44
+    },
+    {
+     "supertype": "Astro_4",
+     "n_cells": 789,
+     "mean_ncorr": 0.031147965311267803,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 3,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Astro_5",
+     "n_cells": 3234,
+     "mean_ncorr": -0.06440414880459111,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 4,
+     "n_pos_fdr10": 1,
+     "n_neg_fdr10": 29
+    },
+    {
+     "supertype": "Astro_6-SEAAD",
+     "n_cells": 2896,
+     "mean_ncorr": -0.03697401959950301,
+     "n_pos_fdr5": 8,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 13,
+     "n_neg_fdr10": 1
+    }
+   ]
+  },
+  "CPS_Local_ABeta": {
+   "global_p": 0.11458854114588542,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.13375715596702997,
+   "null_r2_mean": 0.04568007031629275,
+   "null_r2_std": 0.04024687253736772,
+   "n_donors": 73,
+   "n_neighborhoods_kept": 57591,
+   "n_cells": 57591,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": null,
+   "fdr10_threshold": 0.39142346760126334,
+   "n_cells_fdr5": 0,
+   "n_cells_fdr10": 380,
+   "pos_fdr5": 0,
+   "neg_fdr5": 0,
+   "pos_fdr10": 379,
+   "neg_fdr10": 1,
+   "ncorr_min": -0.4124562233357681,
+   "ncorr_max": 0.5184416789420679,
+   "ncorr_mean": 0.011765843428636241,
+   "assoc_seconds": 14.6,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "Astro_1",
+     "n_cells": 4865,
+     "mean_ncorr": 0.02177107002388578,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 43,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Astro_2",
+     "n_cells": 36721,
+     "mean_ncorr": 0.04303300308241054,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 331,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Astro_3",
+     "n_cells": 9086,
+     "mean_ncorr": -0.08303885058503652,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 5,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Astro_4",
+     "n_cells": 789,
+     "mean_ncorr": 0.034363508369973206,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Astro_5",
+     "n_cells": 3234,
+     "mean_ncorr": -0.05043903011299199,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 1
+    },
+    {
+     "supertype": "Astro_6-SEAAD",
+     "n_cells": 2896,
+     "mean_ncorr": -0.04075499352888907,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 0,
+     "n_neg_fdr10": 0
+    }
+   ]
+  },
+  "CPS_Local_pTau": {
+   "global_p": 0.0013998600139986002,
+   "p_floor": 9.999000099990002e-05,
+   "k_pcs": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "r2": 0.26595513474022425,
+   "null_r2_mean": 0.04620752960130515,
+   "null_r2_std": 0.040420087722997704,
+   "n_donors": 73,
+   "n_neighborhoods_kept": 57591,
+   "n_cells": 57591,
+   "n_cells_ncorr_nan": 0,
+   "fdr5_threshold": 0.37013535832191813,
+   "fdr10_threshold": 0.33398932723579333,
+   "n_cells_fdr5": 999,
+   "n_cells_fdr10": 1747,
+   "pos_fdr5": 959,
+   "neg_fdr5": 40,
+   "pos_fdr10": 1532,
+   "neg_fdr10": 215,
+   "ncorr_min": -0.4116836342066928,
+   "ncorr_max": 0.5783364973779989,
+   "ncorr_mean": 0.0100488242665919,
+   "assoc_seconds": 14.7,
+   "warnings": [
+    "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+   ],
+   "supertypes": [
+    {
+     "supertype": "Astro_1",
+     "n_cells": 4865,
+     "mean_ncorr": -0.00039111810273010294,
+     "n_pos_fdr5": 89,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 145,
+     "n_neg_fdr10": 4
+    },
+    {
+     "supertype": "Astro_2",
+     "n_cells": 36721,
+     "mean_ncorr": 0.05357212308157169,
+     "n_pos_fdr5": 830,
+     "n_neg_fdr5": 19,
+     "n_pos_fdr10": 1322,
+     "n_neg_fdr10": 65
+    },
+    {
+     "supertype": "Astro_3",
+     "n_cells": 9086,
+     "mean_ncorr": -0.12082390985948029,
+     "n_pos_fdr5": 27,
+     "n_neg_fdr5": 17,
+     "n_pos_fdr10": 41,
+     "n_neg_fdr10": 112
+    },
+    {
+     "supertype": "Astro_4",
+     "n_cells": 789,
+     "mean_ncorr": 0.021256592618989358,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 1,
+     "n_neg_fdr10": 0
+    },
+    {
+     "supertype": "Astro_5",
+     "n_cells": 3234,
+     "mean_ncorr": -0.0718454497592947,
+     "n_pos_fdr5": 0,
+     "n_neg_fdr5": 0,
+     "n_pos_fdr10": 1,
+     "n_neg_fdr10": 28
+    },
+    {
+     "supertype": "Astro_6-SEAAD",
+     "n_cells": 2896,
+     "mean_ncorr": -0.025281258923654546,
+     "n_pos_fdr5": 13,
+     "n_neg_fdr5": 4,
+     "n_pos_fdr10": 22,
+     "n_neg_fdr10": 6
+    }
+   ]
+  }
+ }
+}
