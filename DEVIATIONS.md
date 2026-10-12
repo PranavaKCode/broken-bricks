@@ -10,3 +10,4 @@ The preregistration (section 3) records deviations and implementation amendments
 | A4.4 | implementation | operational definitions of Sst depletion and of "credible" supertypes (SEA-AD summary table primary, own aggregation as sensitivity) | C3 left "credible" undefined; declared before the all-subclass concordance |
 | A4.5 | implementation | Milo via pydeseq2 solver | R/edgeR not installed on the cluster |
 | A4.7 | implementation | floor capped at 149,995 cells (18,515 per large type) | the protocol's "<= 150k" and "20k each" conflict; the cap is binding |
+| A5.1-A5.5 | implementation / exploratory | post-result notes: outcome of the A4 definitions (PC1 pass on both, H1 11/11), FDR flag boundary, Milo worker cap, exploratory descriptive tables, what is committed | recorded for transparency; nothing changed |
