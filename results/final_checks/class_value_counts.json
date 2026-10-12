@@ -1,0 +1,38 @@
+{
+ "n_rows": 1178694,
+ "used_in_analysis": {
+  "True": 1178694
+ },
+ "class": {
+  "Neuronal: Glutamatergic": 647339,
+  "Neuronal: GABAergic": 303930,
+  "Non-neuronal and Non-neural": 227425
+ },
+ "subclass": {
+  "L2/3 IT": 289940,
+  "L4 IT": 147987,
+  "L5 IT": 105259,
+  "Oligodendrocyte": 90578,
+  "Vip": 89661,
+  "Pvalb": 78746,
+  "Astrocyte": 65450,
+  "Sst": 44695,
+  "L6 IT": 37902,
+  "Lamp5": 36966,
+  "Immune": 36686,
+  "OPC": 28907,
+  "L6 IT Car3": 20690,
+  "Lamp5 Lhx6": 18490,
+  "L5/6 NP": 17365,
+  "Sncg": 17296,
+  "L6 CT": 14094,
+  "L6b": 12289,
+  "Chandelier": 9464,
+  "Pax6": 7713,
+  "VLMC & Perivascular": 3932,
+  "Endothelial": 1872,
+  "L5 ET": 1813,
+  "Sst Chodl": 899
+ },
+ "n_donors": 84
+}

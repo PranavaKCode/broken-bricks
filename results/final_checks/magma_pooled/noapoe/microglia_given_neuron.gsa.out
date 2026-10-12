@@ -1,0 +1,33 @@
+# TOTAL_GENES = 16275
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_VARIABLES = N7_Neuron_all (covar)
+VARIABLE                TYPE  MODEL  NGENES         BETA     BETA_STD           SE            P
+N7_Neuron_all          COVAR      1   16275    -0.014828    -0.014837    0.0080051     0.063999
+N7_Microglia           COVAR      1   16275     0.046579     0.046584    0.0080389   7.0092e-09
+N7_Neuron_all          COVAR      2   16275     -0.01873    -0.018742    0.0080545     0.020066
+N7_Astrocyte           COVAR      2   16275   -0.0091721   -0.0091781     0.008119      0.25862
+N7_Neuron_all          COVAR      3   16275    -0.023365     -0.02338    0.0080664    0.0037775
+N7_Oligodendrocyte     COVAR      3   16275     0.020522     0.020595    0.0081964     0.012297
+N7_Neuron_all          COVAR      4   16275    -0.017031    -0.017042    0.0083168     0.040597
+N7_OPC                 COVAR      4   16275    -0.010854    -0.010836    0.0084882      0.20103
+N7_Neuron_all          COVAR      5   16275    -0.021269    -0.021282    0.0081587    0.0091462
+N7_Endothelial         COVAR      5   16275   -0.0053113   -0.0052759    0.0081223      0.51318
+N7_Neuron_all          COVAR      6   16275    -0.023313    -0.023327    0.0080494    0.0037827
+N7_VLMC                COVAR      6   16275    -0.021653    -0.021587    0.0080603     0.007232
+N7_Neuron_all          COVAR      7   16275    -0.039373    -0.039398     0.027022      0.14512
+N8_Exc3                COVAR      7   16275     0.020133     0.020159     0.026982      0.45558
+N7_Neuron_all          COVAR      8   16275    -0.018707    -0.018719     0.015298       0.2214
+N8_Inh4                COVAR      8   16275   -0.0016448   -0.0016416     0.015374       0.9148
+N7_Neuron_all          COVAR      9   16275    -0.012318    -0.012325    0.0080674      0.12682
+N8_Microglia           COVAR      9   16275     0.046733     0.046727    0.0081164   8.6891e-09
+N7_Neuron_all          COVAR     10   16275    -0.019502    -0.019515    0.0079833     0.014582
+N8_Astrocyte           COVAR     10   16275   -0.0083371   -0.0083417    0.0080672       0.3014
+N7_Neuron_all          COVAR     11   16275    -0.022235    -0.022249    0.0079999    0.0054519
+N8_Oligodendrocyte     COVAR     11   16275     0.021808     0.021884    0.0081338    0.0073448
+N7_Neuron_all          COVAR     12   16275    -0.018189      -0.0182     0.008124     0.025176
+N8_OPC                 COVAR     12   16275   -0.0098327   -0.0098226    0.0082858      0.23537
+N7_Neuron_all          COVAR     13   16275    -0.021398    -0.021412    0.0082669    0.0096513
+N8_Endothelial         COVAR     13   16275   -0.0047888   -0.0047563    0.0082339      0.56085
+N7_Neuron_all          COVAR     14   16275    -0.024851    -0.024866    0.0081681    0.0023511
+N8_VLMC                COVAR     14   16275    -0.021215    -0.021147    0.0081801    0.0095112

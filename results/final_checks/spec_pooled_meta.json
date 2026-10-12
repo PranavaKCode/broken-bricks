@@ -1,0 +1,159 @@
+{
+ "genes_in_covariate_file": 17019,
+ "same_gene_set_as_original": true,
+ "n_orig": 17019,
+ "rows_mtg_aged": {
+  "Microglia": 1134,
+  "Astrocyte": 1128,
+  "Oligodendrocyte": 1070,
+  "OPC": 666,
+  "Sst": 2904,
+  "Pvalb": 2443,
+  "Vip": 3360,
+  "Lamp5": 1143,
+  "L23IT": 1954,
+  "L4IT": 813,
+  "L5IT": 1391,
+  "Endothelial": 415,
+  "VLMC": 588
+ },
+ "nuclei_mtg_aged": {
+  "Microglia": 36686,
+  "Astrocyte": 65450,
+  "Oligodendrocyte": 90578,
+  "OPC": 28907,
+  "Sst": 44695,
+  "Pvalb": 78746,
+  "Vip": 89661,
+  "Lamp5": 36966,
+  "L23IT": 289940,
+  "L4IT": 147987,
+  "L5IT": 105259,
+  "Endothelial": 1872,
+  "VLMC": 3932
+ },
+ "pooled_total_counts": {
+  "Neuron_all": 23751032303.0,
+  "Exc3": 18851473657.0,
+  "Inh4": 4899558646.0,
+  "Microglia": 232468287.0,
+  "Astrocyte": 767326731.0,
+  "Oligodendrocyte": 644377095.0,
+  "OPC": 347730045.0,
+  "Endothelial": 13361167.0,
+  "VLMC": 27536654.0
+ },
+ "marker_check_INT": {
+  "SNAP25": {
+   "N7_Neuron_all": 1.95,
+   "N7_Microglia": -0.84,
+   "N7_Astrocyte": -0.9,
+   "N7_Oligodendrocyte": -0.63
+  },
+  "SYT1": {
+   "N7_Neuron_all": 2.69,
+   "N7_Microglia": -0.85,
+   "N7_Astrocyte": -1.2,
+   "N7_Oligodendrocyte": -0.77
+  },
+  "RBFOX3": {
+   "N7_Neuron_all": 2.84,
+   "N7_Microglia": -0.87,
+   "N7_Astrocyte": -1.17,
+   "N7_Oligodendrocyte": -0.89
+  },
+  "GAD1": {
+   "N7_Neuron_all": 1.13,
+   "N7_Microglia": -1.24,
+   "N7_Astrocyte": -1.16,
+   "N7_Oligodendrocyte": -1.06
+  },
+  "SLC17A7": {
+   "N7_Neuron_all": 1.68,
+   "N7_Microglia": -0.24,
+   "N7_Astrocyte": -0.72,
+   "N7_Oligodendrocyte": -0.13
+  },
+  "CSF1R": {
+   "N7_Neuron_all": -2.35,
+   "N7_Microglia": 2.25,
+   "N7_Astrocyte": -1.87,
+   "N7_Oligodendrocyte": -2.22
+  },
+  "P2RY12": {
+   "N7_Neuron_all": -1.47,
+   "N7_Microglia": 2.22,
+   "N7_Astrocyte": -1.16,
+   "N7_Oligodendrocyte": -1.66
+  },
+  "GFAP": {
+   "N7_Neuron_all": -1.77,
+   "N7_Microglia": -1.42,
+   "N7_Astrocyte": 2.86,
+   "N7_Oligodendrocyte": -1.41
+  },
+  "MBP": {
+   "N7_Neuron_all": -1.12,
+   "N7_Microglia": -0.31,
+   "N7_Astrocyte": -1.94,
+   "N7_Oligodendrocyte": 2.54
+  },
+  "PLP1": {
+   "N7_Neuron_all": -1.87,
+   "N7_Microglia": -1.8,
+   "N7_Astrocyte": -1.89,
+   "N7_Oligodendrocyte": 3.14
+  }
+ },
+ "top10_specific": {
+  "N7_Neuron_all": [
+   "HSD3B1",
+   "OR2T10",
+   "PYDC2",
+   "SLC22A25",
+   "KRTAP5-2",
+   "MCHR2",
+   "SLC22A10",
+   "OR14I1",
+   "FSTL4",
+   "PNPLA5"
+  ],
+  "N7_Microglia": [
+   "CD86",
+   "FCGR3B",
+   "MS4A14",
+   "TREML4",
+   "MS4A6A",
+   "ADORA3",
+   "VSIG4",
+   "CLECL1",
+   "RGS1",
+   "ANKRD22"
+  ],
+  "N8_Exc3": [
+   "OR2T10",
+   "PYDC2",
+   "MCHR2",
+   "OR14I1",
+   "OR2T11",
+   "SLC22A25",
+   "SLC22A10",
+   "ROS1",
+   "CNGB1",
+   "HDGFL1"
+  ],
+  "N8_Inh4": [
+   "GPR149",
+   "SP9",
+   "GAD2",
+   "CHRNA2",
+   "SYTL5",
+   "NXPH2",
+   "DLX6",
+   "MEPE",
+   "PRLHR",
+   "CALB2"
+  ]
+ },
+ "seconds": 93.2
+}

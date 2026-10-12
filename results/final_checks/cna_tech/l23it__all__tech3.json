@@ -1,0 +1,131 @@
+{
+ "label": "l23it",
+ "display": "L2/3 IT",
+ "variant": "all",
+ "model": "tech3",
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac",
+  "seq_saturation",
+  "rin",
+  "log10_nuclei"
+ ],
+ "imputed_donors": {
+  "seq_saturation": 0,
+  "rin": 0,
+  "n_nuclei": 0
+ },
+ "n_cells_used": 301373,
+ "n_donors": 84,
+ "dropped_donors": [],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "total_s": 154.3,
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4"
+ },
+ "result": {
+  "global_p": 0.06409359064093591,
+  "p_floor": 9.999000099990002e-05,
+  "k_pcs": 4,
+  "ks": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "r2": 0.1359371702458927,
+  "null_r2_mean": 0.04066137437730029,
+  "null_r2_std": 0.03609886248742561,
+  "n_donors": 84,
+  "n_neighborhoods_kept": 301373,
+  "n_cells": 301373,
+  "n_cells_fdr5": 0,
+  "n_cells_fdr10": 0,
+  "pos_fdr10": 0,
+  "neg_fdr10": 0,
+  "pos_fdr5": 0,
+  "neg_fdr5": 0,
+  "assoc_seconds": 79.7,
+  "warnings": [
+   "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+  ],
+  "supertypes": [
+   {
+    "supertype": "L2/3 IT_1",
+    "n_cells": 126984,
+    "mean_ncorr": -0.0185275869686601,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L2/3 IT_10",
+    "n_cells": 19008,
+    "mean_ncorr": 0.02085729294526139,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L2/3 IT_12",
+    "n_cells": 10581,
+    "mean_ncorr": 0.01000929707699392,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L2/3 IT_13",
+    "n_cells": 27601,
+    "mean_ncorr": 0.007940100800030745,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L2/3 IT_2",
+    "n_cells": 1810,
+    "mean_ncorr": 0.06547969329748381,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L2/3 IT_3",
+    "n_cells": 5909,
+    "mean_ncorr": 0.030389316538339286,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L2/3 IT_5",
+    "n_cells": 27503,
+    "mean_ncorr": 0.016634935228958713,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L2/3 IT_6",
+    "n_cells": 68226,
+    "mean_ncorr": 0.014084024964935249,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L2/3 IT_7",
+    "n_cells": 6298,
+    "mean_ncorr": -0.019418747312405994,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L2/3 IT_8",
+    "n_cells": 7453,
+    "mean_ncorr": -0.05045587985175927,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+check,commit,commit_time_EDT,job_family_regex,expected,extreme_job,job_time,job_minus_commit,result
+prereg: any lit-/seaad- job starts after the commit,ef5646b,2026-10-11 22:39:30,^(lit|seaad)-,after,25617925 lit-env,2026-10-11 22:41:34,+0:02:04,OK
+prereg: any lit-/seaad- job SUBMITTED after the commit,ef5646b,2026-10-11 22:39:30,^(lit|seaad)-,after,25617925 lit-env,2026-10-11 22:41:01,+0:01:31,OK
+A1: first stage-A (metric) job starts after A1,f0da21e,2026-10-11 22:44:44,^lit-stage[ABD],after,25620561 lit-stageA,2026-10-12 00:12:50,+1:28:06,OK
+A2: first stage-B job (genetics joined to attention) starts after A2,d54de6d,2026-10-12 00:19:39,^lit-stageB,after,25629164 lit-stageB,2026-10-12 02:45:58,+2:26:19,OK
+A2: first stage-D job starts after A2,d54de6d,2026-10-12 00:19:39,^lit-stageD,after,25629536 lit-stageD,2026-10-12 02:55:57,+2:36:18,OK
+A2: stage-A rewrite run (A_g abstract-verified) starts after A2,d54de6d,2026-10-12 00:19:39,^lit-stageA-q,after,25622932 lit-stageA-q,2026-10-12 00:34:53,+0:15:14,OK
+A2: original stage-A run ended before A2 (the output A2 cites),d54de6d,2026-10-12 00:19:39,^lit-stageA$,before,25620561 lit-stageA,2026-10-12 00:16:15,-0:03:24,OK
+A4: first 11-subclass CNA job (d1-) submitted after A4,9123dc3,2026-10-12 05:07:34,^d1-,after,25634267 d1-micro-all,2026-10-12 05:08:09,+0:00:35,OK
+A6: first Day-2 job (d2-) submitted after A6/A7,41658d0,2026-10-12 05:42:13,^d2-,after,25635113 d2-micro-all,2026-10-12 05:43:48,+0:01:35,OK
+A7: first Day-3 job (d3 / d3p) submitted after A6/A7,41658d0,2026-10-12 05:42:13,^d3,after,25635498 d3p-micro-test,2026-10-12 05:59:14,+0:17:01,OK
+A8: the debug run (d2-brk-q) ended before A8,0b7ccf0,2026-10-12 05:56:10,^d2-brk-q$,before,25635326 d2-brk-q,2026-10-12 05:54:38,-0:01:32,OK
+A8: first full brick analysis (d2-brk-all) starts after A8,0b7ccf0,2026-10-12 05:56:10,^d2-brk-all$,after,25635774 d2-brk-all,2026-10-12 06:09:58,+0:13:48,OK
+"A8 (informational): Day-2 NAM jobs, phenotype-free, no brick score: 22 of 23 names have a run started after A8; 21 runs ended before A8",0b7ccf0,2026-10-12 05:56:10,d2-<subclass>-(all|nosad),rerun after,n/a,2026-10-12 05:56:10,n/a,"INFO (first NAM runs, incl. nosad, preceded A8; they hold PC scores only)"
+A9: first full 'all' brick analysis ended before A9,4232120,2026-10-12 06:15:45,^d2-brk-all$,before,25635774 d2-brk-all,2026-10-12 06:14:14,-0:01:31,OK
+A9: nosad brick analysis (d2-brk-nosad) starts after A9,4232120,2026-10-12 06:15:45,^d2-brk-nosad$,after,25636226 d2-brk-nosad,2026-10-12 06:21:17,+0:05:32,OK
+A9: techResid rerun (second d2-brk-all) starts after A9,4232120,2026-10-12 06:15:45,^d2-brk-all$,after,25636171 d2-brk-all,2026-10-12 06:19:00,+0:03:15,OK
+results e4f87cf: last Day-2/3 job ended before the results commit,e4f87cf,2026-10-12 06:54:10,^(d2|d3),before,25636812 d3-parse,2026-10-12 06:41:00,-0:13:10,OK

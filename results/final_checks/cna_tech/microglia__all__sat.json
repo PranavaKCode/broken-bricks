@@ -1,0 +1,113 @@
+{
+ "label": "microglia",
+ "display": "Microglia-PVM",
+ "variant": "all",
+ "model": "sat",
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac",
+  "seq_saturation"
+ ],
+ "imputed_donors": {
+  "seq_saturation": 0
+ },
+ "n_cells_used": 38905,
+ "n_donors": 84,
+ "dropped_donors": [],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "total_s": 61.4,
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4"
+ },
+ "result": {
+  "global_p": 0.0491950804919508,
+  "p_floor": 9.999000099990002e-05,
+  "k_pcs": 4,
+  "ks": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "r2": 0.14439487332815204,
+  "null_r2_mean": 0.04035639391895131,
+  "null_r2_std": 0.03613616471477634,
+  "n_donors": 84,
+  "n_neighborhoods_kept": 38905,
+  "n_cells": 38905,
+  "n_cells_fdr5": 0,
+  "n_cells_fdr10": 0,
+  "pos_fdr10": 0,
+  "neg_fdr10": 0,
+  "pos_fdr5": 0,
+  "neg_fdr5": 0,
+  "assoc_seconds": 14.2,
+  "warnings": [
+   "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+  ],
+  "supertypes": [
+   {
+    "supertype": "Micro-PVM_1",
+    "n_cells": 1551,
+    "mean_ncorr": 0.06385316507069472,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Micro-PVM_1_1-SEAAD",
+    "n_cells": 258,
+    "mean_ncorr": 0.15108588077443108,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Micro-PVM_2",
+    "n_cells": 21439,
+    "mean_ncorr": -0.014469211646325017,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Micro-PVM_2_1-SEAAD",
+    "n_cells": 288,
+    "mean_ncorr": -0.0746008706694366,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Micro-PVM_2_2-SEAAD",
+    "n_cells": 855,
+    "mean_ncorr": 0.07554716974019401,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Micro-PVM_2_3-SEAAD",
+    "n_cells": 8998,
+    "mean_ncorr": -0.05867296217189241,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Micro-PVM_3-SEAAD",
+    "n_cells": 5094,
+    "mean_ncorr": 0.1211656474144046,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Micro-PVM_4-SEAAD",
+    "n_cells": 422,
+    "mean_ncorr": -0.04056883272204329,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   }
+  ]
+ }
+}

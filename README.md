@@ -17,3 +17,5 @@ Day 2-3 (donor brick profiles, genetics, APOE4):
 - `genetics/`: Day-3 code (programs, MAGMA, Open Targets overlap, H4). Results in `results/genetics/`, figures in `figures/genetics/`, `programs.gmt`.
 - `results/claims_sheet.csv` / `.md`: the claims sheet (every number read from a results cell).
 - Report: `mantis-demo-films/research/15-bricks-results.md`. Amendments A6-A10 in `amendments.md`.
+
+Verification follow-ups (2026-10-12): `final_checks/` (code, see its README) and `results/final_checks/`; amendment A11. Report: `mantis-demo-films/research/16-verification.md` section 13.

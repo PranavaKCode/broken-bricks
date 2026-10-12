@@ -1,0 +1,101 @@
+{
+ "label": "astrocyte",
+ "display": "Astrocyte",
+ "variant": "all",
+ "model": "tech3",
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac",
+  "seq_saturation",
+  "rin",
+  "log10_nuclei"
+ ],
+ "imputed_donors": {
+  "seq_saturation": 0,
+  "rin": 0,
+  "n_nuclei": 0
+ },
+ "n_cells_used": 67419,
+ "n_donors": 84,
+ "dropped_donors": [],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "total_s": 61.7,
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4"
+ },
+ "result": {
+  "global_p": 0.10748925107489252,
+  "p_floor": 9.999000099990002e-05,
+  "k_pcs": 3,
+  "ks": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "r2": 0.10024050100433901,
+  "null_r2_mean": 0.0408633821899211,
+  "null_r2_std": 0.03639688238776274,
+  "n_donors": 84,
+  "n_neighborhoods_kept": 67419,
+  "n_cells": 67419,
+  "n_cells_fdr5": 436,
+  "n_cells_fdr10": 736,
+  "pos_fdr10": 675,
+  "neg_fdr10": 61,
+  "pos_fdr5": 418,
+  "neg_fdr5": 18,
+  "assoc_seconds": 24.1,
+  "warnings": [],
+  "supertypes": [
+   {
+    "supertype": "Astro_1",
+    "n_cells": 5335,
+    "mean_ncorr": 0.017032147886118208,
+    "n_pos_fdr10": 63,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Astro_2",
+    "n_cells": 44919,
+    "mean_ncorr": 0.022005472054649356,
+    "n_pos_fdr10": 593,
+    "n_neg_fdr10": 10
+   },
+   {
+    "supertype": "Astro_3",
+    "n_cells": 9439,
+    "mean_ncorr": -0.06298906050838468,
+    "n_pos_fdr10": 15,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Astro_4",
+    "n_cells": 852,
+    "mean_ncorr": 0.005061889304393859,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Astro_5",
+    "n_cells": 3603,
+    "mean_ncorr": -0.08342759221198157,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 51
+   },
+   {
+    "supertype": "Astro_6-SEAAD",
+    "n_cells": 3271,
+    "mean_ncorr": -0.022638057237986706,
+    "n_pos_fdr10": 4,
+    "n_neg_fdr10": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "label": "astrocyte",
+ "display": "Astrocyte",
+ "variant": "all",
+ "model": "sat",
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac",
+  "seq_saturation"
+ ],
+ "imputed_donors": {
+  "seq_saturation": 0
+ },
+ "n_cells_used": 67419,
+ "n_donors": 84,
+ "dropped_donors": [],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "total_s": 54.4,
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4"
+ },
+ "result": {
+  "global_p": 0.07999200079992001,
+  "p_floor": 9.999000099990002e-05,
+  "k_pcs": 4,
+  "ks": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "r2": 0.12688691992155154,
+  "null_r2_mean": 0.03961043468296623,
+  "null_r2_std": 0.03549662264073643,
+  "n_donors": 84,
+  "n_neighborhoods_kept": 67419,
+  "n_cells": 67419,
+  "n_cells_fdr5": 287,
+  "n_cells_fdr10": 638,
+  "pos_fdr10": 577,
+  "neg_fdr10": 61,
+  "pos_fdr5": 274,
+  "neg_fdr5": 13,
+  "assoc_seconds": 15.5,
+  "warnings": [
+   "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+  ],
+  "supertypes": [
+   {
+    "supertype": "Astro_1",
+    "n_cells": 5335,
+    "mean_ncorr": 0.008796607619452178,
+    "n_pos_fdr10": 46,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Astro_2",
+    "n_cells": 44919,
+    "mean_ncorr": 0.02540253316410238,
+    "n_pos_fdr10": 517,
+    "n_neg_fdr10": 12
+   },
+   {
+    "supertype": "Astro_3",
+    "n_cells": 9439,
+    "mean_ncorr": -0.07264240244045445,
+    "n_pos_fdr10": 9,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Astro_4",
+    "n_cells": 852,
+    "mean_ncorr": -0.0001464213659831005,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Astro_5",
+    "n_cells": 3603,
+    "mean_ncorr": -0.0807038060469857,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 49
+   },
+   {
+    "supertype": "Astro_6-SEAAD",
+    "n_cells": 3271,
+    "mean_ncorr": -0.018169913118294974,
+    "n_pos_fdr10": 5,
+    "n_neg_fdr10": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "label": "microglia",
+ "display": "Microglia-PVM",
+ "variant": "nosad",
+ "model": "base",
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac"
+ ],
+ "imputed_donors": {},
+ "n_cells_used": 34803,
+ "n_donors": 73,
+ "dropped_donors": [
+  "H20.33.028",
+  "H20.33.033",
+  "H20.33.037",
+  "H20.33.038",
+  "H20.33.046",
+  "H21.33.009",
+  "H21.33.020",
+  "H21.33.033",
+  "H21.33.034",
+  "H21.33.039",
+  "H21.33.045"
+ ],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "total_s": 73.4,
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4"
+ },
+ "result": {
+  "global_p": 0.00039996000399960006,
+  "p_floor": 9.999000099990002e-05,
+  "k_pcs": 4,
+  "ks": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "r2": 0.30137626604762746,
+  "null_r2_mean": 0.04580594801422227,
+  "null_r2_std": 0.040467611084203124,
+  "n_donors": 73,
+  "n_neighborhoods_kept": 34803,
+  "n_cells": 34803,
+  "n_cells_fdr5": 1659,
+  "n_cells_fdr10": 2882,
+  "pos_fdr10": 1942,
+  "neg_fdr10": 940,
+  "pos_fdr5": 1265,
+  "neg_fdr5": 394,
+  "assoc_seconds": 14.4,
+  "warnings": [
+   "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+  ],
+  "supertypes": [
+   {
+    "supertype": "Micro-PVM_1",
+    "n_cells": 1290,
+    "mean_ncorr": 0.09323716617874146,
+    "n_pos_fdr10": 196,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Micro-PVM_1_1-SEAAD",
+    "n_cells": 228,
+    "mean_ncorr": 0.15278531304861903,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Micro-PVM_2",
+    "n_cells": 19248,
+    "mean_ncorr": -0.010369194228537432,
+    "n_pos_fdr10": 532,
+    "n_neg_fdr10": 680
+   },
+   {
+    "supertype": "Micro-PVM_2_1-SEAAD",
+    "n_cells": 262,
+    "mean_ncorr": -0.0719228943350966,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Micro-PVM_2_2-SEAAD",
+    "n_cells": 725,
+    "mean_ncorr": 0.06536575140876624,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Micro-PVM_2_3-SEAAD",
+    "n_cells": 8335,
+    "mean_ncorr": -0.060090312843223255,
+    "n_pos_fdr10": 49,
+    "n_neg_fdr10": 238
+   },
+   {
+    "supertype": "Micro-PVM_3-SEAAD",
+    "n_cells": 4331,
+    "mean_ncorr": 0.17047992588641167,
+    "n_pos_fdr10": 1160,
+    "n_neg_fdr10": 18
+   },
+   {
+    "supertype": "Micro-PVM_4-SEAAD",
+    "n_cells": 384,
+    "mean_ncorr": -0.09282319614960177,
+    "n_pos_fdr10": 5,
+    "n_neg_fdr10": 4
+   }
+  ]
+ }
+}

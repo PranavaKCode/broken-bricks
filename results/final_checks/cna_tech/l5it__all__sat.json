@@ -1,0 +1,99 @@
+{
+ "label": "l5it",
+ "display": "L5 IT",
+ "variant": "all",
+ "model": "sat",
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac",
+  "seq_saturation"
+ ],
+ "imputed_donors": {
+  "seq_saturation": 0
+ },
+ "n_cells_used": 108510,
+ "n_donors": 84,
+ "dropped_donors": [],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "total_s": 89.1,
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4"
+ },
+ "result": {
+  "global_p": 0.07239276072392761,
+  "p_floor": 9.999000099990002e-05,
+  "k_pcs": 4,
+  "ks": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "r2": 0.12966469244190248,
+  "null_r2_mean": 0.039947869561888096,
+  "null_r2_std": 0.03546991357767927,
+  "n_donors": 84,
+  "n_neighborhoods_kept": 108510,
+  "n_cells": 108510,
+  "n_cells_fdr5": 0,
+  "n_cells_fdr10": 0,
+  "pos_fdr10": 0,
+  "neg_fdr10": 0,
+  "pos_fdr5": 0,
+  "neg_fdr5": 0,
+  "assoc_seconds": 30.4,
+  "warnings": [
+   "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+  ],
+  "supertypes": [
+   {
+    "supertype": "L5 IT_1",
+    "n_cells": 11922,
+    "mean_ncorr": 0.03415945642862696,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L5 IT_2",
+    "n_cells": 46289,
+    "mean_ncorr": -0.02166877260886861,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L5 IT_3",
+    "n_cells": 6180,
+    "mean_ncorr": 0.03086683567154823,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L5 IT_5",
+    "n_cells": 23250,
+    "mean_ncorr": 0.012065108415211462,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L5 IT_6",
+    "n_cells": 8132,
+    "mean_ncorr": -0.013029638665764587,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "L5 IT_7",
+    "n_cells": 12737,
+    "mean_ncorr": -0.002750974533295696,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   }
+  ]
+ }
+}

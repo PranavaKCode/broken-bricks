@@ -1,0 +1,87 @@
+{
+ "label": "opc",
+ "display": "OPC",
+ "variant": "all",
+ "model": "tech3",
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac",
+  "seq_saturation",
+  "rin",
+  "log10_nuclei"
+ ],
+ "imputed_donors": {
+  "seq_saturation": 0,
+  "rin": 0,
+  "n_nuclei": 0
+ },
+ "n_cells_used": 30438,
+ "n_donors": 84,
+ "dropped_donors": [],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "total_s": 45.3,
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4"
+ },
+ "result": {
+  "global_p": 0.6341365863413658,
+  "p_floor": 9.999000099990002e-05,
+  "k_pcs": 1,
+  "ks": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "r2": 0.009311079522930421,
+  "null_r2_mean": 0.04136510254412041,
+  "null_r2_std": 0.0370907971872743,
+  "n_donors": 84,
+  "n_neighborhoods_kept": 30438,
+  "n_cells": 30438,
+  "n_cells_fdr5": 0,
+  "n_cells_fdr10": 0,
+  "pos_fdr10": 0,
+  "neg_fdr10": 0,
+  "pos_fdr5": 0,
+  "neg_fdr5": 0,
+  "assoc_seconds": 9.9,
+  "warnings": [],
+  "supertypes": [
+   {
+    "supertype": "OPC_1",
+    "n_cells": 280,
+    "mean_ncorr": 0.27066118700875463,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "OPC_2",
+    "n_cells": 24163,
+    "mean_ncorr": -0.007318012840574371,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "OPC_2_1-SEAAD",
+    "n_cells": 4103,
+    "mean_ncorr": -0.012063118965266979,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "OPC_2_2-SEAAD",
+    "n_cells": 1892,
+    "mean_ncorr": 0.0014640511981576952,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   }
+  ]
+ }
+}

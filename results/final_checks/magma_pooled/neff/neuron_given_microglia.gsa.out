@@ -1,0 +1,34 @@
+# MEAN_SAMPLE_SIZE = 5279
+# TOTAL_GENES = 16339
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_VARIABLES = N7_Microglia (covar)
+VARIABLE                TYPE  MODEL  NGENES         BETA     BETA_STD           SE            P
+N7_Microglia           COVAR      1   16339     0.047748      0.04773    0.0081472   4.7095e-09
+N7_Neuron_all          COVAR      1   16339    -0.015927    -0.015926    0.0081126     0.049633
+N7_Microglia           COVAR      2   16339     0.048929     0.048911    0.0081745   2.2072e-09
+N7_Astrocyte           COVAR      2   16339   -0.0045932   -0.0045932    0.0082053      0.57564
+N7_Microglia           COVAR      3   16339     0.050188      0.05017    0.0080997   5.9354e-10
+N7_Oligodendrocyte     COVAR      3   16339     0.017329     0.017386    0.0081936     0.034446
+N7_Microglia           COVAR      4   16339     0.048167     0.048149     0.008196   4.2731e-09
+N7_OPC                 COVAR      4   16339   -0.0090831   -0.0090653    0.0083315      0.27564
+N7_Microglia           COVAR      5   16339     0.049587     0.049569    0.0081002   9.4953e-10
+N7_Endothelial         COVAR      5   16339  -0.00066916  -0.00066446    0.0080309       0.9336
+N7_Microglia           COVAR      6   16339      0.04837     0.048352    0.0081266   2.7099e-09
+N7_VLMC                COVAR      6   16339    -0.013466    -0.013416     0.008105     0.096644
+N7_Microglia           COVAR      7   16339     0.048365     0.048347    0.0081218   2.6617e-09
+N8_Exc3                COVAR      7   16339    -0.014592      -0.0146    0.0080783     0.070883
+N7_Microglia           COVAR      8   16339     0.048149     0.048132    0.0081403   3.3949e-09
+N8_Inh4                COVAR      8   16339    -0.013395     -0.01336    0.0081425     0.099984
+N7_Microglia           COVAR      9   16339           NA           NA           NA           NA
+N8_Microglia           COVAR      9   16339           NA           NA           NA           NA
+N7_Microglia           COVAR     10   16339     0.049196     0.049178    0.0081512    1.624e-09
+N8_Astrocyte           COVAR     10   16339   -0.0031769   -0.0031765    0.0082025      0.69853
+N7_Microglia           COVAR     11   16339     0.049843     0.049825    0.0080949    7.594e-10
+N8_Oligodendrocyte     COVAR     11   16339     0.019166     0.019227    0.0081945     0.019354
+N7_Microglia           COVAR     12   16339     0.048551     0.048534    0.0081675   2.8366e-09
+N8_OPC                 COVAR     12   16339   -0.0077544   -0.0077442    0.0082981      0.35007
+N7_Microglia           COVAR     13   16339     0.049549     0.049531    0.0081053   1.0012e-09
+N8_Endothelial         COVAR     13   16339   0.00029522    0.0002931    0.0080385       0.9707
+N7_Microglia           COVAR     14   16339     0.048791     0.048773     0.008112   1.8463e-09
+N8_VLMC                COVAR     14   16339    -0.011891    -0.011845    0.0080899      0.14161

@@ -1,0 +1,96 @@
+{
+ "label": "oligodendrocyte",
+ "display": "Oligodendrocyte",
+ "variant": "all",
+ "model": "tech3",
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac",
+  "seq_saturation",
+  "rin",
+  "log10_nuclei"
+ ],
+ "imputed_donors": {
+  "seq_saturation": 0,
+  "rin": 0,
+  "n_nuclei": 0
+ },
+ "n_cells_used": 105681,
+ "n_donors": 84,
+ "dropped_donors": [],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "total_s": 78.7,
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4"
+ },
+ "result": {
+  "global_p": 0.30616938306169383,
+  "p_floor": 9.999000099990002e-05,
+  "k_pcs": 4,
+  "ks": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "r2": 0.08558076878475807,
+  "null_r2_mean": 0.04094397568602915,
+  "null_r2_std": 0.03641837956471357,
+  "n_donors": 84,
+  "n_neighborhoods_kept": 105681,
+  "n_cells": 105681,
+  "n_cells_fdr5": 0,
+  "n_cells_fdr10": 0,
+  "pos_fdr10": 0,
+  "neg_fdr10": 0,
+  "pos_fdr5": 0,
+  "neg_fdr5": 0,
+  "assoc_seconds": 29.1,
+  "warnings": [
+   "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+  ],
+  "supertypes": [
+   {
+    "supertype": "Oligo_1",
+    "n_cells": 10634,
+    "mean_ncorr": 0.011906931207110734,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Oligo_2",
+    "n_cells": 50255,
+    "mean_ncorr": -0.031248079463501156,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Oligo_2_1-SEAAD",
+    "n_cells": 8658,
+    "mean_ncorr": -0.0368894841061251,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Oligo_3",
+    "n_cells": 413,
+    "mean_ncorr": -0.023247545843027115,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Oligo_4",
+    "n_cells": 35721,
+    "mean_ncorr": 0.02237701075683253,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   }
+  ]
+ }
+}

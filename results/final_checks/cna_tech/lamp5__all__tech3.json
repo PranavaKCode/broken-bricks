@@ -1,0 +1,103 @@
+{
+ "label": "lamp5",
+ "display": "Lamp5",
+ "variant": "all",
+ "model": "tech3",
+ "covariates": [
+  "age",
+  "sex",
+  "pmi",
+  "method_frac",
+  "seq_saturation",
+  "rin",
+  "log10_nuclei"
+ ],
+ "imputed_donors": {
+  "seq_saturation": 0,
+  "rin": 0,
+  "n_nuclei": 0
+ },
+ "n_cells_used": 39565,
+ "n_donors": 84,
+ "dropped_donors": [],
+ "neighbors": 30,
+ "nnull": 10000,
+ "seed": 0,
+ "total_s": 48.8,
+ "versions": {
+  "python": "3.12.15",
+  "cna": "0.2.6",
+  "scanpy": "1.12.4"
+ },
+ "result": {
+  "global_p": 0.32756724327567244,
+  "p_floor": 9.999000099990002e-05,
+  "k_pcs": 4,
+  "ks": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "r2": 0.08268834080377518,
+  "null_r2_mean": 0.04082872844308611,
+  "null_r2_std": 0.0365035064799697,
+  "n_donors": 84,
+  "n_neighborhoods_kept": 39565,
+  "n_cells": 39565,
+  "n_cells_fdr5": 0,
+  "n_cells_fdr10": 0,
+  "pos_fdr10": 0,
+  "neg_fdr10": 0,
+  "pos_fdr5": 0,
+  "neg_fdr5": 0,
+  "assoc_seconds": 9.8,
+  "warnings": [
+   "data supported use of 4 NAM PCs, which is the maximum considered. Consider allowing more PCs by using the \"ks\" argument."
+  ],
+  "supertypes": [
+   {
+    "supertype": "Lamp5_1",
+    "n_cells": 3267,
+    "mean_ncorr": 0.09246007337980297,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Lamp5_2",
+    "n_cells": 21407,
+    "mean_ncorr": 0.04158834745088619,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Lamp5_3",
+    "n_cells": 6159,
+    "mean_ncorr": -0.009318385316764924,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Lamp5_4",
+    "n_cells": 1146,
+    "mean_ncorr": -0.07040812198458893,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Lamp5_5",
+    "n_cells": 5860,
+    "mean_ncorr": -0.12226123473842015,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   },
+   {
+    "supertype": "Lamp5_6",
+    "n_cells": 1726,
+    "mean_ncorr": -0.08490162928380067,
+    "n_pos_fdr10": 0,
+    "n_neg_fdr10": 0
+   }
+  ]
+ }
+}

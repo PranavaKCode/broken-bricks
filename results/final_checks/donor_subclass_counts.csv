@@ -1,0 +1,1996 @@
+donor_id,neurotypical_reference,Class,Subclass,used_in_analysis,n
+H20.33.020,False,Neuronal: GABAergic,Chandelier,True,139
+H20.33.020,False,Neuronal: GABAergic,Lamp5,True,530
+H20.33.020,False,Neuronal: GABAergic,Lamp5 Lhx6,True,281
+H20.33.020,False,Neuronal: GABAergic,Pax6,True,135
+H20.33.020,False,Neuronal: GABAergic,Pvalb,True,752
+H20.33.020,False,Neuronal: GABAergic,Sncg,True,162
+H20.33.020,False,Neuronal: GABAergic,Sst,True,394
+H20.33.020,False,Neuronal: GABAergic,Vip,True,815
+H20.33.020,False,Neuronal: GABAergic,Sst Chodl,True,5
+H20.33.020,False,Neuronal: Glutamatergic,L2/3 IT,True,3324
+H20.33.020,False,Neuronal: Glutamatergic,L4 IT,True,2713
+H20.33.020,False,Neuronal: Glutamatergic,L5 ET,True,35
+H20.33.020,False,Neuronal: Glutamatergic,L5 IT,True,1888
+H20.33.020,False,Neuronal: Glutamatergic,L5/6 NP,True,220
+H20.33.020,False,Neuronal: Glutamatergic,L6 CT,True,292
+H20.33.020,False,Neuronal: Glutamatergic,L6 IT,True,806
+H20.33.020,False,Neuronal: Glutamatergic,L6 IT Car3,True,421
+H20.33.020,False,Neuronal: Glutamatergic,L6b,True,401
+H20.33.020,False,Non-neuronal and Non-neural,Astrocyte,True,1549
+H20.33.020,False,Non-neuronal and Non-neural,Endothelial,True,30
+H20.33.020,False,Non-neuronal and Non-neural,Immune,True,579
+H20.33.020,False,Non-neuronal and Non-neural,OPC,True,298
+H20.33.020,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1173
+H20.33.020,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,101
+H21.33.018,False,Neuronal: GABAergic,Chandelier,True,174
+H21.33.018,False,Neuronal: GABAergic,Lamp5,True,500
+H21.33.018,False,Neuronal: GABAergic,Lamp5 Lhx6,True,236
+H21.33.018,False,Neuronal: GABAergic,Pax6,True,86
+H21.33.018,False,Neuronal: GABAergic,Pvalb,True,991
+H21.33.018,False,Neuronal: GABAergic,Sncg,True,239
+H21.33.018,False,Neuronal: GABAergic,Sst,True,363
+H21.33.018,False,Neuronal: GABAergic,Vip,True,1474
+H21.33.018,False,Neuronal: GABAergic,Sst Chodl,True,10
+H21.33.018,False,Neuronal: Glutamatergic,L2/3 IT,True,3058
+H21.33.018,False,Neuronal: Glutamatergic,L4 IT,True,1431
+H21.33.018,False,Neuronal: Glutamatergic,L5 ET,True,11
+H21.33.018,False,Neuronal: Glutamatergic,L5 IT,True,989
+H21.33.018,False,Neuronal: Glutamatergic,L5/6 NP,True,233
+H21.33.018,False,Neuronal: Glutamatergic,L6 CT,True,59
+H21.33.018,False,Neuronal: Glutamatergic,L6 IT,True,249
+H21.33.018,False,Neuronal: Glutamatergic,L6 IT Car3,True,259
+H21.33.018,False,Neuronal: Glutamatergic,L6b,True,69
+H21.33.018,False,Non-neuronal and Non-neural,Astrocyte,True,671
+H21.33.018,False,Non-neuronal and Non-neural,Endothelial,True,21
+H21.33.018,False,Non-neuronal and Non-neural,Immune,True,755
+H21.33.018,False,Non-neuronal and Non-neural,OPC,True,328
+H21.33.018,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1124
+H21.33.018,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,35
+H21.33.025,False,Neuronal: GABAergic,Chandelier,True,107
+H21.33.025,False,Neuronal: GABAergic,Lamp5,True,386
+H21.33.025,False,Neuronal: GABAergic,Lamp5 Lhx6,True,197
+H21.33.025,False,Neuronal: GABAergic,Pax6,True,103
+H21.33.025,False,Neuronal: GABAergic,Pvalb,True,874
+H21.33.025,False,Neuronal: GABAergic,Sncg,True,186
+H21.33.025,False,Neuronal: GABAergic,Sst,True,454
+H21.33.025,False,Neuronal: GABAergic,Vip,True,1296
+H21.33.025,False,Neuronal: GABAergic,Sst Chodl,True,10
+H21.33.025,False,Neuronal: Glutamatergic,L2/3 IT,True,2152
+H21.33.025,False,Neuronal: Glutamatergic,L4 IT,True,1569
+H21.33.025,False,Neuronal: Glutamatergic,L5 ET,True,21
+H21.33.025,False,Neuronal: Glutamatergic,L5 IT,True,1231
+H21.33.025,False,Neuronal: Glutamatergic,L5/6 NP,True,300
+H21.33.025,False,Neuronal: Glutamatergic,L6 CT,True,162
+H21.33.025,False,Neuronal: Glutamatergic,L6 IT,True,351
+H21.33.025,False,Neuronal: Glutamatergic,L6 IT Car3,True,213
+H21.33.025,False,Neuronal: Glutamatergic,L6b,True,98
+H21.33.025,False,Non-neuronal and Non-neural,Astrocyte,True,814
+H21.33.025,False,Non-neuronal and Non-neural,Endothelial,True,32
+H21.33.025,False,Non-neuronal and Non-neural,Immune,True,892
+H21.33.025,False,Non-neuronal and Non-neural,OPC,True,429
+H21.33.025,False,Non-neuronal and Non-neural,Oligodendrocyte,True,780
+H21.33.025,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,58
+H21.33.003,False,Neuronal: GABAergic,Chandelier,True,183
+H21.33.003,False,Neuronal: GABAergic,Lamp5,True,626
+H21.33.003,False,Neuronal: GABAergic,Lamp5 Lhx6,True,272
+H21.33.003,False,Neuronal: GABAergic,Pax6,True,108
+H21.33.003,False,Neuronal: GABAergic,Pvalb,True,1554
+H21.33.003,False,Neuronal: GABAergic,Sncg,True,318
+H21.33.003,False,Neuronal: GABAergic,Sst,True,1165
+H21.33.003,False,Neuronal: GABAergic,Vip,True,1700
+H21.33.003,False,Neuronal: GABAergic,Sst Chodl,True,12
+H21.33.003,False,Neuronal: Glutamatergic,L2/3 IT,True,4776
+H21.33.003,False,Neuronal: Glutamatergic,L4 IT,True,1653
+H21.33.003,False,Neuronal: Glutamatergic,L5 ET,True,42
+H21.33.003,False,Neuronal: Glutamatergic,L5 IT,True,1635
+H21.33.003,False,Neuronal: Glutamatergic,L5/6 NP,True,214
+H21.33.003,False,Neuronal: Glutamatergic,L6 CT,True,302
+H21.33.003,False,Neuronal: Glutamatergic,L6 IT,True,561
+H21.33.003,False,Neuronal: Glutamatergic,L6 IT Car3,True,247
+H21.33.003,False,Neuronal: Glutamatergic,L6b,True,250
+H21.33.003,False,Non-neuronal and Non-neural,Astrocyte,True,1122
+H21.33.003,False,Non-neuronal and Non-neural,Endothelial,True,18
+H21.33.003,False,Non-neuronal and Non-neural,Immune,True,449
+H21.33.003,False,Non-neuronal and Non-neural,OPC,True,394
+H21.33.003,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1282
+H21.33.003,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,30
+H21.33.007,False,Neuronal: GABAergic,Chandelier,True,205
+H21.33.007,False,Neuronal: GABAergic,Lamp5,True,647
+H21.33.007,False,Neuronal: GABAergic,Lamp5 Lhx6,True,340
+H21.33.007,False,Neuronal: GABAergic,Pax6,True,115
+H21.33.007,False,Neuronal: GABAergic,Pvalb,True,1461
+H21.33.007,False,Neuronal: GABAergic,Sncg,True,254
+H21.33.007,False,Neuronal: GABAergic,Sst,True,1221
+H21.33.007,False,Neuronal: GABAergic,Vip,True,1504
+H21.33.007,False,Neuronal: GABAergic,Sst Chodl,True,5
+H21.33.007,False,Neuronal: Glutamatergic,L2/3 IT,True,3011
+H21.33.007,False,Neuronal: Glutamatergic,L4 IT,True,2070
+H21.33.007,False,Neuronal: Glutamatergic,L5 ET,True,20
+H21.33.007,False,Neuronal: Glutamatergic,L5 IT,True,1065
+H21.33.007,False,Neuronal: Glutamatergic,L5/6 NP,True,110
+H21.33.007,False,Neuronal: Glutamatergic,L6 CT,True,111
+H21.33.007,False,Neuronal: Glutamatergic,L6 IT,True,518
+H21.33.007,False,Neuronal: Glutamatergic,L6 IT Car3,True,315
+H21.33.007,False,Neuronal: Glutamatergic,L6b,True,108
+H21.33.007,False,Non-neuronal and Non-neural,Astrocyte,True,610
+H21.33.007,False,Non-neuronal and Non-neural,Endothelial,True,21
+H21.33.007,False,Non-neuronal and Non-neural,Immune,True,352
+H21.33.007,False,Non-neuronal and Non-neural,OPC,True,226
+H21.33.007,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1981
+H21.33.007,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,56
+H20.33.033,False,Neuronal: GABAergic,Chandelier,True,21
+H20.33.033,False,Neuronal: GABAergic,Lamp5,True,452
+H20.33.033,False,Neuronal: GABAergic,Lamp5 Lhx6,True,63
+H20.33.033,False,Neuronal: GABAergic,Pax6,True,62
+H20.33.033,False,Neuronal: GABAergic,Pvalb,True,75
+H20.33.033,False,Neuronal: GABAergic,Sncg,True,129
+H20.33.033,False,Neuronal: GABAergic,Sst,True,132
+H20.33.033,False,Neuronal: GABAergic,Vip,True,541
+H20.33.033,False,Neuronal: GABAergic,Sst Chodl,True,1
+H20.33.033,False,Neuronal: Glutamatergic,L2/3 IT,True,757
+H20.33.033,False,Neuronal: Glutamatergic,L4 IT,True,603
+H20.33.033,False,Neuronal: Glutamatergic,L5 ET,True,1
+H20.33.033,False,Neuronal: Glutamatergic,L5 IT,True,222
+H20.33.033,False,Neuronal: Glutamatergic,L5/6 NP,True,40
+H20.33.033,False,Neuronal: Glutamatergic,L6 CT,True,39
+H20.33.033,False,Neuronal: Glutamatergic,L6 IT,True,156
+H20.33.033,False,Neuronal: Glutamatergic,L6 IT Car3,True,72
+H20.33.033,False,Neuronal: Glutamatergic,L6b,True,85
+H20.33.033,False,Non-neuronal and Non-neural,Astrocyte,True,363
+H20.33.033,False,Non-neuronal and Non-neural,Endothelial,True,12
+H20.33.033,False,Non-neuronal and Non-neural,Immune,True,168
+H20.33.033,False,Non-neuronal and Non-neural,OPC,True,51
+H20.33.033,False,Non-neuronal and Non-neural,Oligodendrocyte,True,149
+H20.33.033,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,31
+H21.33.011,False,Neuronal: GABAergic,Chandelier,True,147
+H21.33.011,False,Neuronal: GABAergic,Lamp5,True,607
+H21.33.011,False,Neuronal: GABAergic,Lamp5 Lhx6,True,219
+H21.33.011,False,Neuronal: GABAergic,Pax6,True,124
+H21.33.011,False,Neuronal: GABAergic,Pvalb,True,1048
+H21.33.011,False,Neuronal: GABAergic,Sncg,True,380
+H21.33.011,False,Neuronal: GABAergic,Sst,True,683
+H21.33.011,False,Neuronal: GABAergic,Vip,True,1599
+H21.33.011,False,Neuronal: GABAergic,Sst Chodl,True,11
+H21.33.011,False,Neuronal: Glutamatergic,L2/3 IT,True,6530
+H21.33.011,False,Neuronal: Glutamatergic,L4 IT,True,1736
+H21.33.011,False,Neuronal: Glutamatergic,L5 ET,True,29
+H21.33.011,False,Neuronal: Glutamatergic,L5 IT,True,1318
+H21.33.011,False,Neuronal: Glutamatergic,L5/6 NP,True,142
+H21.33.011,False,Neuronal: Glutamatergic,L6 CT,True,117
+H21.33.011,False,Neuronal: Glutamatergic,L6 IT,True,340
+H21.33.011,False,Neuronal: Glutamatergic,L6 IT Car3,True,201
+H21.33.011,False,Neuronal: Glutamatergic,L6b,True,123
+H21.33.011,False,Non-neuronal and Non-neural,Astrocyte,True,314
+H21.33.011,False,Non-neuronal and Non-neural,Endothelial,True,6
+H21.33.011,False,Non-neuronal and Non-neural,Immune,True,466
+H21.33.011,False,Non-neuronal and Non-neural,OPC,True,506
+H21.33.011,False,Non-neuronal and Non-neural,Oligodendrocyte,True,2020
+H21.33.011,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,19
+H20.33.016,False,Neuronal: GABAergic,Chandelier,True,113
+H20.33.016,False,Neuronal: GABAergic,Lamp5,True,435
+H20.33.016,False,Neuronal: GABAergic,Lamp5 Lhx6,True,278
+H20.33.016,False,Neuronal: GABAergic,Pax6,True,107
+H20.33.016,False,Neuronal: GABAergic,Pvalb,True,1089
+H20.33.016,False,Neuronal: GABAergic,Sncg,True,188
+H20.33.016,False,Neuronal: GABAergic,Sst,True,512
+H20.33.016,False,Neuronal: GABAergic,Vip,True,1075
+H20.33.016,False,Neuronal: GABAergic,Sst Chodl,True,11
+H20.33.016,False,Neuronal: Glutamatergic,L2/3 IT,True,4944
+H20.33.016,False,Neuronal: Glutamatergic,L4 IT,True,2448
+H20.33.016,False,Neuronal: Glutamatergic,L5 ET,True,42
+H20.33.016,False,Neuronal: Glutamatergic,L5 IT,True,1804
+H20.33.016,False,Neuronal: Glutamatergic,L5/6 NP,True,256
+H20.33.016,False,Neuronal: Glutamatergic,L6 CT,True,264
+H20.33.016,False,Neuronal: Glutamatergic,L6 IT,True,777
+H20.33.016,False,Neuronal: Glutamatergic,L6 IT Car3,True,251
+H20.33.016,False,Neuronal: Glutamatergic,L6b,True,224
+H20.33.016,False,Non-neuronal and Non-neural,Astrocyte,True,739
+H20.33.016,False,Non-neuronal and Non-neural,Endothelial,True,10
+H20.33.016,False,Non-neuronal and Non-neural,Immune,True,264
+H20.33.016,False,Non-neuronal and Non-neural,OPC,True,278
+H20.33.016,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1575
+H20.33.016,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,20
+H21.33.021,False,Neuronal: GABAergic,Chandelier,True,142
+H21.33.021,False,Neuronal: GABAergic,Lamp5,True,853
+H21.33.021,False,Neuronal: GABAergic,Lamp5 Lhx6,True,322
+H21.33.021,False,Neuronal: GABAergic,Pax6,True,81
+H21.33.021,False,Neuronal: GABAergic,Pvalb,True,1035
+H21.33.021,False,Neuronal: GABAergic,Sncg,True,269
+H21.33.021,False,Neuronal: GABAergic,Sst,True,325
+H21.33.021,False,Neuronal: GABAergic,Vip,True,1964
+H21.33.021,False,Neuronal: GABAergic,Sst Chodl,True,6
+H21.33.021,False,Neuronal: Glutamatergic,L2/3 IT,True,1245
+H21.33.021,False,Neuronal: Glutamatergic,L4 IT,True,2663
+H21.33.021,False,Neuronal: Glutamatergic,L5 IT,True,756
+H21.33.021,False,Neuronal: Glutamatergic,L5/6 NP,True,269
+H21.33.021,False,Neuronal: Glutamatergic,L6 CT,True,105
+H21.33.021,False,Neuronal: Glutamatergic,L6 IT,True,44
+H21.33.021,False,Neuronal: Glutamatergic,L6 IT Car3,True,44
+H21.33.021,False,Neuronal: Glutamatergic,L6b,True,145
+H21.33.021,False,Non-neuronal and Non-neural,Astrocyte,True,527
+H21.33.021,False,Non-neuronal and Non-neural,Endothelial,True,11
+H21.33.021,False,Non-neuronal and Non-neural,Immune,True,245
+H21.33.021,False,Non-neuronal and Non-neural,OPC,True,192
+H21.33.021,False,Non-neuronal and Non-neural,Oligodendrocyte,True,225
+H21.33.021,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,56
+H20.33.018,False,Neuronal: GABAergic,Chandelier,True,152
+H20.33.018,False,Neuronal: GABAergic,Lamp5,True,478
+H20.33.018,False,Neuronal: GABAergic,Lamp5 Lhx6,True,401
+H20.33.018,False,Neuronal: GABAergic,Pax6,True,123
+H20.33.018,False,Neuronal: GABAergic,Pvalb,True,1213
+H20.33.018,False,Neuronal: GABAergic,Sncg,True,102
+H20.33.018,False,Neuronal: GABAergic,Sst,True,516
+H20.33.018,False,Neuronal: GABAergic,Vip,True,1292
+H20.33.018,False,Neuronal: GABAergic,Sst Chodl,True,19
+H20.33.018,False,Neuronal: Glutamatergic,L2/3 IT,True,3319
+H20.33.018,False,Neuronal: Glutamatergic,L4 IT,True,3283
+H20.33.018,False,Neuronal: Glutamatergic,L5 ET,True,53
+H20.33.018,False,Neuronal: Glutamatergic,L5 IT,True,2259
+H20.33.018,False,Neuronal: Glutamatergic,L5/6 NP,True,266
+H20.33.018,False,Neuronal: Glutamatergic,L6 CT,True,376
+H20.33.018,False,Neuronal: Glutamatergic,L6 IT,True,1199
+H20.33.018,False,Neuronal: Glutamatergic,L6 IT Car3,True,576
+H20.33.018,False,Neuronal: Glutamatergic,L6b,True,397
+H20.33.018,False,Non-neuronal and Non-neural,Astrocyte,True,1948
+H20.33.018,False,Non-neuronal and Non-neural,Endothelial,True,48
+H20.33.018,False,Non-neuronal and Non-neural,Immune,True,528
+H20.33.018,False,Non-neuronal and Non-neural,OPC,True,423
+H20.33.018,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1660
+H20.33.018,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,182
+H20.33.035,False,Neuronal: GABAergic,Chandelier,True,42
+H20.33.035,False,Neuronal: GABAergic,Lamp5,True,260
+H20.33.035,False,Neuronal: GABAergic,Lamp5 Lhx6,True,106
+H20.33.035,False,Neuronal: GABAergic,Pax6,True,34
+H20.33.035,False,Neuronal: GABAergic,Pvalb,True,494
+H20.33.035,False,Neuronal: GABAergic,Sncg,True,130
+H20.33.035,False,Neuronal: GABAergic,Sst,True,399
+H20.33.035,False,Neuronal: GABAergic,Vip,True,549
+H20.33.035,False,Neuronal: GABAergic,Sst Chodl,True,9
+H20.33.035,False,Neuronal: Glutamatergic,L2/3 IT,True,2453
+H20.33.035,False,Neuronal: Glutamatergic,L4 IT,True,894
+H20.33.035,False,Neuronal: Glutamatergic,L5 ET,True,5
+H20.33.035,False,Neuronal: Glutamatergic,L5 IT,True,597
+H20.33.035,False,Neuronal: Glutamatergic,L5/6 NP,True,82
+H20.33.035,False,Neuronal: Glutamatergic,L6 CT,True,81
+H20.33.035,False,Neuronal: Glutamatergic,L6 IT,True,203
+H20.33.035,False,Neuronal: Glutamatergic,L6 IT Car3,True,112
+H20.33.035,False,Neuronal: Glutamatergic,L6b,True,68
+H20.33.035,False,Non-neuronal and Non-neural,Astrocyte,True,238
+H20.33.035,False,Non-neuronal and Non-neural,Endothelial,True,8
+H20.33.035,False,Non-neuronal and Non-neural,Immune,True,192
+H20.33.035,False,Non-neuronal and Non-neural,OPC,True,118
+H20.33.035,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1006
+H20.33.035,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,11
+H21.33.032,False,Neuronal: GABAergic,Chandelier,True,140
+H21.33.032,False,Neuronal: GABAergic,Lamp5,True,490
+H21.33.032,False,Neuronal: GABAergic,Lamp5 Lhx6,True,201
+H21.33.032,False,Neuronal: GABAergic,Pax6,True,134
+H21.33.032,False,Neuronal: GABAergic,Pvalb,True,1004
+H21.33.032,False,Neuronal: GABAergic,Sncg,True,361
+H21.33.032,False,Neuronal: GABAergic,Sst,True,847
+H21.33.032,False,Neuronal: GABAergic,Vip,True,1156
+H21.33.032,False,Neuronal: GABAergic,Sst Chodl,True,11
+H21.33.032,False,Neuronal: Glutamatergic,L2/3 IT,True,4650
+H21.33.032,False,Neuronal: Glutamatergic,L4 IT,True,1367
+H21.33.032,False,Neuronal: Glutamatergic,L5 ET,True,28
+H21.33.032,False,Neuronal: Glutamatergic,L5 IT,True,1228
+H21.33.032,False,Neuronal: Glutamatergic,L5/6 NP,True,152
+H21.33.032,False,Neuronal: Glutamatergic,L6 CT,True,149
+H21.33.032,False,Neuronal: Glutamatergic,L6 IT,True,367
+H21.33.032,False,Neuronal: Glutamatergic,L6 IT Car3,True,246
+H21.33.032,False,Neuronal: Glutamatergic,L6b,True,100
+H21.33.032,False,Non-neuronal and Non-neural,Astrocyte,True,274
+H21.33.032,False,Non-neuronal and Non-neural,Endothelial,True,15
+H21.33.032,False,Non-neuronal and Non-neural,Immune,True,320
+H21.33.032,False,Non-neuronal and Non-neural,OPC,True,486
+H21.33.032,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1685
+H21.33.032,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,40
+H21.33.033,False,Neuronal: GABAergic,Chandelier,True,50
+H21.33.033,False,Neuronal: GABAergic,Lamp5,True,89
+H21.33.033,False,Neuronal: GABAergic,Lamp5 Lhx6,True,127
+H21.33.033,False,Neuronal: GABAergic,Pax6,True,67
+H21.33.033,False,Neuronal: GABAergic,Pvalb,True,298
+H21.33.033,False,Neuronal: GABAergic,Sncg,True,59
+H21.33.033,False,Neuronal: GABAergic,Sst,True,165
+H21.33.033,False,Neuronal: GABAergic,Vip,True,382
+H21.33.033,False,Neuronal: GABAergic,Sst Chodl,True,1
+H21.33.033,False,Neuronal: Glutamatergic,L2/3 IT,True,600
+H21.33.033,False,Neuronal: Glutamatergic,L4 IT,True,623
+H21.33.033,False,Neuronal: Glutamatergic,L5 ET,True,16
+H21.33.033,False,Neuronal: Glutamatergic,L5 IT,True,404
+H21.33.033,False,Neuronal: Glutamatergic,L5/6 NP,True,87
+H21.33.033,False,Neuronal: Glutamatergic,L6 CT,True,70
+H21.33.033,False,Neuronal: Glutamatergic,L6 IT,True,318
+H21.33.033,False,Neuronal: Glutamatergic,L6 IT Car3,True,193
+H21.33.033,False,Neuronal: Glutamatergic,L6b,True,127
+H21.33.033,False,Non-neuronal and Non-neural,Astrocyte,True,773
+H21.33.033,False,Non-neuronal and Non-neural,Endothelial,True,19
+H21.33.033,False,Non-neuronal and Non-neural,Immune,True,587
+H21.33.033,False,Non-neuronal and Non-neural,OPC,True,243
+H21.33.033,False,Non-neuronal and Non-neural,Oligodendrocyte,True,190
+H21.33.033,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,48
+H21.33.043,False,Neuronal: GABAergic,Chandelier,True,144
+H21.33.043,False,Neuronal: GABAergic,Lamp5,True,517
+H21.33.043,False,Neuronal: GABAergic,Lamp5 Lhx6,True,221
+H21.33.043,False,Neuronal: GABAergic,Pax6,True,117
+H21.33.043,False,Neuronal: GABAergic,Pvalb,True,1093
+H21.33.043,False,Neuronal: GABAergic,Sncg,True,335
+H21.33.043,False,Neuronal: GABAergic,Sst,True,612
+H21.33.043,False,Neuronal: GABAergic,Vip,True,1565
+H21.33.043,False,Neuronal: GABAergic,Sst Chodl,True,13
+H21.33.043,False,Neuronal: Glutamatergic,L2/3 IT,True,3575
+H21.33.043,False,Neuronal: Glutamatergic,L4 IT,True,1352
+H21.33.043,False,Neuronal: Glutamatergic,L5 ET,True,15
+H21.33.043,False,Neuronal: Glutamatergic,L5 IT,True,1102
+H21.33.043,False,Neuronal: Glutamatergic,L5/6 NP,True,130
+H21.33.043,False,Neuronal: Glutamatergic,L6 CT,True,145
+H21.33.043,False,Neuronal: Glutamatergic,L6 IT,True,361
+H21.33.043,False,Neuronal: Glutamatergic,L6 IT Car3,True,169
+H21.33.043,False,Neuronal: Glutamatergic,L6b,True,82
+H21.33.043,False,Non-neuronal and Non-neural,Astrocyte,True,603
+H21.33.043,False,Non-neuronal and Non-neural,Endothelial,True,31
+H21.33.043,False,Non-neuronal and Non-neural,Immune,True,964
+H21.33.043,False,Non-neuronal and Non-neural,OPC,True,454
+H21.33.043,False,Non-neuronal and Non-neural,Oligodendrocyte,True,771
+H21.33.043,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,41
+H20.33.001,False,Neuronal: GABAergic,Chandelier,True,130
+H20.33.001,False,Neuronal: GABAergic,Lamp5,True,420
+H20.33.001,False,Neuronal: GABAergic,Lamp5 Lhx6,True,284
+H20.33.001,False,Neuronal: GABAergic,Pax6,True,87
+H20.33.001,False,Neuronal: GABAergic,Pvalb,True,1243
+H20.33.001,False,Neuronal: GABAergic,Sncg,True,146
+H20.33.001,False,Neuronal: GABAergic,Sst,True,366
+H20.33.001,False,Neuronal: GABAergic,Vip,True,1327
+H20.33.001,False,Neuronal: GABAergic,Sst Chodl,True,10
+H20.33.001,False,Neuronal: Glutamatergic,L2/3 IT,True,5259
+H20.33.001,False,Neuronal: Glutamatergic,L4 IT,True,2496
+H20.33.001,False,Neuronal: Glutamatergic,L5 ET,True,52
+H20.33.001,False,Neuronal: Glutamatergic,L5 IT,True,1863
+H20.33.001,False,Neuronal: Glutamatergic,L5/6 NP,True,370
+H20.33.001,False,Neuronal: Glutamatergic,L6 CT,True,325
+H20.33.001,False,Neuronal: Glutamatergic,L6 IT,True,891
+H20.33.001,False,Neuronal: Glutamatergic,L6 IT Car3,True,489
+H20.33.001,False,Neuronal: Glutamatergic,L6b,True,299
+H20.33.001,False,Non-neuronal and Non-neural,Astrocyte,True,1128
+H20.33.001,False,Non-neuronal and Non-neural,Endothelial,True,36
+H20.33.001,False,Non-neuronal and Non-neural,Immune,True,789
+H20.33.001,False,Non-neuronal and Non-neural,OPC,True,700
+H20.33.001,False,Non-neuronal and Non-neural,Oligodendrocyte,True,498
+H20.33.001,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,89
+H21.33.044,False,Neuronal: GABAergic,Chandelier,True,34
+H21.33.044,False,Neuronal: GABAergic,Lamp5,True,61
+H21.33.044,False,Neuronal: GABAergic,Lamp5 Lhx6,True,85
+H21.33.044,False,Neuronal: GABAergic,Pax6,True,72
+H21.33.044,False,Neuronal: GABAergic,Pvalb,True,255
+H21.33.044,False,Neuronal: GABAergic,Sncg,True,139
+H21.33.044,False,Neuronal: GABAergic,Sst,True,146
+H21.33.044,False,Neuronal: GABAergic,Vip,True,395
+H21.33.044,False,Neuronal: GABAergic,Sst Chodl,True,1
+H21.33.044,False,Neuronal: Glutamatergic,L2/3 IT,True,911
+H21.33.044,False,Neuronal: Glutamatergic,L4 IT,True,916
+H21.33.044,False,Neuronal: Glutamatergic,L5 ET,True,6
+H21.33.044,False,Neuronal: Glutamatergic,L5 IT,True,417
+H21.33.044,False,Neuronal: Glutamatergic,L5/6 NP,True,30
+H21.33.044,False,Neuronal: Glutamatergic,L6 CT,True,83
+H21.33.044,False,Neuronal: Glutamatergic,L6 IT,True,166
+H21.33.044,False,Neuronal: Glutamatergic,L6 IT Car3,True,105
+H21.33.044,False,Neuronal: Glutamatergic,L6b,True,94
+H21.33.044,False,Non-neuronal and Non-neural,Astrocyte,True,421
+H21.33.044,False,Non-neuronal and Non-neural,Endothelial,True,25
+H21.33.044,False,Non-neuronal and Non-neural,Immune,True,396
+H21.33.044,False,Non-neuronal and Non-neural,OPC,True,370
+H21.33.044,False,Non-neuronal and Non-neural,Oligodendrocyte,True,51
+H21.33.044,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,30
+H20.33.025,False,Neuronal: GABAergic,Chandelier,True,150
+H20.33.025,False,Neuronal: GABAergic,Lamp5,True,738
+H20.33.025,False,Neuronal: GABAergic,Lamp5 Lhx6,True,267
+H20.33.025,False,Neuronal: GABAergic,Pax6,True,80
+H20.33.025,False,Neuronal: GABAergic,Pvalb,True,1374
+H20.33.025,False,Neuronal: GABAergic,Sncg,True,345
+H20.33.025,False,Neuronal: GABAergic,Sst,True,892
+H20.33.025,False,Neuronal: GABAergic,Vip,True,1484
+H20.33.025,False,Neuronal: GABAergic,Sst Chodl,True,17
+H20.33.025,False,Neuronal: Glutamatergic,L2/3 IT,True,7916
+H20.33.025,False,Neuronal: Glutamatergic,L4 IT,True,2235
+H20.33.025,False,Neuronal: Glutamatergic,L5 ET,True,51
+H20.33.025,False,Neuronal: Glutamatergic,L5 IT,True,2175
+H20.33.025,False,Neuronal: Glutamatergic,L5/6 NP,True,292
+H20.33.025,False,Neuronal: Glutamatergic,L6 CT,True,248
+H20.33.025,False,Neuronal: Glutamatergic,L6 IT,True,750
+H20.33.025,False,Neuronal: Glutamatergic,L6 IT Car3,True,328
+H20.33.025,False,Neuronal: Glutamatergic,L6b,True,218
+H20.33.025,False,Non-neuronal and Non-neural,Astrocyte,True,728
+H20.33.025,False,Non-neuronal and Non-neural,Endothelial,True,16
+H20.33.025,False,Non-neuronal and Non-neural,Immune,True,731
+H20.33.025,False,Non-neuronal and Non-neural,OPC,True,483
+H20.33.025,False,Non-neuronal and Non-neural,Oligodendrocyte,True,2133
+H20.33.025,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,30
+H20.33.029,False,Neuronal: GABAergic,Chandelier,True,121
+H20.33.029,False,Neuronal: GABAergic,Lamp5,True,270
+H20.33.029,False,Neuronal: GABAergic,Lamp5 Lhx6,True,108
+H20.33.029,False,Neuronal: GABAergic,Pax6,True,71
+H20.33.029,False,Neuronal: GABAergic,Pvalb,True,763
+H20.33.029,False,Neuronal: GABAergic,Sncg,True,189
+H20.33.029,False,Neuronal: GABAergic,Sst,True,507
+H20.33.029,False,Neuronal: GABAergic,Vip,True,969
+H20.33.029,False,Neuronal: GABAergic,Sst Chodl,True,6
+H20.33.029,False,Neuronal: Glutamatergic,L2/3 IT,True,3116
+H20.33.029,False,Neuronal: Glutamatergic,L4 IT,True,1471
+H20.33.029,False,Neuronal: Glutamatergic,L5 ET,True,20
+H20.33.029,False,Neuronal: Glutamatergic,L5 IT,True,942
+H20.33.029,False,Neuronal: Glutamatergic,L5/6 NP,True,155
+H20.33.029,False,Neuronal: Glutamatergic,L6 CT,True,77
+H20.33.029,False,Neuronal: Glutamatergic,L6 IT,True,188
+H20.33.029,False,Neuronal: Glutamatergic,L6 IT Car3,True,89
+H20.33.029,False,Neuronal: Glutamatergic,L6b,True,36
+H20.33.029,False,Non-neuronal and Non-neural,Astrocyte,True,454
+H20.33.029,False,Non-neuronal and Non-neural,Endothelial,True,3
+H20.33.029,False,Non-neuronal and Non-neural,Immune,True,348
+H20.33.029,False,Non-neuronal and Non-neural,OPC,True,229
+H20.33.029,False,Non-neuronal and Non-neural,Oligodendrocyte,True,828
+H20.33.029,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,33
+H21.33.034,False,Neuronal: GABAergic,Chandelier,True,3
+H21.33.034,False,Neuronal: GABAergic,Lamp5,True,54
+H21.33.034,False,Neuronal: GABAergic,Lamp5 Lhx6,True,8
+H21.33.034,False,Neuronal: GABAergic,Pax6,True,5
+H21.33.034,False,Neuronal: GABAergic,Pvalb,True,71
+H21.33.034,False,Neuronal: GABAergic,Sncg,True,12
+H21.33.034,False,Neuronal: GABAergic,Sst,True,22
+H21.33.034,False,Neuronal: GABAergic,Vip,True,115
+H21.33.034,False,Neuronal: Glutamatergic,L2/3 IT,True,429
+H21.33.034,False,Neuronal: Glutamatergic,L4 IT,True,170
+H21.33.034,False,Neuronal: Glutamatergic,L5 IT,True,183
+H21.33.034,False,Neuronal: Glutamatergic,L5/6 NP,True,15
+H21.33.034,False,Neuronal: Glutamatergic,L6 CT,True,3
+H21.33.034,False,Neuronal: Glutamatergic,L6 IT,True,46
+H21.33.034,False,Neuronal: Glutamatergic,L6 IT Car3,True,47
+H21.33.034,False,Neuronal: Glutamatergic,L6b,True,6
+H21.33.034,False,Non-neuronal and Non-neural,Astrocyte,True,987
+H21.33.034,False,Non-neuronal and Non-neural,Endothelial,True,53
+H21.33.034,False,Non-neuronal and Non-neural,Immune,True,213
+H21.33.034,False,Non-neuronal and Non-neural,OPC,True,189
+H21.33.034,False,Non-neuronal and Non-neural,Oligodendrocyte,True,19
+H21.33.034,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,19
+H19.33.004,False,Neuronal: GABAergic,Chandelier,True,312
+H19.33.004,False,Neuronal: GABAergic,Lamp5,True,624
+H19.33.004,False,Neuronal: GABAergic,Lamp5 Lhx6,True,540
+H19.33.004,False,Neuronal: GABAergic,Pax6,True,220
+H19.33.004,False,Neuronal: GABAergic,Pvalb,True,2234
+H19.33.004,False,Neuronal: GABAergic,Sncg,True,252
+H19.33.004,False,Neuronal: GABAergic,Sst,True,1462
+H19.33.004,False,Neuronal: GABAergic,Vip,True,2388
+H19.33.004,False,Neuronal: GABAergic,Sst Chodl,True,35
+H19.33.004,False,Neuronal: Glutamatergic,L2/3 IT,True,6323
+H19.33.004,False,Neuronal: Glutamatergic,L4 IT,True,3038
+H19.33.004,False,Neuronal: Glutamatergic,L5 ET,True,61
+H19.33.004,False,Neuronal: Glutamatergic,L5 IT,True,2399
+H19.33.004,False,Neuronal: Glutamatergic,L5/6 NP,True,456
+H19.33.004,False,Neuronal: Glutamatergic,L6 CT,True,277
+H19.33.004,False,Neuronal: Glutamatergic,L6 IT,True,944
+H19.33.004,False,Neuronal: Glutamatergic,L6 IT Car3,True,717
+H19.33.004,False,Neuronal: Glutamatergic,L6b,True,231
+H19.33.004,False,Non-neuronal and Non-neural,Astrocyte,True,2266
+H19.33.004,False,Non-neuronal and Non-neural,Endothelial,True,151
+H19.33.004,False,Non-neuronal and Non-neural,Immune,True,721
+H19.33.004,False,Non-neuronal and Non-neural,OPC,True,1203
+H19.33.004,False,Non-neuronal and Non-neural,Oligodendrocyte,True,496
+H19.33.004,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,81
+H20.33.019,False,Neuronal: GABAergic,Chandelier,True,97
+H20.33.019,False,Neuronal: GABAergic,Lamp5,True,439
+H20.33.019,False,Neuronal: GABAergic,Lamp5 Lhx6,True,249
+H20.33.019,False,Neuronal: GABAergic,Pax6,True,87
+H20.33.019,False,Neuronal: GABAergic,Pvalb,True,928
+H20.33.019,False,Neuronal: GABAergic,Sncg,True,141
+H20.33.019,False,Neuronal: GABAergic,Sst,True,470
+H20.33.019,False,Neuronal: GABAergic,Vip,True,1011
+H20.33.019,False,Neuronal: GABAergic,Sst Chodl,True,6
+H20.33.019,False,Neuronal: Glutamatergic,L2/3 IT,True,5096
+H20.33.019,False,Neuronal: Glutamatergic,L4 IT,True,2386
+H20.33.019,False,Neuronal: Glutamatergic,L5 ET,True,51
+H20.33.019,False,Neuronal: Glutamatergic,L5 IT,True,2094
+H20.33.019,False,Neuronal: Glutamatergic,L5/6 NP,True,273
+H20.33.019,False,Neuronal: Glutamatergic,L6 CT,True,270
+H20.33.019,False,Neuronal: Glutamatergic,L6 IT,True,930
+H20.33.019,False,Neuronal: Glutamatergic,L6 IT Car3,True,362
+H20.33.019,False,Neuronal: Glutamatergic,L6b,True,132
+H20.33.019,False,Non-neuronal and Non-neural,Astrocyte,True,1012
+H20.33.019,False,Non-neuronal and Non-neural,Endothelial,True,15
+H20.33.019,False,Non-neuronal and Non-neural,Immune,True,339
+H20.33.019,False,Non-neuronal and Non-neural,OPC,True,503
+H20.33.019,False,Non-neuronal and Non-neural,Oligodendrocyte,True,951
+H20.33.019,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,35
+H20.33.034,False,Neuronal: GABAergic,Chandelier,True,125
+H20.33.034,False,Neuronal: GABAergic,Lamp5,True,397
+H20.33.034,False,Neuronal: GABAergic,Lamp5 Lhx6,True,182
+H20.33.034,False,Neuronal: GABAergic,Pax6,True,81
+H20.33.034,False,Neuronal: GABAergic,Pvalb,True,1090
+H20.33.034,False,Neuronal: GABAergic,Sncg,True,197
+H20.33.034,False,Neuronal: GABAergic,Sst,True,740
+H20.33.034,False,Neuronal: GABAergic,Vip,True,1116
+H20.33.034,False,Neuronal: GABAergic,Sst Chodl,True,18
+H20.33.034,False,Neuronal: Glutamatergic,L2/3 IT,True,4511
+H20.33.034,False,Neuronal: Glutamatergic,L4 IT,True,1859
+H20.33.034,False,Neuronal: Glutamatergic,L5 ET,True,22
+H20.33.034,False,Neuronal: Glutamatergic,L5 IT,True,1315
+H20.33.034,False,Neuronal: Glutamatergic,L5/6 NP,True,296
+H20.33.034,False,Neuronal: Glutamatergic,L6 CT,True,182
+H20.33.034,False,Neuronal: Glutamatergic,L6 IT,True,502
+H20.33.034,False,Neuronal: Glutamatergic,L6 IT Car3,True,237
+H20.33.034,False,Neuronal: Glutamatergic,L6b,True,162
+H20.33.034,False,Non-neuronal and Non-neural,Astrocyte,True,579
+H20.33.034,False,Non-neuronal and Non-neural,Endothelial,True,34
+H20.33.034,False,Non-neuronal and Non-neural,Immune,True,345
+H20.33.034,False,Non-neuronal and Non-neural,OPC,True,298
+H20.33.034,False,Non-neuronal and Non-neural,Oligodendrocyte,True,2209
+H20.33.034,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,35
+H21.33.037,False,Neuronal: GABAergic,Chandelier,True,70
+H21.33.037,False,Neuronal: GABAergic,Lamp5,True,287
+H21.33.037,False,Neuronal: GABAergic,Lamp5 Lhx6,True,65
+H21.33.037,False,Neuronal: GABAergic,Pax6,True,41
+H21.33.037,False,Neuronal: GABAergic,Pvalb,True,566
+H21.33.037,False,Neuronal: GABAergic,Sncg,True,196
+H21.33.037,False,Neuronal: GABAergic,Sst,True,408
+H21.33.037,False,Neuronal: GABAergic,Vip,True,790
+H21.33.037,False,Neuronal: GABAergic,Sst Chodl,True,4
+H21.33.037,False,Neuronal: Glutamatergic,L2/3 IT,True,3509
+H21.33.037,False,Neuronal: Glutamatergic,L4 IT,True,612
+H21.33.037,False,Neuronal: Glutamatergic,L5 IT,True,375
+H21.33.037,False,Neuronal: Glutamatergic,L5/6 NP,True,60
+H21.33.037,False,Neuronal: Glutamatergic,L6 CT,True,36
+H21.33.037,False,Neuronal: Glutamatergic,L6 IT,True,137
+H21.33.037,False,Neuronal: Glutamatergic,L6 IT Car3,True,74
+H21.33.037,False,Neuronal: Glutamatergic,L6b,True,14
+H21.33.037,False,Non-neuronal and Non-neural,Astrocyte,True,370
+H21.33.037,False,Non-neuronal and Non-neural,Endothelial,True,10
+H21.33.037,False,Non-neuronal and Non-neural,Immune,True,271
+H21.33.037,False,Non-neuronal and Non-neural,OPC,True,195
+H21.33.037,False,Non-neuronal and Non-neural,Oligodendrocyte,True,903
+H21.33.037,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,40
+H21.33.047,False,Neuronal: GABAergic,Chandelier,True,159
+H21.33.047,False,Neuronal: GABAergic,Lamp5,True,566
+H21.33.047,False,Neuronal: GABAergic,Lamp5 Lhx6,True,196
+H21.33.047,False,Neuronal: GABAergic,Pax6,True,111
+H21.33.047,False,Neuronal: GABAergic,Pvalb,True,1086
+H21.33.047,False,Neuronal: GABAergic,Sncg,True,568
+H21.33.047,False,Neuronal: GABAergic,Sst,True,1111
+H21.33.047,False,Neuronal: GABAergic,Vip,True,1472
+H21.33.047,False,Neuronal: GABAergic,Sst Chodl,True,19
+H21.33.047,False,Neuronal: Glutamatergic,L2/3 IT,True,3277
+H21.33.047,False,Neuronal: Glutamatergic,L4 IT,True,1270
+H21.33.047,False,Neuronal: Glutamatergic,L5 ET,True,2
+H21.33.047,False,Neuronal: Glutamatergic,L5 IT,True,883
+H21.33.047,False,Neuronal: Glutamatergic,L5/6 NP,True,133
+H21.33.047,False,Neuronal: Glutamatergic,L6 CT,True,65
+H21.33.047,False,Neuronal: Glutamatergic,L6 IT,True,201
+H21.33.047,False,Neuronal: Glutamatergic,L6 IT Car3,True,169
+H21.33.047,False,Neuronal: Glutamatergic,L6b,True,73
+H21.33.047,False,Non-neuronal and Non-neural,Astrocyte,True,289
+H21.33.047,False,Non-neuronal and Non-neural,Endothelial,True,21
+H21.33.047,False,Non-neuronal and Non-neural,Immune,True,382
+H21.33.047,False,Non-neuronal and Non-neural,OPC,True,356
+H21.33.047,False,Non-neuronal and Non-neural,Oligodendrocyte,True,835
+H21.33.047,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,19
+H20.33.030,False,Neuronal: GABAergic,Chandelier,True,276
+H20.33.030,False,Neuronal: GABAergic,Lamp5,True,682
+H20.33.030,False,Neuronal: GABAergic,Lamp5 Lhx6,True,354
+H20.33.030,False,Neuronal: GABAergic,Pax6,True,188
+H20.33.030,False,Neuronal: GABAergic,Pvalb,True,1541
+H20.33.030,False,Neuronal: GABAergic,Sncg,True,460
+H20.33.030,False,Neuronal: GABAergic,Sst,True,795
+H20.33.030,False,Neuronal: GABAergic,Vip,True,1862
+H20.33.030,False,Neuronal: GABAergic,Sst Chodl,True,11
+H20.33.030,False,Neuronal: Glutamatergic,L2/3 IT,True,5823
+H20.33.030,False,Neuronal: Glutamatergic,L4 IT,True,2455
+H20.33.030,False,Neuronal: Glutamatergic,L5 ET,True,38
+H20.33.030,False,Neuronal: Glutamatergic,L5 IT,True,1751
+H20.33.030,False,Neuronal: Glutamatergic,L5/6 NP,True,333
+H20.33.030,False,Neuronal: Glutamatergic,L6 CT,True,298
+H20.33.030,False,Neuronal: Glutamatergic,L6 IT,True,787
+H20.33.030,False,Neuronal: Glutamatergic,L6 IT Car3,True,372
+H20.33.030,False,Neuronal: Glutamatergic,L6b,True,214
+H20.33.030,False,Non-neuronal and Non-neural,Astrocyte,True,665
+H20.33.030,False,Non-neuronal and Non-neural,Endothelial,True,39
+H20.33.030,False,Non-neuronal and Non-neural,Immune,True,604
+H20.33.030,False,Non-neuronal and Non-neural,OPC,True,476
+H20.33.030,False,Non-neuronal and Non-neural,Oligodendrocyte,True,2449
+H20.33.030,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,99
+H21.33.026,False,Neuronal: GABAergic,Chandelier,True,87
+H21.33.026,False,Neuronal: GABAergic,Lamp5,True,293
+H21.33.026,False,Neuronal: GABAergic,Lamp5 Lhx6,True,227
+H21.33.026,False,Neuronal: GABAergic,Pax6,True,52
+H21.33.026,False,Neuronal: GABAergic,Pvalb,True,903
+H21.33.026,False,Neuronal: GABAergic,Sncg,True,136
+H21.33.026,False,Neuronal: GABAergic,Sst,True,408
+H21.33.026,False,Neuronal: GABAergic,Vip,True,757
+H21.33.026,False,Neuronal: GABAergic,Sst Chodl,True,10
+H21.33.026,False,Neuronal: Glutamatergic,L2/3 IT,True,2498
+H21.33.026,False,Neuronal: Glutamatergic,L4 IT,True,1616
+H21.33.026,False,Neuronal: Glutamatergic,L5 IT,True,950
+H21.33.026,False,Neuronal: Glutamatergic,L5/6 NP,True,324
+H21.33.026,False,Neuronal: Glutamatergic,L6 CT,True,140
+H21.33.026,False,Neuronal: Glutamatergic,L6 IT,True,179
+H21.33.026,False,Neuronal: Glutamatergic,L6 IT Car3,True,172
+H21.33.026,False,Neuronal: Glutamatergic,L6b,True,55
+H21.33.026,False,Non-neuronal and Non-neural,Astrocyte,True,382
+H21.33.026,False,Non-neuronal and Non-neural,Endothelial,True,22
+H21.33.026,False,Non-neuronal and Non-neural,Immune,True,294
+H21.33.026,False,Non-neuronal and Non-neural,OPC,True,127
+H21.33.026,False,Non-neuronal and Non-neural,Oligodendrocyte,True,891
+H21.33.026,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,40
+H21.33.029,False,Neuronal: GABAergic,Chandelier,True,47
+H21.33.029,False,Neuronal: GABAergic,Lamp5,True,180
+H21.33.029,False,Neuronal: GABAergic,Lamp5 Lhx6,True,118
+H21.33.029,False,Neuronal: GABAergic,Pax6,True,43
+H21.33.029,False,Neuronal: GABAergic,Pvalb,True,667
+H21.33.029,False,Neuronal: GABAergic,Sncg,True,17
+H21.33.029,False,Neuronal: GABAergic,Sst,True,128
+H21.33.029,False,Neuronal: GABAergic,Vip,True,238
+H21.33.029,False,Neuronal: GABAergic,Sst Chodl,True,4
+H21.33.029,False,Neuronal: Glutamatergic,L2/3 IT,True,1838
+H21.33.029,False,Neuronal: Glutamatergic,L4 IT,True,908
+H21.33.029,False,Neuronal: Glutamatergic,L5 ET,True,34
+H21.33.029,False,Neuronal: Glutamatergic,L5 IT,True,1125
+H21.33.029,False,Neuronal: Glutamatergic,L5/6 NP,True,197
+H21.33.029,False,Neuronal: Glutamatergic,L6 CT,True,210
+H21.33.029,False,Neuronal: Glutamatergic,L6 IT,True,539
+H21.33.029,False,Neuronal: Glutamatergic,L6 IT Car3,True,191
+H21.33.029,False,Neuronal: Glutamatergic,L6b,True,273
+H21.33.029,False,Non-neuronal and Non-neural,Astrocyte,True,453
+H21.33.029,False,Non-neuronal and Non-neural,Endothelial,True,19
+H21.33.029,False,Non-neuronal and Non-neural,Immune,True,184
+H21.33.029,False,Non-neuronal and Non-neural,OPC,True,241
+H21.33.029,False,Non-neuronal and Non-neural,Oligodendrocyte,True,676
+H21.33.029,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,34
+H20.33.014,False,Neuronal: GABAergic,Chandelier,True,140
+H20.33.014,False,Neuronal: GABAergic,Lamp5,True,607
+H20.33.014,False,Neuronal: GABAergic,Lamp5 Lhx6,True,319
+H20.33.014,False,Neuronal: GABAergic,Pax6,True,91
+H20.33.014,False,Neuronal: GABAergic,Pvalb,True,1630
+H20.33.014,False,Neuronal: GABAergic,Sncg,True,297
+H20.33.014,False,Neuronal: GABAergic,Sst,True,1222
+H20.33.014,False,Neuronal: GABAergic,Vip,True,1515
+H20.33.014,False,Neuronal: GABAergic,Sst Chodl,True,22
+H20.33.014,False,Neuronal: Glutamatergic,L2/3 IT,True,6332
+H20.33.014,False,Neuronal: Glutamatergic,L4 IT,True,2114
+H20.33.014,False,Neuronal: Glutamatergic,L5 ET,True,17
+H20.33.014,False,Neuronal: Glutamatergic,L5 IT,True,2060
+H20.33.014,False,Neuronal: Glutamatergic,L5/6 NP,True,313
+H20.33.014,False,Neuronal: Glutamatergic,L6 CT,True,272
+H20.33.014,False,Neuronal: Glutamatergic,L6 IT,True,545
+H20.33.014,False,Neuronal: Glutamatergic,L6 IT Car3,True,392
+H20.33.014,False,Neuronal: Glutamatergic,L6b,True,209
+H20.33.014,False,Non-neuronal and Non-neural,Astrocyte,True,190
+H20.33.014,False,Non-neuronal and Non-neural,Endothelial,True,7
+H20.33.014,False,Non-neuronal and Non-neural,Immune,True,262
+H20.33.014,False,Non-neuronal and Non-neural,OPC,True,547
+H20.33.014,False,Non-neuronal and Non-neural,Oligodendrocyte,True,2016
+H20.33.014,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,19
+H20.33.024,False,Neuronal: GABAergic,Chandelier,True,151
+H20.33.024,False,Neuronal: GABAergic,Lamp5,True,432
+H20.33.024,False,Neuronal: GABAergic,Lamp5 Lhx6,True,347
+H20.33.024,False,Neuronal: GABAergic,Pax6,True,78
+H20.33.024,False,Neuronal: GABAergic,Pvalb,True,1182
+H20.33.024,False,Neuronal: GABAergic,Sncg,True,177
+H20.33.024,False,Neuronal: GABAergic,Sst,True,1050
+H20.33.024,False,Neuronal: GABAergic,Vip,True,1078
+H20.33.024,False,Neuronal: GABAergic,Sst Chodl,True,36
+H20.33.024,False,Neuronal: Glutamatergic,L2/3 IT,True,3195
+H20.33.024,False,Neuronal: Glutamatergic,L4 IT,True,1528
+H20.33.024,False,Neuronal: Glutamatergic,L5 ET,True,25
+H20.33.024,False,Neuronal: Glutamatergic,L5 IT,True,1274
+H20.33.024,False,Neuronal: Glutamatergic,L5/6 NP,True,186
+H20.33.024,False,Neuronal: Glutamatergic,L6 CT,True,252
+H20.33.024,False,Neuronal: Glutamatergic,L6 IT,True,589
+H20.33.024,False,Neuronal: Glutamatergic,L6 IT Car3,True,309
+H20.33.024,False,Neuronal: Glutamatergic,L6b,True,264
+H20.33.024,False,Non-neuronal and Non-neural,Astrocyte,True,76
+H20.33.024,False,Non-neuronal and Non-neural,Endothelial,True,1
+H20.33.024,False,Non-neuronal and Non-neural,Immune,True,117
+H20.33.024,False,Non-neuronal and Non-neural,OPC,True,116
+H20.33.024,False,Non-neuronal and Non-neural,Oligodendrocyte,True,2467
+H20.33.024,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,10
+H21.33.004,False,Neuronal: GABAergic,Chandelier,True,176
+H21.33.004,False,Neuronal: GABAergic,Lamp5,True,398
+H21.33.004,False,Neuronal: GABAergic,Lamp5 Lhx6,True,174
+H21.33.004,False,Neuronal: GABAergic,Pax6,True,65
+H21.33.004,False,Neuronal: GABAergic,Pvalb,True,1058
+H21.33.004,False,Neuronal: GABAergic,Sncg,True,236
+H21.33.004,False,Neuronal: GABAergic,Sst,True,895
+H21.33.004,False,Neuronal: GABAergic,Vip,True,1146
+H21.33.004,False,Neuronal: GABAergic,Sst Chodl,True,13
+H21.33.004,False,Neuronal: Glutamatergic,L2/3 IT,True,3918
+H21.33.004,False,Neuronal: Glutamatergic,L4 IT,True,1698
+H21.33.004,False,Neuronal: Glutamatergic,L5 ET,True,23
+H21.33.004,False,Neuronal: Glutamatergic,L5 IT,True,1443
+H21.33.004,False,Neuronal: Glutamatergic,L5/6 NP,True,210
+H21.33.004,False,Neuronal: Glutamatergic,L6 CT,True,139
+H21.33.004,False,Neuronal: Glutamatergic,L6 IT,True,398
+H21.33.004,False,Neuronal: Glutamatergic,L6 IT Car3,True,291
+H21.33.004,False,Neuronal: Glutamatergic,L6b,True,67
+H21.33.004,False,Non-neuronal and Non-neural,Astrocyte,True,626
+H21.33.004,False,Non-neuronal and Non-neural,Endothelial,True,13
+H21.33.004,False,Non-neuronal and Non-neural,Immune,True,322
+H21.33.004,False,Non-neuronal and Non-neural,OPC,True,437
+H21.33.004,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1392
+H21.33.004,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,19
+H20.33.037,False,Neuronal: GABAergic,Chandelier,True,34
+H20.33.037,False,Neuronal: GABAergic,Lamp5,True,385
+H20.33.037,False,Neuronal: GABAergic,Lamp5 Lhx6,True,70
+H20.33.037,False,Neuronal: GABAergic,Pax6,True,22
+H20.33.037,False,Neuronal: GABAergic,Pvalb,True,168
+H20.33.037,False,Neuronal: GABAergic,Sncg,True,50
+H20.33.037,False,Neuronal: GABAergic,Sst,True,111
+H20.33.037,False,Neuronal: GABAergic,Vip,True,318
+H20.33.037,False,Neuronal: Glutamatergic,L2/3 IT,True,578
+H20.33.037,False,Neuronal: Glutamatergic,L4 IT,True,899
+H20.33.037,False,Neuronal: Glutamatergic,L5 IT,True,553
+H20.33.037,False,Neuronal: Glutamatergic,L5/6 NP,True,60
+H20.33.037,False,Neuronal: Glutamatergic,L6 CT,True,43
+H20.33.037,False,Neuronal: Glutamatergic,L6 IT,True,297
+H20.33.037,False,Neuronal: Glutamatergic,L6 IT Car3,True,105
+H20.33.037,False,Neuronal: Glutamatergic,L6b,True,146
+H20.33.037,False,Non-neuronal and Non-neural,Astrocyte,True,371
+H20.33.037,False,Non-neuronal and Non-neural,Endothelial,True,25
+H20.33.037,False,Non-neuronal and Non-neural,Immune,True,67
+H20.33.037,False,Non-neuronal and Non-neural,OPC,True,47
+H20.33.037,False,Non-neuronal and Non-neural,Oligodendrocyte,True,398
+H20.33.037,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,76
+H21.33.005,False,Neuronal: GABAergic,Chandelier,True,88
+H21.33.005,False,Neuronal: GABAergic,Lamp5,True,289
+H21.33.005,False,Neuronal: GABAergic,Lamp5 Lhx6,True,254
+H21.33.005,False,Neuronal: GABAergic,Pax6,True,128
+H21.33.005,False,Neuronal: GABAergic,Pvalb,True,1026
+H21.33.005,False,Neuronal: GABAergic,Sncg,True,116
+H21.33.005,False,Neuronal: GABAergic,Sst,True,233
+H21.33.005,False,Neuronal: GABAergic,Vip,True,906
+H21.33.005,False,Neuronal: GABAergic,Sst Chodl,True,3
+H21.33.005,False,Neuronal: Glutamatergic,L2/3 IT,True,2478
+H21.33.005,False,Neuronal: Glutamatergic,L4 IT,True,2345
+H21.33.005,False,Neuronal: Glutamatergic,L5 ET,True,35
+H21.33.005,False,Neuronal: Glutamatergic,L5 IT,True,1783
+H21.33.005,False,Neuronal: Glutamatergic,L5/6 NP,True,304
+H21.33.005,False,Neuronal: Glutamatergic,L6 CT,True,368
+H21.33.005,False,Neuronal: Glutamatergic,L6 IT,True,928
+H21.33.005,False,Neuronal: Glutamatergic,L6 IT Car3,True,464
+H21.33.005,False,Neuronal: Glutamatergic,L6b,True,229
+H21.33.005,False,Non-neuronal and Non-neural,Astrocyte,True,1471
+H21.33.005,False,Non-neuronal and Non-neural,Endothelial,True,16
+H21.33.005,False,Non-neuronal and Non-neural,Immune,True,541
+H21.33.005,False,Non-neuronal and Non-neural,OPC,True,313
+H21.33.005,False,Non-neuronal and Non-neural,Oligodendrocyte,True,562
+H21.33.005,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,50
+H20.33.012,False,Neuronal: GABAergic,Chandelier,True,202
+H20.33.012,False,Neuronal: GABAergic,Lamp5,True,589
+H20.33.012,False,Neuronal: GABAergic,Lamp5 Lhx6,True,227
+H20.33.012,False,Neuronal: GABAergic,Pax6,True,123
+H20.33.012,False,Neuronal: GABAergic,Pvalb,True,1012
+H20.33.012,False,Neuronal: GABAergic,Sncg,True,318
+H20.33.012,False,Neuronal: GABAergic,Sst,True,254
+H20.33.012,False,Neuronal: GABAergic,Vip,True,1582
+H20.33.012,False,Neuronal: GABAergic,Sst Chodl,True,1
+H20.33.012,False,Neuronal: Glutamatergic,L2/3 IT,True,4361
+H20.33.012,False,Neuronal: Glutamatergic,L4 IT,True,2392
+H20.33.012,False,Neuronal: Glutamatergic,L5 ET,True,26
+H20.33.012,False,Neuronal: Glutamatergic,L5 IT,True,1784
+H20.33.012,False,Neuronal: Glutamatergic,L5/6 NP,True,327
+H20.33.012,False,Neuronal: Glutamatergic,L6 CT,True,193
+H20.33.012,False,Neuronal: Glutamatergic,L6 IT,True,448
+H20.33.012,False,Neuronal: Glutamatergic,L6 IT Car3,True,252
+H20.33.012,False,Neuronal: Glutamatergic,L6b,True,247
+H20.33.012,False,Non-neuronal and Non-neural,Astrocyte,True,1092
+H20.33.012,False,Non-neuronal and Non-neural,Endothelial,True,21
+H20.33.012,False,Non-neuronal and Non-neural,Immune,True,480
+H20.33.012,False,Non-neuronal and Non-neural,OPC,True,279
+H20.33.012,False,Non-neuronal and Non-neural,Oligodendrocyte,True,442
+H20.33.012,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,67
+H20.33.040,False,Neuronal: GABAergic,Chandelier,True,85
+H20.33.040,False,Neuronal: GABAergic,Lamp5,True,312
+H20.33.040,False,Neuronal: GABAergic,Lamp5 Lhx6,True,129
+H20.33.040,False,Neuronal: GABAergic,Pax6,True,94
+H20.33.040,False,Neuronal: GABAergic,Pvalb,True,778
+H20.33.040,False,Neuronal: GABAergic,Sncg,True,122
+H20.33.040,False,Neuronal: GABAergic,Sst,True,245
+H20.33.040,False,Neuronal: GABAergic,Vip,True,726
+H20.33.040,False,Neuronal: GABAergic,Sst Chodl,True,20
+H20.33.040,False,Neuronal: Glutamatergic,L2/3 IT,True,2785
+H20.33.040,False,Neuronal: Glutamatergic,L4 IT,True,1613
+H20.33.040,False,Neuronal: Glutamatergic,L5 ET,True,18
+H20.33.040,False,Neuronal: Glutamatergic,L5 IT,True,1031
+H20.33.040,False,Neuronal: Glutamatergic,L5/6 NP,True,174
+H20.33.040,False,Neuronal: Glutamatergic,L6 CT,True,189
+H20.33.040,False,Neuronal: Glutamatergic,L6 IT,True,448
+H20.33.040,False,Neuronal: Glutamatergic,L6 IT Car3,True,221
+H20.33.040,False,Neuronal: Glutamatergic,L6b,True,115
+H20.33.040,False,Non-neuronal and Non-neural,Astrocyte,True,1231
+H20.33.040,False,Non-neuronal and Non-neural,Endothelial,True,21
+H20.33.040,False,Non-neuronal and Non-neural,Immune,True,516
+H20.33.040,False,Non-neuronal and Non-neural,OPC,True,436
+H20.33.040,False,Non-neuronal and Non-neural,Oligodendrocyte,True,480
+H20.33.040,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,35
+H21.33.019,False,Neuronal: GABAergic,Chandelier,True,158
+H21.33.019,False,Neuronal: GABAergic,Lamp5,True,636
+H21.33.019,False,Neuronal: GABAergic,Lamp5 Lhx6,True,252
+H21.33.019,False,Neuronal: GABAergic,Pax6,True,135
+H21.33.019,False,Neuronal: GABAergic,Pvalb,True,1545
+H21.33.019,False,Neuronal: GABAergic,Sncg,True,318
+H21.33.019,False,Neuronal: GABAergic,Sst,True,1012
+H21.33.019,False,Neuronal: GABAergic,Vip,True,1746
+H21.33.019,False,Neuronal: GABAergic,Sst Chodl,True,27
+H21.33.019,False,Neuronal: Glutamatergic,L2/3 IT,True,6996
+H21.33.019,False,Neuronal: Glutamatergic,L4 IT,True,2570
+H21.33.019,False,Neuronal: Glutamatergic,L5 ET,True,33
+H21.33.019,False,Neuronal: Glutamatergic,L5 IT,True,2135
+H21.33.019,False,Neuronal: Glutamatergic,L5/6 NP,True,320
+H21.33.019,False,Neuronal: Glutamatergic,L6 CT,True,346
+H21.33.019,False,Neuronal: Glutamatergic,L6 IT,True,756
+H21.33.019,False,Neuronal: Glutamatergic,L6 IT Car3,True,347
+H21.33.019,False,Neuronal: Glutamatergic,L6b,True,132
+H21.33.019,False,Non-neuronal and Non-neural,Astrocyte,True,1786
+H21.33.019,False,Non-neuronal and Non-neural,Endothelial,True,33
+H21.33.019,False,Non-neuronal and Non-neural,Immune,True,268
+H21.33.019,False,Non-neuronal and Non-neural,OPC,True,582
+H21.33.019,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1352
+H21.33.019,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,48
+H20.33.036,False,Neuronal: GABAergic,Chandelier,True,23
+H20.33.036,False,Neuronal: GABAergic,Lamp5,True,181
+H20.33.036,False,Neuronal: GABAergic,Lamp5 Lhx6,True,92
+H20.33.036,False,Neuronal: GABAergic,Pax6,True,35
+H20.33.036,False,Neuronal: GABAergic,Pvalb,True,224
+H20.33.036,False,Neuronal: GABAergic,Sncg,True,19
+H20.33.036,False,Neuronal: GABAergic,Sst,True,81
+H20.33.036,False,Neuronal: GABAergic,Vip,True,490
+H20.33.036,False,Neuronal: Glutamatergic,L2/3 IT,True,441
+H20.33.036,False,Neuronal: Glutamatergic,L4 IT,True,1623
+H20.33.036,False,Neuronal: Glutamatergic,L5 IT,True,412
+H20.33.036,False,Neuronal: Glutamatergic,L5/6 NP,True,67
+H20.33.036,False,Neuronal: Glutamatergic,L6 CT,True,35
+H20.33.036,False,Neuronal: Glutamatergic,L6 IT,True,166
+H20.33.036,False,Neuronal: Glutamatergic,L6 IT Car3,True,130
+H20.33.036,False,Neuronal: Glutamatergic,L6b,True,113
+H20.33.036,False,Non-neuronal and Non-neural,Astrocyte,True,319
+H20.33.036,False,Non-neuronal and Non-neural,Endothelial,True,13
+H20.33.036,False,Non-neuronal and Non-neural,Immune,True,142
+H20.33.036,False,Non-neuronal and Non-neural,OPC,True,160
+H20.33.036,False,Non-neuronal and Non-neural,Oligodendrocyte,True,374
+H20.33.036,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,62
+H21.33.027,False,Neuronal: GABAergic,Chandelier,True,138
+H21.33.027,False,Neuronal: GABAergic,Lamp5,True,658
+H21.33.027,False,Neuronal: GABAergic,Lamp5 Lhx6,True,260
+H21.33.027,False,Neuronal: GABAergic,Pax6,True,188
+H21.33.027,False,Neuronal: GABAergic,Pvalb,True,1503
+H21.33.027,False,Neuronal: GABAergic,Sncg,True,276
+H21.33.027,False,Neuronal: GABAergic,Sst,True,359
+H21.33.027,False,Neuronal: GABAergic,Vip,True,1267
+H21.33.027,False,Neuronal: GABAergic,Sst Chodl,True,19
+H21.33.027,False,Neuronal: Glutamatergic,L2/3 IT,True,10557
+H21.33.027,False,Neuronal: Glutamatergic,L4 IT,True,2474
+H21.33.027,False,Neuronal: Glutamatergic,L5 ET,True,33
+H21.33.027,False,Neuronal: Glutamatergic,L5 IT,True,1364
+H21.33.027,False,Neuronal: Glutamatergic,L5/6 NP,True,196
+H21.33.027,False,Neuronal: Glutamatergic,L6 CT,True,35
+H21.33.027,False,Neuronal: Glutamatergic,L6 IT,True,186
+H21.33.027,False,Neuronal: Glutamatergic,L6 IT Car3,True,204
+H21.33.027,False,Neuronal: Glutamatergic,L6b,True,35
+H21.33.027,False,Non-neuronal and Non-neural,Astrocyte,True,2071
+H21.33.027,False,Non-neuronal and Non-neural,Endothelial,True,80
+H21.33.027,False,Non-neuronal and Non-neural,Immune,True,1036
+H21.33.027,False,Non-neuronal and Non-neural,OPC,True,1846
+H21.33.027,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1177
+H21.33.027,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,181
+H20.33.045,False,Neuronal: GABAergic,Chandelier,True,38
+H20.33.045,False,Neuronal: GABAergic,Lamp5,True,827
+H20.33.045,False,Neuronal: GABAergic,Lamp5 Lhx6,True,191
+H20.33.045,False,Neuronal: GABAergic,Pax6,True,261
+H20.33.045,False,Neuronal: GABAergic,Pvalb,True,482
+H20.33.045,False,Neuronal: GABAergic,Sncg,True,307
+H20.33.045,False,Neuronal: GABAergic,Sst,True,371
+H20.33.045,False,Neuronal: GABAergic,Vip,True,1138
+H20.33.045,False,Neuronal: GABAergic,Sst Chodl,True,3
+H20.33.045,False,Neuronal: Glutamatergic,L2/3 IT,True,529
+H20.33.045,False,Neuronal: Glutamatergic,L4 IT,True,1390
+H20.33.045,False,Neuronal: Glutamatergic,L5 ET,True,3
+H20.33.045,False,Neuronal: Glutamatergic,L5 IT,True,462
+H20.33.045,False,Neuronal: Glutamatergic,L5/6 NP,True,58
+H20.33.045,False,Neuronal: Glutamatergic,L6 CT,True,23
+H20.33.045,False,Neuronal: Glutamatergic,L6 IT,True,56
+H20.33.045,False,Neuronal: Glutamatergic,L6 IT Car3,True,24
+H20.33.045,False,Neuronal: Glutamatergic,L6b,True,39
+H20.33.045,False,Non-neuronal and Non-neural,Astrocyte,True,274
+H20.33.045,False,Non-neuronal and Non-neural,Endothelial,True,28
+H20.33.045,False,Non-neuronal and Non-neural,Immune,True,243
+H20.33.045,False,Non-neuronal and Non-neural,OPC,True,84
+H20.33.045,False,Non-neuronal and Non-neural,Oligodendrocyte,True,616
+H20.33.045,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,73
+H20.33.027,False,Neuronal: GABAergic,Chandelier,True,158
+H20.33.027,False,Neuronal: GABAergic,Lamp5,True,777
+H20.33.027,False,Neuronal: GABAergic,Lamp5 Lhx6,True,301
+H20.33.027,False,Neuronal: GABAergic,Pax6,True,115
+H20.33.027,False,Neuronal: GABAergic,Pvalb,True,1694
+H20.33.027,False,Neuronal: GABAergic,Sncg,True,397
+H20.33.027,False,Neuronal: GABAergic,Sst,True,736
+H20.33.027,False,Neuronal: GABAergic,Vip,True,1564
+H20.33.027,False,Neuronal: GABAergic,Sst Chodl,True,23
+H20.33.027,False,Neuronal: Glutamatergic,L2/3 IT,True,6236
+H20.33.027,False,Neuronal: Glutamatergic,L4 IT,True,1558
+H20.33.027,False,Neuronal: Glutamatergic,L5 ET,True,37
+H20.33.027,False,Neuronal: Glutamatergic,L5 IT,True,1433
+H20.33.027,False,Neuronal: Glutamatergic,L5/6 NP,True,115
+H20.33.027,False,Neuronal: Glutamatergic,L6 CT,True,152
+H20.33.027,False,Neuronal: Glutamatergic,L6 IT,True,515
+H20.33.027,False,Neuronal: Glutamatergic,L6 IT Car3,True,432
+H20.33.027,False,Neuronal: Glutamatergic,L6b,True,134
+H20.33.027,False,Non-neuronal and Non-neural,Astrocyte,True,1189
+H20.33.027,False,Non-neuronal and Non-neural,Endothelial,True,31
+H20.33.027,False,Non-neuronal and Non-neural,Immune,True,214
+H20.33.027,False,Non-neuronal and Non-neural,OPC,True,574
+H20.33.027,False,Non-neuronal and Non-neural,Oligodendrocyte,True,623
+H20.33.027,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,79
+H21.33.040,False,Neuronal: GABAergic,Chandelier,True,77
+H21.33.040,False,Neuronal: GABAergic,Lamp5,True,310
+H21.33.040,False,Neuronal: GABAergic,Lamp5 Lhx6,True,318
+H21.33.040,False,Neuronal: GABAergic,Pax6,True,87
+H21.33.040,False,Neuronal: GABAergic,Pvalb,True,1093
+H21.33.040,False,Neuronal: GABAergic,Sncg,True,125
+H21.33.040,False,Neuronal: GABAergic,Sst,True,532
+H21.33.040,False,Neuronal: GABAergic,Vip,True,805
+H21.33.040,False,Neuronal: GABAergic,Sst Chodl,True,20
+H21.33.040,False,Neuronal: Glutamatergic,L2/3 IT,True,2897
+H21.33.040,False,Neuronal: Glutamatergic,L4 IT,True,2095
+H21.33.040,False,Neuronal: Glutamatergic,L5 ET,True,37
+H21.33.040,False,Neuronal: Glutamatergic,L5 IT,True,1528
+H21.33.040,False,Neuronal: Glutamatergic,L5/6 NP,True,388
+H21.33.040,False,Neuronal: Glutamatergic,L6 CT,True,239
+H21.33.040,False,Neuronal: Glutamatergic,L6 IT,True,666
+H21.33.040,False,Neuronal: Glutamatergic,L6 IT Car3,True,427
+H21.33.040,False,Neuronal: Glutamatergic,L6b,True,119
+H21.33.040,False,Non-neuronal and Non-neural,Astrocyte,True,1356
+H21.33.040,False,Non-neuronal and Non-neural,Endothelial,True,31
+H21.33.040,False,Non-neuronal and Non-neural,Immune,True,379
+H21.33.040,False,Non-neuronal and Non-neural,OPC,True,304
+H21.33.040,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1179
+H21.33.040,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,47
+H20.33.038,False,Neuronal: GABAergic,Chandelier,True,2
+H20.33.038,False,Neuronal: GABAergic,Lamp5,True,45
+H20.33.038,False,Neuronal: GABAergic,Lamp5 Lhx6,True,1
+H20.33.038,False,Neuronal: GABAergic,Pax6,True,3
+H20.33.038,False,Neuronal: GABAergic,Pvalb,True,26
+H20.33.038,False,Neuronal: GABAergic,Sncg,True,12
+H20.33.038,False,Neuronal: GABAergic,Sst,True,56
+H20.33.038,False,Neuronal: GABAergic,Vip,True,64
+H20.33.038,False,Neuronal: Glutamatergic,L2/3 IT,True,100
+H20.33.038,False,Neuronal: Glutamatergic,L4 IT,True,400
+H20.33.038,False,Neuronal: Glutamatergic,L5 IT,True,48
+H20.33.038,False,Neuronal: Glutamatergic,L5/6 NP,True,1
+H20.33.038,False,Neuronal: Glutamatergic,L6 IT,True,2
+H20.33.038,False,Neuronal: Glutamatergic,L6 IT Car3,True,7
+H20.33.038,False,Neuronal: Glutamatergic,L6b,True,3
+H20.33.038,False,Non-neuronal and Non-neural,Astrocyte,True,1341
+H20.33.038,False,Non-neuronal and Non-neural,Endothelial,True,10
+H20.33.038,False,Non-neuronal and Non-neural,Immune,True,299
+H20.33.038,False,Non-neuronal and Non-neural,OPC,True,380
+H20.33.038,False,Non-neuronal and Non-neural,Oligodendrocyte,True,85
+H20.33.038,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,33
+H21.33.009,False,Neuronal: GABAergic,Chandelier,True,71
+H21.33.009,False,Neuronal: GABAergic,Lamp5,True,495
+H21.33.009,False,Neuronal: GABAergic,Lamp5 Lhx6,True,214
+H21.33.009,False,Neuronal: GABAergic,Pax6,True,67
+H21.33.009,False,Neuronal: GABAergic,Pvalb,True,875
+H21.33.009,False,Neuronal: GABAergic,Sncg,True,67
+H21.33.009,False,Neuronal: GABAergic,Sst,True,726
+H21.33.009,False,Neuronal: GABAergic,Vip,True,844
+H21.33.009,False,Neuronal: GABAergic,Sst Chodl,True,4
+H21.33.009,False,Neuronal: Glutamatergic,L2/3 IT,True,685
+H21.33.009,False,Neuronal: Glutamatergic,L4 IT,True,2292
+H21.33.009,False,Neuronal: Glutamatergic,L5 ET,True,3
+H21.33.009,False,Neuronal: Glutamatergic,L5 IT,True,983
+H21.33.009,False,Neuronal: Glutamatergic,L5/6 NP,True,161
+H21.33.009,False,Neuronal: Glutamatergic,L6 CT,True,167
+H21.33.009,False,Neuronal: Glutamatergic,L6 IT,True,331
+H21.33.009,False,Neuronal: Glutamatergic,L6 IT Car3,True,232
+H21.33.009,False,Neuronal: Glutamatergic,L6b,True,176
+H21.33.009,False,Non-neuronal and Non-neural,Astrocyte,True,94
+H21.33.009,False,Non-neuronal and Non-neural,Endothelial,True,9
+H21.33.009,False,Non-neuronal and Non-neural,Immune,True,258
+H21.33.009,False,Non-neuronal and Non-neural,OPC,True,66
+H21.33.009,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1575
+H21.33.009,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,60
+H20.33.002,False,Neuronal: GABAergic,Chandelier,True,155
+H20.33.002,False,Neuronal: GABAergic,Lamp5,True,645
+H20.33.002,False,Neuronal: GABAergic,Lamp5 Lhx6,True,314
+H20.33.002,False,Neuronal: GABAergic,Pax6,True,152
+H20.33.002,False,Neuronal: GABAergic,Pvalb,True,1308
+H20.33.002,False,Neuronal: GABAergic,Sncg,True,436
+H20.33.002,False,Neuronal: GABAergic,Sst,True,643
+H20.33.002,False,Neuronal: GABAergic,Vip,True,1409
+H20.33.002,False,Neuronal: GABAergic,Sst Chodl,True,15
+H20.33.002,False,Neuronal: Glutamatergic,L2/3 IT,True,6592
+H20.33.002,False,Neuronal: Glutamatergic,L4 IT,True,2138
+H20.33.002,False,Neuronal: Glutamatergic,L5 ET,True,23
+H20.33.002,False,Neuronal: Glutamatergic,L5 IT,True,1803
+H20.33.002,False,Neuronal: Glutamatergic,L5/6 NP,True,280
+H20.33.002,False,Neuronal: Glutamatergic,L6 CT,True,164
+H20.33.002,False,Neuronal: Glutamatergic,L6 IT,True,364
+H20.33.002,False,Neuronal: Glutamatergic,L6 IT Car3,True,345
+H20.33.002,False,Neuronal: Glutamatergic,L6b,True,107
+H20.33.002,False,Non-neuronal and Non-neural,Astrocyte,True,593
+H20.33.002,False,Non-neuronal and Non-neural,Endothelial,True,12
+H20.33.002,False,Non-neuronal and Non-neural,Immune,True,530
+H20.33.002,False,Non-neuronal and Non-neural,OPC,True,272
+H20.33.002,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1709
+H20.33.002,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,31
+H20.33.004,False,Neuronal: GABAergic,Chandelier,True,155
+H20.33.004,False,Neuronal: GABAergic,Lamp5,True,594
+H20.33.004,False,Neuronal: GABAergic,Lamp5 Lhx6,True,350
+H20.33.004,False,Neuronal: GABAergic,Pax6,True,119
+H20.33.004,False,Neuronal: GABAergic,Pvalb,True,1527
+H20.33.004,False,Neuronal: GABAergic,Sncg,True,280
+H20.33.004,False,Neuronal: GABAergic,Sst,True,575
+H20.33.004,False,Neuronal: GABAergic,Vip,True,1526
+H20.33.004,False,Neuronal: GABAergic,Sst Chodl,True,17
+H20.33.004,False,Neuronal: Glutamatergic,L2/3 IT,True,5763
+H20.33.004,False,Neuronal: Glutamatergic,L4 IT,True,2596
+H20.33.004,False,Neuronal: Glutamatergic,L5 ET,True,40
+H20.33.004,False,Neuronal: Glutamatergic,L5 IT,True,1928
+H20.33.004,False,Neuronal: Glutamatergic,L5/6 NP,True,359
+H20.33.004,False,Neuronal: Glutamatergic,L6 CT,True,251
+H20.33.004,False,Neuronal: Glutamatergic,L6 IT,True,774
+H20.33.004,False,Neuronal: Glutamatergic,L6 IT Car3,True,349
+H20.33.004,False,Neuronal: Glutamatergic,L6b,True,239
+H20.33.004,False,Non-neuronal and Non-neural,Astrocyte,True,937
+H20.33.004,False,Non-neuronal and Non-neural,Endothelial,True,21
+H20.33.004,False,Non-neuronal and Non-neural,Immune,True,677
+H20.33.004,False,Non-neuronal and Non-neural,OPC,True,562
+H20.33.004,False,Non-neuronal and Non-neural,Oligodendrocyte,True,708
+H20.33.004,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,64
+H20.33.028,False,Neuronal: GABAergic,Chandelier,True,8
+H20.33.028,False,Neuronal: GABAergic,Lamp5,True,270
+H20.33.028,False,Neuronal: GABAergic,Lamp5 Lhx6,True,47
+H20.33.028,False,Neuronal: GABAergic,Pax6,True,19
+H20.33.028,False,Neuronal: GABAergic,Pvalb,True,90
+H20.33.028,False,Neuronal: GABAergic,Sncg,True,14
+H20.33.028,False,Neuronal: GABAergic,Sst,True,93
+H20.33.028,False,Neuronal: GABAergic,Vip,True,414
+H20.33.028,False,Neuronal: Glutamatergic,L2/3 IT,True,440
+H20.33.028,False,Neuronal: Glutamatergic,L4 IT,True,1584
+H20.33.028,False,Neuronal: Glutamatergic,L5 ET,True,7
+H20.33.028,False,Neuronal: Glutamatergic,L5 IT,True,315
+H20.33.028,False,Neuronal: Glutamatergic,L5/6 NP,True,23
+H20.33.028,False,Neuronal: Glutamatergic,L6 CT,True,9
+H20.33.028,False,Neuronal: Glutamatergic,L6 IT,True,369
+H20.33.028,False,Neuronal: Glutamatergic,L6 IT Car3,True,286
+H20.33.028,False,Neuronal: Glutamatergic,L6b,True,208
+H20.33.028,False,Non-neuronal and Non-neural,Astrocyte,True,1843
+H20.33.028,False,Non-neuronal and Non-neural,Endothelial,True,41
+H20.33.028,False,Non-neuronal and Non-neural,Immune,True,1015
+H20.33.028,False,Non-neuronal and Non-neural,OPC,True,368
+H20.33.028,False,Non-neuronal and Non-neural,Oligodendrocyte,True,255
+H20.33.028,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,86
+H21.33.008,False,Neuronal: GABAergic,Chandelier,True,212
+H21.33.008,False,Neuronal: GABAergic,Lamp5,True,1247
+H21.33.008,False,Neuronal: GABAergic,Lamp5 Lhx6,True,418
+H21.33.008,False,Neuronal: GABAergic,Pax6,True,204
+H21.33.008,False,Neuronal: GABAergic,Pvalb,True,1141
+H21.33.008,False,Neuronal: GABAergic,Sncg,True,423
+H21.33.008,False,Neuronal: GABAergic,Sst,True,772
+H21.33.008,False,Neuronal: GABAergic,Vip,True,1687
+H21.33.008,False,Neuronal: GABAergic,Sst Chodl,True,5
+H21.33.008,False,Neuronal: Glutamatergic,L2/3 IT,True,2181
+H21.33.008,False,Neuronal: Glutamatergic,L4 IT,True,3580
+H21.33.008,False,Neuronal: Glutamatergic,L5 IT,True,1474
+H21.33.008,False,Neuronal: Glutamatergic,L5/6 NP,True,343
+H21.33.008,False,Neuronal: Glutamatergic,L6 CT,True,130
+H21.33.008,False,Neuronal: Glutamatergic,L6 IT,True,207
+H21.33.008,False,Neuronal: Glutamatergic,L6 IT Car3,True,128
+H21.33.008,False,Neuronal: Glutamatergic,L6b,True,153
+H21.33.008,False,Non-neuronal and Non-neural,Astrocyte,True,428
+H21.33.008,False,Non-neuronal and Non-neural,Endothelial,True,3
+H21.33.008,False,Non-neuronal and Non-neural,Immune,True,715
+H21.33.008,False,Non-neuronal and Non-neural,OPC,True,42
+H21.33.008,False,Non-neuronal and Non-neural,Oligodendrocyte,True,2156
+H21.33.008,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,39
+H20.33.032,False,Neuronal: GABAergic,Chandelier,True,47
+H20.33.032,False,Neuronal: GABAergic,Lamp5,True,366
+H20.33.032,False,Neuronal: GABAergic,Lamp5 Lhx6,True,211
+H20.33.032,False,Neuronal: GABAergic,Pax6,True,47
+H20.33.032,False,Neuronal: GABAergic,Pvalb,True,761
+H20.33.032,False,Neuronal: GABAergic,Sncg,True,89
+H20.33.032,False,Neuronal: GABAergic,Sst,True,361
+H20.33.032,False,Neuronal: GABAergic,Vip,True,583
+H20.33.032,False,Neuronal: GABAergic,Sst Chodl,True,24
+H20.33.032,False,Neuronal: Glutamatergic,L2/3 IT,True,3216
+H20.33.032,False,Neuronal: Glutamatergic,L4 IT,True,1578
+H20.33.032,False,Neuronal: Glutamatergic,L5 ET,True,36
+H20.33.032,False,Neuronal: Glutamatergic,L5 IT,True,1286
+H20.33.032,False,Neuronal: Glutamatergic,L5/6 NP,True,262
+H20.33.032,False,Neuronal: Glutamatergic,L6 CT,True,338
+H20.33.032,False,Neuronal: Glutamatergic,L6 IT,True,788
+H20.33.032,False,Neuronal: Glutamatergic,L6 IT Car3,True,323
+H20.33.032,False,Neuronal: Glutamatergic,L6b,True,325
+H20.33.032,False,Non-neuronal and Non-neural,Astrocyte,True,582
+H20.33.032,False,Non-neuronal and Non-neural,Endothelial,True,12
+H20.33.032,False,Non-neuronal and Non-neural,Immune,True,210
+H20.33.032,False,Non-neuronal and Non-neural,OPC,True,327
+H20.33.032,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1830
+H20.33.032,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,32
+H21.33.022,False,Neuronal: GABAergic,Chandelier,True,196
+H21.33.022,False,Neuronal: GABAergic,Lamp5,True,613
+H21.33.022,False,Neuronal: GABAergic,Lamp5 Lhx6,True,444
+H21.33.022,False,Neuronal: GABAergic,Pax6,True,146
+H21.33.022,False,Neuronal: GABAergic,Pvalb,True,1434
+H21.33.022,False,Neuronal: GABAergic,Sncg,True,341
+H21.33.022,False,Neuronal: GABAergic,Sst,True,1037
+H21.33.022,False,Neuronal: GABAergic,Vip,True,1606
+H21.33.022,False,Neuronal: GABAergic,Sst Chodl,True,16
+H21.33.022,False,Neuronal: Glutamatergic,L2/3 IT,True,3701
+H21.33.022,False,Neuronal: Glutamatergic,L4 IT,True,2156
+H21.33.022,False,Neuronal: Glutamatergic,L5 ET,True,8
+H21.33.022,False,Neuronal: Glutamatergic,L5 IT,True,1260
+H21.33.022,False,Neuronal: Glutamatergic,L5/6 NP,True,395
+H21.33.022,False,Neuronal: Glutamatergic,L6 CT,True,243
+H21.33.022,False,Neuronal: Glutamatergic,L6 IT,True,546
+H21.33.022,False,Neuronal: Glutamatergic,L6 IT Car3,True,284
+H21.33.022,False,Neuronal: Glutamatergic,L6b,True,116
+H21.33.022,False,Non-neuronal and Non-neural,Astrocyte,True,1505
+H21.33.022,False,Non-neuronal and Non-neural,Endothelial,True,55
+H21.33.022,False,Non-neuronal and Non-neural,Immune,True,895
+H21.33.022,False,Non-neuronal and Non-neural,OPC,True,779
+H21.33.022,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1442
+H21.33.022,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,77
+H20.33.041,False,Neuronal: GABAergic,Chandelier,True,49
+H20.33.041,False,Neuronal: GABAergic,Lamp5,True,372
+H20.33.041,False,Neuronal: GABAergic,Lamp5 Lhx6,True,202
+H20.33.041,False,Neuronal: GABAergic,Pax6,True,77
+H20.33.041,False,Neuronal: GABAergic,Pvalb,True,859
+H20.33.041,False,Neuronal: GABAergic,Sncg,True,211
+H20.33.041,False,Neuronal: GABAergic,Sst,True,305
+H20.33.041,False,Neuronal: GABAergic,Vip,True,781
+H20.33.041,False,Neuronal: GABAergic,Sst Chodl,True,9
+H20.33.041,False,Neuronal: Glutamatergic,L2/3 IT,True,3505
+H20.33.041,False,Neuronal: Glutamatergic,L4 IT,True,2118
+H20.33.041,False,Neuronal: Glutamatergic,L5 ET,True,43
+H20.33.041,False,Neuronal: Glutamatergic,L5 IT,True,1554
+H20.33.041,False,Neuronal: Glutamatergic,L5/6 NP,True,222
+H20.33.041,False,Neuronal: Glutamatergic,L6 CT,True,198
+H20.33.041,False,Neuronal: Glutamatergic,L6 IT,True,704
+H20.33.041,False,Neuronal: Glutamatergic,L6 IT Car3,True,302
+H20.33.041,False,Neuronal: Glutamatergic,L6b,True,172
+H20.33.041,False,Non-neuronal and Non-neural,Astrocyte,True,366
+H20.33.041,False,Non-neuronal and Non-neural,Endothelial,True,15
+H20.33.041,False,Non-neuronal and Non-neural,Immune,True,261
+H20.33.041,False,Non-neuronal and Non-neural,OPC,True,353
+H20.33.041,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1484
+H20.33.041,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,14
+H20.33.026,False,Neuronal: GABAergic,Chandelier,True,65
+H20.33.026,False,Neuronal: GABAergic,Lamp5,True,251
+H20.33.026,False,Neuronal: GABAergic,Lamp5 Lhx6,True,128
+H20.33.026,False,Neuronal: GABAergic,Pax6,True,38
+H20.33.026,False,Neuronal: GABAergic,Pvalb,True,523
+H20.33.026,False,Neuronal: GABAergic,Sncg,True,78
+H20.33.026,False,Neuronal: GABAergic,Sst,True,376
+H20.33.026,False,Neuronal: GABAergic,Vip,True,468
+H20.33.026,False,Neuronal: GABAergic,Sst Chodl,True,5
+H20.33.026,False,Neuronal: Glutamatergic,L2/3 IT,True,1206
+H20.33.026,False,Neuronal: Glutamatergic,L4 IT,True,716
+H20.33.026,False,Neuronal: Glutamatergic,L5 ET,True,5
+H20.33.026,False,Neuronal: Glutamatergic,L5 IT,True,595
+H20.33.026,False,Neuronal: Glutamatergic,L5/6 NP,True,74
+H20.33.026,False,Neuronal: Glutamatergic,L6 CT,True,136
+H20.33.026,False,Neuronal: Glutamatergic,L6 IT,True,217
+H20.33.026,False,Neuronal: Glutamatergic,L6 IT Car3,True,208
+H20.33.026,False,Neuronal: Glutamatergic,L6b,True,59
+H20.33.026,False,Non-neuronal and Non-neural,Astrocyte,True,411
+H20.33.026,False,Non-neuronal and Non-neural,Endothelial,True,4
+H20.33.026,False,Non-neuronal and Non-neural,Immune,True,163
+H20.33.026,False,Non-neuronal and Non-neural,OPC,True,80
+H20.33.026,False,Non-neuronal and Non-neural,Oligodendrocyte,True,620
+H20.33.026,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,29
+H21.33.020,False,Neuronal: GABAergic,Lamp5,True,1
+H21.33.020,False,Neuronal: GABAergic,Pax6,True,2
+H21.33.020,False,Neuronal: GABAergic,Pvalb,True,1
+H21.33.020,False,Neuronal: GABAergic,Sncg,True,1
+H21.33.020,False,Neuronal: GABAergic,Sst,True,2
+H21.33.020,False,Neuronal: GABAergic,Vip,True,10
+H21.33.020,False,Neuronal: Glutamatergic,L2/3 IT,True,41
+H21.33.020,False,Neuronal: Glutamatergic,L4 IT,True,143
+H21.33.020,False,Neuronal: Glutamatergic,L5 IT,True,12
+H21.33.020,False,Neuronal: Glutamatergic,L5/6 NP,True,4
+H21.33.020,False,Neuronal: Glutamatergic,L6 IT,True,2
+H21.33.020,False,Non-neuronal and Non-neural,Astrocyte,True,971
+H21.33.020,False,Non-neuronal and Non-neural,Endothelial,True,12
+H21.33.020,False,Non-neuronal and Non-neural,Immune,True,94
+H21.33.020,False,Non-neuronal and Non-neural,OPC,True,56
+H21.33.020,False,Non-neuronal and Non-neural,Oligodendrocyte,True,9
+H21.33.020,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,48
+H21.33.013,False,Neuronal: GABAergic,Chandelier,True,46
+H21.33.013,False,Neuronal: GABAergic,Lamp5,True,353
+H21.33.013,False,Neuronal: GABAergic,Lamp5 Lhx6,True,182
+H21.33.013,False,Neuronal: GABAergic,Pax6,True,54
+H21.33.013,False,Neuronal: GABAergic,Pvalb,True,700
+H21.33.013,False,Neuronal: GABAergic,Sncg,True,102
+H21.33.013,False,Neuronal: GABAergic,Sst,True,224
+H21.33.013,False,Neuronal: GABAergic,Vip,True,671
+H21.33.013,False,Neuronal: GABAergic,Sst Chodl,True,7
+H21.33.013,False,Neuronal: Glutamatergic,L2/3 IT,True,1674
+H21.33.013,False,Neuronal: Glutamatergic,L4 IT,True,2101
+H21.33.013,False,Neuronal: Glutamatergic,L5 ET,True,31
+H21.33.013,False,Neuronal: Glutamatergic,L5 IT,True,1268
+H21.33.013,False,Neuronal: Glutamatergic,L5/6 NP,True,246
+H21.33.013,False,Neuronal: Glutamatergic,L6 CT,True,318
+H21.33.013,False,Neuronal: Glutamatergic,L6 IT,True,788
+H21.33.013,False,Neuronal: Glutamatergic,L6 IT Car3,True,330
+H21.33.013,False,Neuronal: Glutamatergic,L6b,True,276
+H21.33.013,False,Non-neuronal and Non-neural,Astrocyte,True,938
+H21.33.013,False,Non-neuronal and Non-neural,Endothelial,True,11
+H21.33.013,False,Non-neuronal and Non-neural,Immune,True,474
+H21.33.013,False,Non-neuronal and Non-neural,OPC,True,449
+H21.33.013,False,Non-neuronal and Non-neural,Oligodendrocyte,True,445
+H21.33.013,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,24
+H21.33.023,False,Neuronal: GABAergic,Chandelier,True,76
+H21.33.023,False,Neuronal: GABAergic,Lamp5,True,465
+H21.33.023,False,Neuronal: GABAergic,Lamp5 Lhx6,True,172
+H21.33.023,False,Neuronal: GABAergic,Pax6,True,104
+H21.33.023,False,Neuronal: GABAergic,Pvalb,True,923
+H21.33.023,False,Neuronal: GABAergic,Sncg,True,252
+H21.33.023,False,Neuronal: GABAergic,Sst,True,334
+H21.33.023,False,Neuronal: GABAergic,Vip,True,1186
+H21.33.023,False,Neuronal: GABAergic,Sst Chodl,True,9
+H21.33.023,False,Neuronal: Glutamatergic,L2/3 IT,True,5366
+H21.33.023,False,Neuronal: Glutamatergic,L4 IT,True,1514
+H21.33.023,False,Neuronal: Glutamatergic,L5 ET,True,30
+H21.33.023,False,Neuronal: Glutamatergic,L5 IT,True,1269
+H21.33.023,False,Neuronal: Glutamatergic,L5/6 NP,True,181
+H21.33.023,False,Neuronal: Glutamatergic,L6 CT,True,106
+H21.33.023,False,Neuronal: Glutamatergic,L6 IT,True,326
+H21.33.023,False,Neuronal: Glutamatergic,L6 IT Car3,True,186
+H21.33.023,False,Neuronal: Glutamatergic,L6b,True,87
+H21.33.023,False,Non-neuronal and Non-neural,Astrocyte,True,754
+H21.33.023,False,Non-neuronal and Non-neural,Endothelial,True,21
+H21.33.023,False,Non-neuronal and Non-neural,Immune,True,387
+H21.33.023,False,Non-neuronal and Non-neural,OPC,True,548
+H21.33.023,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1094
+H21.33.023,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,32
+H21.33.028,False,Neuronal: GABAergic,Chandelier,True,112
+H21.33.028,False,Neuronal: GABAergic,Lamp5,True,253
+H21.33.028,False,Neuronal: GABAergic,Lamp5 Lhx6,True,168
+H21.33.028,False,Neuronal: GABAergic,Pax6,True,113
+H21.33.028,False,Neuronal: GABAergic,Pvalb,True,776
+H21.33.028,False,Neuronal: GABAergic,Sncg,True,156
+H21.33.028,False,Neuronal: GABAergic,Sst,True,322
+H21.33.028,False,Neuronal: GABAergic,Vip,True,1136
+H21.33.028,False,Neuronal: GABAergic,Sst Chodl,True,7
+H21.33.028,False,Neuronal: Glutamatergic,L2/3 IT,True,3423
+H21.33.028,False,Neuronal: Glutamatergic,L4 IT,True,1290
+H21.33.028,False,Neuronal: Glutamatergic,L5 ET,True,9
+H21.33.028,False,Neuronal: Glutamatergic,L5 IT,True,899
+H21.33.028,False,Neuronal: Glutamatergic,L5/6 NP,True,164
+H21.33.028,False,Neuronal: Glutamatergic,L6 CT,True,46
+H21.33.028,False,Neuronal: Glutamatergic,L6 IT,True,201
+H21.33.028,False,Neuronal: Glutamatergic,L6 IT Car3,True,142
+H21.33.028,False,Neuronal: Glutamatergic,L6b,True,30
+H21.33.028,False,Non-neuronal and Non-neural,Astrocyte,True,1791
+H21.33.028,False,Non-neuronal and Non-neural,Endothelial,True,22
+H21.33.028,False,Non-neuronal and Non-neural,Immune,True,749
+H21.33.028,False,Non-neuronal and Non-neural,OPC,True,555
+H21.33.028,False,Non-neuronal and Non-neural,Oligodendrocyte,True,103
+H21.33.028,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,56
+H20.33.005,False,Neuronal: GABAergic,Chandelier,True,310
+H20.33.005,False,Neuronal: GABAergic,Lamp5,True,852
+H20.33.005,False,Neuronal: GABAergic,Lamp5 Lhx6,True,391
+H20.33.005,False,Neuronal: GABAergic,Pax6,True,172
+H20.33.005,False,Neuronal: GABAergic,Pvalb,True,1707
+H20.33.005,False,Neuronal: GABAergic,Sncg,True,336
+H20.33.005,False,Neuronal: GABAergic,Sst,True,539
+H20.33.005,False,Neuronal: GABAergic,Vip,True,2290
+H20.33.005,False,Neuronal: GABAergic,Sst Chodl,True,6
+H20.33.005,False,Neuronal: Glutamatergic,L2/3 IT,True,4857
+H20.33.005,False,Neuronal: Glutamatergic,L4 IT,True,4581
+H20.33.005,False,Neuronal: Glutamatergic,L5 ET,True,22
+H20.33.005,False,Neuronal: Glutamatergic,L5 IT,True,3153
+H20.33.005,False,Neuronal: Glutamatergic,L5/6 NP,True,477
+H20.33.005,False,Neuronal: Glutamatergic,L6 CT,True,279
+H20.33.005,False,Neuronal: Glutamatergic,L6 IT,True,1050
+H20.33.005,False,Neuronal: Glutamatergic,L6 IT Car3,True,435
+H20.33.005,False,Neuronal: Glutamatergic,L6b,True,430
+H20.33.005,False,Non-neuronal and Non-neural,Astrocyte,True,1844
+H20.33.005,False,Non-neuronal and Non-neural,Endothelial,True,69
+H20.33.005,False,Non-neuronal and Non-neural,Immune,True,807
+H20.33.005,False,Non-neuronal and Non-neural,OPC,True,685
+H20.33.005,False,Non-neuronal and Non-neural,Oligodendrocyte,True,468
+H20.33.005,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,112
+H21.33.042,False,Neuronal: GABAergic,Chandelier,True,74
+H21.33.042,False,Neuronal: GABAergic,Lamp5,True,294
+H21.33.042,False,Neuronal: GABAergic,Lamp5 Lhx6,True,245
+H21.33.042,False,Neuronal: GABAergic,Pax6,True,53
+H21.33.042,False,Neuronal: GABAergic,Pvalb,True,939
+H21.33.042,False,Neuronal: GABAergic,Sncg,True,126
+H21.33.042,False,Neuronal: GABAergic,Sst,True,259
+H21.33.042,False,Neuronal: GABAergic,Vip,True,669
+H21.33.042,False,Neuronal: GABAergic,Sst Chodl,True,11
+H21.33.042,False,Neuronal: Glutamatergic,L2/3 IT,True,3462
+H21.33.042,False,Neuronal: Glutamatergic,L4 IT,True,1615
+H21.33.042,False,Neuronal: Glutamatergic,L5 ET,True,37
+H21.33.042,False,Neuronal: Glutamatergic,L5 IT,True,1369
+H21.33.042,False,Neuronal: Glutamatergic,L5/6 NP,True,246
+H21.33.042,False,Neuronal: Glutamatergic,L6 CT,True,321
+H21.33.042,False,Neuronal: Glutamatergic,L6 IT,True,418
+H21.33.042,False,Neuronal: Glutamatergic,L6 IT Car3,True,247
+H21.33.042,False,Neuronal: Glutamatergic,L6b,True,156
+H21.33.042,False,Non-neuronal and Non-neural,Astrocyte,True,709
+H21.33.042,False,Non-neuronal and Non-neural,Endothelial,True,4
+H21.33.042,False,Non-neuronal and Non-neural,Immune,True,440
+H21.33.042,False,Non-neuronal and Non-neural,OPC,True,421
+H21.33.042,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1803
+H21.33.042,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,27
+H20.33.043,False,Neuronal: GABAergic,Chandelier,True,168
+H20.33.043,False,Neuronal: GABAergic,Lamp5,True,666
+H20.33.043,False,Neuronal: GABAergic,Lamp5 Lhx6,True,326
+H20.33.043,False,Neuronal: GABAergic,Pax6,True,112
+H20.33.043,False,Neuronal: GABAergic,Pvalb,True,1397
+H20.33.043,False,Neuronal: GABAergic,Sncg,True,413
+H20.33.043,False,Neuronal: GABAergic,Sst,True,1381
+H20.33.043,False,Neuronal: GABAergic,Vip,True,1938
+H20.33.043,False,Neuronal: GABAergic,Sst Chodl,True,21
+H20.33.043,False,Neuronal: Glutamatergic,L2/3 IT,True,5771
+H20.33.043,False,Neuronal: Glutamatergic,L4 IT,True,2622
+H20.33.043,False,Neuronal: Glutamatergic,L5 ET,True,29
+H20.33.043,False,Neuronal: Glutamatergic,L5 IT,True,2147
+H20.33.043,False,Neuronal: Glutamatergic,L5/6 NP,True,306
+H20.33.043,False,Neuronal: Glutamatergic,L6 CT,True,228
+H20.33.043,False,Neuronal: Glutamatergic,L6 IT,True,796
+H20.33.043,False,Neuronal: Glutamatergic,L6 IT Car3,True,353
+H20.33.043,False,Neuronal: Glutamatergic,L6b,True,211
+H20.33.043,False,Non-neuronal and Non-neural,Astrocyte,True,728
+H20.33.043,False,Non-neuronal and Non-neural,Endothelial,True,7
+H20.33.043,False,Non-neuronal and Non-neural,Immune,True,736
+H20.33.043,False,Non-neuronal and Non-neural,OPC,True,367
+H20.33.043,False,Non-neuronal and Non-neural,Oligodendrocyte,True,4084
+H20.33.043,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,24
+H21.33.001,False,Neuronal: GABAergic,Chandelier,True,111
+H21.33.001,False,Neuronal: GABAergic,Lamp5,True,533
+H21.33.001,False,Neuronal: GABAergic,Lamp5 Lhx6,True,196
+H21.33.001,False,Neuronal: GABAergic,Pax6,True,112
+H21.33.001,False,Neuronal: GABAergic,Pvalb,True,1128
+H21.33.001,False,Neuronal: GABAergic,Sncg,True,404
+H21.33.001,False,Neuronal: GABAergic,Sst,True,1025
+H21.33.001,False,Neuronal: GABAergic,Vip,True,1306
+H21.33.001,False,Neuronal: GABAergic,Sst Chodl,True,14
+H21.33.001,False,Neuronal: Glutamatergic,L2/3 IT,True,3147
+H21.33.001,False,Neuronal: Glutamatergic,L4 IT,True,2112
+H21.33.001,False,Neuronal: Glutamatergic,L5 ET,True,17
+H21.33.001,False,Neuronal: Glutamatergic,L5 IT,True,1379
+H21.33.001,False,Neuronal: Glutamatergic,L5/6 NP,True,250
+H21.33.001,False,Neuronal: Glutamatergic,L6 CT,True,108
+H21.33.001,False,Neuronal: Glutamatergic,L6 IT,True,250
+H21.33.001,False,Neuronal: Glutamatergic,L6 IT Car3,True,122
+H21.33.001,False,Neuronal: Glutamatergic,L6b,True,84
+H21.33.001,False,Non-neuronal and Non-neural,Astrocyte,True,404
+H21.33.001,False,Non-neuronal and Non-neural,Endothelial,True,36
+H21.33.001,False,Non-neuronal and Non-neural,Immune,True,822
+H21.33.001,False,Non-neuronal and Non-neural,OPC,True,182
+H21.33.001,False,Non-neuronal and Non-neural,Oligodendrocyte,True,562
+H21.33.001,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,28
+H20.33.013,False,Neuronal: GABAergic,Chandelier,True,183
+H20.33.013,False,Neuronal: GABAergic,Lamp5,True,457
+H20.33.013,False,Neuronal: GABAergic,Lamp5 Lhx6,True,199
+H20.33.013,False,Neuronal: GABAergic,Pax6,True,102
+H20.33.013,False,Neuronal: GABAergic,Pvalb,True,1093
+H20.33.013,False,Neuronal: GABAergic,Sncg,True,304
+H20.33.013,False,Neuronal: GABAergic,Sst,True,576
+H20.33.013,False,Neuronal: GABAergic,Vip,True,1444
+H20.33.013,False,Neuronal: GABAergic,Sst Chodl,True,8
+H20.33.013,False,Neuronal: Glutamatergic,L2/3 IT,True,6584
+H20.33.013,False,Neuronal: Glutamatergic,L4 IT,True,1601
+H20.33.013,False,Neuronal: Glutamatergic,L5 ET,True,25
+H20.33.013,False,Neuronal: Glutamatergic,L5 IT,True,1325
+H20.33.013,False,Neuronal: Glutamatergic,L5/6 NP,True,190
+H20.33.013,False,Neuronal: Glutamatergic,L6 CT,True,223
+H20.33.013,False,Neuronal: Glutamatergic,L6 IT,True,440
+H20.33.013,False,Neuronal: Glutamatergic,L6 IT Car3,True,255
+H20.33.013,False,Neuronal: Glutamatergic,L6b,True,64
+H20.33.013,False,Non-neuronal and Non-neural,Astrocyte,True,1056
+H20.33.013,False,Non-neuronal and Non-neural,Endothelial,True,13
+H20.33.013,False,Non-neuronal and Non-neural,Immune,True,350
+H20.33.013,False,Non-neuronal and Non-neural,OPC,True,376
+H20.33.013,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1360
+H20.33.013,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,33
+H21.33.014,False,Neuronal: GABAergic,Chandelier,True,58
+H21.33.014,False,Neuronal: GABAergic,Lamp5,True,434
+H21.33.014,False,Neuronal: GABAergic,Lamp5 Lhx6,True,220
+H21.33.014,False,Neuronal: GABAergic,Pax6,True,66
+H21.33.014,False,Neuronal: GABAergic,Pvalb,True,1170
+H21.33.014,False,Neuronal: GABAergic,Sncg,True,171
+H21.33.014,False,Neuronal: GABAergic,Sst,True,736
+H21.33.014,False,Neuronal: GABAergic,Vip,True,954
+H21.33.014,False,Neuronal: GABAergic,Sst Chodl,True,26
+H21.33.014,False,Neuronal: Glutamatergic,L2/3 IT,True,3720
+H21.33.014,False,Neuronal: Glutamatergic,L4 IT,True,1592
+H21.33.014,False,Neuronal: Glutamatergic,L5 ET,True,27
+H21.33.014,False,Neuronal: Glutamatergic,L5 IT,True,1102
+H21.33.014,False,Neuronal: Glutamatergic,L5/6 NP,True,136
+H21.33.014,False,Neuronal: Glutamatergic,L6 CT,True,261
+H21.33.014,False,Neuronal: Glutamatergic,L6 IT,True,608
+H21.33.014,False,Neuronal: Glutamatergic,L6 IT Car3,True,315
+H21.33.014,False,Neuronal: Glutamatergic,L6b,True,157
+H21.33.014,False,Non-neuronal and Non-neural,Astrocyte,True,385
+H21.33.014,False,Non-neuronal and Non-neural,Endothelial,True,4
+H21.33.014,False,Non-neuronal and Non-neural,Immune,True,234
+H21.33.014,False,Non-neuronal and Non-neural,OPC,True,243
+H21.33.014,False,Non-neuronal and Non-neural,Oligodendrocyte,True,917
+H21.33.014,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,5
+H21.33.031,False,Neuronal: GABAergic,Chandelier,True,152
+H21.33.031,False,Neuronal: GABAergic,Lamp5,True,678
+H21.33.031,False,Neuronal: GABAergic,Lamp5 Lhx6,True,341
+H21.33.031,False,Neuronal: GABAergic,Pax6,True,109
+H21.33.031,False,Neuronal: GABAergic,Pvalb,True,1298
+H21.33.031,False,Neuronal: GABAergic,Sncg,True,297
+H21.33.031,False,Neuronal: GABAergic,Sst,True,674
+H21.33.031,False,Neuronal: GABAergic,Vip,True,1432
+H21.33.031,False,Neuronal: GABAergic,Sst Chodl,True,6
+H21.33.031,False,Neuronal: Glutamatergic,L2/3 IT,True,4322
+H21.33.031,False,Neuronal: Glutamatergic,L4 IT,True,1399
+H21.33.031,False,Neuronal: Glutamatergic,L5 ET,True,22
+H21.33.031,False,Neuronal: Glutamatergic,L5 IT,True,1192
+H21.33.031,False,Neuronal: Glutamatergic,L5/6 NP,True,186
+H21.33.031,False,Neuronal: Glutamatergic,L6 CT,True,138
+H21.33.031,False,Neuronal: Glutamatergic,L6 IT,True,273
+H21.33.031,False,Neuronal: Glutamatergic,L6 IT Car3,True,195
+H21.33.031,False,Neuronal: Glutamatergic,L6b,True,71
+H21.33.031,False,Non-neuronal and Non-neural,Astrocyte,True,436
+H21.33.031,False,Non-neuronal and Non-neural,Endothelial,True,16
+H21.33.031,False,Non-neuronal and Non-neural,Immune,True,403
+H21.33.031,False,Non-neuronal and Non-neural,OPC,True,318
+H21.33.031,False,Non-neuronal and Non-neural,Oligodendrocyte,True,707
+H21.33.031,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,40
+H21.33.010,False,Neuronal: GABAergic,Chandelier,True,163
+H21.33.010,False,Neuronal: GABAergic,Lamp5,True,419
+H21.33.010,False,Neuronal: GABAergic,Lamp5 Lhx6,True,279
+H21.33.010,False,Neuronal: GABAergic,Pax6,True,149
+H21.33.010,False,Neuronal: GABAergic,Pvalb,True,1180
+H21.33.010,False,Neuronal: GABAergic,Sncg,True,216
+H21.33.010,False,Neuronal: GABAergic,Sst,True,518
+H21.33.010,False,Neuronal: GABAergic,Vip,True,1553
+H21.33.010,False,Neuronal: GABAergic,Sst Chodl,True,11
+H21.33.010,False,Neuronal: Glutamatergic,L2/3 IT,True,2753
+H21.33.010,False,Neuronal: Glutamatergic,L4 IT,True,2750
+H21.33.010,False,Neuronal: Glutamatergic,L5 ET,True,14
+H21.33.010,False,Neuronal: Glutamatergic,L5 IT,True,1673
+H21.33.010,False,Neuronal: Glutamatergic,L5/6 NP,True,305
+H21.33.010,False,Neuronal: Glutamatergic,L6 CT,True,161
+H21.33.010,False,Neuronal: Glutamatergic,L6 IT,True,671
+H21.33.010,False,Neuronal: Glutamatergic,L6 IT Car3,True,310
+H21.33.010,False,Neuronal: Glutamatergic,L6b,True,230
+H21.33.010,False,Non-neuronal and Non-neural,Astrocyte,True,1509
+H21.33.010,False,Non-neuronal and Non-neural,Endothelial,True,100
+H21.33.010,False,Non-neuronal and Non-neural,Immune,True,907
+H21.33.010,False,Non-neuronal and Non-neural,OPC,True,376
+H21.33.010,False,Non-neuronal and Non-neural,Oligodendrocyte,True,512
+H21.33.010,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,136
+H21.33.012,False,Neuronal: GABAergic,Chandelier,True,116
+H21.33.012,False,Neuronal: GABAergic,Lamp5,True,456
+H21.33.012,False,Neuronal: GABAergic,Lamp5 Lhx6,True,268
+H21.33.012,False,Neuronal: GABAergic,Pax6,True,106
+H21.33.012,False,Neuronal: GABAergic,Pvalb,True,1278
+H21.33.012,False,Neuronal: GABAergic,Sncg,True,194
+H21.33.012,False,Neuronal: GABAergic,Sst,True,372
+H21.33.012,False,Neuronal: GABAergic,Vip,True,1106
+H21.33.012,False,Neuronal: GABAergic,Sst Chodl,True,12
+H21.33.012,False,Neuronal: Glutamatergic,L2/3 IT,True,3387
+H21.33.012,False,Neuronal: Glutamatergic,L4 IT,True,1901
+H21.33.012,False,Neuronal: Glutamatergic,L5 ET,True,35
+H21.33.012,False,Neuronal: Glutamatergic,L5 IT,True,1418
+H21.33.012,False,Neuronal: Glutamatergic,L5/6 NP,True,273
+H21.33.012,False,Neuronal: Glutamatergic,L6 CT,True,192
+H21.33.012,False,Neuronal: Glutamatergic,L6 IT,True,540
+H21.33.012,False,Neuronal: Glutamatergic,L6 IT Car3,True,239
+H21.33.012,False,Neuronal: Glutamatergic,L6b,True,129
+H21.33.012,False,Non-neuronal and Non-neural,Astrocyte,True,281
+H21.33.012,False,Non-neuronal and Non-neural,Endothelial,True,21
+H21.33.012,False,Non-neuronal and Non-neural,Immune,True,209
+H21.33.012,False,Non-neuronal and Non-neural,OPC,True,479
+H21.33.012,False,Non-neuronal and Non-neural,Oligodendrocyte,True,2915
+H21.33.012,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,47
+H20.33.015,False,Neuronal: GABAergic,Chandelier,True,144
+H20.33.015,False,Neuronal: GABAergic,Lamp5,True,341
+H20.33.015,False,Neuronal: GABAergic,Lamp5 Lhx6,True,265
+H20.33.015,False,Neuronal: GABAergic,Pax6,True,94
+H20.33.015,False,Neuronal: GABAergic,Pvalb,True,977
+H20.33.015,False,Neuronal: GABAergic,Sncg,True,148
+H20.33.015,False,Neuronal: GABAergic,Sst,True,279
+H20.33.015,False,Neuronal: GABAergic,Vip,True,799
+H20.33.015,False,Neuronal: GABAergic,Sst Chodl,True,19
+H20.33.015,False,Neuronal: Glutamatergic,L2/3 IT,True,5166
+H20.33.015,False,Neuronal: Glutamatergic,L4 IT,True,2128
+H20.33.015,False,Neuronal: Glutamatergic,L5 ET,True,58
+H20.33.015,False,Neuronal: Glutamatergic,L5 IT,True,1864
+H20.33.015,False,Neuronal: Glutamatergic,L5/6 NP,True,286
+H20.33.015,False,Neuronal: Glutamatergic,L6 CT,True,236
+H20.33.015,False,Neuronal: Glutamatergic,L6 IT,True,855
+H20.33.015,False,Neuronal: Glutamatergic,L6 IT Car3,True,418
+H20.33.015,False,Neuronal: Glutamatergic,L6b,True,199
+H20.33.015,False,Non-neuronal and Non-neural,Astrocyte,True,706
+H20.33.015,False,Non-neuronal and Non-neural,Endothelial,True,6
+H20.33.015,False,Non-neuronal and Non-neural,Immune,True,348
+H20.33.015,False,Non-neuronal and Non-neural,OPC,True,339
+H20.33.015,False,Non-neuronal and Non-neural,Oligodendrocyte,True,507
+H20.33.015,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,24
+H20.33.031,False,Neuronal: GABAergic,Chandelier,True,92
+H20.33.031,False,Neuronal: GABAergic,Lamp5,True,351
+H20.33.031,False,Neuronal: GABAergic,Lamp5 Lhx6,True,164
+H20.33.031,False,Neuronal: GABAergic,Pax6,True,71
+H20.33.031,False,Neuronal: GABAergic,Pvalb,True,840
+H20.33.031,False,Neuronal: GABAergic,Sncg,True,156
+H20.33.031,False,Neuronal: GABAergic,Sst,True,549
+H20.33.031,False,Neuronal: GABAergic,Vip,True,904
+H20.33.031,False,Neuronal: GABAergic,Sst Chodl,True,8
+H20.33.031,False,Neuronal: Glutamatergic,L2/3 IT,True,3402
+H20.33.031,False,Neuronal: Glutamatergic,L4 IT,True,1413
+H20.33.031,False,Neuronal: Glutamatergic,L5 ET,True,5
+H20.33.031,False,Neuronal: Glutamatergic,L5 IT,True,1109
+H20.33.031,False,Neuronal: Glutamatergic,L5/6 NP,True,177
+H20.33.031,False,Neuronal: Glutamatergic,L6 CT,True,137
+H20.33.031,False,Neuronal: Glutamatergic,L6 IT,True,432
+H20.33.031,False,Neuronal: Glutamatergic,L6 IT Car3,True,222
+H20.33.031,False,Neuronal: Glutamatergic,L6b,True,77
+H20.33.031,False,Non-neuronal and Non-neural,Astrocyte,True,670
+H20.33.031,False,Non-neuronal and Non-neural,Endothelial,True,4
+H20.33.031,False,Non-neuronal and Non-neural,Immune,True,345
+H20.33.031,False,Non-neuronal and Non-neural,OPC,True,159
+H20.33.031,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1126
+H20.33.031,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,10
+H21.33.030,False,Neuronal: GABAergic,Chandelier,True,95
+H21.33.030,False,Neuronal: GABAergic,Lamp5,True,245
+H21.33.030,False,Neuronal: GABAergic,Lamp5 Lhx6,True,113
+H21.33.030,False,Neuronal: GABAergic,Pax6,True,60
+H21.33.030,False,Neuronal: GABAergic,Pvalb,True,797
+H21.33.030,False,Neuronal: GABAergic,Sncg,True,151
+H21.33.030,False,Neuronal: GABAergic,Sst,True,574
+H21.33.030,False,Neuronal: GABAergic,Vip,True,941
+H21.33.030,False,Neuronal: GABAergic,Sst Chodl,True,14
+H21.33.030,False,Neuronal: Glutamatergic,L2/3 IT,True,3242
+H21.33.030,False,Neuronal: Glutamatergic,L4 IT,True,1297
+H21.33.030,False,Neuronal: Glutamatergic,L5 ET,True,22
+H21.33.030,False,Neuronal: Glutamatergic,L5 IT,True,826
+H21.33.030,False,Neuronal: Glutamatergic,L5/6 NP,True,144
+H21.33.030,False,Neuronal: Glutamatergic,L6 CT,True,95
+H21.33.030,False,Neuronal: Glutamatergic,L6 IT,True,218
+H21.33.030,False,Neuronal: Glutamatergic,L6 IT Car3,True,130
+H21.33.030,False,Neuronal: Glutamatergic,L6b,True,58
+H21.33.030,False,Non-neuronal and Non-neural,Astrocyte,True,396
+H21.33.030,False,Non-neuronal and Non-neural,Endothelial,True,18
+H21.33.030,False,Non-neuronal and Non-neural,Immune,True,246
+H21.33.030,False,Non-neuronal and Non-neural,OPC,True,164
+H21.33.030,False,Non-neuronal and Non-neural,Oligodendrocyte,True,674
+H21.33.030,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,23
+H20.33.011,False,Neuronal: GABAergic,Chandelier,True,152
+H20.33.011,False,Neuronal: GABAergic,Lamp5,True,432
+H20.33.011,False,Neuronal: GABAergic,Lamp5 Lhx6,True,253
+H20.33.011,False,Neuronal: GABAergic,Pax6,True,132
+H20.33.011,False,Neuronal: GABAergic,Pvalb,True,1066
+H20.33.011,False,Neuronal: GABAergic,Sncg,True,332
+H20.33.011,False,Neuronal: GABAergic,Sst,True,483
+H20.33.011,False,Neuronal: GABAergic,Vip,True,1320
+H20.33.011,False,Neuronal: GABAergic,Sst Chodl,True,20
+H20.33.011,False,Neuronal: Glutamatergic,L2/3 IT,True,5023
+H20.33.011,False,Neuronal: Glutamatergic,L4 IT,True,1654
+H20.33.011,False,Neuronal: Glutamatergic,L5 ET,True,26
+H20.33.011,False,Neuronal: Glutamatergic,L5 IT,True,1267
+H20.33.011,False,Neuronal: Glutamatergic,L5/6 NP,True,178
+H20.33.011,False,Neuronal: Glutamatergic,L6 CT,True,159
+H20.33.011,False,Neuronal: Glutamatergic,L6 IT,True,447
+H20.33.011,False,Neuronal: Glutamatergic,L6 IT Car3,True,219
+H20.33.011,False,Neuronal: Glutamatergic,L6b,True,134
+H20.33.011,False,Non-neuronal and Non-neural,Astrocyte,True,1096
+H20.33.011,False,Non-neuronal and Non-neural,Endothelial,True,14
+H20.33.011,False,Non-neuronal and Non-neural,Immune,True,387
+H20.33.011,False,Non-neuronal and Non-neural,OPC,True,330
+H20.33.011,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1794
+H20.33.011,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,17
+H21.33.035,False,Neuronal: GABAergic,Chandelier,True,119
+H21.33.035,False,Neuronal: GABAergic,Lamp5,True,438
+H21.33.035,False,Neuronal: GABAergic,Lamp5 Lhx6,True,136
+H21.33.035,False,Neuronal: GABAergic,Pax6,True,59
+H21.33.035,False,Neuronal: GABAergic,Pvalb,True,787
+H21.33.035,False,Neuronal: GABAergic,Sncg,True,156
+H21.33.035,False,Neuronal: GABAergic,Sst,True,469
+H21.33.035,False,Neuronal: GABAergic,Vip,True,960
+H21.33.035,False,Neuronal: GABAergic,Sst Chodl,True,5
+H21.33.035,False,Neuronal: Glutamatergic,L2/3 IT,True,3472
+H21.33.035,False,Neuronal: Glutamatergic,L4 IT,True,1865
+H21.33.035,False,Neuronal: Glutamatergic,L5 ET,True,29
+H21.33.035,False,Neuronal: Glutamatergic,L5 IT,True,1427
+H21.33.035,False,Neuronal: Glutamatergic,L5/6 NP,True,204
+H21.33.035,False,Neuronal: Glutamatergic,L6 CT,True,121
+H21.33.035,False,Neuronal: Glutamatergic,L6 IT,True,288
+H21.33.035,False,Neuronal: Glutamatergic,L6 IT Car3,True,179
+H21.33.035,False,Neuronal: Glutamatergic,L6b,True,92
+H21.33.035,False,Non-neuronal and Non-neural,Astrocyte,True,1210
+H21.33.035,False,Non-neuronal and Non-neural,Endothelial,True,32
+H21.33.035,False,Non-neuronal and Non-neural,Immune,True,408
+H21.33.035,False,Non-neuronal and Non-neural,OPC,True,432
+H21.33.035,False,Non-neuronal and Non-neural,Oligodendrocyte,True,548
+H21.33.035,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,65
+H21.33.006,False,Neuronal: GABAergic,Chandelier,True,181
+H21.33.006,False,Neuronal: GABAergic,Lamp5,True,595
+H21.33.006,False,Neuronal: GABAergic,Lamp5 Lhx6,True,386
+H21.33.006,False,Neuronal: GABAergic,Pax6,True,179
+H21.33.006,False,Neuronal: GABAergic,Pvalb,True,1487
+H21.33.006,False,Neuronal: GABAergic,Sncg,True,357
+H21.33.006,False,Neuronal: GABAergic,Sst,True,853
+H21.33.006,False,Neuronal: GABAergic,Vip,True,1643
+H21.33.006,False,Neuronal: GABAergic,Sst Chodl,True,13
+H21.33.006,False,Neuronal: Glutamatergic,L2/3 IT,True,6625
+H21.33.006,False,Neuronal: Glutamatergic,L4 IT,True,2319
+H21.33.006,False,Neuronal: Glutamatergic,L5 ET,True,15
+H21.33.006,False,Neuronal: Glutamatergic,L5 IT,True,1696
+H21.33.006,False,Neuronal: Glutamatergic,L5/6 NP,True,318
+H21.33.006,False,Neuronal: Glutamatergic,L6 CT,True,129
+H21.33.006,False,Neuronal: Glutamatergic,L6 IT,True,404
+H21.33.006,False,Neuronal: Glutamatergic,L6 IT Car3,True,267
+H21.33.006,False,Neuronal: Glutamatergic,L6b,True,112
+H21.33.006,False,Non-neuronal and Non-neural,Astrocyte,True,619
+H21.33.006,False,Non-neuronal and Non-neural,Endothelial,True,1
+H21.33.006,False,Non-neuronal and Non-neural,Immune,True,789
+H21.33.006,False,Non-neuronal and Non-neural,OPC,True,454
+H21.33.006,False,Non-neuronal and Non-neural,Oligodendrocyte,True,2311
+H21.33.006,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,21
+H21.33.045,False,Neuronal: GABAergic,Chandelier,True,34
+H21.33.045,False,Neuronal: GABAergic,Lamp5,True,421
+H21.33.045,False,Neuronal: GABAergic,Lamp5 Lhx6,True,36
+H21.33.045,False,Neuronal: GABAergic,Pax6,True,89
+H21.33.045,False,Neuronal: GABAergic,Pvalb,True,275
+H21.33.045,False,Neuronal: GABAergic,Sncg,True,211
+H21.33.045,False,Neuronal: GABAergic,Sst,True,154
+H21.33.045,False,Neuronal: GABAergic,Vip,True,454
+H21.33.045,False,Neuronal: GABAergic,Sst Chodl,True,1
+H21.33.045,False,Neuronal: Glutamatergic,L2/3 IT,True,675
+H21.33.045,False,Neuronal: Glutamatergic,L4 IT,True,1128
+H21.33.045,False,Neuronal: Glutamatergic,L5 ET,True,4
+H21.33.045,False,Neuronal: Glutamatergic,L5 IT,True,708
+H21.33.045,False,Neuronal: Glutamatergic,L5/6 NP,True,46
+H21.33.045,False,Neuronal: Glutamatergic,L6 CT,True,18
+H21.33.045,False,Neuronal: Glutamatergic,L6 IT,True,79
+H21.33.045,False,Neuronal: Glutamatergic,L6 IT Car3,True,44
+H21.33.045,False,Neuronal: Glutamatergic,L6b,True,22
+H21.33.045,False,Non-neuronal and Non-neural,Astrocyte,True,670
+H21.33.045,False,Non-neuronal and Non-neural,Endothelial,True,23
+H21.33.045,False,Non-neuronal and Non-neural,Immune,True,315
+H21.33.045,False,Non-neuronal and Non-neural,OPC,True,57
+H21.33.045,False,Non-neuronal and Non-neural,Oligodendrocyte,True,86
+H21.33.045,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,97
+H21.33.017,False,Neuronal: GABAergic,Chandelier,True,84
+H21.33.017,False,Neuronal: GABAergic,Lamp5,True,237
+H21.33.017,False,Neuronal: GABAergic,Lamp5 Lhx6,True,153
+H21.33.017,False,Neuronal: GABAergic,Pax6,True,72
+H21.33.017,False,Neuronal: GABAergic,Pvalb,True,404
+H21.33.017,False,Neuronal: GABAergic,Sncg,True,108
+H21.33.017,False,Neuronal: GABAergic,Sst,True,367
+H21.33.017,False,Neuronal: GABAergic,Vip,True,740
+H21.33.017,False,Neuronal: GABAergic,Sst Chodl,True,2
+H21.33.017,False,Neuronal: Glutamatergic,L2/3 IT,True,1973
+H21.33.017,False,Neuronal: Glutamatergic,L4 IT,True,509
+H21.33.017,False,Neuronal: Glutamatergic,L5 ET,True,9
+H21.33.017,False,Neuronal: Glutamatergic,L5 IT,True,493
+H21.33.017,False,Neuronal: Glutamatergic,L5/6 NP,True,76
+H21.33.017,False,Neuronal: Glutamatergic,L6 CT,True,27
+H21.33.017,False,Neuronal: Glutamatergic,L6 IT,True,115
+H21.33.017,False,Neuronal: Glutamatergic,L6 IT Car3,True,35
+H21.33.017,False,Neuronal: Glutamatergic,L6b,True,19
+H21.33.017,False,Non-neuronal and Non-neural,Astrocyte,True,340
+H21.33.017,False,Non-neuronal and Non-neural,Endothelial,True,12
+H21.33.017,False,Non-neuronal and Non-neural,Immune,True,875
+H21.33.017,False,Non-neuronal and Non-neural,OPC,True,74
+H21.33.017,False,Non-neuronal and Non-neural,Oligodendrocyte,True,411
+H21.33.017,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,38
+H21.33.002,False,Neuronal: GABAergic,Chandelier,True,210
+H21.33.002,False,Neuronal: GABAergic,Lamp5,True,717
+H21.33.002,False,Neuronal: GABAergic,Lamp5 Lhx6,True,365
+H21.33.002,False,Neuronal: GABAergic,Pax6,True,173
+H21.33.002,False,Neuronal: GABAergic,Pvalb,True,1599
+H21.33.002,False,Neuronal: GABAergic,Sncg,True,382
+H21.33.002,False,Neuronal: GABAergic,Sst,True,1084
+H21.33.002,False,Neuronal: GABAergic,Vip,True,1769
+H21.33.002,False,Neuronal: GABAergic,Sst Chodl,True,9
+H21.33.002,False,Neuronal: Glutamatergic,L2/3 IT,True,3857
+H21.33.002,False,Neuronal: Glutamatergic,L4 IT,True,1323
+H21.33.002,False,Neuronal: Glutamatergic,L5 ET,True,10
+H21.33.002,False,Neuronal: Glutamatergic,L5 IT,True,814
+H21.33.002,False,Neuronal: Glutamatergic,L5/6 NP,True,87
+H21.33.002,False,Neuronal: Glutamatergic,L6 CT,True,58
+H21.33.002,False,Neuronal: Glutamatergic,L6 IT,True,300
+H21.33.002,False,Neuronal: Glutamatergic,L6 IT Car3,True,267
+H21.33.002,False,Neuronal: Glutamatergic,L6b,True,25
+H21.33.002,False,Non-neuronal and Non-neural,Astrocyte,True,710
+H21.33.002,False,Non-neuronal and Non-neural,Endothelial,True,35
+H21.33.002,False,Non-neuronal and Non-neural,Immune,True,432
+H21.33.002,False,Non-neuronal and Non-neural,OPC,True,318
+H21.33.002,False,Non-neuronal and Non-neural,Oligodendrocyte,True,644
+H21.33.002,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,79
+H21.33.036,False,Neuronal: GABAergic,Chandelier,True,120
+H21.33.036,False,Neuronal: GABAergic,Lamp5,True,366
+H21.33.036,False,Neuronal: GABAergic,Lamp5 Lhx6,True,208
+H21.33.036,False,Neuronal: GABAergic,Pax6,True,53
+H21.33.036,False,Neuronal: GABAergic,Pvalb,True,777
+H21.33.036,False,Neuronal: GABAergic,Sncg,True,175
+H21.33.036,False,Neuronal: GABAergic,Sst,True,419
+H21.33.036,False,Neuronal: GABAergic,Vip,True,950
+H21.33.036,False,Neuronal: GABAergic,Sst Chodl,True,3
+H21.33.036,False,Neuronal: Glutamatergic,L2/3 IT,True,2742
+H21.33.036,False,Neuronal: Glutamatergic,L4 IT,True,1028
+H21.33.036,False,Neuronal: Glutamatergic,L5 ET,True,6
+H21.33.036,False,Neuronal: Glutamatergic,L5 IT,True,1077
+H21.33.036,False,Neuronal: Glutamatergic,L5/6 NP,True,220
+H21.33.036,False,Neuronal: Glutamatergic,L6 CT,True,115
+H21.33.036,False,Neuronal: Glutamatergic,L6 IT,True,217
+H21.33.036,False,Neuronal: Glutamatergic,L6 IT Car3,True,184
+H21.33.036,False,Neuronal: Glutamatergic,L6b,True,76
+H21.33.036,False,Non-neuronal and Non-neural,Astrocyte,True,187
+H21.33.036,False,Non-neuronal and Non-neural,Endothelial,True,2
+H21.33.036,False,Non-neuronal and Non-neural,Immune,True,316
+H21.33.036,False,Non-neuronal and Non-neural,OPC,True,122
+H21.33.036,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1711
+H21.33.036,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,22
+H21.33.016,False,Neuronal: GABAergic,Chandelier,True,75
+H21.33.016,False,Neuronal: GABAergic,Lamp5,True,293
+H21.33.016,False,Neuronal: GABAergic,Lamp5 Lhx6,True,162
+H21.33.016,False,Neuronal: GABAergic,Pax6,True,61
+H21.33.016,False,Neuronal: GABAergic,Pvalb,True,707
+H21.33.016,False,Neuronal: GABAergic,Sncg,True,167
+H21.33.016,False,Neuronal: GABAergic,Sst,True,390
+H21.33.016,False,Neuronal: GABAergic,Vip,True,713
+H21.33.016,False,Neuronal: GABAergic,Sst Chodl,True,8
+H21.33.016,False,Neuronal: Glutamatergic,L2/3 IT,True,2539
+H21.33.016,False,Neuronal: Glutamatergic,L4 IT,True,1271
+H21.33.016,False,Neuronal: Glutamatergic,L5 ET,True,21
+H21.33.016,False,Neuronal: Glutamatergic,L5 IT,True,1105
+H21.33.016,False,Neuronal: Glutamatergic,L5/6 NP,True,194
+H21.33.016,False,Neuronal: Glutamatergic,L6 CT,True,198
+H21.33.016,False,Neuronal: Glutamatergic,L6 IT,True,523
+H21.33.016,False,Neuronal: Glutamatergic,L6 IT Car3,True,263
+H21.33.016,False,Neuronal: Glutamatergic,L6b,True,155
+H21.33.016,False,Non-neuronal and Non-neural,Astrocyte,True,550
+H21.33.016,False,Non-neuronal and Non-neural,Endothelial,True,2
+H21.33.016,False,Non-neuronal and Non-neural,Immune,True,246
+H21.33.016,False,Non-neuronal and Non-neural,OPC,True,243
+H21.33.016,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1760
+H21.33.016,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,13
+H21.33.041,False,Neuronal: GABAergic,Chandelier,True,67
+H21.33.041,False,Neuronal: GABAergic,Lamp5,True,322
+H21.33.041,False,Neuronal: GABAergic,Lamp5 Lhx6,True,184
+H21.33.041,False,Neuronal: GABAergic,Pax6,True,42
+H21.33.041,False,Neuronal: GABAergic,Pvalb,True,941
+H21.33.041,False,Neuronal: GABAergic,Sncg,True,80
+H21.33.041,False,Neuronal: GABAergic,Sst,True,362
+H21.33.041,False,Neuronal: GABAergic,Vip,True,826
+H21.33.041,False,Neuronal: GABAergic,Sst Chodl,True,12
+H21.33.041,False,Neuronal: Glutamatergic,L2/3 IT,True,3267
+H21.33.041,False,Neuronal: Glutamatergic,L4 IT,True,1719
+H21.33.041,False,Neuronal: Glutamatergic,L5 ET,True,33
+H21.33.041,False,Neuronal: Glutamatergic,L5 IT,True,1576
+H21.33.041,False,Neuronal: Glutamatergic,L5/6 NP,True,295
+H21.33.041,False,Neuronal: Glutamatergic,L6 CT,True,154
+H21.33.041,False,Neuronal: Glutamatergic,L6 IT,True,551
+H21.33.041,False,Neuronal: Glutamatergic,L6 IT Car3,True,288
+H21.33.041,False,Neuronal: Glutamatergic,L6b,True,123
+H21.33.041,False,Non-neuronal and Non-neural,Astrocyte,True,689
+H21.33.041,False,Non-neuronal and Non-neural,Endothelial,True,15
+H21.33.041,False,Non-neuronal and Non-neural,Immune,True,445
+H21.33.041,False,Non-neuronal and Non-neural,OPC,True,446
+H21.33.041,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1354
+H21.33.041,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,33
+H20.33.044,False,Neuronal: GABAergic,Chandelier,True,57
+H20.33.044,False,Neuronal: GABAergic,Lamp5,True,500
+H20.33.044,False,Neuronal: GABAergic,Lamp5 Lhx6,True,174
+H20.33.044,False,Neuronal: GABAergic,Pax6,True,86
+H20.33.044,False,Neuronal: GABAergic,Pvalb,True,876
+H20.33.044,False,Neuronal: GABAergic,Sncg,True,185
+H20.33.044,False,Neuronal: GABAergic,Sst,True,1005
+H20.33.044,False,Neuronal: GABAergic,Vip,True,972
+H20.33.044,False,Neuronal: GABAergic,Sst Chodl,True,15
+H20.33.044,False,Neuronal: Glutamatergic,L2/3 IT,True,3868
+H20.33.044,False,Neuronal: Glutamatergic,L4 IT,True,1406
+H20.33.044,False,Neuronal: Glutamatergic,L5 ET,True,21
+H20.33.044,False,Neuronal: Glutamatergic,L5 IT,True,1362
+H20.33.044,False,Neuronal: Glutamatergic,L5/6 NP,True,170
+H20.33.044,False,Neuronal: Glutamatergic,L6 CT,True,224
+H20.33.044,False,Neuronal: Glutamatergic,L6 IT,True,463
+H20.33.044,False,Neuronal: Glutamatergic,L6 IT Car3,True,195
+H20.33.044,False,Neuronal: Glutamatergic,L6b,True,161
+H20.33.044,False,Non-neuronal and Non-neural,Astrocyte,True,714
+H20.33.044,False,Non-neuronal and Non-neural,Endothelial,True,14
+H20.33.044,False,Non-neuronal and Non-neural,Immune,True,319
+H20.33.044,False,Non-neuronal and Non-neural,OPC,True,425
+H20.33.044,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1453
+H20.33.044,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,26
+H21.33.038,False,Neuronal: GABAergic,Chandelier,True,92
+H21.33.038,False,Neuronal: GABAergic,Lamp5,True,186
+H21.33.038,False,Neuronal: GABAergic,Lamp5 Lhx6,True,98
+H21.33.038,False,Neuronal: GABAergic,Pax6,True,45
+H21.33.038,False,Neuronal: GABAergic,Pvalb,True,485
+H21.33.038,False,Neuronal: GABAergic,Sncg,True,88
+H21.33.038,False,Neuronal: GABAergic,Sst,True,236
+H21.33.038,False,Neuronal: GABAergic,Vip,True,673
+H21.33.038,False,Neuronal: GABAergic,Sst Chodl,True,2
+H21.33.038,False,Neuronal: Glutamatergic,L2/3 IT,True,1487
+H21.33.038,False,Neuronal: Glutamatergic,L4 IT,True,918
+H21.33.038,False,Neuronal: Glutamatergic,L5 ET,True,6
+H21.33.038,False,Neuronal: Glutamatergic,L5 IT,True,500
+H21.33.038,False,Neuronal: Glutamatergic,L5/6 NP,True,116
+H21.33.038,False,Neuronal: Glutamatergic,L6 CT,True,70
+H21.33.038,False,Neuronal: Glutamatergic,L6 IT,True,186
+H21.33.038,False,Neuronal: Glutamatergic,L6 IT Car3,True,124
+H21.33.038,False,Neuronal: Glutamatergic,L6b,True,54
+H21.33.038,False,Non-neuronal and Non-neural,Astrocyte,True,348
+H21.33.038,False,Non-neuronal and Non-neural,Endothelial,True,10
+H21.33.038,False,Non-neuronal and Non-neural,Immune,True,159
+H21.33.038,False,Non-neuronal and Non-neural,OPC,True,121
+H21.33.038,False,Non-neuronal and Non-neural,Oligodendrocyte,True,861
+H21.33.038,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,23
+H20.33.046,False,Neuronal: GABAergic,Chandelier,True,33
+H20.33.046,False,Neuronal: GABAergic,Lamp5,True,447
+H20.33.046,False,Neuronal: GABAergic,Lamp5 Lhx6,True,111
+H20.33.046,False,Neuronal: GABAergic,Pax6,True,31
+H20.33.046,False,Neuronal: GABAergic,Pvalb,True,586
+H20.33.046,False,Neuronal: GABAergic,Sncg,True,80
+H20.33.046,False,Neuronal: GABAergic,Sst,True,188
+H20.33.046,False,Neuronal: GABAergic,Vip,True,504
+H20.33.046,False,Neuronal: GABAergic,Sst Chodl,True,1
+H20.33.046,False,Neuronal: Glutamatergic,L2/3 IT,True,2761
+H20.33.046,False,Neuronal: Glutamatergic,L4 IT,True,2076
+H20.33.046,False,Neuronal: Glutamatergic,L5 ET,True,26
+H20.33.046,False,Neuronal: Glutamatergic,L5 IT,True,1490
+H20.33.046,False,Neuronal: Glutamatergic,L5/6 NP,True,135
+H20.33.046,False,Neuronal: Glutamatergic,L6 CT,True,93
+H20.33.046,False,Neuronal: Glutamatergic,L6 IT,True,446
+H20.33.046,False,Neuronal: Glutamatergic,L6 IT Car3,True,187
+H20.33.046,False,Neuronal: Glutamatergic,L6b,True,179
+H20.33.046,False,Non-neuronal and Non-neural,Astrocyte,True,985
+H20.33.046,False,Non-neuronal and Non-neural,Endothelial,True,50
+H20.33.046,False,Non-neuronal and Non-neural,Immune,True,487
+H20.33.046,False,Non-neuronal and Non-neural,OPC,True,195
+H20.33.046,False,Non-neuronal and Non-neural,Oligodendrocyte,True,340
+H20.33.046,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,90
+H20.33.017,False,Neuronal: GABAergic,Chandelier,True,210
+H20.33.017,False,Neuronal: GABAergic,Lamp5,True,398
+H20.33.017,False,Neuronal: GABAergic,Lamp5 Lhx6,True,392
+H20.33.017,False,Neuronal: GABAergic,Pax6,True,64
+H20.33.017,False,Neuronal: GABAergic,Pvalb,True,1089
+H20.33.017,False,Neuronal: GABAergic,Sncg,True,108
+H20.33.017,False,Neuronal: GABAergic,Sst,True,543
+H20.33.017,False,Neuronal: GABAergic,Vip,True,1163
+H20.33.017,False,Neuronal: GABAergic,Sst Chodl,True,24
+H20.33.017,False,Neuronal: Glutamatergic,L2/3 IT,True,2193
+H20.33.017,False,Neuronal: Glutamatergic,L4 IT,True,2569
+H20.33.017,False,Neuronal: Glutamatergic,L5 ET,True,14
+H20.33.017,False,Neuronal: Glutamatergic,L5 IT,True,1569
+H20.33.017,False,Neuronal: Glutamatergic,L5/6 NP,True,274
+H20.33.017,False,Neuronal: Glutamatergic,L6 CT,True,316
+H20.33.017,False,Neuronal: Glutamatergic,L6 IT,True,550
+H20.33.017,False,Neuronal: Glutamatergic,L6 IT Car3,True,405
+H20.33.017,False,Neuronal: Glutamatergic,L6b,True,268
+H20.33.017,False,Non-neuronal and Non-neural,Astrocyte,True,934
+H20.33.017,False,Non-neuronal and Non-neural,Endothelial,True,17
+H20.33.017,False,Non-neuronal and Non-neural,Immune,True,515
+H20.33.017,False,Non-neuronal and Non-neural,OPC,True,246
+H20.33.017,False,Non-neuronal and Non-neural,Oligodendrocyte,True,772
+H20.33.017,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,61
+H21.33.039,False,Neuronal: GABAergic,Chandelier,True,43
+H21.33.039,False,Neuronal: GABAergic,Lamp5,True,240
+H21.33.039,False,Neuronal: GABAergic,Lamp5 Lhx6,True,158
+H21.33.039,False,Neuronal: GABAergic,Pax6,True,47
+H21.33.039,False,Neuronal: GABAergic,Pvalb,True,400
+H21.33.039,False,Neuronal: GABAergic,Sncg,True,72
+H21.33.039,False,Neuronal: GABAergic,Sst,True,214
+H21.33.039,False,Neuronal: GABAergic,Vip,True,642
+H21.33.039,False,Neuronal: GABAergic,Sst Chodl,True,4
+H21.33.039,False,Neuronal: Glutamatergic,L2/3 IT,True,1440
+H21.33.039,False,Neuronal: Glutamatergic,L4 IT,True,1428
+H21.33.039,False,Neuronal: Glutamatergic,L5 ET,True,8
+H21.33.039,False,Neuronal: Glutamatergic,L5 IT,True,864
+H21.33.039,False,Neuronal: Glutamatergic,L5/6 NP,True,186
+H21.33.039,False,Neuronal: Glutamatergic,L6 CT,True,64
+H21.33.039,False,Neuronal: Glutamatergic,L6 IT,True,266
+H21.33.039,False,Neuronal: Glutamatergic,L6 IT Car3,True,133
+H21.33.039,False,Neuronal: Glutamatergic,L6b,True,64
+H21.33.039,False,Non-neuronal and Non-neural,Astrocyte,True,563
+H21.33.039,False,Non-neuronal and Non-neural,Endothelial,True,2
+H21.33.039,False,Non-neuronal and Non-neural,Immune,True,200
+H21.33.039,False,Non-neuronal and Non-neural,OPC,True,54
+H21.33.039,False,Non-neuronal and Non-neural,Oligodendrocyte,True,757
+H21.33.039,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,18
+H20.33.039,False,Neuronal: GABAergic,Chandelier,True,72
+H20.33.039,False,Neuronal: GABAergic,Lamp5,True,602
+H20.33.039,False,Neuronal: GABAergic,Lamp5 Lhx6,True,468
+H20.33.039,False,Neuronal: GABAergic,Pax6,True,85
+H20.33.039,False,Neuronal: GABAergic,Pvalb,True,1498
+H20.33.039,False,Neuronal: GABAergic,Sncg,True,180
+H20.33.039,False,Neuronal: GABAergic,Sst,True,901
+H20.33.039,False,Neuronal: GABAergic,Vip,True,1047
+H20.33.039,False,Neuronal: GABAergic,Sst Chodl,True,26
+H20.33.039,False,Neuronal: Glutamatergic,L2/3 IT,True,5357
+H20.33.039,False,Neuronal: Glutamatergic,L4 IT,True,3184
+H20.33.039,False,Neuronal: Glutamatergic,L5 ET,True,58
+H20.33.039,False,Neuronal: Glutamatergic,L5 IT,True,3035
+H20.33.039,False,Neuronal: Glutamatergic,L5/6 NP,True,582
+H20.33.039,False,Neuronal: Glutamatergic,L6 CT,True,831
+H20.33.039,False,Neuronal: Glutamatergic,L6 IT,True,1578
+H20.33.039,False,Neuronal: Glutamatergic,L6 IT Car3,True,822
+H20.33.039,False,Neuronal: Glutamatergic,L6b,True,803
+H20.33.039,False,Non-neuronal and Non-neural,Astrocyte,True,605
+H20.33.039,False,Non-neuronal and Non-neural,Endothelial,True,18
+H20.33.039,False,Non-neuronal and Non-neural,Immune,True,386
+H20.33.039,False,Non-neuronal and Non-neural,OPC,True,452
+H20.33.039,False,Non-neuronal and Non-neural,Oligodendrocyte,True,1841
+H20.33.039,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,21
+H20.33.008,False,Neuronal: GABAergic,Chandelier,True,59
+H20.33.008,False,Neuronal: GABAergic,Lamp5,True,124
+H20.33.008,False,Neuronal: GABAergic,Lamp5 Lhx6,True,105
+H20.33.008,False,Neuronal: GABAergic,Pax6,True,33
+H20.33.008,False,Neuronal: GABAergic,Pvalb,True,471
+H20.33.008,False,Neuronal: GABAergic,Sncg,True,47
+H20.33.008,False,Neuronal: GABAergic,Sst,True,150
+H20.33.008,False,Neuronal: GABAergic,Vip,True,417
+H20.33.008,False,Neuronal: GABAergic,Sst Chodl,True,7
+H20.33.008,False,Neuronal: Glutamatergic,L2/3 IT,True,2538
+H20.33.008,False,Neuronal: Glutamatergic,L4 IT,True,1843
+H20.33.008,False,Neuronal: Glutamatergic,L5 ET,True,13
+H20.33.008,False,Neuronal: Glutamatergic,L5 IT,True,1173
+H20.33.008,False,Neuronal: Glutamatergic,L5/6 NP,True,199
+H20.33.008,False,Neuronal: Glutamatergic,L6 CT,True,145
+H20.33.008,False,Neuronal: Glutamatergic,L6 IT,True,300
+H20.33.008,False,Neuronal: Glutamatergic,L6 IT Car3,True,171
+H20.33.008,False,Neuronal: Glutamatergic,L6b,True,88
+H20.33.008,False,Non-neuronal and Non-neural,Astrocyte,True,350
+H20.33.008,False,Non-neuronal and Non-neural,Endothelial,True,11
+H20.33.008,False,Non-neuronal and Non-neural,Immune,True,186
+H20.33.008,False,Non-neuronal and Non-neural,OPC,True,134
+H20.33.008,False,Non-neuronal and Non-neural,Oligodendrocyte,True,518
+H20.33.008,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,17
+H21.33.015,False,Neuronal: GABAergic,Chandelier,True,95
+H21.33.015,False,Neuronal: GABAergic,Lamp5,True,527
+H21.33.015,False,Neuronal: GABAergic,Lamp5 Lhx6,True,205
+H21.33.015,False,Neuronal: GABAergic,Pax6,True,120
+H21.33.015,False,Neuronal: GABAergic,Pvalb,True,1048
+H21.33.015,False,Neuronal: GABAergic,Sncg,True,404
+H21.33.015,False,Neuronal: GABAergic,Sst,True,1075
+H21.33.015,False,Neuronal: GABAergic,Vip,True,1407
+H21.33.015,False,Neuronal: GABAergic,Sst Chodl,True,18
+H21.33.015,False,Neuronal: Glutamatergic,L2/3 IT,True,4828
+H21.33.015,False,Neuronal: Glutamatergic,L4 IT,True,1619
+H21.33.015,False,Neuronal: Glutamatergic,L5 ET,True,19
+H21.33.015,False,Neuronal: Glutamatergic,L5 IT,True,1253
+H21.33.015,False,Neuronal: Glutamatergic,L5/6 NP,True,140
+H21.33.015,False,Neuronal: Glutamatergic,L6 CT,True,91
+H21.33.015,False,Neuronal: Glutamatergic,L6 IT,True,440
+H21.33.015,False,Neuronal: Glutamatergic,L6 IT Car3,True,221
+H21.33.015,False,Neuronal: Glutamatergic,L6b,True,143
+H21.33.015,False,Non-neuronal and Non-neural,Astrocyte,True,327
+H21.33.015,False,Non-neuronal and Non-neural,Endothelial,True,14
+H21.33.015,False,Non-neuronal and Non-neural,Immune,True,434
+H21.33.015,False,Non-neuronal and Non-neural,OPC,True,243
+H21.33.015,False,Non-neuronal and Non-neural,Oligodendrocyte,True,2607
+H21.33.015,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,49
+H21.33.046,False,Neuronal: GABAergic,Chandelier,True,63
+H21.33.046,False,Neuronal: GABAergic,Lamp5,True,143
+H21.33.046,False,Neuronal: GABAergic,Lamp5 Lhx6,True,157
+H21.33.046,False,Neuronal: GABAergic,Pax6,True,35
+H21.33.046,False,Neuronal: GABAergic,Pvalb,True,405
+H21.33.046,False,Neuronal: GABAergic,Sncg,True,118
+H21.33.046,False,Neuronal: GABAergic,Sst,True,150
+H21.33.046,False,Neuronal: GABAergic,Vip,True,623
+H21.33.046,False,Neuronal: GABAergic,Sst Chodl,True,3
+H21.33.046,False,Neuronal: Glutamatergic,L2/3 IT,True,1386
+H21.33.046,False,Neuronal: Glutamatergic,L4 IT,True,775
+H21.33.046,False,Neuronal: Glutamatergic,L5 ET,True,5
+H21.33.046,False,Neuronal: Glutamatergic,L5 IT,True,367
+H21.33.046,False,Neuronal: Glutamatergic,L5/6 NP,True,101
+H21.33.046,False,Neuronal: Glutamatergic,L6 CT,True,24
+H21.33.046,False,Neuronal: Glutamatergic,L6 IT,True,71
+H21.33.046,False,Neuronal: Glutamatergic,L6 IT Car3,True,54
+H21.33.046,False,Neuronal: Glutamatergic,L6b,True,21
+H21.33.046,False,Non-neuronal and Non-neural,Astrocyte,True,544
+H21.33.046,False,Non-neuronal and Non-neural,Endothelial,True,8
+H21.33.046,False,Non-neuronal and Non-neural,Immune,True,248
+H21.33.046,False,Non-neuronal and Non-neural,OPC,True,94
+H21.33.046,False,Non-neuronal and Non-neural,Oligodendrocyte,True,22
+H21.33.046,False,Non-neuronal and Non-neural,VLMC & Perivascular,True,30
