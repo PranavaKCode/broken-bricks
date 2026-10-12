@@ -1,0 +1,146 @@
+{
+ "variant": "all",
+ "seed": 20261011,
+ "k": 15,
+ "retained": [
+  "lamp5",
+  "l4it",
+  "l5it"
+ ],
+ "n_pass_reliability": 11,
+ "pass_reliability_labels": [
+  "microglia",
+  "astrocyte",
+  "oligodendrocyte",
+  "opc",
+  "sst",
+  "pvalb",
+  "vip",
+  "lamp5",
+  "l23it",
+  "l4it",
+  "l5it"
+ ],
+ "glia_cols": [],
+ "neuron_cols": [
+  "lamp5",
+  "l4it",
+  "l5it"
+ ],
+ "pa_n_donors": 82,
+ "pa_factors": 1,
+ "pa_eigenvalues": [
+  2.215591487749002,
+  0.5537787071767257,
+  0.2306298050742716
+ ],
+ "pa_null_p95": [
+  1.3455275296911293,
+  1.0633203449639592,
+  0.9378157803513598
+ ],
+ "pa_pass": false,
+ "discordance": {
+  "note": "no retained glial or neuronal column"
+ },
+ "H2_reliability_criterion_pass": true,
+ "H2_structure_criterion_A_pass": false,
+ "H2_structure_criterion_B_pass": false,
+ "H2_pass": false,
+ "technical_axes_flagged": [
+  "Z_lamp5",
+  "Z_l4it",
+  "Z_l5it",
+  "PAfactor_factor1",
+  "PAfactor_factor2",
+  "Z_microglia(not retained)",
+  "Z_astrocyte(not retained)",
+  "Z_oligodendrocyte(not retained)",
+  "Z_opc(not retained)",
+  "Z_sst(not retained)",
+  "Z_pvalb(not retained)",
+  "Z_vip(not retained)",
+  "Z_l23it(not retained)"
+ ],
+ "sad_recovery": [
+  {
+   "variant": "all",
+   "matrix": "B_retained",
+   "n_columns": 3,
+   "n_donors": 84,
+   "n_sad": 11,
+   "auc_robust_distance": 0.7658779576587795,
+   "precision_at_11": 0.36363636363636365,
+   "perm_p": 0.000999000999000999,
+   "auc_mean_z": 0.9464508094645081,
+   "n_sad_in_top11": 4
+  },
+  {
+   "variant": "all",
+   "matrix": "Z_retained",
+   "n_columns": 3,
+   "n_donors": 84,
+   "n_sad": 11,
+   "auc_robust_distance": 0.676214196762142,
+   "precision_at_11": 0.2727272727272727,
+   "perm_p": 0.03796203796203796,
+   "auc_mean_z": 0.8704856787048568,
+   "n_sad_in_top11": 3
+  },
+  {
+   "variant": "all",
+   "matrix": "B_all11",
+   "n_columns": 11,
+   "n_donors": 84,
+   "n_sad": 11,
+   "auc_robust_distance": 0.5429638854296388,
+   "precision_at_11": 0.2727272727272727,
+   "perm_p": 0.3166833166833167,
+   "auc_mean_z": 0.9452054794520548,
+   "n_sad_in_top11": 3
+  }
+ ],
+ "sad_recovery_pass": true,
+ "H2c": {
+  "variant": "all",
+  "outcome": "neuronal_composite_retained(C5)",
+  "n_resilient": 11,
+  "n_demented": 31,
+  "mean_resilient": -0.43999151001225767,
+  "mean_demented": 0.2534965889527246,
+  "hedges_g_resilient_minus_demented": -0.6880920629688706,
+  "ci95_low_HO": -1.3915210480406977,
+  "ci95_high_HO": 0.015336922102956563,
+  "ci95_low_boot": -1.4068755435023084,
+  "ci95_high_boot": -0.10747418895691147,
+  "welch_t": -2.319108917676179,
+  "welch_p_one_sided_less": 0.014581577329727046,
+  "perm_p_one_sided_less": 0.030969030969030968
+ },
+ "H2c_all_columns": {
+  "variant": "all",
+  "outcome": "neuronal_composite_all_columns",
+  "n_resilient": 11,
+  "n_demented": 31,
+  "mean_resilient": -0.3728443557918881,
+  "mean_demented": 0.2040108955970166,
+  "hedges_g_resilient_minus_demented": -0.5844235464992832,
+  "ci95_low_HO": -1.2835510059834125,
+  "ci95_high_HO": 0.11470391298484617,
+  "ci95_low_boot": -1.3341886192345802,
+  "ci95_high_boot": 0.06847345457562212,
+  "welch_t": -1.8271981587326322,
+  "welch_p_one_sided_less": 0.04118078504772797,
+  "perm_p_one_sided_less": 0.059940059940059943
+ },
+ "h2c_group_sizes": {
+  "high_adnc": 42,
+  "resilient": 11,
+  "demented": 31
+ },
+ "floor_pc_var_explained": [
+  0.7327997951360757,
+  0.1883482856619934
+ ],
+ "seconds": 42.8
+}
