@@ -33,7 +33,7 @@ Proportional allocation by publication year x amyloid flag, fixed seed 20261011,
 ## Cautions
 
 - Cluster labels are class-based TF-IDF keywords, not names given by a person or a model; some are odd. The agent should label them as keywords.
-- A gene's `ad_paper_count` counts abstracts that mention it; 84% of 50 audited (PMID, gene) pairs were correct, lower for rarely mentioned genes (76% for genes with fewer than 100 abstracts). See `results/ner_audit_summary.csv`.
+- A gene's `ad_paper_count` counts abstracts that mention it; 84% of 50 audited (PMID, gene) pairs were correct, lower for rarely mentioned genes (76% for genes with fewer than 100 abstracts). The audit was judged by an AI model and has not been re-judged by a person. See `results/ner_audit_summary.csv`.
 - No donor or patient data are involved. Do not describe genes as cures or as "the answer"; see the "Never claim" list in the report.
 
 

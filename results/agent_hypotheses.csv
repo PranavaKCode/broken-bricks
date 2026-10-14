@@ -1,0 +1,9 @@
+field,value
+film_leads_source,"The leads shown in the film come from the Mantis map filter re-running the selection in results/genetics/leads_microglia_red.csv: genetic score >= 0.7, fewer than 100 Alzheimer's abstracts (abstract-level count), member of the 200-gene microglia_red program."
+film_leads,CTSH;PILRA
+film_leads_count,2
+leads_table,results/genetics/leads_microglia_red.csv (recomputed by genetics/leads_microglia_red.py from results/gene_master.csv and results/genetics/program_membership.csv)
+agent_run_used_in_film,no
+agent_generated_hypotheses_in_this_repository,0
+recorded_composer_attempt,One recorded Mantis Composer attempt failed on a tool error and produced no usable output. It is not used in the film and nothing from it is in this repository.
+status_of_leads,Leads worth testing. Not discoveries and not drug targets: no experiment on them is reported here.

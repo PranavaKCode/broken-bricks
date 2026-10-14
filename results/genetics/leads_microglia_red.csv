@@ -1,0 +1,10 @@
+# leads_microglia_red.csv: genes that pass all three conditions below. Computed by genetics/leads_microglia_red.py from the repository's own tables; do not edit by hand. Read with pandas.read_csv(path, comment='#').
+# Filter: (1) genetic score >= 0.7 (results/gene_master.csv, G_genetic: Open Targets Platform 26.09 genetic_association score for MONDO_0004975);
+#         (2) fewer than 100 Alzheimer's abstracts at the abstract-level count (gene_master.csv, A_g < 100; amendment A2: a PubTator3 gene annotation counts only if its mention string occurs in the title or abstract);
+#         (3) member of the 200-gene microglia_red program (results/genetics/program_membership.csv, set == Microglia_red: top 200 genes by donor-blocked Spearman correlation with the CNA ncorr of the CPS_Local map, primary run).
+# Join key: Ensembl gene ID.
+# Counts at each step: 200 program genes; 131 have a row in gene_master; 4 of those have genetic score >= 0.7; 2 also have fewer than 100 abstracts (the rows below).
+# Status: leads to test. These genes were selected by a filter on public tables; no experiment on them was done in this repository.
+symbol,ensembl_id,ncbi_gene_id,genetic_score_open_targets_26_09,alzheimers_abstracts_abstract_level,program_rho_with_ncorr
+CTSH,ENSG00000103811,1512,0.7430168112,26,0.5657183355
+PILRA,ENSG00000085514,29992,0.8043588843,28,0.5664877999
